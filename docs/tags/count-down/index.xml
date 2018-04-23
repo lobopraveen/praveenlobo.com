@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Count down on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/count-down/</link>
+    <description>Recent content in Count down on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Jun 2011 00:52:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/count-down/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript Counter</title>
+      <link>https://praveenlobo.com/blog/javascript-counter-count-days/</link>
+      <pubDate>Sun, 12 Jun 2011 00:52:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-counter-count-days/</guid>
+      <description>John Watt sent me a request asking if I could help with changing the JavaScript CountUp Timer to show only the number of days in a counter. He also wanted to display the days in 3 digits.
+I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&amp;rsquo;t update every second.</description>
+    </item>
+    
+  </channel>
+</rss>

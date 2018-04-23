@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/blog/</link>
+    <description>Recent content in Blog on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Oct 2015 20:58:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HOLY CRAP!!!</title>
+      <link>https://praveenlobo.com/blog/holy-crap-missing-in-action/</link>
+      <pubDate>Thu, 29 Oct 2015 20:58:12 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/holy-crap-missing-in-action/</guid>
+      <description>HOLY MOTHER OF SWEET BABY CORN! It has seriously been a long while! 3 years? 4 years? Surprised the blog still exists! LOL! Actually not that much surprised. I pay every year to renew hosting so I know it exists! 😛
+The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinished drafts from 2011, 2012, 2013 which are still not posted! I feel embarrassed; at the same time I feel overwhelmed thinking how fast the time flies!</description>
+    </item>
+    
+    <item>
+      <title>What Have I Been Up To This Summer?</title>
+      <link>https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer/</guid>
+      <description>It has been a long time since I blogged regularly. We have a couple of weeks of summer left in 2012 and I don’t want to waste that spending more time on blogging. Lately, I have been feeling like blogging is a winter activity (not saying that I blog regularly in winter). There are a number of topics blog about but no time. I keep adding topics to the todo list and keep deleting when I revisit because it’s either too late or it is making the list too big.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: Moving Some Old Posts To A New Blog</title>
+      <link>https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/</link>
+      <pubDate>Wed, 10 Aug 2011 05:16:33 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/</guid>
+      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&amp;rsquo;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
+ WordPress: Install WordPress.
+ Plugins: Install necessary plugins.</description>
+    </item>
+    
+    <item>
+      <title>Why I choose to go against using WordPress Multisite?</title>
+      <link>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</link>
+      <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid>
+      <description>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
+Advantges and Disadvantages of WordPress Multisite Advantages:  The multisite blogs have all features of a regular blog with just one installation i.</description>
+    </item>
+    
+    <item>
+      <title>How To Remove The /blog/ slug From The Permalinks(URL) Without A Plugin</title>
+      <link>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</link>
+      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
+      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
+How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
+    </item>
+    
+    <item>
+      <title>Keeping Personal and Technical Blogs Separate</title>
+      <link>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate-contd/</link>
+      <pubDate>Mon, 23 May 2011 06:15:07 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate-contd/</guid>
+      <description>Continued from here&amp;hellip;
+Advantages/Disadvantages: Advantages of multiple blogs include monetization, ease of finding advertisers, reaching right audience, and building a resource of articles all in the same niche. Disadvantages? Unless you are an expert you will run out of good articles, might have to hire writers. Multiple blogs needs more time in terms of maintenance, updates etc. It needs more resources which cost money.
+You will have enough time on your hand with a single blog and you don&amp;rsquo;t have to worry about all blogs that miss your constant love.</description>
+    </item>
+    
+    <item>
+      <title>Multisite WordPress Installation On Sibling Directories Of An Existing Single Installation</title>
+      <link>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</link>
+      <pubDate>Thu, 05 May 2011 05:33:39 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</guid>
+      <description>Is it possible to create a blog in a sibling directory of an already installed WordPress directory? If yes, how to? If not, can it be done on a fresh installation? 1. Existing Installation: Assume that the domain is praveenlobo.com and there is an existing WordPress installation in /blog directory (so, praveenlobo.com/blog is a WordPress blog and the root directory at praveenlobo.com is free). Now, is it possible to create a networked site or blog at praveenlobo.</description>
+    </item>
+    
+    <item>
+      <title>Keeping Personal and Technical Blogs Separate</title>
+      <link>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</link>
+      <pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid>
+      <description>Disclaimer: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
+Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea.</description>
+    </item>
+    
+    <item>
+      <title>Working on The Blog</title>
+      <link>https://praveenlobo.com/blog/working-on-the-blog/</link>
+      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/working-on-the-blog/</guid>
+      <description>This is a perfect example for a seemingly easy task taking up so much of one&amp;rsquo;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
+Here is what I have done so far:
+ Updated feed through FeedBurner: this was already present, I updated some settings.
+ Added Google AdSense: there comes a time in everyone&amp;rsquo;s life when they turn greedy.</description>
+    </item>
+    
+    <item>
+      <title>Yet Another &#34;Hello, world!&#34;?</title>
+      <link>https://praveenlobo.com/blog/yet-another-hello-world/</link>
+      <pubDate>Tue, 22 Dec 2009 19:31:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/yet-another-hello-world/</guid>
+      <description>I&amp;rsquo;m bored of Hello, world!; I did that over
+ 9000 days 1300 weeks 200,000 hours 13,000,000 minutes 750,000,000 seconds  ago. Yeah, about 25 years ago, I did my personal Hello, world!
+ Hello, world!
+ Yet another &amp;ldquo;Hello, world!&amp;rdquo;? Yes, this time not from me but from this very blog you are reading! :o)
+On a serious note, I&amp;rsquo;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
+    </item>
+    
+  </channel>
+</rss>

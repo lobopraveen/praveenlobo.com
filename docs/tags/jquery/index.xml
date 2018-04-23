@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JQuery on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/jquery/</link>
+    <description>Recent content in JQuery on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Aug 2011 02:08:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to scroll elements smoothly in JavaScript/jQuery </title>
+      <link>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</link>
+      <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+    </item>
+    
+    <item>
+      <title>HTML SELECT/Dropdown with JavaScript/jQuery</title>
+      <link>https://praveenlobo.com/blog/html-select-dropdown-with-javascript-jquery/</link>
+      <pubDate>Fri, 05 Aug 2011 03:54:08 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/html-select-dropdown-with-javascript-jquery/</guid>
+      <description>A list of commonly needed operations on HTML SELECT/Dropdown using JavaScript/jQuery. Let me know if you find it useful or if you have additions/suggestions to improve the list.
+JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown&amp;#34;); // Get the total number of options dd.length; // Get the index of selected option dd.selectedIndex; // get the value of selected option dd.options[dd.selectedIndex].value; // Get the selected option/text dd.options[dd.selectedIndex].text; // Reset the dropdoown option; select first option dd.</description>
+    </item>
+    
+    <item>
+      <title>jQuery v1.6 Checkbox issue</title>
+      <link>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</link>
+      <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</guid>
+      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&amp;rsquo;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&amp;rsquo;m also having fun with their reputation points.</description>
+    </item>
+    
+  </channel>
+</rss>

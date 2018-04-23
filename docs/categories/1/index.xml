@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Praveen Lobo</title>
+    <link>https://praveenlobo.com/categories/1/</link>
+    <description>Recent content in 1 on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Dec 2011 07:04:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/categories/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Convert JavaScript Local Date to UTC And UTC To Local Date</title>
+      <link>https://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/</guid>
+      <description>DST is such a pain when it comes to programming. I wish they just get rid of it. It’d be helpful; however, the programmers will still have to deal with the timezones. I was answering questions related to the timers on this website and I keep getting a lot of questions on DST and the timezones. Even though it seems easy, this topic is very confusing. There are lot many sources on the Internet and reading them confuses the hell out of me.</description>
+    </item>
+    
+    <item>
+      <title>Daylight Saving Time (DST)</title>
+      <link>https://praveenlobo.com/blog/daylight-saving-time-dst-should-be-a-part-of-our-history/</link>
+      <pubDate>Wed, 21 Dec 2011 02:03:14 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/daylight-saving-time-dst-should-be-a-part-of-our-history/</guid>
+      <description>I was having a conversation with a friend of mine who is convinced that the Daylight Saving Time (DST) change is good and makes perfect sense. I, for one, think that the DST is not useful anymore and it could have been avoided altogether. Just imagine if we didn’t have clocks and a way to time. We would have adjusted our lifestyles automatically to adapt to the nature. Instead of adjusting the clock, we should have adjusted the schedules.</description>
+    </item>
+    
+    <item>
+      <title>Will Google Voice be free in 2012 and beyond?</title>
+      <link>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</link>
+      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</guid>
+      <description>From the recent notes I made on the Google Voice and how it uses the carrier minutes and data to operate, it should be free in 2012 and beyond.
+Why? Currently, Google Voice is not a VOIP service and it uses the carrier minutes and data to operate which means to make or receive calls the subscriber has to pay the carrier. See the image in that post. If Google Voice doesn&amp;rsquo;t offer VOIP service and starts charging for the voice calls, the subscriber will be double charged.</description>
+    </item>
+    
+    <item>
+      <title>Does Google Voice Use Minutes or Data?</title>
+      <link>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</link>
+      <pubDate>Thu, 01 Dec 2011 05:55:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</guid>
+      <description>Does Google Voice Use Minutes or Data? Does Google Voice cost money? How does Google Voice calling or texting work? The answer is Yes, Yes, and I don&amp;rsquo;t know.
+Update: See this for more info
+Google Voice is an awesome idea and piece of software (if you are willing to give away more self information to Google than you already have). It is not a VOIP service like Google Talk; it is a call management service.</description>
+    </item>
+    
+    <item>
+      <title>Java: Get Sub List of Elements between two elements (instead of indexes) in a List</title>
+      <link>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</link>
+      <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
+      <description>Update: moved the code to github
+Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
+    </item>
+    
+    <item>
+      <title>It Needs A Genius To Understand The Simplicity</title>
+      <link>https://praveenlobo.com/blog/it-needs-a-genius-to-understand-the-simplicity-r-i-p-dennis-ritchie/</link>
+      <pubDate>Fri, 14 Oct 2011 02:41:54 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/it-needs-a-genius-to-understand-the-simplicity-r-i-p-dennis-ritchie/</guid>
+      <description>U changed the world; it is because of the people like you we C the world the way it is today. You didn&amp;rsquo;t make billions, but billionaires. You have such an impact not only on those who lived in your lifetime, but also on those who are yet to C the light of the day. Your influence is ubiquitous. The mankind will forever be grateful to you.
+R.I.P. Dennis Ritchie.</description>
+    </item>
+    
+    <item>
+      <title>A couple of ways to tokenize a delimited String in Java</title>
+      <link>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</link>
+      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
+      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;ldquo;&amp;rdquo;) between A and In and the last blank token after Me.
+StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
+    </item>
+    
+    <item>
+      <title>How to scroll elements smoothly in JavaScript/jQuery </title>
+      <link>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</link>
+      <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+    </item>
+    
+    <item>
+      <title>Comments are beautiful</title>
+      <link>https://praveenlobo.com/blog/comments-are-beautiful/</link>
+      <pubDate>Wed, 10 Aug 2011 12:57:52 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/comments-are-beautiful/</guid>
+      <description>Knowing what the hell you are doing is very important and in the world of programming, letting others know what the hell you are doing is just as important.
+We, at least some of us, code for a living. We cannot support it forever. We might change profession, move on to a &amp;lsquo;grass is greener&amp;rsquo; place, worst yet we might not exist at all! There will always be another person working on our code, making a living trying to fix the issues (that we thought will never exist), making it better suite the &amp;lsquo;current world&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: Moving Some Old Posts To A New Blog</title>
+      <link>https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/</link>
+      <pubDate>Wed, 10 Aug 2011 05:16:33 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/</guid>
+      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&amp;rsquo;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
+ WordPress: Install WordPress.
+ Plugins: Install necessary plugins.</description>
+    </item>
+    
+    <item>
+      <title>Why Are Comments Important?</title>
+      <link>https://praveenlobo.com/blog/why-are-comments-important/</link>
+      <pubDate>Wed, 10 Aug 2011 03:04:53 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/why-are-comments-important/</guid>
+      <description>Around three months ago, I was shocked looking at some newly added code in one of our applications. It was naked. Not a single line of comment whatsoever!! I asked the person who wrote it to explain the code and it turned out that the code is indeed very cleverly written. I&amp;rsquo;d rate the code as top notch if only it had comments. When I demanded an explanation, it turned out that he thinks commenting is an utterly boring task.</description>
+    </item>
+    
+    <item>
+      <title>HTML SELECT/Dropdown with JavaScript/jQuery</title>
+      <link>https://praveenlobo.com/blog/html-select-dropdown-with-javascript-jquery/</link>
+      <pubDate>Fri, 05 Aug 2011 03:54:08 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/html-select-dropdown-with-javascript-jquery/</guid>
+      <description>A list of commonly needed operations on HTML SELECT/Dropdown using JavaScript/jQuery. Let me know if you find it useful or if you have additions/suggestions to improve the list.
+JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown&amp;#34;); // Get the total number of options dd.length; // Get the index of selected option dd.selectedIndex; // get the value of selected option dd.options[dd.selectedIndex].value; // Get the selected option/text dd.options[dd.selectedIndex].text; // Reset the dropdoown option; select first option dd.</description>
+    </item>
+    
+    <item>
+      <title>O_ops: You have no null items</title>
+      <link>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</link>
+      <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</guid>
+      <description>I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no null items.
+   Google Reader - null items    </description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</guid>
+      <description>Part I and II of this post series can be found here and here respectively.
+5. Build the script: Assume that the HTML skeleton given in previous post is indeed the code and when the bid ends the timer gets a class called BIDEND. Finally, say the code used by the site to place a bid is PennyAuction.placeBid(itemCode);. With this information build a script.
+// Get the codes from the user // Note : If it&amp;#39;s integer then parseInt method can be used around the prompt.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</link>
+      <pubDate>Sat, 30 Jul 2011 18:26:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
+      <description>Part I of this post series can be found here.
+3. Requirements for the script:  The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
+ The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.
+ The script shall bid a fixed number of times i.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Bid Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</link>
+      <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+    </item>
+    
+    <item>
+      <title>O_ops: Better Logging To Solve Problems</title>
+      <link>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</link>
+      <pubDate>Wed, 13 Jul 2011 03:52:23 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</guid>
+      <description>Logging helps in pinpointing the code block that threw an error. Only if they are used correctly. During once such failure, a guy noticed that a script lacked logging and ever promptly promoted the updated script with better logging. A part of the script is shown below.
+Script before: 1&amp;gt;&amp;gt;${LOG} 2&amp;gt;&amp;gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} if [ $? -ne 0 ]; then print &amp;#34;ERROR: Something failed&amp;#34; exit 101 fi
+Script after:
+1&amp;gt;&amp;gt;${LOG} 2&amp;gt;&amp;gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} echo &amp;#34;Program completed successfully.</description>
+    </item>
+    
+    <item>
+      <title>Why I choose to go against using WordPress Multisite?</title>
+      <link>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</link>
+      <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid>
+      <description>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
+Advantges and Disadvantages of WordPress Multisite Advantages:  The multisite blogs have all features of a regular blog with just one installation i.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript CountUp/CountDown Timer</title>
+      <link>https://praveenlobo.com/blog/javascript-countup-countdown-timer/</link>
+      <pubDate>Mon, 27 Jun 2011 20:57:51 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-countup-countdown-timer/</guid>
+      <description>This might be the last one in the JavaScript Counter posts unless I make all-in-one script or a jQuery plugin off of these scripts.
+This counter acts as a count down as well as count up timer. As soon as the count down goes to 0 i.e. the future date is hit, the counter turns into a count up timer and keeps going. This counter takes a date to count the time to, an ID to put the timer in.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript CountDown Timer</title>
+      <link>https://praveenlobo.com/blog/javascript-countdown-timer/</link>
+      <pubDate>Mon, 27 Jun 2011 06:44:13 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-countdown-timer/</guid>
+      <description>This counter takes a date to count the time to, an ID to put the timer in. It is possible to have more than one timer on a page. Demo page.
+As soon as the count down goes to 0 i.e. the future date is hit, the counter stops at 0 years 0 months 0 days 00 hours 00 minutes 00 seconds.
+Please do leave me a comment. Thanks!
+/********************************************************************************************** # MIT License # # Copyright (c) 2011 Praveen Lobo (praveenlobo.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Counter</title>
+      <link>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</link>
+      <pubDate>Mon, 27 Jun 2011 05:44:31 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</guid>
+      <description>I keep getting requests and I can&amp;rsquo;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
+JavaScript Counter to Count Days Hours Minutes Seconds - This script is very simple; it takes a date to count the time from/to, an ID to put the timer in. To be very precise, this counter shows the total number of 24 hours intervals between the date-time given and current date-time.</description>
+    </item>
+    
+    <item>
+      <title>jQuery v1.6 Checkbox issue</title>
+      <link>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</link>
+      <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</guid>
+      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&amp;rsquo;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&amp;rsquo;m also having fun with their reputation points.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Counter</title>
+      <link>https://praveenlobo.com/blog/javascript-counter-count-days/</link>
+      <pubDate>Sun, 12 Jun 2011 00:52:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-counter-count-days/</guid>
+      <description>John Watt sent me a request asking if I could help with changing the JavaScript CountUp Timer to show only the number of days in a counter. He also wanted to display the days in 3 digits.
+I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&amp;rsquo;t update every second.</description>
+    </item>
+    
+    <item>
+      <title>How To Remove The /blog/ slug From The Permalinks(URL) Without A Plugin</title>
+      <link>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</link>
+      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
+      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
+How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
+    </item>
+    
+    <item>
+      <title>Keeping Personal and Technical Blogs Separate</title>
+      <link>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate-contd/</link>
+      <pubDate>Mon, 23 May 2011 06:15:07 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate-contd/</guid>
+      <description>Continued from here&amp;hellip;
+Advantages/Disadvantages: Advantages of multiple blogs include monetization, ease of finding advertisers, reaching right audience, and building a resource of articles all in the same niche. Disadvantages? Unless you are an expert you will run out of good articles, might have to hire writers. Multiple blogs needs more time in terms of maintenance, updates etc. It needs more resources which cost money.
+You will have enough time on your hand with a single blog and you don&amp;rsquo;t have to worry about all blogs that miss your constant love.</description>
+    </item>
+    
+    <item>
+      <title>Multisite WordPress Installation On Sibling Directories Of An Existing Single Installation</title>
+      <link>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</link>
+      <pubDate>Thu, 05 May 2011 05:33:39 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</guid>
+      <description>Is it possible to create a blog in a sibling directory of an already installed WordPress directory? If yes, how to? If not, can it be done on a fresh installation? 1. Existing Installation: Assume that the domain is praveenlobo.com and there is an existing WordPress installation in /blog directory (so, praveenlobo.com/blog is a WordPress blog and the root directory at praveenlobo.com is free). Now, is it possible to create a networked site or blog at praveenlobo.</description>
+    </item>
+    
+    <item>
+      <title>Keeping Personal and Technical Blogs Separate</title>
+      <link>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</link>
+      <pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid>
+      <description>Disclaimer: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
+Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea.</description>
+    </item>
+    
+    <item>
+      <title>RSS Feed URL Changed</title>
+      <link>https://praveenlobo.com/blog/rss-feed-url-changed/</link>
+      <pubDate>Mon, 25 Apr 2011 06:14:56 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/rss-feed-url-changed/</guid>
+      <description>Dear readers,
+Though there are only a few of you and I&amp;rsquo;m very sure you are very capable of finding it out yourselves, I think I must save your time and tell you that I&amp;rsquo;m moving my RSS Feed address.
+The idea is simple:
+ I post this post and then
+ change my RSS feed address.
+  So that, assuming you miss this post, in case you wonder why you are not finding any new unread items in Lobo&amp;rsquo;s blog feed, this is the post you find on the old feed and you know the answer.</description>
+    </item>
+    
+    <item>
+      <title>O_ops: Facebook Image Compression Sucks!</title>
+      <link>https://praveenlobo.com/blog/oops-facebook-image-compression-sucks/</link>
+      <pubDate>Sat, 02 Apr 2011 03:08:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/oops-facebook-image-compression-sucks/</guid>
+      <description>Facebook [profile picture] image compression not only sucks big time, but it is also stupid. I don&amp;rsquo;t use Facebook as an image storage service, neither do I care about the EXIF data that they strip. I&amp;rsquo;m also okay with their approach to compress each and every image(?), but compressing an image which results in an image size bigger than the originally uploaded image? I think it fits in my O_ops series.</description>
+    </item>
+    
+    <item>
+      <title>O_ops: Never Return null For A Collection in Java</title>
+      <link>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</link>
+      <pubDate>Fri, 18 Mar 2011 06:50:13 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</guid>
+      <description>I was enjoying a small break between the meetings when my a co-worker asked me to help her out with some Java error in the code she was working on. She was giving me walk-through of the code and I small piece of code caught my attention. Apparently, the coder knew not to return null when returning a collection.
+/* Check if the list is null \*/ if(matchingCountryList != null) { return matchingCountryList; } else { return null; } Of course, it was not her code.</description>
+    </item>
+    
+    <item>
+      <title>O_ops: Re-try again</title>
+      <link>https://praveenlobo.com/blog/oops-re-try-again/</link>
+      <pubDate>Thu, 03 Feb 2011 07:10:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/oops-re-try-again/</guid>
+      <description>You can&amp;#39;t attempt more than 5 times, please re-try again!    The best part is that once this message comes, the only way to succeed is to call the service center.</description>
+    </item>
+    
+    <item>
+      <title>Working on The Blog</title>
+      <link>https://praveenlobo.com/blog/working-on-the-blog/</link>
+      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/working-on-the-blog/</guid>
+      <description>This is a perfect example for a seemingly easy task taking up so much of one&amp;rsquo;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
+Here is what I have done so far:
+ Updated feed through FeedBurner: this was already present, I updated some settings.
+ Added Google AdSense: there comes a time in everyone&amp;rsquo;s life when they turn greedy.</description>
+    </item>
+    
+    <item>
+      <title>RELATIVE Performance Evaluation</title>
+      <link>https://praveenlobo.com/blog/relative-performance-evaluation/</link>
+      <pubDate>Thu, 13 Jan 2011 23:53:47 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/relative-performance-evaluation/</guid>
+      <description>if( parseInt(&amp;#34;1&amp;#34;) === parseInt(&amp;#34;1+&amp;#34;) ){ alert(&amp;#34;Depends on &amp;#39;the context&amp;#39; and is controlled by external factors!&amp;#34;); } else { alert(&amp;#34;Loser!&amp;#34;); } alert(&amp;#34;Think again!&amp;#34;);  </description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites/</link>
+      <pubDate>Mon, 03 Jan 2011 21:20:12 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites/</guid>
+      <description>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those penny auction sites are amazing, aren&amp;rsquo;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.
+If you haven&amp;rsquo;t got a clue about it, I urge you to read about them.</description>
+    </item>
+    
+    <item>
+      <title>Password Change</title>
+      <link>https://praveenlobo.com/blog/password-change-identifying-the-weakest-link-in-the-chain/</link>
+      <pubDate>Wed, 15 Dec 2010 08:15:35 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/password-change-identifying-the-weakest-link-in-the-chain/</guid>
+      <description>Last evening, I changed my passwords on all accounts on all websites that I frequent. Just curious to know how many did the same. Hopefully someone will come up with the stats soon.
+I always use different passwords on different sites. All of them are at least 10+ character long with minimum one capital, special character, and number in it. Curious to know what my friends do, I brought up this topic briefly.</description>
+    </item>
+    
+    <item>
+      <title>Autosys and Unix Permission</title>
+      <link>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</link>
+      <pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</guid>
+      <description>Original post with the answer at the end.</description>
+    </item>
+    
+    <item>
+      <title>Autosys and Unix Permission</title>
+      <link>https://praveenlobo.com/blog/autosys-and-unix-permission/</link>
+      <pubDate>Thu, 27 May 2010 17:57:27 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission/</guid>
+      <description>Say Autosys job called jobName executes with xyz id. The profile used is profile; owner of profile is abc and neither group nor others have execute permission on this profile. jobName executes jobScript which is owned by xyz(both jobName and jobScript are owned by xyz). abc and xyz are two users. There is a group abc as well.
+$id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profile -r-xr+++-- 1 abc abc 1000 [.</description>
+    </item>
+    
+    <item>
+      <title>Automate Torrent Download Using Transmission</title>
+      <link>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</link>
+      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
+      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
+After a little search on the net, I found a workaround for this too!</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 10.04 - Lucid Lynx</title>
+      <link>https://praveenlobo.com/blog/ubuntu-10-04-lucid-lynx/</link>
+      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/ubuntu-10-04-lucid-lynx/</guid>
+      <description>Very first impression(within a minute of installing):
+ WTF, it hung!
+ I had kept /home on a separate partition for the first time and wanted to check if it works fine for all users. I created an account and set the home folder as /home/irine and then hit save - switch user - log off - WTF!
+Bug #574909
+Ubuntu 10.04 (Lucid Lynx) is impressive; thanks to all those who made it possible :o)</description>
+    </item>
+    
+    <item>
+      <title>How I Put My First GIMP Work To Use</title>
+      <link>https://praveenlobo.com/blog/how-i-put-my-first-gimp-work-to-use/</link>
+      <pubDate>Sun, 02 May 2010 12:23:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-i-put-my-first-gimp-work-to-use/</guid>
+      <description>HotLinking. If you don&amp;rsquo;t know what it means follow the link and spend a couple of minutes reading about it. For those who are not interested in doing so - hotlinking is somebody else riding your superbike on your petrol without your knowledge and without giving you any credit. Bad analogy? :o)
+How do you make sure you don&amp;rsquo;t allow something which you don&amp;rsquo;t even know is happening? Very simple, using .</description>
+    </item>
+    
+    <item>
+      <title>JavaScript CountUp Timer</title>
+      <link>https://praveenlobo.com/blog/javascript-countup-timer/</link>
+      <pubDate>Fri, 16 Apr 2010 13:30:03 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-countup-timer/</guid>
+      <description>Update (2018): I have moved the code to GitHub - JavaScript Counters AS IS. 
+I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&amp;rsquo;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&amp;rsquo;t easily understandable; most of them were using approximation (esp.</description>
+    </item>
+    
+    <item>
+      <title>swget - A Simple wget Wrapper</title>
+      <link>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</link>
+      <pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</guid>
+      <description>THE PROBLEM I have BSNL 500C+ broadband connection which gives me 2.5GB of data transfer per month. This limit is sufficient only for usual surfing. 500C+ plan also gives me night unlimited option i.e. the data transferred between 2AM to 8AM is not counted towards the 2.5GB quota per month. I can download around 4GB in this time frame. I use this time to download contents, but the real problem is starting the download at 2AM.</description>
+    </item>
+    
+    <item>
+      <title>OS Switch: Fedora to Ubuntu</title>
+      <link>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</link>
+      <pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</guid>
+      <description>A post about switching the Operating System(OS)? Yeah, why not? After all It&amp;rsquo;s the OS that made one man the richest in the world. It&amp;rsquo;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&amp;rsquo;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!
+I&amp;rsquo;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it!</description>
+    </item>
+    
+    <item>
+      <title>Yet Another &#34;Hello, world!&#34;?</title>
+      <link>https://praveenlobo.com/blog/yet-another-hello-world/</link>
+      <pubDate>Tue, 22 Dec 2009 19:31:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/yet-another-hello-world/</guid>
+      <description>I&amp;rsquo;m bored of Hello, world!; I did that over
+ 9000 days 1300 weeks 200,000 hours 13,000,000 minutes 750,000,000 seconds  ago. Yeah, about 25 years ago, I did my personal Hello, world!
+ Hello, world!
+ Yet another &amp;ldquo;Hello, world!&amp;rdquo;? Yes, this time not from me but from this very blog you are reading! :o)
+On a serious note, I&amp;rsquo;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
+    </item>
+    
+  </channel>
+</rss>

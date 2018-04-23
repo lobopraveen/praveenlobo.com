@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BSNL on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/bsnl/</link>
+    <description>Recent content in BSNL on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 17 Mar 2010 19:24:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/bsnl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>swget - A Simple wget Wrapper</title>
+      <link>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</link>
+      <pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</guid>
+      <description>THE PROBLEM I have BSNL 500C+ broadband connection which gives me 2.5GB of data transfer per month. This limit is sufficient only for usual surfing. 500C+ plan also gives me night unlimited option i.e. the data transferred between 2AM to 8AM is not counted towards the 2.5GB quota per month. I can download around 4GB in this time frame. I use this time to download contents, but the real problem is starting the download at 2AM.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scroll on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/scroll/</link>
+    <description>Recent content in Scroll on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Aug 2011 02:08:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/scroll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to scroll elements smoothly in JavaScript/jQuery </title>
+      <link>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</link>
+      <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+    </item>
+    
+  </channel>
+</rss>

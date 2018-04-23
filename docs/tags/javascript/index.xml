@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/javascript/</link>
+    <description>Recent content in JavaScript on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Dec 2011 07:04:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Convert JavaScript Local Date to UTC And UTC To Local Date</title>
+      <link>https://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/</guid>
+      <description>DST is such a pain when it comes to programming. I wish they just get rid of it. It’d be helpful; however, the programmers will still have to deal with the timezones. I was answering questions related to the timers on this website and I keep getting a lot of questions on DST and the timezones. Even though it seems easy, this topic is very confusing. There are lot many sources on the Internet and reading them confuses the hell out of me.</description>
+    </item>
+    
+    <item>
+      <title>How to scroll elements smoothly in JavaScript/jQuery </title>
+      <link>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</link>
+      <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+    </item>
+    
+    <item>
+      <title>HTML SELECT/Dropdown with JavaScript/jQuery</title>
+      <link>https://praveenlobo.com/blog/html-select-dropdown-with-javascript-jquery/</link>
+      <pubDate>Fri, 05 Aug 2011 03:54:08 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/html-select-dropdown-with-javascript-jquery/</guid>
+      <description>A list of commonly needed operations on HTML SELECT/Dropdown using JavaScript/jQuery. Let me know if you find it useful or if you have additions/suggestions to improve the list.
+JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown&amp;#34;); // Get the total number of options dd.length; // Get the index of selected option dd.selectedIndex; // get the value of selected option dd.options[dd.selectedIndex].value; // Get the selected option/text dd.options[dd.selectedIndex].text; // Reset the dropdoown option; select first option dd.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</guid>
+      <description>Part I and II of this post series can be found here and here respectively.
+5. Build the script: Assume that the HTML skeleton given in previous post is indeed the code and when the bid ends the timer gets a class called BIDEND. Finally, say the code used by the site to place a bid is PennyAuction.placeBid(itemCode);. With this information build a script.
+// Get the codes from the user // Note : If it&amp;#39;s integer then parseInt method can be used around the prompt.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</link>
+      <pubDate>Sat, 30 Jul 2011 18:26:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
+      <description>Part I of this post series can be found here.
+3. Requirements for the script:  The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
+ The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.
+ The script shall bid a fixed number of times i.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Bid Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</link>
+      <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript CountUp/CountDown Timer</title>
+      <link>https://praveenlobo.com/blog/javascript-countup-countdown-timer/</link>
+      <pubDate>Mon, 27 Jun 2011 20:57:51 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-countup-countdown-timer/</guid>
+      <description>This might be the last one in the JavaScript Counter posts unless I make all-in-one script or a jQuery plugin off of these scripts.
+This counter acts as a count down as well as count up timer. As soon as the count down goes to 0 i.e. the future date is hit, the counter turns into a count up timer and keeps going. This counter takes a date to count the time to, an ID to put the timer in.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript CountDown Timer</title>
+      <link>https://praveenlobo.com/blog/javascript-countdown-timer/</link>
+      <pubDate>Mon, 27 Jun 2011 06:44:13 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-countdown-timer/</guid>
+      <description>This counter takes a date to count the time to, an ID to put the timer in. It is possible to have more than one timer on a page. Demo page.
+As soon as the count down goes to 0 i.e. the future date is hit, the counter stops at 0 years 0 months 0 days 00 hours 00 minutes 00 seconds.
+Please do leave me a comment. Thanks!
+/********************************************************************************************** # MIT License # # Copyright (c) 2011 Praveen Lobo (praveenlobo.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Counter</title>
+      <link>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</link>
+      <pubDate>Mon, 27 Jun 2011 05:44:31 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</guid>
+      <description>I keep getting requests and I can&amp;rsquo;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
+JavaScript Counter to Count Days Hours Minutes Seconds - This script is very simple; it takes a date to count the time from/to, an ID to put the timer in. To be very precise, this counter shows the total number of 24 hours intervals between the date-time given and current date-time.</description>
+    </item>
+    
+    <item>
+      <title>jQuery v1.6 Checkbox issue</title>
+      <link>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</link>
+      <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</guid>
+      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&amp;rsquo;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&amp;rsquo;m also having fun with their reputation points.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Counter</title>
+      <link>https://praveenlobo.com/blog/javascript-counter-count-days/</link>
+      <pubDate>Sun, 12 Jun 2011 00:52:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-counter-count-days/</guid>
+      <description>John Watt sent me a request asking if I could help with changing the JavaScript CountUp Timer to show only the number of days in a counter. He also wanted to display the days in 3 digits.
+I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&amp;rsquo;t update every second.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript CountUp Timer</title>
+      <link>https://praveenlobo.com/blog/javascript-countup-timer/</link>
+      <pubDate>Fri, 16 Apr 2010 13:30:03 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/javascript-countup-timer/</guid>
+      <description>Update (2018): I have moved the code to GitHub - JavaScript Counters AS IS. 
+I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&amp;rsquo;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&amp;rsquo;t easily understandable; most of them were using approximation (esp.</description>
+    </item>
+    
+  </channel>
+</rss>

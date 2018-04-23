@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bookmarklet on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/bookmarklet/</link>
+    <description>Recent content in Bookmarklet on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Jul 2011 23:24:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/bookmarklet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</guid>
+      <description>Part I and II of this post series can be found here and here respectively.
+5. Build the script: Assume that the HTML skeleton given in previous post is indeed the code and when the bid ends the timer gets a class called BIDEND. Finally, say the code used by the site to place a bid is PennyAuction.placeBid(itemCode);. With this information build a script.
+// Get the codes from the user // Note : If it&amp;#39;s integer then parseInt method can be used around the prompt.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 27 Jul 2011 04:11:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Bid Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</link>
+      <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Easiest Way To Solve Rubik&#39;s Cube </title>
+      <link>https://praveenlobo.com/blog/easiest-way-to-solve-rubiks-cube-without-cheating/</link>
+      <pubDate>Wed, 09 Mar 2011 07:06:49 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/easiest-way-to-solve-rubiks-cube-without-cheating/</guid>
+      <description>The following tutorials/videos helped me a lot in learning to solve the 3x3 Rubik&amp;rsquo;s Cube). I think these are the easiest ways to solve the rubik&amp;rsquo;s cube and hope you find it helpful too. You may find that the technique used is the same, just the explanation differs in most of the cases. Second and third videos take different approaches to solve third layer. Latter is easier and has less number of steps.</description>
+    </item>
+    
+  </channel>
+</rss>

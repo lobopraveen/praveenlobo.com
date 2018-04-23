@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fedora on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/fedora/</link>
+    <description>Recent content in Fedora on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 02 Jan 2010 16:52:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OS Switch: Fedora to Ubuntu</title>
+      <link>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</link>
+      <pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</guid>
+      <description>A post about switching the Operating System(OS)? Yeah, why not? After all It&amp;rsquo;s the OS that made one man the richest in the world. It&amp;rsquo;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&amp;rsquo;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!
+I&amp;rsquo;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it!</description>
+    </item>
+    
+  </channel>
+</rss>

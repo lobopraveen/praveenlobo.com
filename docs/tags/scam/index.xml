@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scam on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/scam/</link>
+    <description>Recent content in Scam on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Jul 2011 23:24:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/scam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</guid>
+      <description>Part I and II of this post series can be found here and here respectively.
+5. Build the script: Assume that the HTML skeleton given in previous post is indeed the code and when the bid ends the timer gets a class called BIDEND. Finally, say the code used by the site to place a bid is PennyAuction.placeBid(itemCode);. With this information build a script.
+// Get the codes from the user // Note : If it&amp;#39;s integer then parseInt method can be used around the prompt.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</link>
+      <pubDate>Sat, 30 Jul 2011 18:26:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
+      <description>Part I of this post series can be found here.
+3. Requirements for the script:  The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
+ The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.
+ The script shall bid a fixed number of times i.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites Auto Bidding Script (Bid Sniper)</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</link>
+      <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Penny Auction Sites</title>
+      <link>https://praveenlobo.com/blog/penny-auction-sites/</link>
+      <pubDate>Mon, 03 Jan 2011 21:20:12 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/penny-auction-sites/</guid>
+      <description>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those penny auction sites are amazing, aren&amp;rsquo;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.
+If you haven&amp;rsquo;t got a clue about it, I urge you to read about them.</description>
+    </item>
+    
+  </channel>
+</rss>

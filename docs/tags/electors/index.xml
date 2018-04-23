@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electors on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/electors/</link>
+    <description>Recent content in Electors on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Mar 2016 03:47:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/electors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>US Presidential Elections</title>
+      <link>https://praveenlobo.com/blog/us-presidential-election-2016-trump-card/</link>
+      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/us-presidential-election-2016-trump-card/</guid>
+      <description>The 2016 US presidential election campaigns are underway, and they are very entertaining! I do not know to the full extent how this entire presidential election works. I doubt if many of the US citizens even understand how this works! So, I spent a couple of hours on this topic and decided to write about it. If you find any inaccuracies, I will be glad to fix it!
+US presidential elections are important not just for the Americans but also for the rest of the world.</description>
+    </item>
+    
+  </channel>
+</rss>

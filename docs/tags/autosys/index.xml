@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autosys on Praveen Lobo</title>
+    <link>https://praveenlobo.com/tags/autosys/</link>
+    <description>Recent content in Autosys on Praveen Lobo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 Nov 2010 04:10:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://praveenlobo.com/tags/autosys/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autosys and Unix Permission</title>
+      <link>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</link>
+      <pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</guid>
+      <description>Original post with the answer at the end.</description>
+    </item>
+    
+    <item>
+      <title>Autosys and Unix Permission</title>
+      <link>https://praveenlobo.com/blog/autosys-and-unix-permission/</link>
+      <pubDate>Thu, 27 May 2010 17:57:27 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission/</guid>
+      <description>Say Autosys job called jobName executes with xyz id. The profile used is profile; owner of profile is abc and neither group nor others have execute permission on this profile. jobName executes jobScript which is owned by xyz(both jobName and jobScript are owned by xyz). abc and xyz are two users. There is a group abc as well.
+$id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profile -r-xr+++-- 1 abc abc 1000 [.</description>
+    </item>
+    
+  </channel>
+</rss>
