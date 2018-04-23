@@ -1,0 +1,134 @@
+<html dir="ltr" lang="en-US">
+  <HEAD>
+  <meta name='Author' content='Praveen Lobo' />
+  <meta name='Description' content='A demo HTML to explain different scroll options using JavaScript/jQuery.' />
+  <meta name='Keywords' content='Html, Html scroll, tutorials, scrollTop, scrollIntoView, JavaScript, jQuery, smooth' />
+  <link rel="shortcut icon" href="http://www.praveenlobo.com/favicon.ico" />
+  <TITLE>Demo: scrolling elements smoothly in JavaScript/jQuery without plugins - Praveen Lobo</TITLE>
+  <script LANGUAGE="javascript" src ="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script LANGUAGE="javascript" src ="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+  <LINK REL="STYLESHEET" HREF="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/ui-lightness/jquery-ui.css" TYPE="text/css"/ >
+
+<script>
+
+$(document).ready(function(){
+    $(":button").button().css({"font-size":13,"margin-top":10,"width":"auto"});
+    $("[id*=main]").css({"float":"left","left":0});
+    $("div:not(#buttons)").css({"height":350,"width":"300","left":50,"top":250,"position":"relative"});
+    $("[id*=parent]").css("overflow","auto");
+    $("div[id*=parent]>div").css("width",200);
+    $("[id*=HereIam]").css({"color":"red","font-weight":"bold","font-size":25});
+    $("#buttons").css({"width":300,"height":100,"top":0,"position":"fixed","z-index":1000});
+    $("#plug").css({"top":0,"left":400,"position":"fixed"});
+    $("span").css({"white-space":"nowrap"}).animate({"width":"toggle"},700);;
+
+    // function to display text next to buttons
+    $("div>input:button").hover(function(){
+      $(this).next("span").animate({"width":"toggle"},150);
+    },function(){
+      $(this).next("span").animate({"width":"toggle"},150);
+    });
+});
+
+function scroll1(element){
+  var ele = document.getElementById(element);
+  window.scrollTo(ele.offsetLeft,ele.offsetTop);
+}
+
+function scroll2(element, parent){
+    $(element)[0].scrollIntoView(true);
+}
+function scroll3(element, parent){
+    $(element)[0].scrollIntoView(false);
+}
+function scroll4(element, parent){
+     $(parent).animate({ scrollTop: $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+}
+function scroll5(element, parent){
+     $(parent)[0].scrollIntoView(true);
+     $(parent).animate({ scrollTop: $(parent).scrollTop() + $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+}
+function scroll6(element, parent){
+     $(parent)[0].scrollIntoView(false);
+     $(parent).animate({ scrollTop: $(parent).scrollTop() + $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+}
+function scroll7(element, parent){
+     $(parent).animate({ scrollTop: $(parent).scrollTop() + $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+     $('html,body').animate({ scrollTop: $(parent).offset().top }, { duration: 1000, easing: 'swing'});
+}
+function scroll8(element, parent){
+     $(parent).animate({ scrollTop: $(parent).scrollTop() + $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+     $('html,body').animate({ scrollTop: $(parent).offset().top - $(window).height() + $(element).height() }, { duration: 1000, easing: 'swing'});
+}
+function scroll9(element, parent){
+     $(parent).animate({ scrollTop: $(parent).scrollTop() + $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+     $('html,body').animate({ scrollTop: $(parent).offset().top - ($(window).height()/3) }, { duration: 1000, easing: 'swing'});
+}
+function resetAllScroll(){
+  $("*").animate({ scrollTop: 0}, { duration: 'slow', easing: 'swing'});
+}
+
+
+// Google Analytic script
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20788457-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</HEAD>
+  <BODY>
+    <div id="buttons" style="width:200px;">
+      <p>Click Reset before each button press...</p>
+      <a href="#HereIam1">Using anchor tag</a><br>
+      <input type="button" value="[1]"  onclick='scroll1("HereIam1");'><span>window.scrollTo</span><br>
+      <input type="button" value="[2]"  onclick='scroll2("#HereIam1", "#parent1");'><span>scrollIntoView true</span><br>
+      <input type="button" value="[3]"  onclick='scroll3("#HereIam1", "#parent1");'><span>scrollIntoView false</span><br>
+      <input type="button" value="[4]"  onclick='scroll4("#HereIam3", "#parent3");' id="4"><span>scrollTop (click again)</span><br>
+      <input type="button" value="[5]"  onclick='scroll5("#HereIam3", "#parent3");'><span>scrollTop with scrollIntoView true</span><br>
+      <input type="button" value="[6]"  onclick='scroll6("#HereIam3", "#parent3");'><span>scrollTop with scrollIntoView false</span><br>
+      <input type="button" value="[7]"  onclick='scroll7("#HereIam6", "#parent6");'><span>Smooth [5]</span><br>
+      <input type="button" value="[8]"  onclick='scroll8("#HereIam6", "#parent6");'><span>Smooth [6]</span><br>
+      <input type="button" value="[9]"  onclick='scroll9("#HereIam6", "#parent6");'><span>[6] + align top to 1/3 of viewport</span><br>
+      <input type="button" value="RESET"  onclick='resetAllScroll();'><span>Reset screen scroll</span><br>
+      <input type="button" value="Go Back"  onclick='location.href="/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/"'><span>to the blog post...</span>
+
+</div>
+
+    <div id="plug"><a title="back to blog post" href="/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/">Scrolling HTML pages with JavaScript/jQuery.</a></div>
+
+    <div id="main1">
+      <div id="parent1">
+        <div></div>
+        <div id="HereIam1">Here, you found me!</div>
+        <div></div>
+      </div>
+      <div></div>
+    </div>
+
+
+    <div id="main3">
+      <div id="parent3">
+        <div></div>
+        <div id="HereIam3">Here, you found me!</div>
+        <div></div>
+      </div>
+      <div></div>
+    </div>
+
+
+    <div id="main6">
+      <div id="parent6">
+        <div></div>
+        <div id="HereIam6">Here, you found me!</div>
+        <div></div>
+      </div>
+      <div></div>
+    </div>
+  </BODY>
+</HTML>

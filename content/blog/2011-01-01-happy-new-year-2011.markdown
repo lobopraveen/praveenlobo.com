@@ -1,0 +1,19 @@
++++
+title = "Happy New Year"
+description = "2011"
+slug = "happy-new-year-2011"
+author = "Lobo"
+comments = "true"
+date = "2011-01-01 08:30:23"
+timezone = "CST"
+categories = ["0"]
+tags = ["friends"]
++++
+
+I think, this is the first time I was out on the new year (January 1st 00:00:00 to be precise). Either I used to be at home or with family in the Church at this time every year. Had loads of fun last few moments of 2010 and enjoyed starting of 2011 with friends at Whiskey Bar in Milwaukee.
+
+Not sure why I'm blogging about it but hey this is my blog and I'll post whatever I want.....
+
+Wish you a very happy and prosperous new year!
+
+Bye!

@@ -1,0 +1,64 @@
+baseurl = "https://praveenlobo.com/"
+title = "Home"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Praveen Lobo"
+publishdir = "docs"
+googleAnalytics = "UA-20788457-1"
+disqusShortname = "lobopraveen"
+
+[Author]
+    name = "Lobo"
+    profile = "https://praveenlobo.com/about"
+
+[Taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[Params]
+    intro = true
+    headline = "Praveen Lobo"
+    description = "The Way I See it!"
+    github = "https://github.com/lobopraveen"
+    #gitlab = "https://gitlab.com/XXX"
+    linkedin = "https://linkedin.com/in/lobopraveen/"
+    #gplus = "https://google.com/+lobopraveen"
+    twitter = "https://twitter.com/lobopraveen"
+    stackoverflow = "https://stackoverflow.com/users/319542/lobo"
+    email = "lobopraveen@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+    # types of pages to display in the list on the main index page
+    indexPageListType = ["blog", "project"]
+    # max number of links in the list on the main index page
+    indexPageListMax = 5
+
+[Permalinks]
+    post = "/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 1
+
+[[menu.main]]
+    name = "Subscribe"
+    url = "/subscribe/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4

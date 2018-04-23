@@ -1,0 +1,40 @@
+language: go
+
+install:
+# "Step 1 - instaling hugo"
+  - go get github.com/gohugoio/hugo
+
+script:
+# "Step 2 - creating media folder"
+- cp -r docs/media static/media
+# "Step 3 - cleaning up the hugo output folder /docs"
+- rm -fr docs/
+# "Step 4 - building the hugo site"
+- hugo version
+- hugo
+# "Step 5 - decrypting the deploy key"
+- openssl aes-256-cbc -K $encrypted_a781b6369385_key -iv $encrypted_a781b6369385_iv -in travis_blog_deploy.enc -out travis_blog_deploy -d
+- chmod 600 travis_blog_deploy
+# "Step 6 - adding the deploy key to the keyring"
+- eval `ssh-agent -s`
+- ssh-add travis_blog_deploy
+- rm -f travis_blog_deploy
+# "Step 7 - setting up git parameters"
+- git config --global user.email "lobopraveen@gmail.com"
+- git config --global user.name "travis"
+# "Step 8 - commit the changes to the branch - $TRAVIS_BRANCH"
+- git status
+- git stash
+- git checkout $TRAVIS_BRANCH
+- git stash pop
+- git add -A
+- git commit -m "Travis for $TRAVIS_COMMIT_MESSAGE. [skip ci]"
+# "Step 9 - push the changes to github"
+- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
+- git push origin
+# "Successfully built and deployed the site!"
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always

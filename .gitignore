@@ -1,0 +1,6 @@
+#
+# Ignore the media directory. Hugo copies it to site build directory which isn't ignored!
+# This also means that a clone should be followed by copying the media directory from
+# build directory to the static directory
+#
+/static/media/

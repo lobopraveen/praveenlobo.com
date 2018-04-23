@@ -1,0 +1,52 @@
+<html>
+<body>
+<script type="text/javascript">
+document.write("IST time - January 02, 2012 22:00:00 GMT+0530");
+
+document.write("<p>");
+var now = new Date("January 02, 2012 22:00:00 GMT+0530");
+document.write("<br/>var now = new Date(\"January 02, 2012 22:00:00 GMT+0530\");");
+document.write("<br/>IST converted to local time: " + now);
+document.write("</p>");
+
+document.write("<p>");
+var nowUtc = new Date( now.getTime() + (now.getTimezoneOffset() * 60000));
+document.write("<br/>var nowUtc = new Date( now.getTime() + (now.getTimezoneOffset() * 60000));");
+document.write("<br/>Local time converted to UTC:" + nowUtc);
+document.write("</p>");
+
+document.write("<p>");
+nowUtc = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),  now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds());
+document.write("<br/>nowUtc = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),  now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds());");
+document.write("<br/>Local time converted to UTC:" + nowUtc);
+document.write("</p>");
+
+document.write("<p>");
+document.write("<br/>now.toUTCString()");
+document.write("<br/>Local to GMT " + now.toUTCString());
+document.write("</p>");
+
+document.write("<p>");
+document.write("<br/>new Date(now.toUTCString())");
+document.write("<br/>GMT to Local " + new Date(now.toUTCString()));
+document.write("</p>");
+
+document.write("<p>");
+var millis = (now.getTime() + (now.getTimezoneOffset() * 60000));
+document.write("<br/>var millis = (now.getTime() + (now.getTimezoneOffset() * 60000));");
+document.write("<br/>GMT in millis " + millis);
+document.write("</p>");
+
+document.write("<p>");
+document.write("<br/>( millis - (now.getTimezoneOffset() * 60000))");
+document.write("<br/>Local in millis " + ( millis - (now.getTimezoneOffset() * 60000)));
+document.write("</p>");
+
+document.write("<p>");
+now.setTime(( millis - (now.getTimezoneOffset() * 60000)));
+document.write("<br/>now.setTime(( millis - (now.getTimezoneOffset() * 60000)));");
+document.write("<br/>Local from millis " + now);
+document.write("</p>");
+</script>
+</body>
+</html>
