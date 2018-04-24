@@ -6,9 +6,12 @@ install:
 
 script:
 # "Step 2 - creating media folder"
-- cp -r docs/media static/media
+#- cp -r docs/media static/media
 # "Step 3 - cleaning up the hugo output folder /docs"
-- rm -fr docs/
+#find . -maxdepth 1 ! -name media -exec rm -rf {} \;
+find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
+
+#- rm -fr docs/
 # "Step 4 - building the hugo site"
 - hugo version
 - hugo
@@ -28,7 +31,7 @@ script:
 - git checkout $TRAVIS_BRANCH
 - git stash pop
 - git add -A
-- git commit -m "Travis for $TRAVIS_COMMIT_MESSAGE. [skip ci]"
+- git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
 # "Step 9 - push the changes to github"
 - git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
 - git push origin

@@ -3,4 +3,4 @@
 # This also means that a clone should be followed by copying the media directory from
 # build directory to the static directory
 #
-/static/media/
+#/static/media/
