@@ -9,7 +9,7 @@ script:
 #- cp -r docs/media static/media
 # "Step 3 - cleaning up the hugo output folder /docs"
 #find . -maxdepth 1 ! -name media -exec rm -rf {} \;
-find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
+- find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
 
 #- rm -fr docs/
 # "Step 4 - building the hugo site"
