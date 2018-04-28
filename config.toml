@@ -54,7 +54,7 @@ sticky = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","taxonomy_cloud"]
+sidebar = ["about","social_menu"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -103,7 +103,7 @@ weight = 1
 
 
 [[menu.main]]
-    name = "🔍"
+    name = "Search"
     url = "https://www.google.com/search?q=site:praveenlobo.com"
     weight = -1
 
@@ -115,12 +115,12 @@ weight = 1
 [[menu.main]]
     name = "Archive"
     url = "/archive"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Reviews"
     url = "/reviews-and-referral-links"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Subscribe"

@@ -43,17 +43,18 @@ dateFormat = "2006, Jan 02"
 listDateFormat = "2006, Jan 02"
 archiveDateFormat = "Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = false
 showReadingTime = true
 taxonomyCloudShuffle = true
+accentColor = "#ffcd00"
+hideMainMenu = false
 
 [params.sidebar]
 enable = true
-sticky = true
 
 [params.widgets]
 homepage = ["recent_posts"]
 sidebar = ["about","taxonomy_cloud"]
+footer = ["social_menu"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -79,12 +80,23 @@ twitter = "MunifTanjim"
 telegram = "MunifTanjim"
 google_scholar = "qc6CJjYAAAAJ"
 
-[params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar"]
+[params.comments]
+enable = false
+
+[params.comments.staticman]
+enable = true
+apiEndpoint = "https://api.staticman.net/v2/entry"
+maxDepth = 2
+
+[params.comments.staticman.github]
+username = "MunifTanjim"
+repository = "minimo"
+branch = "master"
 
 [taxonomies]
 author = "authors"
 category = "categories"
+series = "series"
 tag = "tags"
 
 [permalinks]
