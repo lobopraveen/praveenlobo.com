@@ -8,6 +8,7 @@
 Script before: 1&gt;&gt;${LOG} 2&gt;&gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} if [ $? -ne 0 ]; then print &#34;ERROR: Something failed&#34; exit 101 fi
 Script after:
 1&gt;&gt;${LOG} 2&gt;&gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} echo &#34;Program completed successfully.'>
+<meta name='theme-color' content='#ffcd00'>
 
 <meta property='og:title' content='O_ops: Better Logging To Solve Problems • Praveen Lobo'>
 <meta property='og:description' content='Logging helps in pinpointing the code block that threw an error. Only if they are used correctly. During once such failure, a guy noticed that a script lacked logging and ever promptly promoted the updated script with better logging. A part of the script is shown below.
@@ -25,7 +26,10 @@ Script after:
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.87a4f4a2.css'>
+<link rel='stylesheet' href='/assets/css/main.b0a0b202.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', 'UA-20788457-1', 'auto');
@@ -44,19 +48,19 @@ ga('send', 'pageview');
 
     <div class='main'>
 
-      <nav id='main-menu' class='main-menu' aria-label='Main Menu'>
+      <nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
   <div class='container'>
     
     <ul><li class='item'>
-        <a href='/'>🏠</a>
+        <a href='/'>Home</a>
       </li><li class='item'>
-        <a href='https://www.google.com/search?q=site:praveenlobo.com'>🔍</a>
+        <a href='https://www.google.com/search?q=site:praveenlobo.com'>Search</a>
       </li><li class='item'>
         <a href='/blog'>Blog</a>
       </li><li class='item'>
-        <a href='/archive'>Archive</a>
-      </li><li class='item'>
         <a href='/reviews-and-referral-links'>Reviews</a>
+      </li><li class='item'>
+        <a href='/archive'>Archive</a>
       </li><li class='item'>
         <a href='/subscribe'>Subscribe</a>
       </li><li class='item'>
@@ -66,7 +70,6 @@ ga('send', 'pageview');
       </li></ul>
   </div>
 </nav>
-
 
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
@@ -196,9 +199,9 @@ echo <span style="color:#e6db74">&#34;Program completed successfully.&#34;</span
 </nav>
 
 
-<section class='comments'>
+<section id='comments' class='comments'>
   <div class='container sep-before'>
-    <div id="disqus_thread"></div>
+    <div class='comments-area'><div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
     
@@ -218,9 +221,9 @@ echo <span style="color:#e6db74">&#34;Program completed successfully.&#34;</span
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
   </div>
 </section>
-
 
       </main>
 
@@ -291,7 +294,6 @@ echo <span style="color:#e6db74">&#34;Program completed successfully.&#34;</span
       </li></ul>
   </nav>
 </section>
-
           <div class='copyright'>
   <p> &copy; 2018 Praveen Lobo </p>
 </div>
@@ -302,7 +304,7 @@ echo <span style="color:#e6db74">&#34;Program completed successfully.&#34;</span
     </div>
   </div><script>window.__public_path__='\/assets\/js\/'</script>
 
-<script src='/assets/js/main.80cd10bb.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.53e19345.js'></script><script src='/js/custom.js'></script>
 </body>
 
 </html>
