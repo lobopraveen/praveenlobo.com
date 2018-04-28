@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GIMP on Praveen Lobo</title>
+    <title>Gimp on Praveen Lobo</title>
     <link>https://praveenlobo.com/tags/gimp/</link>
-    <description>Recent content in GIMP on Praveen Lobo</description>
+    <description>Recent content in Gimp on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 May 2010 12:23:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Apr 2011 06:00:17 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/tags/gimp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pencil Sketch</title>
+      <link>https://praveenlobo.com/blog/pencil-sketch-sachin-tendulkar/</link>
+      <pubDate>Thu, 28 Apr 2011 06:00:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/pencil-sketch-sachin-tendulkar/</guid>
+      <description>A pencil sketch of the greatest batsman to ever play the game of Cricket - Sachin Tendulkar. Sketched more than half a decade ago. Does it look like Sachin?
+   Sachin Tendulkar      Sachin Tendulkar (scanned and GIMP&amp;#39;d)    </description>
+    </item>
     
     <item>
       <title>How I Put My First GIMP Work To Use</title>
@@ -18,6 +28,16 @@
       <guid>https://praveenlobo.com/blog/how-i-put-my-first-gimp-work-to-use/</guid>
       <description>HotLinking. If you don&amp;rsquo;t know what it means follow the link and spend a couple of minutes reading about it. For those who are not interested in doing so - hotlinking is somebody else riding your superbike on your petrol without your knowledge and without giving you any credit. Bad analogy? :o)
 How do you make sure you don&amp;rsquo;t allow something which you don&amp;rsquo;t even know is happening? Very simple, using .</description>
+    </item>
+    
+    <item>
+      <title>3 Nuts</title>
+      <link>https://praveenlobo.com/blog/3-nuts/</link>
+      <pubDate>Thu, 28 Jan 2010 19:43:49 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/3-nuts/</guid>
+      <description>The title is inspired by the movie 3 Idiots which the world around me is going gaga over. The picture was clicked over the weekend with a point &amp;amp; shoot camera when I was going mad with boredom. Reason for posting this? I don&amp;rsquo;t know! I started experimenting with GIMP and I have provided both versions of the picture.
+   3 nuts - Unedited      3 nuts - Edited    This is not my first GIMP work.</description>
     </item>
     
   </channel>

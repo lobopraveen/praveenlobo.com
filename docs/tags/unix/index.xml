@@ -5,10 +5,22 @@
     <link>https://praveenlobo.com/tags/unix/</link>
     <description>Recent content in Unix on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Nov 2010 04:10:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jul 2011 03:52:23 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>O_ops: Better Logging To Solve Problems</title>
+      <link>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</link>
+      <pubDate>Wed, 13 Jul 2011 03:52:23 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</guid>
+      <description>Logging helps in pinpointing the code block that threw an error. Only if they are used correctly. During once such failure, a guy noticed that a script lacked logging and ever promptly promoted the updated script with better logging. A part of the script is shown below.
+Script before: 1&amp;gt;&amp;gt;${LOG} 2&amp;gt;&amp;gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} if [ $? -ne 0 ]; then print &amp;#34;ERROR: Something failed&amp;#34; exit 101 fi
+Script after:
+1&amp;gt;&amp;gt;${LOG} 2&amp;gt;&amp;gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} echo &amp;#34;Program completed successfully.</description>
+    </item>
     
     <item>
       <title>Autosys and Unix Permission</title>

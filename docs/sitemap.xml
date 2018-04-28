@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/twitter-feed-selected/</loc>
     <lastmod>2018-04-20T00:00:00+00:00</lastmod>
   </url>
@@ -660,7 +665,7 @@
   
   <url>
     <loc>https://praveenlobo.com/categories/1/</loc>
-    <lastmod>2011-12-27T07:04:40+00:00</lastmod>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -735,20 +740,14 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/bbmp/</loc>
-    <lastmod>2010-03-27T19:34:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/bsnl/</loc>
-    <lastmod>2010-03-17T19:24:15+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://praveenlobo.com/tags/bangalore/</loc>
     <lastmod>2010-06-19T17:20:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/bbmp/</loc>
+    <lastmod>2010-03-27T19:34:17+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -790,13 +789,13 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/blog/</loc>
-    <lastmod>2015-10-29T20:58:12+00:00</lastmod>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://praveenlobo.com/blog/</loc>
-    <lastmod>2016-03-20T03:47:31+00:00</lastmod>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -821,6 +820,12 @@
   <url>
     <loc>https://praveenlobo.com/tags/bribe/</loc>
     <lastmod>2011-11-14T05:40:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/bsnl/</loc>
+    <lastmod>2010-03-17T19:24:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -939,26 +944,8 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/count-down/</loc>
-    <lastmod>2011-06-12T00:52:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/count-up/</loc>
-    <lastmod>2011-06-12T00:52:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://praveenlobo.com/tags/counter/</loc>
     <lastmod>2011-06-27T20:57:51+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/counter/</loc>
-    <lastmod>2011-06-12T00:52:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1120,12 +1107,6 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/gimp/</loc>
-    <lastmod>2010-05-02T12:23:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/gimp/</loc>
     <lastmod>2011-04-28T06:00:17+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1167,12 +1148,6 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/html/</loc>
-    <lastmod>2011-08-11T02:08:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://praveenlobo.com/tags/haircut/</loc>
     <lastmod>2011-05-02T06:39:24+00:00</lastmod>
     <priority>0</priority>
@@ -1210,7 +1185,13 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/html/</loc>
-    <lastmod>2011-07-30T23:24:11+00:00</lastmod>
+    <lastmod>2011-08-11T02:08:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/hugo/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1233,26 +1214,20 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/jquery/</loc>
-    <lastmod>2011-08-11T02:08:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://praveenlobo.com/tags/java/</loc>
     <lastmod>2011-10-25T04:51:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/java/</loc>
-    <lastmod>2011-03-18T06:50:13+00:00</lastmod>
+    <loc>https://praveenlobo.com/tags/javascript/</loc>
+    <lastmod>2011-12-27T07:04:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/javascript/</loc>
-    <lastmod>2011-12-27T07:04:40+00:00</lastmod>
+    <loc>https://praveenlobo.com/tags/jquery/</loc>
+    <lastmod>2011-08-11T02:08:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1283,12 +1258,6 @@
   <url>
     <loc>https://praveenlobo.com/tags/lokpal/</loc>
     <lastmod>2011-08-23T05:58:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/lokpal/</loc>
-    <lastmod>2011-08-18T05:44:24+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1336,13 +1305,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/milwaukee/</loc>
-    <lastmod>2011-07-16T05:28:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/milwaukee/</loc>
-    <lastmod>2011-07-16T05:28:06+00:00</lastmod>
+    <lastmod>2011-08-19T07:10:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1695,6 +1658,12 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/tags/static-site/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/tags/string/</loc>
     <lastmod>2011-08-12T03:54:41+00:00</lastmod>
     <priority>0</priority>
@@ -1738,13 +1707,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/tennis/</loc>
-    <lastmod>2011-03-15T07:09:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/tennis/</loc>
-    <lastmod>2011-03-15T07:09:25+00:00</lastmod>
+    <lastmod>2012-08-18T17:44:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1815,18 +1778,6 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/unix/</loc>
-    <lastmod>2011-07-13T03:52:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/utc/</loc>
-    <lastmod>2011-12-27T07:04:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://praveenlobo.com/tags/ubuntu/</loc>
     <lastmod>2010-05-10T18:09:03+00:00</lastmod>
     <priority>0</priority>
@@ -1840,7 +1791,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/unix/</loc>
-    <lastmod>2010-11-05T04:10:51+00:00</lastmod>
+    <lastmod>2011-07-13T03:52:23+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1851,8 +1802,8 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/voip/</loc>
-    <lastmod>2011-12-09T17:41:50+00:00</lastmod>
+    <loc>https://praveenlobo.com/tags/utc/</loc>
+    <lastmod>2011-12-27T07:04:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1870,6 +1821,12 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/voice-mail/</loc>
+    <lastmod>2011-12-09T17:41:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/voip/</loc>
     <lastmod>2011-12-09T17:41:50+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1906,13 +1863,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/wordpress/</loc>
-    <lastmod>2011-01-18T09:16:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://praveenlobo.com/tags/wordpress/</loc>
-    <lastmod>2011-01-18T09:16:58+00:00</lastmod>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

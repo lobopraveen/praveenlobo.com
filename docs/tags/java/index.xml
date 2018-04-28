@@ -5,10 +5,30 @@
     <link>https://praveenlobo.com/tags/java/</link>
     <description>Recent content in Java on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 Mar 2011 06:50:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Oct 2011 04:51:59 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java: Get Sub List of Elements between two elements (instead of indexes) in a List</title>
+      <link>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</link>
+      <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
+      <description>Update: moved the code to github
+Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
+    </item>
+    
+    <item>
+      <title>A couple of ways to tokenize a delimited String in Java</title>
+      <link>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</link>
+      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
+      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;ldquo;&amp;rdquo;) between A and In and the last blank token after Me.
+StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
+    </item>
     
     <item>
       <title>O_ops: Never Return null For A Collection in Java</title>

@@ -5,10 +5,19 @@
     <link>https://praveenlobo.com/blog/</link>
     <description>Recent content in Blogs on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Mar 2016 03:47:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>From WordPress to A Static Site Generator</title>
+      <link>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</guid>
+      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&amp;rsquo;t commit to it. I feel like I have hit this big writer&amp;rsquo;s block and I somehow don&amp;rsquo;t want to get out if it.</description>
+    </item>
     
     <item>
       <title>US Presidential Elections</title>
