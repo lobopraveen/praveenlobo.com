@@ -7,7 +7,7 @@ comments = "true"
 date = "2011-01-18 09:16:58"
 timezone = "CST"
 categories = ["0", "1"]
-tags = ["disclaimer", "analytics", "rss", "feedburner", "Wordpress", "AdSense", "todo", "blog"]
+tags = ["disclaimer", "analytics", "rss", "feedburner", "wordpress", "AdSense", "todo", "blog"]
 +++
 
 This is a perfect example for a seemingly easy task taking up so much of one's time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!

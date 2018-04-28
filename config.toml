@@ -9,7 +9,6 @@ disqusShortname = "lobopraveen"
 googleAnalytics = "UA-20788457-1"
 
 Paginate = 10
-preserveTaxonomyNames = true
 
 publishdir = "docs"
 
@@ -28,8 +27,8 @@ description = ""
 title404 = "Nothing's here!"
 
 [params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
+#favicon = "favicon.ico"
+#customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
@@ -101,6 +100,12 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+
+[[menu.main]]
+    name = "🔍"
+    url = "https://www.google.com/search?q=site:praveenlobo.com"
+    weight = -1
 
 [[menu.main]]
     name = "Blog"

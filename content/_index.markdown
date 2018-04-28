@@ -1,7 +1,5 @@
 ---
-title: Home
+title: 🏠
 menu: main
-weight: -270
+weight: -2
 ---
-
-> The Way I See it!
