@@ -11,7 +11,7 @@ lastmodtimezone = "CST"
 +++
 
 {{% center %}}
-{{< figure src="/media/17-about/Lobo.jpg" alt="Praveen Lobo" caption="Praveen Lobo" >}}
+{{< figure src="/media/00-25/17-about/Lobo.jpg" alt="Praveen Lobo" caption="Praveen Lobo" >}}
 {{% /center %}}
 
 I'm Lobo, Praveen Lobo. I have lived most of my life in Bangalore. Apart from Bangalore, I lived in a very lovely place called Mangalore from three years and since 2010 I have been living in Milwaukee, Wisconsin. I'm married to Samantha and we have a beautiful cat named Ginger Pi Rani.

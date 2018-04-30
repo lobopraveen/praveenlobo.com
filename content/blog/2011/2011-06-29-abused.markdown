@@ -1,0 +1,17 @@
++++
+title = "Abused"
+description = ""
+slug = "../abused"
+author = "Lobo"
+comments = "true"
+date = "2011-06-29 05:47:26"
+timezone = "CDT"
+categories = ["0"]
+tags = ["art", "sketch", "painting"]
++++
+
+{{% center %}}
+{{< figure src="/media/26-50/31-sketch/Abused.jpg" alt="Abused" caption="Abused" >}}
+{{% /center %}}
+
+_From archives. Not my original imagination._
