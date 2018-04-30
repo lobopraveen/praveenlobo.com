@@ -4,7 +4,12 @@
   
   <url>
     <loc>https://praveenlobo.com/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</loc>
+    <lastmod>2018-04-27T13:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -665,7 +670,7 @@
   
   <url>
     <loc>https://praveenlobo.com/categories/1/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -795,7 +800,7 @@
   
   <url>
     <loc>https://praveenlobo.com/blog/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1191,7 +1196,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/hugo/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1659,7 +1664,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/static-site/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
