@@ -6,6 +6,7 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&rsquo;t like to use this class even if it weren&rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&ldquo;&rdquo;) between A and In and the last blank token after Me.
 StringTokenizer st = new StringTokenizer(&#34;I,Have,A,,In,Me,&#34;, &#34;,&#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.'>
+<meta name='theme-color' content='#ffcd00'>
 
 <meta property='og:title' content='A couple of ways to tokenize a delimited String in Java • Praveen Lobo'>
 <meta property='og:description' content='StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&rsquo;t like to use this class even if it weren&rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&ldquo;&rdquo;) between A and In and the last blank token after Me.
@@ -21,7 +22,10 @@ StringTokenizer st = new StringTokenizer(&#34;I,Have,A,,In,Me,&#34;, &#34;,&#34;
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.87a4f4a2.css'>
+<link rel='stylesheet' href='/assets/css/main.b0a0b202.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', 'UA-20788457-1', 'auto');
@@ -40,19 +44,19 @@ ga('send', 'pageview');
 
     <div class='main'>
 
-      <nav id='main-menu' class='main-menu' aria-label='Main Menu'>
+      <nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
   <div class='container'>
     
     <ul><li class='item'>
-        <a href='/'>🏠</a>
+        <a href='/'>Home</a>
       </li><li class='item'>
-        <a href='https://www.google.com/search?q=site:praveenlobo.com'>🔍</a>
+        <a href='https://www.google.com/search?q=site:praveenlobo.com'>Search</a>
       </li><li class='item'>
         <a href='/blog'>Blog</a>
       </li><li class='item'>
-        <a href='/archive'>Archive</a>
-      </li><li class='item'>
         <a href='/reviews-and-referral-links'>Reviews</a>
+      </li><li class='item'>
+        <a href='/archive'>Archive</a>
       </li><li class='item'>
         <a href='/subscribe'>Subscribe</a>
       </li><li class='item'>
@@ -62,7 +66,6 @@ ga('send', 'pageview');
       </li></ul>
   </div>
 </nav>
-
 
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
@@ -289,9 +292,9 @@ String string <span style="color:#f92672">=</span> <span style="color:#e6db74">&
 </nav>
 
 
-<section class='comments'>
+<section id='comments' class='comments'>
   <div class='container sep-before'>
-    <div id="disqus_thread"></div>
+    <div class='comments-area'><div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
     
@@ -311,9 +314,9 @@ String string <span style="color:#f92672">=</span> <span style="color:#e6db74">&
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
   </div>
 </section>
-
 
       </main>
 
@@ -384,7 +387,6 @@ String string <span style="color:#f92672">=</span> <span style="color:#e6db74">&
       </li></ul>
   </nav>
 </section>
-
           <div class='copyright'>
   <p> &copy; 2018 Praveen Lobo </p>
 </div>
@@ -395,7 +397,7 @@ String string <span style="color:#f92672">=</span> <span style="color:#e6db74">&
     </div>
   </div><script>window.__public_path__='\/assets\/js\/'</script>
 
-<script src='/assets/js/main.80cd10bb.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.53e19345.js'></script><script src='/js/custom.js'></script>
 </body>
 
 </html>
