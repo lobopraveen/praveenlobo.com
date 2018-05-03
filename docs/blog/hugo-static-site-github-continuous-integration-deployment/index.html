@@ -13,7 +13,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='Blog'><meta property='article:tag' content='hugo'><meta property='article:tag' content='static site'><meta property='article:tag' content='travis'><meta property='article:tag' content='ci cd'><meta property='article:tag' content='automation'><meta property='article:published_time' content='2018-05-01T23:00:00Z'/><meta property='article:modified_time' content='2018-05-01T23:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.40.2" />
+<meta name="generator" content="Hugo 0.41-DEV" />
 
   <title>Hugo Static Site on GitHub - Continuous Integration/Deployment • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/'>
@@ -209,11 +209,11 @@ read -p <span style="color:#e6db74">&#34;Do you want to build the site locally? 
     exit <span style="color:#ae81ff">1</span>
   <span style="color:#66d9ef">fi</span>
 
-  gaacp $1 <span style="color:#e6db74">&#34;[skip ci]&#34;</span>
+  gaacp <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;[skip ci]&#34;</span>
 
 <span style="color:#66d9ef">elif</span> <span style="color:#f92672">[[</span> $localbuild <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;n&#34;</span> <span style="color:#f92672">||</span> $localbuild <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;N&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
   echo <span style="color:#e6db74">&#34;Remote build selected.&#34;</span>
-  gaacp $1
+  gaacp <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
   echo <span style="color:#e6db74">&#34;Please remember to pull the latest from the remote repo once the remote build deploys the site.&#34;</span>
 
 <span style="color:#66d9ef">else</span>
