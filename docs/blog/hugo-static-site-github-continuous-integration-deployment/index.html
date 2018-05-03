@@ -273,6 +273,10 @@ before_script:
 - git push origin
 <span style="color:#75715e"># &#34;Successfully built and deployed the site!&#34;</span>
 
+script:
+<span style="color:#75715e"># Travis is failing for no reason. Just having this stage will prevent it from failing.</span>
+- echo <span style="color:#e6db74">&#34;Bye!&#34;</span>
+
 notifications:
   email:
     on_success: change
