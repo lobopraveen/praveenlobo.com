@@ -79,11 +79,11 @@ if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
     exit 1
   fi
 
-  gaacp $1 "[skip ci]"
+  gaacp "$1" "[skip ci]"
 
 elif [[ $localbuild = "n" || $localbuild = "N" ]]; then
   echo "Remote build selected."
-  gaacp $1
+  gaacp "$1"
   echo "Please remember to pull the latest from the remote repo once the remote build deploys the site."
 
 else
