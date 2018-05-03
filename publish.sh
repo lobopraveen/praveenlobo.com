@@ -62,7 +62,7 @@ read -p "Do you want to build the site locally? y/n: " localbuild
 if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
   echo "Local build selected."
   echo "Present working directory: " `pwd`
-  
+
   echo "Cleaning up publish directory..."
   find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
 
@@ -75,11 +75,11 @@ if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
     exit 1
   fi
 
-  gaacp $1 "[skip ci]"
+  gaacp "$1" "[skip ci]"
 
 elif [[ $localbuild = "n" || $localbuild = "N" ]]; then
   echo "Remote build selected."
-  gaacp $1
+  gaacp "$1"
   echo "Please remember to pull the latest from the remote repo once the remote build deploys the site."
 
 else
