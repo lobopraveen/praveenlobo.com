@@ -23,7 +23,8 @@
 # SOFTWARE.
 #
 
-gaacp() { echo $1 $2 return 0
+# Function to git add all commit push (gaacp). Up to two parameters are accepted for commit message
+gaacp() {
   echo "Updating local repo with latest files..."
   git add -A
   git commit -m "$1. $2"
@@ -41,30 +42,30 @@ gaacp() { echo $1 $2 return 0
     exit 1
   fi
 }
-
+# End Function
 
 if [ $# -ne 1 ]; then
   echo -e "ERROR: Missing parameter. \nUsage: $0 \"commit message\""
   exit 1
 fi
 
-gaacp $1 "[skip ci]"
-exit 0
-
 echo "Pulling latest repo from GitHub..."
-#git pull origin master
+git pull origin master
 
 if [[ $? -ne 0 ]]; then
   echo "ERROR: Repo pull failed."
   exit 1
 fi
 
-read -p "Do you want to build locally? y/n: " localbuild
+read -p "Do you want to build the site locally? y/n: " localbuild
 
 if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
+  echo "Local build selected."
   echo "Present working directory: " `pwd`
+  
   echo "Cleaning up publish directory..."
-  #find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
+  find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
+
   echo "Hugo version: " `hugo version`
   echo "Building Hugo site locally..."
   hugo
@@ -76,17 +77,10 @@ if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
 
   gaacp $1 "[skip ci]"
 
-
-
-
-#  if Y then cleanup publish directory, build, commit, push to GIt Hub with skip ci messahe
-
 elif [[ $localbuild = "n" || $localbuild = "N" ]]; then
-  echo "remote build"
-
-
-  # if N then commit changes, push to GitHub. remind to pull latest
-
+  echo "Remote build selected."
+  gaacp $1
+  echo "Please remember to pull the latest from the remote repo once the remote build deploys the site."
 
 else
   echo "ERROR: Incorrect input supplied."

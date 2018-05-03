@@ -22,13 +22,80 @@ More often than not, I use my computer to post stuff on this site. As I already 
 
 I wanted to be able to build the whole site locally when I have everything I need already. It didn't make much sense to push the changes to GitHub and have Travis-CI handle the build and publish part. I don't have any tests and sanity checks built on the CI server anyway.
 
-I built the following script to automate the build and deployment activities.
+I built the following script to automate the build and deployment activities. This lets me choose between a local and remote build.
 
 ```bash
-code here
+#!/bin/bash
+
+# Function to git add all commit push (gaacp). Up to two parameters are accepted for commit message
+gaacp() {
+  echo "Updating local repo with latest files..."
+  git add -A
+  git commit -m "$1. $2"
+
+  if [[ $? -ne 0 ]]; then
+    echo "ERROR: Local repo commit failed."
+    exit 1
+  fi
+
+  echo "Pushing the updated repo to GitHub..."
+  git push origin master
+
+  if [[ $? -ne 0 ]]; then
+    echo "ERROR: git push failed."
+    exit 1
+  fi
+}
+# End Function
+
+if [ $# -ne 1 ]; then
+  echo -e "ERROR: Missing parameter. \nUsage: $0 \"commit message\""
+  exit 1
+fi
+
+echo "Pulling latest repo from GitHub..."
+git pull origin master
+
+if [[ $? -ne 0 ]]; then
+  echo "ERROR: Repo pull failed."
+  exit 1
+fi
+
+read -p "Do you want to build the site locally? y/n: " localbuild
+
+if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
+  echo "Local build selected."
+  echo "Present working directory: " `pwd`
+
+  echo "Cleaning up publish directory..."
+  find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
+
+  echo "Hugo version: " `hugo version`
+  echo "Building Hugo site locally..."
+  hugo
+
+  if [[ $? -ne 0 ]]; then
+    echo "ERROR: Site build failed."
+    exit 1
+  fi
+
+  gaacp $1 "[skip ci]"
+
+elif [[ $localbuild = "n" || $localbuild = "N" ]]; then
+  echo "Remote build selected."
+  gaacp $1
+  echo "Please remember to pull the latest from the remote repo once the remote build deploys the site."
+
+else
+  echo "ERROR: Incorrect input supplied."
+  exit 1
+fi
+
 ```
 
-Notice the pull at the very beginning. It is added so that the local code is updated with any changes or updates made from other workspaces or remote builds.
+Notice the `git pull` at the very beginning. It is added so that the local code is updated with any changes or updates made from other workspaces or remote builds.
+
+If a remote build is requested, this script gives out a message to pull the changes, if need be. I don't pull the changes separately as this script pulls it anyway.
 
 The `[skip ci]` text in the Git commit message notifies Travis to ignore the check-in.
 
@@ -92,6 +159,8 @@ Notice how I have `before_script` phase doing all the work? It is because Travis
 Hugo publish directory cleanup retains media folder due to the [ Hugo media de-duplicate strategy](/blog/hugo-static-site-on-github-customizations/#de-duplicating-the-media) I employ.
 
 The `[skip ci]` text in the Git commit message notifies Travis to ignore the check-in so that it doesn't go into an infinite loop.
+
+As mentioned above already, any time the site is built remotely, it throws the local repo out of sync due to the newly published artifacts committed to GitHub by Travis.
 
 ---
 The repo this site is based on is on GitHub - https://github.com/lobopraveen/praveenlobo.com  
