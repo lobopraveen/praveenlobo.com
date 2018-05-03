@@ -7,7 +7,7 @@ comments = "true"
 date = "2011-07-30 18:26:40"
 timezone = "CST"
 categories = ["1"]
-tags = ["scam", "bots", "auction", "bidding", "penny", "JavaScript", "html", "automate"]
+tags = ["scam", "bots", "auction", "bidding", "penny", "JavaScript", "html", "automation"]
 +++
 
 Part I of this post series can be found [here](/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/).

@@ -7,7 +7,7 @@ comments = "true"
 date = "2011-07-27 04:11:36"
 timezone = "CST"
 categories = ["1"]
-tags = ["scam", "bots", "auction", "bidding", "penny", "JavaScript", "html", "automate", "tutorial"]
+tags = ["scam", "bots", "auction", "bidding", "penny", "JavaScript", "html", "automation", "tutorial"]
 +++
 
 I wrote a prologue to penny auction sites [beginning of this year](/blog/penny-auction-sites/), but never posted the bot script I promised I would! I didn't because I didn't want others to lose money, but shouldn't one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise. Also, this will not guarantee winning; the auction sites are built smart enough to cheat most users and pick winners rarely and randomly!
