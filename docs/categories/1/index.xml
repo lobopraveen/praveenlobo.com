@@ -40,6 +40,17 @@ Hugo&amp;rsquo;s default publish directory Hugo generates the static site conten
     </item>
     
     <item>
+      <title>Shell Scripts to Manipulate The File Name Extensions</title>
+      <link>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</link>
+      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
+      <description>The latest version of this should be available on GitHub. Please report any issues there.
+The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
+ % in below scripts match shortest from the end of the string.</description>
+    </item>
+    
+    <item>
       <title>How To Convert JavaScript Local Date to UTC And UTC To Local Date</title>
       <link>https://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/</link>
       <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>

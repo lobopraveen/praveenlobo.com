@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</loc>
+    <lastmod>2017-10-02T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/reviews-and-referral-links/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -746,6 +751,12 @@
   <url>
     <loc>https://praveenlobo.com/tags/autosys/</loc>
     <lastmod>2010-11-05T04:10:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/backdated-post/</loc>
+    <lastmod>2017-10-02T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1591,7 +1602,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/script/</loc>
-    <lastmod>2011-07-13T03:52:23+00:00</lastmod>
+    <lastmod>2017-10-02T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1813,7 +1824,7 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/unix/</loc>
-    <lastmod>2011-07-13T03:52:23+00:00</lastmod>
+    <lastmod>2017-10-02T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

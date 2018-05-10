@@ -5,10 +5,21 @@
     <link>https://praveenlobo.com/tags/unix/</link>
     <description>Recent content in Unix on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Jul 2011 03:52:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Oct 2017 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shell Scripts to Manipulate The File Name Extensions</title>
+      <link>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</link>
+      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
+      <description>The latest version of this should be available on GitHub. Please report any issues there.
+The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
+ % in below scripts match shortest from the end of the string.</description>
+    </item>
     
     <item>
       <title>O_ops: Better Logging To Solve Problems</title>
