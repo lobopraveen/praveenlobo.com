@@ -7,7 +7,7 @@ comments = "true"
 date = "2015-10-29 20:58:12"
 timezone = "CDT"
 categories = ["0"]
-tags = ["blog", "rant", "todo"]
+tags = ["blog", "rant", "todo", "backdated post"]
 +++
 
 HOLY MOTHER OF SWEET BABY CORN! It has seriously been a long while! 3 years? 4 years? Surprised the blog still exists! LOL! Actually not that much surprised. I pay every year to renew hosting so I know it exists! :stuck_out_tongue:

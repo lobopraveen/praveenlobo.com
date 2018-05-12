@@ -7,7 +7,7 @@ comments = "false"
 date = "2010-11-05 04:10:51"
 timezone = "CDT"
 categories = ["1"]
-tags = ["Autosys", "Unix", "scripts"]
+tags = ["Autosys", "Unix", "script"]
 +++
 
 

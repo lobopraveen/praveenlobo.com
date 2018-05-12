@@ -14,7 +14,7 @@ toc = true
 After [migrating](/blog/from-wordpress-to-a-static-site-generator/) the blog to Hugo and making some [custom changes](/blog/hugo-static-site-on-github-customizations/), it was time to develop the CI-CD pipeline. The key objectives for my CI-CD pipeline were
 
 1. to be able to build the site locally and
-1. to be able to build the site remotely on the integration server
+1. to be able to build the site remotely on an integration server
 
 ### Build Locally
 
@@ -22,10 +22,14 @@ More often than not, I use my computer to post stuff on this site. As I already 
 
 I wanted to be able to build the whole site locally when I have everything I need already. It didn't make much sense to push the changes to GitHub and have Travis-CI handle the build and publish part. I don't have any tests and sanity checks built on the CI server anyway.
 
-I built the following script to automate the build and deployment activities. This lets me choose between a local and remote build.
+I built the following script to automate the build and deployment activities. This lets me choose between a local or a remote build.
 
 ```bash
 #!/bin/bash
+
+#
+# Find the latest script on https://github.com/lobopraveen/praveenlobo.com
+#
 
 # Function to git add all commit push (gaacp). Up to two parameters are accepted for commit message
 gaacp() {
@@ -113,6 +117,10 @@ Setting this up at a high level was as easy as -
 Here is the travis.yml I use.
 
 ```yml
+#
+# Find the latest config file on https://github.com/lobopraveen/praveenlobo.com
+#
+
 language: go
 
 install:
