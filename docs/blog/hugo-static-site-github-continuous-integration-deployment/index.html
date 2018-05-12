@@ -145,7 +145,7 @@ ga('send', 'pageview');
 
 <ol>
 <li>to be able to build the site locally and</li>
-<li>to be able to build the site remotely on the integration server</li>
+<li>to be able to build the site remotely on an integration server</li>
 </ol>
 
 <h3 id="build-locally">Build Locally</h3>
@@ -154,8 +154,12 @@ ga('send', 'pageview');
 
 <p>I wanted to be able to build the whole site locally when I have everything I need already. It didn&rsquo;t make much sense to push the changes to GitHub and have Travis-CI handle the build and publish part. I don&rsquo;t have any tests and sanity checks built on the CI server anyway.</p>
 
-<p>I built the following script to automate the build and deployment activities. This lets me choose between a local and remote build.</p>
+<p>I built the following script to automate the build and deployment activities. This lets me choose between a local or a remote build.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#
+</span><span style="color:#75715e"># Find the latest script on https://github.com/lobopraveen/praveenlobo.com
+</span><span style="color:#75715e">#
 </span><span style="color:#75715e"></span>
 <span style="color:#75715e"># Function to git add all commit push (gaacp). Up to two parameters are accepted for commit message
 </span><span style="color:#75715e"></span>gaacp<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
@@ -239,7 +243,11 @@ read -p <span style="color:#e6db74">&#34;Do you want to build the site locally? 
 </ol>
 
 <p>Here is the travis.yml I use.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">language: go
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#75715e">#</span>
+<span style="color:#75715e"># Find the latest config file on https://github.com/lobopraveen/praveenlobo.com</span>
+<span style="color:#75715e">#</span>
+
+language: go
 
 install:
 <span style="color:#75715e"># &#34;Step 1 - instaling hugo&#34;</span>

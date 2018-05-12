@@ -17,7 +17,7 @@
       
       <guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid>
       <description>After migrating the blog to Hugo and making some custom changes, it was time to develop the CI-CD pipeline. The key objectives for my CI-CD pipeline were
- to be able to build the site locally and to be able to build the site remotely on the integration server  Build Locally More often than not, I use my computer to post stuff on this site. As I already have the site repo and Hugo on my machine, I run the hugo server --buildDrafts while editing the repo with a browser window open on my secondary monitor to monitor the edits.</description>
+ to be able to build the site locally and to be able to build the site remotely on an integration server  Build Locally More often than not, I use my computer to post stuff on this site. As I already have the site repo and Hugo on my machine, I run the hugo server --buildDrafts while editing the repo with a browser window open on my secondary monitor to monitor the edits.</description>
     </item>
     
   </channel>
