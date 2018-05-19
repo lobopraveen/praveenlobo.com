@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/blog/sql-error-converting-the-data-type-/</loc>
+    <lastmod>2017-07-21T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/reviews-and-referral-links/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -1499,6 +1504,12 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/tags/query/</loc>
+    <lastmod>2017-07-21T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/tags/questions/</loc>
     <lastmod>2011-06-16T04:43:38+00:00</lastmod>
     <priority>0</priority>
@@ -1663,6 +1674,12 @@
   <url>
     <loc>https://praveenlobo.com/tags/sports/</loc>
     <lastmod>2011-04-08T06:41:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/sql/</loc>
+    <lastmod>2017-07-21T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
