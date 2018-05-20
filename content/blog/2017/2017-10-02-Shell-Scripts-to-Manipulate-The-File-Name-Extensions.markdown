@@ -5,7 +5,7 @@ slug = "../Shell-Scripts-to-Manipulate-The-File-Name-Extensions"
 author = "Lobo"
 comments = "true"
 date = "2017-10-02 20:00:00"
-timezone = "CST"
+timezone = "CDT"
 categories = ["1"]
 tags = ["script", "unix", "backdated post"]
 +++

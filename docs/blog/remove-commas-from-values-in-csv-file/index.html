@@ -4,19 +4,19 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Only in some environments!'>
+<meta name='description' content='Not the commas that separate the values.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='SQL Error Converting The Data Type • Praveen Lobo'>
-<meta property='og:description' content='Only in some environments!'>
-<meta property='og:url' content='https://praveenlobo.com/blog/sql-error-converting-the-data-type-/'>
+<meta property='og:title' content='Remove Commas From Values in CSV File • Praveen Lobo'>
+<meta property='og:description' content='Not the commas that separate the values.'>
+<meta property='og:url' content='https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/'>
 <meta property='og:site_name' content='Praveen Lobo'>
-<meta property='og:type' content='article'><meta property='article:section' content='Blog'><meta property='article:tag' content='sql'><meta property='article:tag' content='query'><meta property='article:tag' content='backdated post'><meta property='article:published_time' content='2017-07-21T20:00:00Z'/><meta property='article:modified_time' content='2017-07-21T20:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Blog'><meta property='article:tag' content='unix'><meta property='article:tag' content='sed'><meta property='article:tag' content='csv'><meta property='article:tag' content='backdated post'><meta property='article:published_time' content='2013-03-11T20:00:00Z'/><meta property='article:modified_time' content='2013-03-11T20:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.41-DEV" />
+<meta name="generator" content="Hugo 0.40.3" />
 
-  <title>SQL Error Converting The Data Type • Praveen Lobo</title>
-  <link rel='canonical' href='https://praveenlobo.com/blog/sql-error-converting-the-data-type-/'>
+  <title>Remove Commas From Values in CSV File • Praveen Lobo</title>
+  <link rel='canonical' href='https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -79,9 +79,9 @@ ga('send', 'pageview');
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>SQL Error Converting The Data Type</h1>
+      <h1 class='title'>Remove Commas From Values in CSV File</h1>
       
-<p class='desc'>Only in some environments!</p>
+<p class='desc'>Not the commas that separate the values.</p>
 
 
     </div>
@@ -96,7 +96,7 @@ ga('send', 'pageview');
   
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2017-07-21T20:00:00Z'>Fri, Jul 21, 2017</time>
+  <time class='entry-date' datetime='2013-03-11T20:00:00Z'>Mon, Mar 11, 2013</time>
 </span>
 
   
@@ -107,7 +107,7 @@ ga('send', 'pageview');
   <polyline points="12 6 12 12 15 15"/>
   
 </svg>
-4 mins read
+3 mins read
 </span>
 
 
@@ -121,42 +121,64 @@ ga('send', 'pageview');
   
 
   <div class='container entry-content'>
-  <p>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&rsquo;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.</p>
+  
 
-<p>The problem was with a query that used to run fine for a long time and started failing a couple of weeks ago. This had caused manual work for his team each time it failed. The error was with some conversion he said.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql">Msg <span style="color:#ae81ff">8114</span>, <span style="color:#66d9ef">Level</span> <span style="color:#ae81ff">16</span>, <span style="color:#66d9ef">State</span> <span style="color:#ae81ff">5</span>, Line <span style="color:#ae81ff">1</span>
-Error converting <span style="color:#66d9ef">data</span> <span style="color:#66d9ef">type</span> nvarchar <span style="color:#66d9ef">to</span> bigint.</code></pre></div>
-<p>This was on going for a while until one more query started fail. This time the error message had a little more clue and this is when it was taken seriously.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql">Msg <span style="color:#ae81ff">245</span>, <span style="color:#66d9ef">Level</span> <span style="color:#ae81ff">16</span>, <span style="color:#66d9ef">State</span> <span style="color:#ae81ff">1</span>, Line <span style="color:#ae81ff">1</span>
-<span style="color:#66d9ef">Conversion</span> failed <span style="color:#66d9ef">when</span> converting the nvarchar value <span style="color:#e6db74">&#39;ABC&#39;</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">data</span> <span style="color:#66d9ef">type</span> int.</code></pre></div>
-<p>I asked him the obvious - did you make sure you are not comparing a string to an integer? He showed me each and every column in the query along with all the possible values. There was no string to integer business. The query was something like this.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">WITH</span> ReportKey <span style="color:#66d9ef">AS</span> ( 
-  <span style="color:#66d9ef">SELECT</span> RKey 
-  <span style="color:#66d9ef">FROM</span>   dbo.fnGetKeysForReport(param1, param2)
-)
+<p><small>The <a href="https://github.com/lobopraveen/gists/blob/master/unix/remove_comma_from_values_in_csv_file.md" target="_blank">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists" target="_blank">GitHub repo</a>. Please report any issues there.</small></p>
 
-<span style="color:#66d9ef">SELECT</span> Column1, Column2
-<span style="color:#66d9ef">FROM</span>   TableName T
-          <span style="color:#66d9ef">INNER</span> <span style="color:#66d9ef">JOIN</span> ReportKey K <span style="color:#66d9ef">ON</span> K.RKey <span style="color:#f92672">=</span> T.SomeKey </code></pre></div>
-<p>He had listed all possible values for param1, param2, RKey, SomeKey. He had also ran the <code>dbo.fnGetKeysForReport()</code> function for all of the possible params and it never failed.</p>
+<p>CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</p>
 
-<p>After a brief discussion about the query optimizer, query execution plans, inline table values functions etc. I pointed out that the <code>K.RKey = T.SomeKey</code> was the problem. His assumption was that the common table expression (CTE) would execute first and the resulting RKey would always be an integer as all combination of params to the function always returned integers. This was incorrect; the query optimizer had other plans. In one of the error messages, the value &lsquo;ABC&rsquo; was mentioned. When we went to the actual table where RKey was stored, the very first row on that table had the value &lsquo;ABC&rsquo; so it was clear what the query optimizer was trying to do.</p>
+<p>What would you do if this happened at mid-night during the batch process? Would you fix the CSV implementation or contact the source of the feed to get it fixed? The former was a non-starter; keeping the SLA in mind and the response from the vendor, we resorted to almighty UNIX tools!</p>
 
-<p>The query optimizer had decided to expand the inline table valued function to bring in all possible values of RKey from the underlying table first and was trying to store the values as integers as the column it was being compared against was of type integer. Key thing here was that it wasn&rsquo;t applying any WHERE clause from that function yet and hence the conversion error.</p>
+<h4 id="sed-to-the-rescue">SED to the rescue</h4>
 
-<p>It is a good idea to use the accurate data type while storing the data. Using nvarchar as it allows to store other types such as integer is a bad design. In this case, the usage was reasonable and at this point it wasn&rsquo;t feasible to redesign the whole thing. I offered him two options -
-1. Update the LHS of the expression to make sure the value is always an integer to avoid the conversion error.
-1. Update the RHS of the expression to make sure the value is always nvarchar to avoid the need for conversion.</p>
+<p>There were two columns that were causing the problem. One had a comma and the other could have up to two commas. <code>sed</code> to replace text based on pattern matching with back-referencing was godsend. It took a few minutes of trial and error of course!</p>
 
-<p>We picked option 1 as the underlying problem was with RKey (RHS side of the expression) and it conveyed a subtle message to the future reader that this value needs conversion. When the value was not numeric, we used -1 as T.SomeKey can never be -1. Of course, we added comments explaining why the conversion was needed.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">INNER</span> <span style="color:#66d9ef">JOIN</span> ReportKey K <span style="color:#66d9ef">ON</span> IIF(ISNUMERIC(K.RKey) <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, K.RKey, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">=</span> T.SomeKey </code></pre></div>
-<blockquote>
-<p>Why did the query fail only in one environment? That too after working fine for so long?</p>
-</blockquote>
+<p>Sample dataset:</p>
 
-<p>There was some recent change to the query and it was promoted to higher environment. When we looked at the failures, it started occurring exactly the day the change was promoted. Ditto with the second query as well. The recent changes had forced the optimizer to redo the execution plan and the one picked was different than the previous one leading to the conversion error. The same queries were running fine in the lower environment as the optimizer was picking a different execution plan.</p>
+<pre><code>VERIFIED,&quot;Apr 30, 2004 12:00 AM&quot;,Jon Doe,&quot;3,000,000.00&quot;
+UNVERIFIED,&quot;Jan 30, 2013 12:00 AM&quot;,Jane Doe,&quot;20,000.00&quot;
+</code></pre>
 
-<p>The important thing to remember is that the way we write the query is not necessarily the same way the optimizer decides to run it. Also, write the query to make it easy for humans to understand and leave it to the optimizer to pick the best way to execute it.</p>
+<p>The following <code>sed</code> command removes the comma from the values where the values may have one comma.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sed <span style="color:#e6db74">&#39;s/\(&#34;[^,]\{1,\}\),\([^,^&#34;]\{1,\}&#34;\)/\1\2/g&#39;</span> filename</code></pre></div>
+<p>Explanation:</p>
+
+<ul>
+<li><code>s</code> substitution</li>
+<li><code>\(</code> and <code>\)</code> grouping and escaping parenthesis</li>
+<li><code>[^,]</code> matches any character but a comma</li>
+<li><code>\{1,\}\</code> matches one or more occurrences of the previous match</li>
+<li><code>&quot;[^,]\{1,\}\)</code> subexpression matches the value starting with a double-quote followed by one or more character until a comma</li>
+<li><code>,</code> matches a single comma</li>
+<li><code>[^,^&quot;]\{1,\}&quot;</code> subexpression matches the rest of the value followed by a double-quote as long as the rest of the value doesn&rsquo;t include a comma or a double-quote. Notice how it doesn&rsquo;t match the &ldquo;3,000,000.00&rdquo;</li>
+<li><code>\1\2</code> the replacement side of the <code>sed</code> uses the back-referencing to refer to the text matched by the subexpressions</li>
+<li><code>g</code> replace globally</li>
+</ul>
+
+<p>Result:</p>
+
+<pre><code>VERIFIED,&quot;Apr 30 2004 12:00 AM&quot;,Jon Doe,&quot;3,000,000.00&quot;
+UNVERIFIED,&quot;Jan 30 2013 12:00 AM&quot;,Jane Doe,&quot;20000.00&quot;
+</code></pre>
+
+<p>The value &ldquo;3,000,000.00&rdquo; still has commas. This is because it has more than one comma and our patterns don&rsquo;t match; read explanation above. This can be easily fixed by duplicating the second subexpression preceded by a match for a comma and <code>\3</code> on the replacement side.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sed <span style="color:#e6db74">&#39;s/\(&#34;[^,]\{1,\}\),\([^,^&#34;]\{1,\}\),\([^,^&#34;]\{1,\}&#34;\)/\1\2\3/g&#39;</span> filename</code></pre></div>
+<p>Result:</p>
+
+<pre><code>VERIFIED,&quot;Apr 30, 2004 12:00 AM&quot;,Jon Doe,&quot;3000000.00&quot;
+UNVERIFIED,&quot;Jan 30, 2013 12:00 AM&quot;,Jane Doe,&quot;20,000.00&quot;
+</code></pre>
+
+<p>Oops! It only matches the values with two commas. To remove the commas from the values where the values may have up to two commas just combine the two patterns from above.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sed -e <span style="color:#e6db74">&#39;s/\(&#34;[^,]\{1,\}\),\([^,^&#34;]\{1,\}&#34;\)/\1\2/g&#39;</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    -e <span style="color:#e6db74">&#39;s/\(&#34;[^,]\{1,\}\),\([^,^&#34;]\{1,\}\),\([^,^&#34;]\{1,\}&#34;\)/\1\2\3/g&#39;</span> filename</code></pre></div>
+<p>Result:</p>
+
+<pre><code>VERIFIED,&quot;Apr 30 2004 12:00 AM&quot;,Jon Doe,&quot;3000000.00&quot;
+UNVERIFIED,&quot;Jan 30 2013 12:00 AM&quot;,Jane Doe,&quot;20000.00&quot;
+</code></pre>
+
+<p>This can be expanded to remove when values have more commas as long as the maximum number of commas in any value is known. I&rsquo;m sure this can be simplified and made elegant to deal with any number of commas. How would you do it? Using sed, awk, or perl? Let me know and I will add it here.</p>
 
 <p><small><em>All posts with <a href="/tags/backdated-post">backdated post</a> tag are published long after they were written.</em></small></p>
 
@@ -181,7 +203,7 @@ Error converting <span style="color:#66d9ef">data</span> <span style="color:#66d
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/sql'>Sql</a>, <a class='tag' href='/tags/query'>Query</a>, <a class='tag' href='/tags/backdated-post'>Backdated Post</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/unix'>Unix</a>, <a class='tag' href='/tags/sed'>Sed</a>, <a class='tag' href='/tags/csv'>Csv</a>, <a class='tag' href='/tags/backdated-post'>Backdated Post</a></div>
 
   </div>
 </footer>
@@ -191,7 +213,7 @@ Error converting <span style="color:#66d9ef">data</span> <span style="color:#66d
 
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
-      <a href='/blog/us-presidential-election-2016-trump-card/'>
+      <a href='/blog/what-have-i-been-up-to-this-summer/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -199,10 +221,10 @@ Error converting <span style="color:#66d9ef">data</span> <span style="color:#66d
   
 </svg>
  Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>US Presidential Elections</a>
+        <span class='screen-reader-text'>Previous post: </span>What Have I Been Up To This Summer?</a>
     </div><div class='next-entry sep-before'>
-      <a href='/blog/shell-scripts-to-manipulate-the-file-name-extensions/'>
-        <span class='screen-reader-text'>Next post: </span>Shell Scripts to Manipulate The File Name Extensions<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+      <a href='/blog/holy-crap-missing-in-action/'>
+        <span class='screen-reader-text'>Next post: </span>HOLY CRAP!!!<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="4" y1="12" x2="20" y2="12"/>
   <polyline points="14 6 20 12 14 18"/>

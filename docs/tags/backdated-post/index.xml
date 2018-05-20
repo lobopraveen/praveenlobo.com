@@ -23,10 +23,10 @@ The following snippets show how to change the file name extensions on multiple f
     
     <item>
       <title>SQL Error Converting The Data Type</title>
-      <link>https://praveenlobo.com/blog/sql-error-converting-the-data-type-/</link>
+      <link>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</link>
       <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/blog/sql-error-converting-the-data-type-/</guid>
+      <guid>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</guid>
       <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&amp;rsquo;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
 The problem was with a query that used to run fine for a long time and started failing a couple of weeks ago.</description>
     </item>
@@ -39,6 +39,16 @@ The problem was with a query that used to run fine for a long time and started f
       <guid>https://praveenlobo.com/blog/holy-crap-missing-in-action/</guid>
       <description>HOLY MOTHER OF SWEET BABY CORN! It has seriously been a long while! 3 years? 4 years? Surprised the blog still exists! LOL! Actually not that much surprised. I pay every year to renew hosting so I know it exists! 😛
 The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinished drafts from 2011, 2012, 2013 which are still not posted! I feel embarrassed; at the same time I feel overwhelmed thinking how fast the time flies!</description>
+    </item>
+    
+    <item>
+      <title>Remove Commas From Values in CSV File</title>
+      <link>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</link>
+      <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid>
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
+CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
     </item>
     
   </channel>
