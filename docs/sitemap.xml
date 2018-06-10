@@ -53,6 +53,16 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</loc>
+    <lastmod>2014-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</loc>
     <lastmod>2013-03-11T20:00:00+00:00</lastmod>
   </url>
@@ -1095,6 +1105,12 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/tags/excel/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/tags/facebook/</loc>
     <lastmod>2011-08-19T07:10:47+00:00</lastmod>
     <priority>0</priority>
@@ -1509,6 +1525,12 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/tags/power-query/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/tags/pumpkin/</loc>
     <lastmod>2011-11-05T16:04:35+00:00</lastmod>
     <priority>0</priority>
@@ -1869,6 +1891,12 @@
   </url>
   
   <url>
+    <loc>https://praveenlobo.com/tags/vba/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://praveenlobo.com/tags/views/</loc>
     <lastmod>2011-06-08T06:27:27+00:00</lastmod>
     <priority>0</priority>
@@ -1943,6 +1971,12 @@
   <url>
     <loc>https://praveenlobo.com/tags/worldcup/</loc>
     <lastmod>2011-04-08T06:41:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/xml/</loc>
+    <lastmod>2014-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

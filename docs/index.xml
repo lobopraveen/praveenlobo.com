@@ -101,6 +101,26 @@ The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinishe
     </item>
     
     <item>
+      <title>Using Excel To Compare Multiple XMLs</title>
+      <link>https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/</guid>
+      <description>The VBA code from last post explains how two XML strings that are already on the spreadsheet can be compared. This can be extended to add a search functionality to search and bring in the XML before running the comparison.
+Search File: To get a matching line from a file, use VBA code as shown here on the gists repo I maintain. Or just use power query as shown below and place the result in the XML cell.</description>
+    </item>
+    
+    <item>
+      <title>Comparing Two XMLs In Excel VBA</title>
+      <link>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</link>
+      <pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</guid>
+      <description>The easiest way to compare two XML files would be to see if any available tool can do the job. My favorite compare tool to use at work is Beyond Compare - it supports folders as well as files comparison, supports multiple file formats, and has ton of options. For personal use, I prefer meld as it is free and gets the job done.
+Although those are wonderful programs, they don&amp;rsquo;t fit every use case.</description>
+    </item>
+    
+    <item>
       <title>Remove Commas From Values in CSV File</title>
       <link>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</link>
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
