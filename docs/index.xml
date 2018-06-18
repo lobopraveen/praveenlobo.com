@@ -5,10 +5,21 @@
     <link>https://praveenlobo.com/</link>
     <description>Recent content in Home on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 May 2018 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jun 2018 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bookmark Tool/Manager Using JavaScript And jQuery Autocomplete</title>
+      <link>https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete/</link>
+      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete/</guid>
+      <description>How do you manage your bookmarks?
+ This is a regular question usually from new team members for the past ten years or so. My answer has been the same, &amp;ldquo;I use a tool I wrote.&amp;rdquo; followed by, &amp;ldquo;I will send you the LAN location where I have saved it. You can use it from there or just make a copy of your own.&amp;rdquo;
+I remember myself asking that question to others when I first started the job in mid 2000s.</description>
+    </item>
     
     <item>
       <title>Hugo Static Site on GitHub - Continuous Integration/Deployment</title>
