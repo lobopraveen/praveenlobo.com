@@ -39,7 +39,7 @@ I use [chrome://bookmarks/](chrome://bookmarks/) for personal use as I have mayb
  1. Cross browser sync and compatibility - a lot of enterprises still have applications that work only on IE! Using static HTML page that works in all browsers basically amounts to syncing between the browsers!
  1. Chrome opens file locations inside browser and IE opens them in Windows Explorer!
  1. Collaboration - all team members can use the same shared HTML page - I use a desktop shortcut to the shared page. A set of small published guidelines will help keep it consistent in terms of keywords.
- 1. Usability - keyword highlighting and key-up and key-down to select a link is not available in Chrome's bookmark manager.
+ 1. Usability - keyword highlighting, escape to search, and key-up/key-down to select a link is not available in Chrome's bookmark manager.
 
 This bookmark tool can be implemented on an intranet site or a website easily too. The list of keywords+URL pairs (and even the code itself) can be obtained from the server on `onfocus` event and the list could be customized on the backend based on the user.
 
@@ -90,6 +90,9 @@ The latest code can be found on [GitHub](https://github.com/lobopraveen/gists/tr
 <script type="text/javascript">
 
   $(document).ready(function() {
+    // search engine to use on escape key press. input entered will be appended to the URL
+    var searchEngineURL = "https://google.com/search?q=";
+    
     // Add new keywords and links here. File system and LAN links should escape "\" with an "\"
     var bookmarkList = [
           { value: "LAN Test App1",        url: "\\\\some\\lan\\location"},
@@ -116,7 +119,7 @@ The latest code can be found on [GitHub](https://github.com/lobopraveen/gists/tr
               // loop through each word typed
               for (j = 0; j < requestWords.length; j++) {
                 // check the word typed against the bookmark
-                regexp = new RegExp(requestWords[j], 'ig');
+                regexp = new RegExp(requestWords[j], "ig");
                 if (!bookmarkList[i].value.match(regexp)) {
                   // no match
                   break;
@@ -132,13 +135,13 @@ The latest code can be found on [GitHub](https://github.com/lobopraveen/gists/tr
         },
         select: function (event, ui) {window.location = ui.item.url;} // go to selected bookmark
 
-    }).data('ui-autocomplete')._renderItem = function (ul, item) {
+    }).data("ui-autocomplete")._renderItem = function (ul, item) {
       // build regex from each word typed
-      var searchTerm = $.trim(this.term).split(/\s+/).join('|');
+      var searchTerm = $.trim(this.term).split(/\s+/).join("|");
       var newLabel = item.label;
-      regexp = new RegExp('(' + searchTerm + ')', "ig");
+      regexp = new RegExp("(" + searchTerm + ")", "ig");
       // change text style for each matching term by sorrounding matching word/letters with span
-      newLabel = newLabel.replace(regexp, "<span style='font-weight:bold;color:blue;'>$1</span>");
+      newLabel = newLabel.replace(regexp, "<span style=\"font-weight:bold;color:blue;\">$1</span>");
       // add the newly created label to the autocomplete for rendering
       return $("<li></li>")
           .data("item.autocomplete", item)
@@ -148,9 +151,17 @@ The latest code can be found on [GitHub](https://github.com/lobopraveen/gists/tr
 
     // center the input box and set cursor
     $("#autocomplete").width(275).position({of: $(window)}).select();
+    
+    // Let escape key take the entry to the search engine
+    $("#autocomplete").keyup(function(e){ 
+        if (e.key == "Esc" || e.key == "Escape"){
+            window.location = searchEngineURL + $("#autocomplete").val(); 
+        }
+    });
+    
     // putting the signature in place and adding hyperlink
     $("#signature").css({"position":"fixed", "bottom":"10px", "right":"20px", "cursor":"pointer"})
-                   .click(function(){window.location = "https://praveenlobo.com"});
+                   .click(function(){ window.location = "https://praveenlobo.com";});
 
 });
 </script>
