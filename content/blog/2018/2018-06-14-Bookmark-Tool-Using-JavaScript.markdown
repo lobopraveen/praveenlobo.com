@@ -1,6 +1,6 @@
 +++
 title = "Bookmark Tool/Manager Using JavaScript And jQuery Autocomplete"
-description = "It is almost a decade old!"
+description = "It is over a decade old!"
 slug = "../Bookmark-Tool-Using-JavaScript-And-jQuery-Autocomplete"
 author = "Lobo"
 comments = "true"
@@ -12,7 +12,7 @@ tags = ["JavaScript", "HTML", "jQuery", "bookmark"]
 
 > How do you manage your bookmarks?
 
-This is a regular question usually from new team members for the past ten years or so. My answer has been the same, "I use a tool I wrote." followed by, "I will send you the LAN location where I have saved it. You can use it from there or just make a copy of your own."
+This is a regular question usually from new team members for the past ten years or so. My answer has been the same, "I use a tool I wrote." followed by, "I will send you a link. You can use it from there or just make a copy of your own."
 
 I remember myself asking that question to others when I first started the job in mid 2000s. Most of my seniors liked to store the links in excel or a word document as we were not allowed to use any browser other than the Internet Explorer (IE) and the bookmarks in IE weren't searchable. No tools were allowed either. This was, and in some cases still is, a common thing at workplaces in enterprises.
 
@@ -24,7 +24,7 @@ After a couple of months of trying different options, I ended up using an HTML p
 
 If you guessed it, I didn't shy away in creating my own bookmark tool either; however, I'm proud of it and use it even to this day! My version took the HTML page one step further by adding an input box and some JavaScript to search. The initial version was written in vanilla JavaScript and it would fire a search function `onkeyup` which would delete all rows from the table and add new rows that matched the input typed. On escape, it would redirect to the intranet search site with the text entered as search query.
 
-I re-wrote the HTML using jQuery and the autocomplete widget a couple of years after that and added `position` method to center the input box. I also used some answers from StackOverflow to implement search on multiple words. After that the only change I did, other than adding the new links, was to update the jQuery version while publishing it now.
+I re-wrote the HTML using jQuery and the autocomplete widget a couple of years after that and added `position` method to center the input box. I used some answers from StackOverflow to implement search on multiple words. After that the only change I did, other than adding the new links, was to update the jQuery version while publishing it now.
 
 
 #### Chrome's bookmark manager
@@ -41,7 +41,7 @@ I use [chrome://bookmarks/](chrome://bookmarks/) for personal use as I have mayb
  1. Collaboration - all team members can use the same shared HTML page - I use a desktop shortcut to the shared page. A set of small published guidelines will help keep it consistent in terms of keywords.
  1. Usability - keyword highlighting and key-up and key-down to select a link is not available in Chrome's bookmark manager.
 
-This can be implemented on an intranet site or a website easily too. The list of keywords+URL pairs (and even the code itself) can be obtained from the server on `onfocus` event.
+This bookmark tool can be implemented on an intranet site or a website easily too. The list of keywords+URL pairs (and even the code itself) can be obtained from the server on `onfocus` event and the list could be customized on the backend based on the user.
 
 This has saved me a lot of hours over the years and hope it helps you save some as well. Comments, suggestions, alternatives are always welcome. Please submit pull requests if you add any useful enhancements.
 The latest code can be found on [GitHub](https://github.com/lobopraveen/gists/tree/master/javascript). Here is a [demo](/media/51-75/54-bookmark-search/bookmark_search.html).
