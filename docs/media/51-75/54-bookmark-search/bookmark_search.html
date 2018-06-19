@@ -40,6 +40,9 @@
 <script type="text/javascript">
 
   $(document).ready(function() {
+    // search engine to use on escape key press. input entered will be appended to the URL
+    var searchEngineURL = "https://google.com/search?q=";
+
     // Add new keywords and links here. File system and LAN links should escape "\" with an "\"
     var bookmarkList = [
           { value: "LAN Test App1",        url: "\\\\some\\lan\\location"},
@@ -98,9 +101,17 @@
 
     // center the input box and set cursor
     $("#autocomplete").width(275).position({of: $(window)}).select();
+
+    // Let escape key take the entry to the search engine
+    $("#autocomplete").keyup(function(e){
+        if (e.key == "Esc" || e.key == "Escape"){
+            window.location = searchEngineURL + $("#autocomplete").val();
+        }
+    });
+
     // putting the signature in place and adding hyperlink
     $("#signature").css({"position":"fixed", "bottom":"10px", "right":"20px", "cursor":"pointer"})
-                   .click(function(){window.location = "https://praveenlobo.com"});
+                   .click(function(){window.location = "https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete"});
 
 });
 </script>
