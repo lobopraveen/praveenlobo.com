@@ -47,6 +47,8 @@ hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
 showReadingTime = true
 taxonomyCloudShuffle = true
+accentColor = "#ffcd00"
+hideMainMenu = false
 
 [params.sidebar]
 enable = false
@@ -54,7 +56,8 @@ sticky = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","social_menu"]
+sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+footer = ["social_menu"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -73,12 +76,44 @@ codepen = ""
 email = "lobopraveen@gmail.com"
 facebook = "lobopraveen"
 github = "lobopraveen"
+gitlab = ""
 instagram = "lobopraveen"
 linkedin = "lobopraveen"
 twitter = "lobopraveen"
 telegram = ""
 google_scholar = ""
+youtube = ""
 stackoverflow = "319542"
+
+[params.comments]
+enable = false
+
+[params.comments.staticman]
+enable = false
+apiEndpoint = "https://api.staticman.net/v2/entry"
+maxDepth = 3
+
+[params.comments.staticman.github]
+username = "lobopraveen"
+repository = "praveenlobo.com"
+branch = "master"
+
+# Utterances: https://utteranc.es
+[params.comments.utterances]
+enable = false
+issueTerm = "pathname" # pathname / url / title
+
+[params.comments.utterances.github]
+username = "lobopraveen"
+repository = "praveenlobo.com"
+
+[params.search]
+client = "fuse" # algolia / fuse / lunr
+
+[params.search.algolia]
+appId = ""
+indexName = ""
+searchApiKey = ""
 
 [params.social.config]
 platforms = ["email","linkedin","github","stackoverflow"] #,"facebook","twitter","instagram"]
@@ -86,6 +121,7 @@ platforms = ["email","linkedin","github","stackoverflow"] #,"facebook","twitter"
 [taxonomies]
 #author = "authors"
 category = "categories"
+#series = "series"
 tag = "tags"
 
 [permalinks]
@@ -104,7 +140,7 @@ weight = 1
 
 [[menu.main]]
     name = "Search"
-    url = "https://www.google.com/search?q=site:praveenlobo.com"
+    url = "/search"
     weight = -1
 
 [[menu.main]]

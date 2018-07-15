@@ -14,5 +14,3 @@ To keep things simple I have _binary_ categories:
 
 Infinite tags - although I try, the usage of tags might not be consistent across the site.   
 &nbsp;&nbsp;&nbsp; [«Tag Cloud»](/tags)
-
-
