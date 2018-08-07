@@ -5,7 +5,7 @@ copyright = ""
 
 theme = "minimo"
 
-disqusShortname = "lobopraveen"
+disqusShortname = "" # "lobopraveen"
 googleAnalytics = "UA-20788457-1"
 
 Paginate = 10
@@ -76,7 +76,7 @@ codepen = ""
 email = "lobopraveen@gmail.com"
 facebook = "lobopraveen"
 github = "lobopraveen"
-gitlab = ""
+gitlab = "lobopraveen"
 instagram = "lobopraveen"
 linkedin = "lobopraveen"
 twitter = "lobopraveen"
@@ -89,7 +89,7 @@ stackoverflow = "319542"
 enable = false
 
 [params.comments.staticman]
-enable = false
+enable = true
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 3
 
@@ -116,7 +116,7 @@ indexName = ""
 searchApiKey = ""
 
 [params.social.config]
-platforms = ["email","linkedin","github","stackoverflow"] #,"facebook","twitter","instagram"]
+platforms = ["email","linkedin","github","gitlab","stackoverflow"] #,"facebook","twitter","instagram"]
 
 [taxonomies]
 #author = "authors"
