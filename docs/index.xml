@@ -5,10 +5,20 @@
     <link>https://praveenlobo.com/</link>
     <description>Recent content in Home on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Jul 2018 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Get Last Friday Of The Month In Java</title>
+      <link>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid>
+      <description>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.
+If you didn&amp;rsquo;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
+    </item>
     
     <item>
       <title>Search</title>
