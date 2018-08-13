@@ -20,17 +20,16 @@ before_script:
 # "Step 6 - setting up git parameters"
 - git config --global user.email "lobopraveen@gmail.com"
 - git config --global user.name "travis"
-# "Step 7 - commit the changes to the originating branch"
+# "Step 7 - commit the changes to the branch - $TRAVIS_BRANCH"
+- git status
 - git stash
-- git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
-- git fetch 
-- git checkout $(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
+- git checkout $TRAVIS_BRANCH
 - git stash pop
 - git add -A
 - git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
-# "Step 8 - push the changes to github"
+# "Step 8 - push the changes to github if it is not a pull request"
 - git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
-- git push origin
+- if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git push origin; fi
 # "Successfully built and deployed the site!"
 
 script:
