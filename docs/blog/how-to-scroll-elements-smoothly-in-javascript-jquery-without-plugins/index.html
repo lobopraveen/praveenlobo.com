@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='scroll'><meta property='article:tag' content='jQuery'><meta property='article:tag' content='HTML'><meta property='article:published_time' content='2011-08-11T02:08:01Z'/><meta property='article:modified_time' content='2011-08-11T02:08:01Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.55.0-DEV" />
 
   <title>How to scroll elements smoothly in JavaScript/jQuery  • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/'>
@@ -219,7 +219,7 @@ if (!doNotTrack) {
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">scrollTop</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
-    <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;html,body&#39;</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> (<span style="color:#a6e22e">$</span>(window).<span style="color:#a6e22e">height</span>()<span style="color:#960050;background-color:#1e0010">/3) }, { duration: 1000, easing: &#39;swing&#39;});</span>
+    <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;html,body&#39;</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> (<span style="color:#a6e22e">$</span>(window).<span style="color:#a6e22e">height</span>()<span style="color:#f92672">/</span><span style="color:#ae81ff">3</span>) }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1000</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
 
@@ -378,7 +378,7 @@ Any help would be really appreciated!
       <footer id='footer' class='footer'>
         <div class='container sep-before'><section class='widget widget-social_menu sep-after'><nav aria-label='Social Menu'>
     <ul><li>
-        <a href='mailto:lobopraveen@gmail.com' target='_blank' rel='noopener'>
+        <a href='mailto:gmail@praveenlobo.com' target='_blank' rel='noopener'>
           <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
