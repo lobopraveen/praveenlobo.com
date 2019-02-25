@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'>
-
-<head>
+<html lang='en'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='Count Days.'>
@@ -11,16 +9,16 @@
 <meta property='og:description' content='Count Days.'>
 <meta property='og:url' content='https://praveenlobo.com/blog/javascript-counter-count-days/'>
 <meta property='og:site_name' content='Praveen Lobo'>
-<meta property='og:type' content='article'><meta property='article:section' content='Blog'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='count up'><meta property='article:tag' content='count down'><meta property='article:tag' content='counter'><meta property='article:tag' content='timer'><meta property='article:published_time' content='2011-06-12T00:52:10Z'/><meta property='article:modified_time' content='2011-06-12T00:52:10Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='count up'><meta property='article:tag' content='count down'><meta property='article:tag' content='counter'><meta property='article:tag' content='timer'><meta property='article:published_time' content='2011-06-12T00:52:10Z'/><meta property='article:modified_time' content='2011-06-12T00:52:10Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.47-DEV" />
+<meta name="generator" content="Hugo 0.54.0" />
 
   <title>Javascript Counter • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/javascript-counter-count-days/'>
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.809149b6.css'><style>
+<link rel='stylesheet' href='/assets/css/main.4a10984a.css'><style>
 :root{--color-accent:#ffcd00;}
 </style>
 
@@ -38,17 +36,9 @@ if (!doNotTrack) {
   
 
 </head>
-
-
 <body class='page type-blog'>
 
-  <div class='site'>
-
-    <a class='screen-reader-text' href='#content'>Skip to Content</a>
-
-    <div class='main'>
-
-      <nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
+  <div class='site'><a class='screen-reader-text' href='#content'>Skip to Content</a><div class='main'><nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
   <div class='container'>
     
     <ul><li class='item'>
@@ -69,7 +59,9 @@ if (!doNotTrack) {
         <a href='/about'>About</a>
       </li></ul>
   </div>
-</nav>
+</nav><div class='header-widgets'>
+        <div class='container'></div>
+      </div>
 
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
@@ -91,8 +83,7 @@ if (!doNotTrack) {
 
 
     </div>
-    
-<div class='entry-meta'>
+    <div class='entry-meta'>
   <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
@@ -189,7 +180,7 @@ if (!doNotTrack) {
 <p><strong>JavaScript Day Counter - The below code is optimized for past dates.</strong><br />
 It will work with future dates too; however, the days will show &ldquo;000 day&rdquo; until the (future date + 1) unlike the other script (which shows days left until future days and then just rolls over to show the counter). Also, the counter gets updated randomly which, I think, shouldn&rsquo;t be a problem.</p>
 
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#75715e">/**********************************************************************************************
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#75715e">/**********************************************************************************************
 </span><span style="color:#75715e"># MIT License
 </span><span style="color:#75715e">#
 </span><span style="color:#75715e"># Copyright (c) 2011 Praveen Lobo (praveenlobo.com)
@@ -230,12 +221,12 @@ It will work with future dates too; however, the days will show &ldquo;000 day&r
     <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">self</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>;
     <span style="color:#a6e22e">setTimeout</span>(<span style="color:#66d9ef">function</span>(){<span style="color:#a6e22e">self</span>.<span style="color:#a6e22e">calculate</span>();}, (<span style="color:#f92672">++</span><span style="color:#a6e22e">nextUpdate</span><span style="color:#f92672">*</span><span style="color:#ae81ff">1000</span>));
 }
-</code></pre></div></p>
+</code></pre></div>
 
 <p><strong>JavaScript Day Counter Fraction.</strong><br />
 This counter will count the fraction part too. This updates every 1/100th of a day i.e. every 0.01 day.</p>
 
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#75715e">/**********************************************************************************************
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#75715e">/**********************************************************************************************
 </span><span style="color:#75715e"># MIT License
 </span><span style="color:#75715e">#
 </span><span style="color:#75715e"># Copyright (c) 2011 Praveen Lobo (praveenlobo.com)
@@ -275,7 +266,7 @@ This counter will count the fraction part too. This updates every 1/100th of a d
     <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">nextUpdate</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">nextUpdate</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">secDiff</span> <span style="color:#f92672">%</span> <span style="color:#ae81ff">864</span>).<span style="color:#a6e22e">toFixed</span>(<span style="color:#ae81ff">0</span>)) <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">?</span> (<span style="color:#a6e22e">nextUpdate</span><span style="color:#f92672">*-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">:</span> (<span style="color:#ae81ff">864</span><span style="color:#f92672">-</span><span style="color:#a6e22e">nextUpdate</span>);
     <span style="color:#a6e22e">setTimeout</span>(<span style="color:#66d9ef">function</span>(){<span style="color:#a6e22e">self</span>.<span style="color:#a6e22e">calculate</span>();}, (<span style="color:#f92672">++</span><span style="color:#a6e22e">nextUpdate</span><span style="color:#f92672">*</span><span style="color:#ae81ff">1000</span>));
 }
-</code></pre></div></p>
+</code></pre></div>
 
 <p><strong>Note</strong>: <a href="/media/00-25/06-counters-demo/daycounterfraction-demo.html">Day Counter Fraction Demo page</a>.</p>
 
@@ -285,24 +276,19 @@ This counter will count the fraction part too. This updates every 1/100th of a d
 
   
 <footer class='entry-footer'>
-  <div class='container sep-before'>
-  <div class='categories'>
-  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  <div class='container sep-before'><div class='categories'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
   
 </svg>
-</span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/1/'>1</a></div>
-<div class='tags'>
-  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+<span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/1/'>1</a></div>
+<div class='tags'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
   <line x1="7" y1="7" x2="7" y2="7"/>
   
 </svg>
-</span>
-  <span class='screen-reader-text'>Tags: </span>, <a class='tag' href='/tags/counter/'>Counter</a>, <a class='tag' href='/tags/timer/'>Timer</a></div>
+<span class='screen-reader-text'>Tags: </span>, <a class='tag' href='/tags/counter/'>Counter</a>, <a class='tag' href='/tags/timer/'>Timer</a></div>
 
   </div>
 </footer>
@@ -432,14 +418,6 @@ This counter will count the fraction part too. This updates every 1/100th of a d
 </svg>
 </a>
       </li><li>
-        <a href='https://facebook.com/lobopraveen' target='_blank' rel='noopener'>
-          <span class='screen-reader-text'>Open Facebook account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-  
-</svg>
-</a>
-      </li><li>
         <a href='https://twitter.com/lobopraveen' target='_blank' rel='noopener'>
           <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -460,7 +438,7 @@ This counter will count the fraction part too. This updates every 1/100th of a d
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2018 Praveen Lobo </p>
+  <p> &copy; 2018-2019 Praveen Lobo </p>
 </div>
 
         </div>
@@ -469,9 +447,7 @@ This counter will count the fraction part too. This updates every 1/100th of a d
     </div>
   </div><script>window.__public_path__='\/assets\/js\/'</script>
 
-<script src='/assets/js/main.68cb493a.js'></script><script src='/js/custom.js'></script>
-
-
+<script src='/assets/js/main.fae8ed32.js'></script><script src='/js/custom.js'></script>
 
 </body>
 
