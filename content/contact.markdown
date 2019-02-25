@@ -10,8 +10,8 @@ timezone = "IST"
 
 You can find a few ways to connect with me at the bottom of every page on this site.
 
-- **Facebook/Instagram** - I'm not an active user and will not add people unless it is family or close friends.
-- **Twitter** - I'm fairly active on twitter mostly tweeting about things that are currently on my mind, current affairs and my _quick_ views on it etc. [Here are a select few!](/twitter-feed-selected)
+- ~~**Facebook** - I'm not an active user and will not add people unless it is family or close friends.~~ No more Facebook!
+- **Twitter** - I'm fairly active on twitter mostly tweeting about things that are currently on my mind, current affairs, and my _quick_ views on it etc.
 
 ---
 
