@@ -59,14 +59,6 @@ homepage = ["recent_posts"]
 sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
 [params.seo]
 # Title Separator: - – — · • * ⋆ | ~ « » < >
 titleSeparator = "•"
@@ -74,7 +66,6 @@ titleSeparator = "•"
 [params.social]
 codepen = ""
 email = "lobopraveen@gmail.com"
-facebook = "lobopraveen"
 github = "lobopraveen"
 gitlab = "lobopraveen"
 instagram = "lobopraveen"
@@ -116,7 +107,7 @@ indexName = ""
 searchApiKey = ""
 
 [params.social.config]
-platforms = ["email","linkedin","github","gitlab","stackoverflow"] #,"facebook","twitter","instagram"]
+platforms = ["email","linkedin","github","gitlab","stackoverflow","twitter","instagram"]
 
 [taxonomies]
 #author = "authors"
