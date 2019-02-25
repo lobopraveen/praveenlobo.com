@@ -27,9 +27,9 @@ before_script:
 - git stash pop
 - git add -A
 - git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
-# "Step 8 - push the changes to github"
+# "Step 8 - push the changes to github if it is not a pull request"
 - git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
-- git push origin
+- if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git push origin; fi
 # "Successfully built and deployed the site!"
 
 script:
