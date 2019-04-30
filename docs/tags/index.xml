@@ -5,35 +5,188 @@
     <link>https://praveenlobo.com/tags/</link>
     <description>Recent content in Tags on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Jan 2011 09:16:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Adsense</title>
-      <link>https://praveenlobo.com/tags/adsense/</link>
-      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      <title>GitLab</title>
+      <link>https://praveenlobo.com/tags/gitlab/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/adsense/</guid>
+      <guid>https://praveenlobo.com/tags/gitlab/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Advice</title>
-      <link>https://praveenlobo.com/tags/advice/</link>
-      <pubDate>Tue, 09 Aug 2011 04:23:03 +0000</pubDate>
+      <title>Java</title>
+      <link>https://praveenlobo.com/tags/java/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/advice/</guid>
+      <guid>https://praveenlobo.com/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Airport</title>
-      <link>https://praveenlobo.com/tags/airport/</link>
-      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
+      <title>ci cd</title>
+      <link>https://praveenlobo.com/tags/ci-cd/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/airport/</guid>
+      <guid>https://praveenlobo.com/tags/ci-cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gradle</title>
+      <link>https://praveenlobo.com/tags/gradle/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/gradle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>junit</title>
+      <link>https://praveenlobo.com/tags/junit/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/junit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://praveenlobo.com/tags/html/</link>
+      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://praveenlobo.com/tags/javascript/</link>
+      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bookmark</title>
+      <link>https://praveenlobo.com/tags/bookmark/</link>
+      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bookmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jQuery</title>
+      <link>https://praveenlobo.com/tags/jquery/</link>
+      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>https://praveenlobo.com/tags/automation/</link>
+      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://praveenlobo.com/tags/hugo/</link>
+      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static site</title>
+      <link>https://praveenlobo.com/tags/static-site/</link>
+      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/static-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travis</title>
+      <link>https://praveenlobo.com/tags/travis/</link>
+      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/travis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://praveenlobo.com/tags/blog/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>https://praveenlobo.com/tags/wordpress/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UNIX</title>
+      <link>https://praveenlobo.com/tags/unix/</link>
+      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backdated post</title>
+      <link>https://praveenlobo.com/tags/backdated-post/</link>
+      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/backdated-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>script</title>
+      <link>https://praveenlobo.com/tags/script/</link>
+      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>query</title>
+      <link>https://praveenlobo.com/tags/query/</link>
+      <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://praveenlobo.com/tags/sql/</link>
+      <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/sql/</guid>
       <description></description>
     </item>
     
@@ -47,106 +200,187 @@
     </item>
     
     <item>
-      <title>Analytics</title>
-      <link>https://praveenlobo.com/tags/analytics/</link>
-      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      <title>referral</title>
+      <link>https://praveenlobo.com/tags/referral/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/analytics/</guid>
+      <guid>https://praveenlobo.com/tags/referral/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Anonymous</title>
-      <link>https://praveenlobo.com/tags/anonymous/</link>
-      <pubDate>Sat, 05 Nov 2011 16:04:35 +0000</pubDate>
+      <title>reviews</title>
+      <link>https://praveenlobo.com/tags/reviews/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/anonymous/</guid>
+      <guid>https://praveenlobo.com/tags/reviews/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Appraisal</title>
-      <link>https://praveenlobo.com/tags/appraisal/</link>
-      <pubDate>Thu, 13 Jan 2011 23:53:47 +0000</pubDate>
+      <title>current affairs</title>
+      <link>https://praveenlobo.com/tags/current-affairs/</link>
+      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/appraisal/</guid>
+      <guid>https://praveenlobo.com/tags/current-affairs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Art</title>
-      <link>https://praveenlobo.com/tags/art/</link>
-      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
+      <title>delegates</title>
+      <link>https://praveenlobo.com/tags/delegates/</link>
+      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/art/</guid>
+      <guid>https://praveenlobo.com/tags/delegates/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Auction</title>
-      <link>https://praveenlobo.com/tags/auction/</link>
-      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      <title>elections</title>
+      <link>https://praveenlobo.com/tags/elections/</link>
+      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/auction/</guid>
+      <guid>https://praveenlobo.com/tags/elections/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Automation</title>
-      <link>https://praveenlobo.com/tags/automation/</link>
-      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
+      <title>electors</title>
+      <link>https://praveenlobo.com/tags/electors/</link>
+      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/automation/</guid>
+      <guid>https://praveenlobo.com/tags/electors/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Autosys</title>
-      <link>https://praveenlobo.com/tags/autosys/</link>
-      <pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate>
+      <title>rant</title>
+      <link>https://praveenlobo.com/tags/rant/</link>
+      <pubDate>Thu, 29 Oct 2015 20:58:12 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/autosys/</guid>
+      <guid>https://praveenlobo.com/tags/rant/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Backdated Post</title>
-      <link>https://praveenlobo.com/tags/backdated-post/</link>
-      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
+      <title>todo</title>
+      <link>https://praveenlobo.com/tags/todo/</link>
+      <pubDate>Thu, 29 Oct 2015 20:58:12 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/backdated-post/</guid>
+      <guid>https://praveenlobo.com/tags/todo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bangalore</title>
-      <link>https://praveenlobo.com/tags/bangalore/</link>
-      <pubDate>Sat, 19 Jun 2010 17:20:06 +0000</pubDate>
+      <title>VBA</title>
+      <link>https://praveenlobo.com/tags/vba/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bangalore/</guid>
+      <guid>https://praveenlobo.com/tags/vba/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bbmp</title>
-      <link>https://praveenlobo.com/tags/bbmp/</link>
-      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
+      <title>XML</title>
+      <link>https://praveenlobo.com/tags/xml/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bbmp/</guid>
+      <guid>https://praveenlobo.com/tags/xml/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bears</title>
-      <link>https://praveenlobo.com/tags/bears/</link>
-      <pubDate>Thu, 27 Jan 2011 07:07:16 +0000</pubDate>
+      <title>excel</title>
+      <link>https://praveenlobo.com/tags/excel/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bears/</guid>
+      <guid>https://praveenlobo.com/tags/excel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bicycle</title>
+      <title>power query</title>
+      <link>https://praveenlobo.com/tags/power-query/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/power-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csv</title>
+      <link>https://praveenlobo.com/tags/csv/</link>
+      <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/csv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sed</title>
+      <link>https://praveenlobo.com/tags/sed/</link>
+      <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/sed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tennis</title>
+      <link>https://praveenlobo.com/tags/tennis/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/tennis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>road trip</title>
+      <link>https://praveenlobo.com/tags/road-trip/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/road-trip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>run</title>
+      <link>https://praveenlobo.com/tags/run/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/run/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sailing</title>
+      <link>https://praveenlobo.com/tags/sailing/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/sailing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>skydiving</title>
+      <link>https://praveenlobo.com/tags/skydiving/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/skydiving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://praveenlobo.com/tags/work/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bicycle</title>
       <link>https://praveenlobo.com/tags/bicycle/</link>
       <pubDate>Sun, 03 Jun 2012 16:46:47 +0000</pubDate>
       
@@ -155,16 +389,7 @@
     </item>
     
     <item>
-      <title>Bidding</title>
-      <link>https://praveenlobo.com/tags/bidding/</link>
-      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/bidding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bike Ride</title>
+      <title>bike ride</title>
       <link>https://praveenlobo.com/tags/bike-ride/</link>
       <pubDate>Sun, 03 Jun 2012 16:46:47 +0000</pubDate>
       
@@ -173,70 +398,151 @@
     </item>
     
     <item>
-      <title>Biriyani</title>
-      <link>https://praveenlobo.com/tags/biriyani/</link>
-      <pubDate>Mon, 06 Sep 2010 16:21:53 +0000</pubDate>
+      <title>upaf</title>
+      <link>https://praveenlobo.com/tags/upaf/</link>
+      <pubDate>Sun, 03 Jun 2012 16:46:47 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/biriyani/</guid>
+      <guid>https://praveenlobo.com/tags/upaf/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blizzard</title>
-      <link>https://praveenlobo.com/tags/blizzard/</link>
-      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
+      <title>motorbike</title>
+      <link>https://praveenlobo.com/tags/motorbike/</link>
+      <pubDate>Mon, 09 Apr 2012 03:08:32 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/blizzard/</guid>
+      <guid>https://praveenlobo.com/tags/motorbike/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://praveenlobo.com/tags/blog/</link>
-      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      <title>motorcycle</title>
+      <link>https://praveenlobo.com/tags/motorcycle/</link>
+      <pubDate>Mon, 09 Apr 2012 03:08:32 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/blog/</guid>
+      <guid>https://praveenlobo.com/tags/motorcycle/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bookmark</title>
-      <link>https://praveenlobo.com/tags/bookmark/</link>
-      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      <title>family</title>
+      <link>https://praveenlobo.com/tags/family/</link>
+      <pubDate>Wed, 04 Apr 2012 01:50:53 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bookmark/</guid>
+      <guid>https://praveenlobo.com/tags/family/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bookmarklet</title>
-      <link>https://praveenlobo.com/tags/bookmarklet/</link>
-      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      <title>school</title>
+      <link>https://praveenlobo.com/tags/school/</link>
+      <pubDate>Wed, 04 Apr 2012 01:50:53 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bookmarklet/</guid>
+      <guid>https://praveenlobo.com/tags/school/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bots</title>
-      <link>https://praveenlobo.com/tags/bots/</link>
-      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      <title>packers</title>
+      <link>https://praveenlobo.com/tags/packers/</link>
+      <pubDate>Thu, 22 Mar 2012 03:12:11 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bots/</guid>
+      <guid>https://praveenlobo.com/tags/packers/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Breach</title>
-      <link>https://praveenlobo.com/tags/breach/</link>
-      <pubDate>Wed, 15 Dec 2010 08:15:35 +0000</pubDate>
+      <title>Timezone</title>
+      <link>https://praveenlobo.com/tags/timezone/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/breach/</guid>
+      <guid>https://praveenlobo.com/tags/timezone/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bribe</title>
+      <title>UTC</title>
+      <link>https://praveenlobo.com/tags/utc/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/utc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epoch</title>
+      <link>https://praveenlobo.com/tags/epoch/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/epoch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>locale</title>
+      <link>https://praveenlobo.com/tags/locale/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/locale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dst</title>
+      <link>https://praveenlobo.com/tags/dst/</link>
+      <pubDate>Wed, 21 Dec 2011 02:03:14 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/dst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://praveenlobo.com/tags/google/</link>
+      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Voice</title>
+      <link>https://praveenlobo.com/tags/google-voice/</link>
+      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/google-voice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://praveenlobo.com/tags/mobile/</link>
+      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VOIP</title>
+      <link>https://praveenlobo.com/tags/voip/</link>
+      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/voip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voice mail</title>
+      <link>https://praveenlobo.com/tags/voice-mail/</link>
+      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/voice-mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bribe</title>
       <link>https://praveenlobo.com/tags/bribe/</link>
       <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
       
@@ -245,43 +551,52 @@
     </item>
     
     <item>
-      <title>Bsnl</title>
-      <link>https://praveenlobo.com/tags/bsnl/</link>
-      <pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate>
+      <title>corruption</title>
+      <link>https://praveenlobo.com/tags/corruption/</link>
+      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bsnl/</guid>
+      <guid>https://praveenlobo.com/tags/corruption/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bug</title>
-      <link>https://praveenlobo.com/tags/bug/</link>
-      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
+      <title>fear</title>
+      <link>https://praveenlobo.com/tags/fear/</link>
+      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bug/</guid>
+      <guid>https://praveenlobo.com/tags/fear/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bus</title>
-      <link>https://praveenlobo.com/tags/bus/</link>
-      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
+      <title>friends</title>
+      <link>https://praveenlobo.com/tags/friends/</link>
+      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/bus/</guid>
+      <guid>https://praveenlobo.com/tags/friends/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Camping</title>
-      <link>https://praveenlobo.com/tags/camping/</link>
-      <pubDate>Wed, 10 Aug 2011 01:36:14 +0000</pubDate>
+      <title>skydive</title>
+      <link>https://praveenlobo.com/tags/skydive/</link>
+      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/camping/</guid>
+      <guid>https://praveenlobo.com/tags/skydive/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Carving</title>
+      <title>anonymous</title>
+      <link>https://praveenlobo.com/tags/anonymous/</link>
+      <pubDate>Sat, 05 Nov 2011 16:04:35 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/anonymous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carving</title>
       <link>https://praveenlobo.com/tags/carving/</link>
       <pubDate>Sat, 05 Nov 2011 16:04:35 +0000</pubDate>
       
@@ -290,79 +605,34 @@
     </item>
     
     <item>
-      <title>Checkbox</title>
-      <link>https://praveenlobo.com/tags/checkbox/</link>
-      <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
+      <title>halloween</title>
+      <link>https://praveenlobo.com/tags/halloween/</link>
+      <pubDate>Sat, 05 Nov 2011 16:04:35 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/checkbox/</guid>
+      <guid>https://praveenlobo.com/tags/halloween/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Checklist</title>
-      <link>https://praveenlobo.com/tags/checklist/</link>
-      <pubDate>Wed, 10 Aug 2011 05:16:33 +0000</pubDate>
+      <title>pumpkin</title>
+      <link>https://praveenlobo.com/tags/pumpkin/</link>
+      <pubDate>Sat, 05 Nov 2011 16:04:35 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/checklist/</guid>
+      <guid>https://praveenlobo.com/tags/pumpkin/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chennai</title>
-      <link>https://praveenlobo.com/tags/chennai/</link>
-      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
+      <title>deepavali</title>
+      <link>https://praveenlobo.com/tags/deepavali/</link>
+      <pubDate>Mon, 31 Oct 2011 04:27:34 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/chennai/</guid>
+      <guid>https://praveenlobo.com/tags/deepavali/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chicago</title>
-      <link>https://praveenlobo.com/tags/chicago/</link>
-      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/chicago/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Childhood</title>
-      <link>https://praveenlobo.com/tags/childhood/</link>
-      <pubDate>Sat, 20 Aug 2011 04:54:12 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/childhood/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ci Cd</title>
-      <link>https://praveenlobo.com/tags/ci-cd/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/ci-cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>https://praveenlobo.com/tags/code/</link>
-      <pubDate>Wed, 10 Aug 2011 12:57:52 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coins</title>
-      <link>https://praveenlobo.com/tags/coins/</link>
-      <pubDate>Sat, 08 May 2010 17:48:45 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/coins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collection</title>
+      <title>collection</title>
       <link>https://praveenlobo.com/tags/collection/</link>
       <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
       
@@ -371,7 +641,205 @@
     </item>
     
     <item>
-      <title>Comments</title>
+      <title>sublist</title>
+      <link>https://praveenlobo.com/tags/sublist/</link>
+      <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/sublist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rollerblade</title>
+      <link>https://praveenlobo.com/tags/rollerblade/</link>
+      <pubDate>Sat, 22 Oct 2011 05:54:36 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/rollerblade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>football</title>
+      <link>https://praveenlobo.com/tags/football/</link>
+      <pubDate>Sat, 15 Oct 2011 18:11:09 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/football/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rip</title>
+      <link>https://praveenlobo.com/tags/rip/</link>
+      <pubDate>Fri, 14 Oct 2011 02:41:54 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/rip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>saints</title>
+      <link>https://praveenlobo.com/tags/saints/</link>
+      <pubDate>Sat, 10 Sep 2011 01:37:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/saints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roadtrip</title>
+      <link>https://praveenlobo.com/tags/roadtrip/</link>
+      <pubDate>Wed, 07 Sep 2011 01:45:28 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/roadtrip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubikcube</title>
+      <link>https://praveenlobo.com/tags/rubikcube/</link>
+      <pubDate>Wed, 07 Sep 2011 01:45:28 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/rubikcube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kayaking</title>
+      <link>https://praveenlobo.com/tags/kayaking/</link>
+      <pubDate>Tue, 06 Sep 2011 04:15:45 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/kayaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>michigan</title>
+      <link>https://praveenlobo.com/tags/michigan/</link>
+      <pubDate>Tue, 06 Sep 2011 04:15:45 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/michigan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://praveenlobo.com/tags/travel/</link>
+      <pubDate>Tue, 06 Sep 2011 04:15:45 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lokpal</title>
+      <link>https://praveenlobo.com/tags/lokpal/</link>
+      <pubDate>Tue, 23 Aug 2011 05:58:27 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/lokpal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>childhood</title>
+      <link>https://praveenlobo.com/tags/childhood/</link>
+      <pubDate>Sat, 20 Aug 2011 04:54:12 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/childhood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memories</title>
+      <link>https://praveenlobo.com/tags/memories/</link>
+      <pubDate>Sat, 20 Aug 2011 04:54:12 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/memories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mystory</title>
+      <link>https://praveenlobo.com/tags/mystory/</link>
+      <pubDate>Sat, 20 Aug 2011 04:54:12 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/mystory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Milwaukee</title>
+      <link>https://praveenlobo.com/tags/milwaukee/</link>
+      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/milwaukee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebook</title>
+      <link>https://praveenlobo.com/tags/facebook/</link>
+      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>orkut</title>
+      <link>https://praveenlobo.com/tags/orkut/</link>
+      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/orkut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lokayukta</title>
+      <link>https://praveenlobo.com/tags/lokayukta/</link>
+      <pubDate>Thu, 18 Aug 2011 05:44:24 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/lokayukta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>String</title>
+      <link>https://praveenlobo.com/tags/string/</link>
+      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/string/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tokenizer</title>
+      <link>https://praveenlobo.com/tags/tokenizer/</link>
+      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/tokenizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scroll</title>
+      <link>https://praveenlobo.com/tags/scroll/</link>
+      <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/scroll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://praveenlobo.com/tags/code/</link>
+      <pubDate>Wed, 10 Aug 2011 12:57:52 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comments</title>
       <link>https://praveenlobo.com/tags/comments/</link>
       <pubDate>Wed, 10 Aug 2011 12:57:52 +0000</pubDate>
       
@@ -380,29 +848,272 @@
     </item>
     
     <item>
-      <title>Compression</title>
-      <link>https://praveenlobo.com/tags/compression/</link>
-      <pubDate>Sat, 02 Apr 2011 03:08:10 +0000</pubDate>
+      <title>support</title>
+      <link>https://praveenlobo.com/tags/support/</link>
+      <pubDate>Wed, 10 Aug 2011 12:57:52 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/compression/</guid>
+      <guid>https://praveenlobo.com/tags/support/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cooking</title>
-      <link>https://praveenlobo.com/tags/cooking/</link>
-      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
+      <title>checklist</title>
+      <link>https://praveenlobo.com/tags/checklist/</link>
+      <pubDate>Wed, 10 Aug 2011 05:16:33 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/cooking/</guid>
+      <guid>https://praveenlobo.com/tags/checklist/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Corruption</title>
-      <link>https://praveenlobo.com/tags/corruption/</link>
-      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
+      <title>camping</title>
+      <link>https://praveenlobo.com/tags/camping/</link>
+      <pubDate>Wed, 10 Aug 2011 01:36:14 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/corruption/</guid>
+      <guid>https://praveenlobo.com/tags/camping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hiking</title>
+      <link>https://praveenlobo.com/tags/hiking/</link>
+      <pubDate>Wed, 10 Aug 2011 01:36:14 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/hiking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>advice</title>
+      <link>https://praveenlobo.com/tags/advice/</link>
+      <pubDate>Tue, 09 Aug 2011 04:23:03 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/advice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coworker</title>
+      <link>https://praveenlobo.com/tags/coworker/</link>
+      <pubDate>Tue, 09 Aug 2011 04:23:03 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/coworker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dropdown</title>
+      <link>https://praveenlobo.com/tags/dropdown/</link>
+      <pubDate>Fri, 05 Aug 2011 03:54:08 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/dropdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>null</title>
+      <link>https://praveenlobo.com/tags/null/</link>
+      <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/null/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oops</title>
+      <link>https://praveenlobo.com/tags/oops/</link>
+      <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/oops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>auction</title>
+      <link>https://praveenlobo.com/tags/auction/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/auction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bidding</title>
+      <link>https://praveenlobo.com/tags/bidding/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bidding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bookmarklet</title>
+      <link>https://praveenlobo.com/tags/bookmarklet/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bookmarklet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bots</title>
+      <link>https://praveenlobo.com/tags/bots/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>penny</title>
+      <link>https://praveenlobo.com/tags/penny/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/penny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scam</title>
+      <link>https://praveenlobo.com/tags/scam/</link>
+      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/scam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goal</title>
+      <link>https://praveenlobo.com/tags/goal/</link>
+      <pubDate>Sat, 30 Jul 2011 05:15:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/goal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://praveenlobo.com/tags/tutorial/</link>
+      <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graph</title>
+      <link>https://praveenlobo.com/tags/graph/</link>
+      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heatwave</title>
+      <link>https://praveenlobo.com/tags/heatwave/</link>
+      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/heatwave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snow</title>
+      <link>https://praveenlobo.com/tags/snow/</link>
+      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/snow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>summer</title>
+      <link>https://praveenlobo.com/tags/summer/</link>
+      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/summer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>temperature</title>
+      <link>https://praveenlobo.com/tags/temperature/</link>
+      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/temperature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>weather</title>
+      <link>https://praveenlobo.com/tags/weather/</link>
+      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/weather/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>winter</title>
+      <link>https://praveenlobo.com/tags/winter/</link>
+      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/winter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lost</title>
+      <link>https://praveenlobo.com/tags/lost/</link>
+      <pubDate>Thu, 14 Jul 2011 05:16:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/lost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trail</title>
+      <link>https://praveenlobo.com/tags/trail/</link>
+      <pubDate>Thu, 14 Jul 2011 05:16:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/trail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multisite</title>
+      <link>https://praveenlobo.com/tags/multisite/</link>
+      <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/multisite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>art</title>
+      <link>https://praveenlobo.com/tags/art/</link>
+      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>painting</title>
+      <link>https://praveenlobo.com/tags/painting/</link>
+      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/painting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sketch</title>
+      <link>https://praveenlobo.com/tags/sketch/</link>
+      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/sketch/</guid>
       <description></description>
     </item>
     
@@ -434,331 +1145,16 @@
     </item>
     
     <item>
-      <title>Coworker</title>
-      <link>https://praveenlobo.com/tags/coworker/</link>
-      <pubDate>Tue, 09 Aug 2011 04:23:03 +0000</pubDate>
+      <title>timer</title>
+      <link>https://praveenlobo.com/tags/timer/</link>
+      <pubDate>Mon, 27 Jun 2011 20:57:51 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/coworker/</guid>
+      <guid>https://praveenlobo.com/tags/timer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cricket</title>
-      <link>https://praveenlobo.com/tags/cricket/</link>
-      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/cricket/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cron</title>
-      <link>https://praveenlobo.com/tags/cron/</link>
-      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/cron/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Csv</title>
-      <link>https://praveenlobo.com/tags/csv/</link>
-      <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/csv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Current Affairs</title>
-      <link>https://praveenlobo.com/tags/current-affairs/</link>
-      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/current-affairs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dance</title>
-      <link>https://praveenlobo.com/tags/dance/</link>
-      <pubDate>Sun, 04 Jul 2010 06:25:30 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/dance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deepavali</title>
-      <link>https://praveenlobo.com/tags/deepavali/</link>
-      <pubDate>Mon, 31 Oct 2011 04:27:34 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/deepavali/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Defect</title>
-      <link>https://praveenlobo.com/tags/defect/</link>
-      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/defect/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Delegates</title>
-      <link>https://praveenlobo.com/tags/delegates/</link>
-      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/delegates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Disclaimer</title>
-      <link>https://praveenlobo.com/tags/disclaimer/</link>
-      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/disclaimer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Donor</title>
-      <link>https://praveenlobo.com/tags/donor/</link>
-      <pubDate>Sat, 18 Dec 2010 07:48:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/donor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dreams</title>
-      <link>https://praveenlobo.com/tags/dreams/</link>
-      <pubDate>Mon, 02 May 2011 06:39:24 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/dreams/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dropdown</title>
-      <link>https://praveenlobo.com/tags/dropdown/</link>
-      <pubDate>Fri, 05 Aug 2011 03:54:08 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/dropdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dst</title>
-      <link>https://praveenlobo.com/tags/dst/</link>
-      <pubDate>Wed, 21 Dec 2011 02:03:14 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/dst/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Election</title>
-      <link>https://praveenlobo.com/tags/election/</link>
-      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/election/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elections</title>
-      <link>https://praveenlobo.com/tags/elections/</link>
-      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/elections/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electors</title>
-      <link>https://praveenlobo.com/tags/electors/</link>
-      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/electors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epoch</title>
-      <link>https://praveenlobo.com/tags/epoch/</link>
-      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/epoch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Excel</title>
-      <link>https://praveenlobo.com/tags/excel/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/excel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Facebook</title>
-      <link>https://praveenlobo.com/tags/facebook/</link>
-      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/facebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Family</title>
-      <link>https://praveenlobo.com/tags/family/</link>
-      <pubDate>Wed, 04 Apr 2012 01:50:53 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/family/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fear</title>
-      <link>https://praveenlobo.com/tags/fear/</link>
-      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/fear/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fedora</title>
-      <link>https://praveenlobo.com/tags/fedora/</link>
-      <pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/fedora/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feedback</title>
-      <link>https://praveenlobo.com/tags/feedback/</link>
-      <pubDate>Thu, 13 Jan 2011 23:53:47 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/feedback/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feedburner</title>
-      <link>https://praveenlobo.com/tags/feedburner/</link>
-      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/feedburner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fifa</title>
-      <link>https://praveenlobo.com/tags/fifa/</link>
-      <pubDate>Fri, 02 Jul 2010 21:51:43 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/fifa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Football</title>
-      <link>https://praveenlobo.com/tags/football/</link>
-      <pubDate>Sat, 15 Oct 2011 18:11:09 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/football/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Friends</title>
-      <link>https://praveenlobo.com/tags/friends/</link>
-      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/friends/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gimp</title>
-      <link>https://praveenlobo.com/tags/gimp/</link>
-      <pubDate>Thu, 28 Apr 2011 06:00:17 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/gimp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gitlab</title>
-      <link>https://praveenlobo.com/tags/gitlab/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/gitlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Goal</title>
-      <link>https://praveenlobo.com/tags/goal/</link>
-      <pubDate>Sat, 30 Jul 2011 05:15:17 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/goal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google</title>
-      <link>https://praveenlobo.com/tags/google/</link>
-      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Voice</title>
-      <link>https://praveenlobo.com/tags/google-voice/</link>
-      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/google-voice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gradle</title>
-      <link>https://praveenlobo.com/tags/gradle/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/gradle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph</title>
-      <link>https://praveenlobo.com/tags/graph/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gym</title>
-      <link>https://praveenlobo.com/tags/gym/</link>
-      <pubDate>Thu, 31 Dec 2009 07:43:59 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/gym/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>H1b</title>
+      <title>h1b</title>
       <link>https://praveenlobo.com/tags/h1b/</link>
       <pubDate>Thu, 16 Jun 2011 04:43:38 +0000</pubDate>
       
@@ -767,74 +1163,128 @@
     </item>
     
     <item>
-      <title>Haircut</title>
-      <link>https://praveenlobo.com/tags/haircut/</link>
-      <pubDate>Mon, 02 May 2011 06:39:24 +0000</pubDate>
+      <title>interview</title>
+      <link>https://praveenlobo.com/tags/interview/</link>
+      <pubDate>Thu, 16 Jun 2011 04:43:38 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/haircut/</guid>
+      <guid>https://praveenlobo.com/tags/interview/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Halloween</title>
-      <link>https://praveenlobo.com/tags/halloween/</link>
-      <pubDate>Sat, 05 Nov 2011 16:04:35 +0000</pubDate>
+      <title>questions</title>
+      <link>https://praveenlobo.com/tags/questions/</link>
+      <pubDate>Thu, 16 Jun 2011 04:43:38 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/halloween/</guid>
+      <guid>https://praveenlobo.com/tags/questions/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Heatwave</title>
-      <link>https://praveenlobo.com/tags/heatwave/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
+      <title>visa</title>
+      <link>https://praveenlobo.com/tags/visa/</link>
+      <pubDate>Thu, 16 Jun 2011 04:43:38 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/heatwave/</guid>
+      <guid>https://praveenlobo.com/tags/visa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hiking</title>
-      <link>https://praveenlobo.com/tags/hiking/</link>
-      <pubDate>Wed, 10 Aug 2011 01:36:14 +0000</pubDate>
+      <title>checkbox</title>
+      <link>https://praveenlobo.com/tags/checkbox/</link>
+      <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/hiking/</guid>
+      <guid>https://praveenlobo.com/tags/checkbox/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hotlinking</title>
-      <link>https://praveenlobo.com/tags/hotlinking/</link>
-      <pubDate>Sun, 02 May 2010 12:23:41 +0000</pubDate>
+      <title>stackoverflow</title>
+      <link>https://praveenlobo.com/tags/stackoverflow/</link>
+      <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/hotlinking/</guid>
+      <guid>https://praveenlobo.com/tags/stackoverflow/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Htaccess</title>
-      <link>https://praveenlobo.com/tags/htaccess/</link>
-      <pubDate>Sun, 02 May 2010 12:23:41 +0000</pubDate>
+      <title>opinions</title>
+      <link>https://praveenlobo.com/tags/opinions/</link>
+      <pubDate>Wed, 08 Jun 2011 06:27:27 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/htaccess/</guid>
+      <guid>https://praveenlobo.com/tags/opinions/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Html</title>
-      <link>https://praveenlobo.com/tags/html/</link>
-      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      <title>views</title>
+      <link>https://praveenlobo.com/tags/views/</link>
+      <pubDate>Wed, 08 Jun 2011 06:27:27 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/html/</guid>
+      <guid>https://praveenlobo.com/tags/views/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://praveenlobo.com/tags/hugo/</link>
-      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
+      <title>niagara</title>
+      <link>https://praveenlobo.com/tags/niagara/</link>
+      <pubDate>Fri, 27 May 2011 02:51:46 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/hugo/</guid>
+      <guid>https://praveenlobo.com/tags/niagara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ohio</title>
+      <link>https://praveenlobo.com/tags/ohio/</link>
+      <pubDate>Fri, 27 May 2011 02:51:46 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/ohio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>permalink</title>
+      <link>https://praveenlobo.com/tags/permalink/</link>
+      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/permalink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slug</title>
+      <link>https://praveenlobo.com/tags/slug/</link>
+      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/slug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maintenance</title>
+      <link>https://praveenlobo.com/tags/maintenance/</link>
+      <pubDate>Mon, 23 May 2011 06:15:07 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/maintenance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monetization</title>
+      <link>https://praveenlobo.com/tags/monetization/</link>
+      <pubDate>Mon, 23 May 2011 06:15:07 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/monetization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workaround</title>
+      <link>https://praveenlobo.com/tags/workaround/</link>
+      <pubDate>Thu, 05 May 2011 05:33:39 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/workaround/</guid>
       <description></description>
     </item>
     
@@ -848,16 +1298,259 @@
     </item>
     
     <item>
-      <title>Interview</title>
-      <link>https://praveenlobo.com/tags/interview/</link>
-      <pubDate>Thu, 16 Jun 2011 04:43:38 +0000</pubDate>
+      <title>maps</title>
+      <link>https://praveenlobo.com/tags/maps/</link>
+      <pubDate>Wed, 04 May 2011 05:47:27 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/interview/</guid>
+      <guid>https://praveenlobo.com/tags/maps/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Introspect</title>
+      <title>dreams</title>
+      <link>https://praveenlobo.com/tags/dreams/</link>
+      <pubDate>Mon, 02 May 2011 06:39:24 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/dreams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>haircut</title>
+      <link>https://praveenlobo.com/tags/haircut/</link>
+      <pubDate>Mon, 02 May 2011 06:39:24 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/haircut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gimp</title>
+      <link>https://praveenlobo.com/tags/gimp/</link>
+      <pubDate>Thu, 28 Apr 2011 06:00:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/gimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rss</title>
+      <link>https://praveenlobo.com/tags/rss/</link>
+      <pubDate>Mon, 25 Apr 2011 06:14:56 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cooking</title>
+      <link>https://praveenlobo.com/tags/cooking/</link>
+      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/cooking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cricket</title>
+      <link>https://praveenlobo.com/tags/cricket/</link>
+      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/cricket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sports</title>
+      <link>https://praveenlobo.com/tags/sports/</link>
+      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/sports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>worldcup</title>
+      <link>https://praveenlobo.com/tags/worldcup/</link>
+      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/worldcup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compression</title>
+      <link>https://praveenlobo.com/tags/compression/</link>
+      <pubDate>Sat, 02 Apr 2011 03:08:10 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/compression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chicago</title>
+      <link>https://praveenlobo.com/tags/chicago/</link>
+      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/chicago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blizzard</title>
+      <link>https://praveenlobo.com/tags/blizzard/</link>
+      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/blizzard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>potluck</title>
+      <link>https://praveenlobo.com/tags/potluck/</link>
+      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/potluck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://praveenlobo.com/tags/review/</link>
+      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ski</title>
+      <link>https://praveenlobo.com/tags/ski/</link>
+      <pubDate>Wed, 09 Mar 2011 04:53:15 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/ski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>superbowl</title>
+      <link>https://praveenlobo.com/tags/superbowl/</link>
+      <pubDate>Tue, 08 Feb 2011 07:59:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/superbowl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bears</title>
+      <link>https://praveenlobo.com/tags/bears/</link>
+      <pubDate>Thu, 27 Jan 2011 07:07:16 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bears/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typo</title>
+      <link>https://praveenlobo.com/tags/typo/</link>
+      <pubDate>Fri, 21 Jan 2011 02:00:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/typo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdSense</title>
+      <link>https://praveenlobo.com/tags/adsense/</link>
+      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/adsense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>https://praveenlobo.com/tags/analytics/</link>
+      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disclaimer</title>
+      <link>https://praveenlobo.com/tags/disclaimer/</link>
+      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/disclaimer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feedburner</title>
+      <link>https://praveenlobo.com/tags/feedburner/</link>
+      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/feedburner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>appraisal</title>
+      <link>https://praveenlobo.com/tags/appraisal/</link>
+      <pubDate>Thu, 13 Jan 2011 23:53:47 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/appraisal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feedback</title>
+      <link>https://praveenlobo.com/tags/feedback/</link>
+      <pubDate>Thu, 13 Jan 2011 23:53:47 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>donor</title>
+      <link>https://praveenlobo.com/tags/donor/</link>
+      <pubDate>Sat, 18 Dec 2010 07:48:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/donor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>breach</title>
+      <link>https://praveenlobo.com/tags/breach/</link>
+      <pubDate>Wed, 15 Dec 2010 08:15:35 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/breach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>password</title>
+      <link>https://praveenlobo.com/tags/password/</link>
+      <pubDate>Wed, 15 Dec 2010 08:15:35 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/password/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://praveenlobo.com/tags/security/</link>
+      <pubDate>Wed, 15 Dec 2010 08:15:35 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>introspect</title>
       <link>https://praveenlobo.com/tags/introspect/</link>
       <pubDate>Sun, 28 Nov 2010 01:47:36 +0000</pubDate>
       
@@ -866,92 +1559,11 @@
     </item>
     
     <item>
-      <title>Java</title>
-      <link>https://praveenlobo.com/tags/java/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
+      <title>oatmeal</title>
+      <link>https://praveenlobo.com/tags/oatmeal/</link>
+      <pubDate>Sat, 20 Nov 2010 03:14:47 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://praveenlobo.com/tags/javascript/</link>
-      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jquery</title>
-      <link>https://praveenlobo.com/tags/jquery/</link>
-      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/jquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Junit</title>
-      <link>https://praveenlobo.com/tags/junit/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/junit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kayaking</title>
-      <link>https://praveenlobo.com/tags/kayaking/</link>
-      <pubDate>Tue, 06 Sep 2011 04:15:45 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/kayaking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://praveenlobo.com/tags/linux/</link>
-      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Locale</title>
-      <link>https://praveenlobo.com/tags/locale/</link>
-      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/locale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lokayukta</title>
-      <link>https://praveenlobo.com/tags/lokayukta/</link>
-      <pubDate>Thu, 18 Aug 2011 05:44:24 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/lokayukta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lokpal</title>
-      <link>https://praveenlobo.com/tags/lokpal/</link>
-      <pubDate>Tue, 23 Aug 2011 05:58:27 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/lokpal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lost</title>
-      <link>https://praveenlobo.com/tags/lost/</link>
-      <pubDate>Thu, 14 Jul 2011 05:16:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/lost/</guid>
+      <guid>https://praveenlobo.com/tags/oatmeal/</guid>
       <description></description>
     </item>
     
@@ -965,61 +1577,61 @@
     </item>
     
     <item>
-      <title>Maintenance</title>
-      <link>https://praveenlobo.com/tags/maintenance/</link>
-      <pubDate>Mon, 23 May 2011 06:15:07 +0000</pubDate>
+      <title>Autosys</title>
+      <link>https://praveenlobo.com/tags/autosys/</link>
+      <pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/maintenance/</guid>
+      <guid>https://praveenlobo.com/tags/autosys/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mangalore</title>
-      <link>https://praveenlobo.com/tags/mangalore/</link>
-      <pubDate>Tue, 02 Mar 2010 15:34:54 +0000</pubDate>
+      <title>biriyani</title>
+      <link>https://praveenlobo.com/tags/biriyani/</link>
+      <pubDate>Mon, 06 Sep 2010 16:21:53 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/mangalore/</guid>
+      <guid>https://praveenlobo.com/tags/biriyani/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Maps</title>
-      <link>https://praveenlobo.com/tags/maps/</link>
-      <pubDate>Wed, 04 May 2011 05:47:27 +0000</pubDate>
+      <title>dance</title>
+      <link>https://praveenlobo.com/tags/dance/</link>
+      <pubDate>Sun, 04 Jul 2010 06:25:30 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/maps/</guid>
+      <guid>https://praveenlobo.com/tags/dance/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Memories</title>
-      <link>https://praveenlobo.com/tags/memories/</link>
-      <pubDate>Sat, 20 Aug 2011 04:54:12 +0000</pubDate>
+      <title>fifa</title>
+      <link>https://praveenlobo.com/tags/fifa/</link>
+      <pubDate>Fri, 02 Jul 2010 21:51:43 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/memories/</guid>
+      <guid>https://praveenlobo.com/tags/fifa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Michigan</title>
-      <link>https://praveenlobo.com/tags/michigan/</link>
-      <pubDate>Tue, 06 Sep 2011 04:15:45 +0000</pubDate>
+      <title>unfair</title>
+      <link>https://praveenlobo.com/tags/unfair/</link>
+      <pubDate>Fri, 02 Jul 2010 21:51:43 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/michigan/</guid>
+      <guid>https://praveenlobo.com/tags/unfair/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Milwaukee</title>
-      <link>https://praveenlobo.com/tags/milwaukee/</link>
-      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
+      <title>Bangalore</title>
+      <link>https://praveenlobo.com/tags/bangalore/</link>
+      <pubDate>Sat, 19 Jun 2010 17:20:06 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/milwaukee/</guid>
+      <guid>https://praveenlobo.com/tags/bangalore/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mob</title>
+      <title>mob</title>
       <link>https://praveenlobo.com/tags/mob/</link>
       <pubDate>Sat, 19 Jun 2010 17:20:06 +0000</pubDate>
       
@@ -1028,124 +1640,115 @@
     </item>
     
     <item>
-      <title>Mobile</title>
-      <link>https://praveenlobo.com/tags/mobile/</link>
-      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      <title>police</title>
+      <link>https://praveenlobo.com/tags/police/</link>
+      <pubDate>Sat, 19 Jun 2010 17:20:06 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/mobile/</guid>
+      <guid>https://praveenlobo.com/tags/police/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mom</title>
-      <link>https://praveenlobo.com/tags/mom/</link>
-      <pubDate>Sun, 14 Feb 2010 18:18:37 +0000</pubDate>
+      <title>theft</title>
+      <link>https://praveenlobo.com/tags/theft/</link>
+      <pubDate>Sat, 19 Jun 2010 17:20:06 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/mom/</guid>
+      <guid>https://praveenlobo.com/tags/theft/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Monetization</title>
-      <link>https://praveenlobo.com/tags/monetization/</link>
-      <pubDate>Mon, 23 May 2011 06:15:07 +0000</pubDate>
+      <title>cron</title>
+      <link>https://praveenlobo.com/tags/cron/</link>
+      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/monetization/</guid>
+      <guid>https://praveenlobo.com/tags/cron/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Motorbike</title>
-      <link>https://praveenlobo.com/tags/motorbike/</link>
-      <pubDate>Mon, 09 Apr 2012 03:08:32 +0000</pubDate>
+      <title>torrent</title>
+      <link>https://praveenlobo.com/tags/torrent/</link>
+      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/motorbike/</guid>
+      <guid>https://praveenlobo.com/tags/torrent/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Motorcycle</title>
-      <link>https://praveenlobo.com/tags/motorcycle/</link>
-      <pubDate>Mon, 09 Apr 2012 03:08:32 +0000</pubDate>
+      <title>transmission</title>
+      <link>https://praveenlobo.com/tags/transmission/</link>
+      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/motorcycle/</guid>
+      <guid>https://praveenlobo.com/tags/transmission/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Multisite</title>
-      <link>https://praveenlobo.com/tags/multisite/</link>
-      <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
+      <title>wget</title>
+      <link>https://praveenlobo.com/tags/wget/</link>
+      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/multisite/</guid>
+      <guid>https://praveenlobo.com/tags/wget/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mystory</title>
-      <link>https://praveenlobo.com/tags/mystory/</link>
-      <pubDate>Sat, 20 Aug 2011 04:54:12 +0000</pubDate>
+      <title>Chennai</title>
+      <link>https://praveenlobo.com/tags/chennai/</link>
+      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/mystory/</guid>
+      <guid>https://praveenlobo.com/tags/chennai/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Niagara</title>
-      <link>https://praveenlobo.com/tags/niagara/</link>
-      <pubDate>Fri, 27 May 2011 02:51:46 +0000</pubDate>
+      <title>airport</title>
+      <link>https://praveenlobo.com/tags/airport/</link>
+      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/niagara/</guid>
+      <guid>https://praveenlobo.com/tags/airport/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Nostalgic</title>
-      <link>https://praveenlobo.com/tags/nostalgic/</link>
-      <pubDate>Sat, 08 May 2010 17:48:45 +0000</pubDate>
+      <title>bus</title>
+      <link>https://praveenlobo.com/tags/bus/</link>
+      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/nostalgic/</guid>
+      <guid>https://praveenlobo.com/tags/bus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Null</title>
-      <link>https://praveenlobo.com/tags/null/</link>
-      <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
+      <title>bug</title>
+      <link>https://praveenlobo.com/tags/bug/</link>
+      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/null/</guid>
+      <guid>https://praveenlobo.com/tags/bug/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Oatmeal</title>
-      <link>https://praveenlobo.com/tags/oatmeal/</link>
-      <pubDate>Sat, 20 Nov 2010 03:14:47 +0000</pubDate>
+      <title>defect</title>
+      <link>https://praveenlobo.com/tags/defect/</link>
+      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/oatmeal/</guid>
+      <guid>https://praveenlobo.com/tags/defect/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ohio</title>
-      <link>https://praveenlobo.com/tags/ohio/</link>
-      <pubDate>Fri, 27 May 2011 02:51:46 +0000</pubDate>
+      <title>linux</title>
+      <link>https://praveenlobo.com/tags/linux/</link>
+      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/ohio/</guid>
+      <guid>https://praveenlobo.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Oops</title>
-      <link>https://praveenlobo.com/tags/oops/</link>
-      <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/oops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Operating System</title>
+      <title>operating system</title>
       <link>https://praveenlobo.com/tags/operating-system/</link>
       <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
       
@@ -1154,20 +1757,119 @@
     </item>
     
     <item>
-      <title>Opinions</title>
-      <link>https://praveenlobo.com/tags/opinions/</link>
-      <pubDate>Wed, 08 Jun 2011 06:27:27 +0000</pubDate>
+      <title>ubuntu</title>
+      <link>https://praveenlobo.com/tags/ubuntu/</link>
+      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/opinions/</guid>
+      <guid>https://praveenlobo.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Orkut</title>
-      <link>https://praveenlobo.com/tags/orkut/</link>
-      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
+      <title>coins</title>
+      <link>https://praveenlobo.com/tags/coins/</link>
+      <pubDate>Sat, 08 May 2010 17:48:45 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/orkut/</guid>
+      <guid>https://praveenlobo.com/tags/coins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nostalgic</title>
+      <link>https://praveenlobo.com/tags/nostalgic/</link>
+      <pubDate>Sat, 08 May 2010 17:48:45 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/nostalgic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stamps</title>
+      <link>https://praveenlobo.com/tags/stamps/</link>
+      <pubDate>Sat, 08 May 2010 17:48:45 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/stamps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hotlinking</title>
+      <link>https://praveenlobo.com/tags/hotlinking/</link>
+      <pubDate>Sun, 02 May 2010 12:23:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/hotlinking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>htaccess</title>
+      <link>https://praveenlobo.com/tags/htaccess/</link>
+      <pubDate>Sun, 02 May 2010 12:23:41 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/htaccess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smoking</title>
+      <link>https://praveenlobo.com/tags/smoking/</link>
+      <pubDate>Sun, 04 Apr 2010 18:20:08 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/smoking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BBMP</title>
+      <link>https://praveenlobo.com/tags/bbmp/</link>
+      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bbmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>election</title>
+      <link>https://praveenlobo.com/tags/election/</link>
+      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/election/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reservation</title>
+      <link>https://praveenlobo.com/tags/reservation/</link>
+      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/reservation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vote</title>
+      <link>https://praveenlobo.com/tags/vote/</link>
+      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/vote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>women</title>
+      <link>https://praveenlobo.com/tags/women/</link>
+      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/women/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BSNL</title>
+      <link>https://praveenlobo.com/tags/bsnl/</link>
+      <pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bsnl/</guid>
       <description></description>
     </item>
     
@@ -1181,52 +1883,25 @@
     </item>
     
     <item>
-      <title>Packers</title>
-      <link>https://praveenlobo.com/tags/packers/</link>
-      <pubDate>Thu, 22 Mar 2012 03:12:11 +0000</pubDate>
+      <title>Mangalore</title>
+      <link>https://praveenlobo.com/tags/mangalore/</link>
+      <pubDate>Tue, 02 Mar 2010 15:34:54 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/packers/</guid>
+      <guid>https://praveenlobo.com/tags/mangalore/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Painting</title>
-      <link>https://praveenlobo.com/tags/painting/</link>
-      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
+      <title>mom</title>
+      <link>https://praveenlobo.com/tags/mom/</link>
+      <pubDate>Sun, 14 Feb 2010 18:18:37 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/painting/</guid>
+      <guid>https://praveenlobo.com/tags/mom/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Password</title>
-      <link>https://praveenlobo.com/tags/password/</link>
-      <pubDate>Wed, 15 Dec 2010 08:15:35 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/password/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Penny</title>
-      <link>https://praveenlobo.com/tags/penny/</link>
-      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/penny/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Permalink</title>
-      <link>https://praveenlobo.com/tags/permalink/</link>
-      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/permalink/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photography</title>
+      <title>photography</title>
       <link>https://praveenlobo.com/tags/photography/</link>
       <pubDate>Thu, 28 Jan 2010 19:43:49 +0000</pubDate>
       
@@ -1235,695 +1910,20 @@
     </item>
     
     <item>
-      <title>Police</title>
-      <link>https://praveenlobo.com/tags/police/</link>
-      <pubDate>Sat, 19 Jun 2010 17:20:06 +0000</pubDate>
+      <title>fedora</title>
+      <link>https://praveenlobo.com/tags/fedora/</link>
+      <pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/police/</guid>
+      <guid>https://praveenlobo.com/tags/fedora/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Potluck</title>
-      <link>https://praveenlobo.com/tags/potluck/</link>
-      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
+      <title>gym</title>
+      <link>https://praveenlobo.com/tags/gym/</link>
+      <pubDate>Thu, 31 Dec 2009 07:43:59 +0000</pubDate>
       
-      <guid>https://praveenlobo.com/tags/potluck/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Power Query</title>
-      <link>https://praveenlobo.com/tags/power-query/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/power-query/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pumpkin</title>
-      <link>https://praveenlobo.com/tags/pumpkin/</link>
-      <pubDate>Sat, 05 Nov 2011 16:04:35 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/pumpkin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Query</title>
-      <link>https://praveenlobo.com/tags/query/</link>
-      <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/query/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Questions</title>
-      <link>https://praveenlobo.com/tags/questions/</link>
-      <pubDate>Thu, 16 Jun 2011 04:43:38 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/questions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rant</title>
-      <link>https://praveenlobo.com/tags/rant/</link>
-      <pubDate>Thu, 29 Oct 2015 20:58:12 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/rant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Referral</title>
-      <link>https://praveenlobo.com/tags/referral/</link>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/referral/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reservation</title>
-      <link>https://praveenlobo.com/tags/reservation/</link>
-      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/reservation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Review</title>
-      <link>https://praveenlobo.com/tags/review/</link>
-      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reviews</title>
-      <link>https://praveenlobo.com/tags/reviews/</link>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/reviews/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rip</title>
-      <link>https://praveenlobo.com/tags/rip/</link>
-      <pubDate>Fri, 14 Oct 2011 02:41:54 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/rip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Road Trip</title>
-      <link>https://praveenlobo.com/tags/road-trip/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/road-trip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roadtrip</title>
-      <link>https://praveenlobo.com/tags/roadtrip/</link>
-      <pubDate>Wed, 07 Sep 2011 01:45:28 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/roadtrip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rollerblade</title>
-      <link>https://praveenlobo.com/tags/rollerblade/</link>
-      <pubDate>Sat, 22 Oct 2011 05:54:36 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/rollerblade/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rss</title>
-      <link>https://praveenlobo.com/tags/rss/</link>
-      <pubDate>Mon, 25 Apr 2011 06:14:56 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/rss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rubikcube</title>
-      <link>https://praveenlobo.com/tags/rubikcube/</link>
-      <pubDate>Wed, 07 Sep 2011 01:45:28 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/rubikcube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Run</title>
-      <link>https://praveenlobo.com/tags/run/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/run/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sailing</title>
-      <link>https://praveenlobo.com/tags/sailing/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/sailing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Saints</title>
-      <link>https://praveenlobo.com/tags/saints/</link>
-      <pubDate>Sat, 10 Sep 2011 01:37:11 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/saints/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scam</title>
-      <link>https://praveenlobo.com/tags/scam/</link>
-      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/scam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>School</title>
-      <link>https://praveenlobo.com/tags/school/</link>
-      <pubDate>Wed, 04 Apr 2012 01:50:53 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/school/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Script</title>
-      <link>https://praveenlobo.com/tags/script/</link>
-      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/script/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scroll</title>
-      <link>https://praveenlobo.com/tags/scroll/</link>
-      <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/scroll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>https://praveenlobo.com/tags/security/</link>
-      <pubDate>Wed, 15 Dec 2010 08:15:35 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sed</title>
-      <link>https://praveenlobo.com/tags/sed/</link>
-      <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/sed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sketch</title>
-      <link>https://praveenlobo.com/tags/sketch/</link>
-      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/sketch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ski</title>
-      <link>https://praveenlobo.com/tags/ski/</link>
-      <pubDate>Wed, 09 Mar 2011 04:53:15 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/ski/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Skydive</title>
-      <link>https://praveenlobo.com/tags/skydive/</link>
-      <pubDate>Mon, 14 Nov 2011 05:40:54 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/skydive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Skydiving</title>
-      <link>https://praveenlobo.com/tags/skydiving/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/skydiving/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Slug</title>
-      <link>https://praveenlobo.com/tags/slug/</link>
-      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/slug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smoking</title>
-      <link>https://praveenlobo.com/tags/smoking/</link>
-      <pubDate>Sun, 04 Apr 2010 18:20:08 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/smoking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Snow</title>
-      <link>https://praveenlobo.com/tags/snow/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/snow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sports</title>
-      <link>https://praveenlobo.com/tags/sports/</link>
-      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/sports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sql</title>
-      <link>https://praveenlobo.com/tags/sql/</link>
-      <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stackoverflow</title>
-      <link>https://praveenlobo.com/tags/stackoverflow/</link>
-      <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/stackoverflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stamps</title>
-      <link>https://praveenlobo.com/tags/stamps/</link>
-      <pubDate>Sat, 08 May 2010 17:48:45 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/stamps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Static Site</title>
-      <link>https://praveenlobo.com/tags/static-site/</link>
-      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/static-site/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>String</title>
-      <link>https://praveenlobo.com/tags/string/</link>
-      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/string/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sublist</title>
-      <link>https://praveenlobo.com/tags/sublist/</link>
-      <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/sublist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Summer</title>
-      <link>https://praveenlobo.com/tags/summer/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/summer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Superbowl</title>
-      <link>https://praveenlobo.com/tags/superbowl/</link>
-      <pubDate>Tue, 08 Feb 2011 07:59:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/superbowl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Support</title>
-      <link>https://praveenlobo.com/tags/support/</link>
-      <pubDate>Wed, 10 Aug 2011 12:57:52 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/support/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Temperature</title>
-      <link>https://praveenlobo.com/tags/temperature/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/temperature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tennis</title>
-      <link>https://praveenlobo.com/tags/tennis/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/tennis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theft</title>
-      <link>https://praveenlobo.com/tags/theft/</link>
-      <pubDate>Sat, 19 Jun 2010 17:20:06 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/theft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Timer</title>
-      <link>https://praveenlobo.com/tags/timer/</link>
-      <pubDate>Mon, 27 Jun 2011 20:57:51 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/timer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Timezone</title>
-      <link>https://praveenlobo.com/tags/timezone/</link>
-      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/timezone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Todo</title>
-      <link>https://praveenlobo.com/tags/todo/</link>
-      <pubDate>Thu, 29 Oct 2015 20:58:12 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/todo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tokenizer</title>
-      <link>https://praveenlobo.com/tags/tokenizer/</link>
-      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/tokenizer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Torrent</title>
-      <link>https://praveenlobo.com/tags/torrent/</link>
-      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/torrent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trail</title>
-      <link>https://praveenlobo.com/tags/trail/</link>
-      <pubDate>Thu, 14 Jul 2011 05:16:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/trail/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transmission</title>
-      <link>https://praveenlobo.com/tags/transmission/</link>
-      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/transmission/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://praveenlobo.com/tags/travel/</link>
-      <pubDate>Tue, 06 Sep 2011 04:15:45 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travis</title>
-      <link>https://praveenlobo.com/tags/travis/</link>
-      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/travis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://praveenlobo.com/tags/tutorial/</link>
-      <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typo</title>
-      <link>https://praveenlobo.com/tags/typo/</link>
-      <pubDate>Fri, 21 Jan 2011 02:00:50 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/typo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://praveenlobo.com/tags/ubuntu/</link>
-      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unfair</title>
-      <link>https://praveenlobo.com/tags/unfair/</link>
-      <pubDate>Fri, 02 Jul 2010 21:51:43 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/unfair/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unix</title>
-      <link>https://praveenlobo.com/tags/unix/</link>
-      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Upaf</title>
-      <link>https://praveenlobo.com/tags/upaf/</link>
-      <pubDate>Sun, 03 Jun 2012 16:46:47 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/upaf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Utc</title>
-      <link>https://praveenlobo.com/tags/utc/</link>
-      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/utc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vba</title>
-      <link>https://praveenlobo.com/tags/vba/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/vba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Views</title>
-      <link>https://praveenlobo.com/tags/views/</link>
-      <pubDate>Wed, 08 Jun 2011 06:27:27 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/views/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visa</title>
-      <link>https://praveenlobo.com/tags/visa/</link>
-      <pubDate>Thu, 16 Jun 2011 04:43:38 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/visa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Voice Mail</title>
-      <link>https://praveenlobo.com/tags/voice-mail/</link>
-      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/voice-mail/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Voip</title>
-      <link>https://praveenlobo.com/tags/voip/</link>
-      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/voip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vote</title>
-      <link>https://praveenlobo.com/tags/vote/</link>
-      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/vote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Weather</title>
-      <link>https://praveenlobo.com/tags/weather/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/weather/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wget</title>
-      <link>https://praveenlobo.com/tags/wget/</link>
-      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/wget/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Winter</title>
-      <link>https://praveenlobo.com/tags/winter/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/winter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Women</title>
-      <link>https://praveenlobo.com/tags/women/</link>
-      <pubDate>Sat, 27 Mar 2010 19:34:17 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/women/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wordpress</title>
-      <link>https://praveenlobo.com/tags/wordpress/</link>
-      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Work</title>
-      <link>https://praveenlobo.com/tags/work/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Workaround</title>
-      <link>https://praveenlobo.com/tags/workaround/</link>
-      <pubDate>Thu, 05 May 2011 05:33:39 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/workaround/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Worldcup</title>
-      <link>https://praveenlobo.com/tags/worldcup/</link>
-      <pubDate>Fri, 08 Apr 2011 06:41:23 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/worldcup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xml</title>
-      <link>https://praveenlobo.com/tags/xml/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/xml/</guid>
+      <guid>https://praveenlobo.com/tags/gym/</guid>
       <description></description>
     </item>
     

@@ -5,19 +5,10 @@
     <link>https://praveenlobo.com/categories/</link>
     <description>Recent content in Categories on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Mar 2016 03:47:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>0</title>
-      <link>https://praveenlobo.com/categories/0/</link>
-      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/categories/0/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>1</title>
@@ -25,6 +16,15 @@
       <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/categories/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>0</title>
+      <link>https://praveenlobo.com/categories/0/</link>
+      <pubDate>Sun, 20 Mar 2016 03:47:31 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/categories/0/</guid>
       <description></description>
     </item>
     
