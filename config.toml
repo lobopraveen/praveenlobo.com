@@ -83,8 +83,6 @@ enable = false
 enable = true
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 3
-
-[params.comments.staticman.github]
 username = "lobopraveen"
 repository = "praveenlobo.com"
 branch = "master"
