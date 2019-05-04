@@ -22,9 +22,9 @@
     <input type='hidden' name='options[redirect]' value='{{ .Permalink }}#submission-success'>
     <input type='hidden' name='options[redirectError]' value='{{ .Permalink }}#submission-failure'>
 
-    {{- if $config.reCaptcha_siteKey -}}
-      <input type='hidden' name='options[reCaptcha][siteKey]' value='{{ $config.reCaptcha_siteKey }}'>
-      <input type='hidden' name='options[reCaptcha][secret]' value='{{ $config.reCaptcha_secret }}'>
+    {{- if $config.enableReCaptcha -}}
+      <input type='hidden' name='options[reCaptcha][siteKey]' value='{{ $config.reCaptchaSiteKey }}'>
+      <input type='hidden' name='options[reCaptcha][secret]' value='{{ $config.reCaptchaSecret }}'>
     {{- end -}}
 
     <input type='address' name='fields[honeypot]' style='display:none'>
@@ -47,21 +47,21 @@
       <label for='url'>{{ i18n "website" }}</label>
       <input id='url' name='fields[site]' type='url'>
     </div>
-    {{- if $config.reCaptcha_siteKey -}}
-      <div class='g-recaptcha' data-sitekey='{{ $config.reCaptcha_siteKey }}' data-callback="enableCommentSubmit"></div>
+    {{- if $config.enableReCaptcha -}}
+      <div class='g-recaptcha' data-sitekey='{{ $config.reCaptchaSiteKey }}' data-callback="enableCommentSubmit"></div>
     {{- end -}}
     <div>
-      <button type='submit' id="commentSubmit">{{ i18n "submitComment" }}</button>
+      <button type='submit' id="submitComment">{{ i18n "submitComment" }}</button>
     </div>
   </form>
 </div>
 
-{{- if $config.reCaptcha_siteKey -}}
+{{- if $config.enableReCaptcha -}}
   <script type="text/javascript">
-  document.getElementById("commentSubmit").disabled = true;
+  document.getElementById("submitComment").disabled = true;
 
   function enableCommentSubmit(){
-    document.getElementById("commentSubmit").disabled = false;
+    document.getElementById("submitComment").disabled = false;
   }
   </script>
 

@@ -86,8 +86,9 @@ maxDepth = 3
 username = "lobopraveen"
 repository = "praveenlobo.com"
 branch = "master"
-reCaptcha_siteKey = "6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp"
-reCaptcha_secret = "Wb4JOmR/cOt0fkaJ9gKxRarj8ADX1rSsI/jSVhpkNlINwcPCBSSfNKcZrDvQs8sSrQAUPWDILqHpYubB2TFR1raeVjrHuKvwChypXYOQzgN5lIEiL/8dN0UkG9kAc5qbheLJldGnaEiZiDrBTZmCM0kopP+G/MtNjrVXfKvigZo="
+enableReCaptcha = true
+reCaptchaSiteKey = "6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp"
+reCaptchaSecret = "Wb4JOmR/cOt0fkaJ9gKxRarj8ADX1rSsI/jSVhpkNlINwcPCBSSfNKcZrDvQs8sSrQAUPWDILqHpYubB2TFR1raeVjrHuKvwChypXYOQzgN5lIEiL/8dN0UkG9kAc5qbheLJldGnaEiZiDrBTZmCM0kopP+G/MtNjrVXfKvigZo="
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
