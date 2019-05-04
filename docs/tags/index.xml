@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>CI CD</title>
-      <link>https://praveenlobo.com/tags/ci-cd/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/ci-cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GitLab</title>
       <link>https://praveenlobo.com/tags/gitlab/</link>
       <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
@@ -34,6 +25,15 @@
       <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ci cd</title>
+      <link>https://praveenlobo.com/tags/ci-cd/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/ci-cd/</guid>
       <description></description>
     </item>
     
@@ -326,15 +326,6 @@
     </item>
     
     <item>
-      <title>Tennis</title>
-      <link>https://praveenlobo.com/tags/tennis/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/tennis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>road trip</title>
       <link>https://praveenlobo.com/tags/road-trip/</link>
       <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
@@ -367,6 +358,15 @@
       <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/skydiving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tennis</title>
+      <link>https://praveenlobo.com/tags/tennis/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/tennis/</guid>
       <description></description>
     </item>
     

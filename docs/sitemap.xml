@@ -20,12 +20,6 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/ci-cd/</loc>
-    <lastmod>2018-08-05T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://praveenlobo.com/categories/</loc>
     <lastmod>2018-08-05T20:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -50,6 +44,12 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/</loc>
+    <lastmod>2018-08-05T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/ci-cd/</loc>
     <lastmod>2018-08-05T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -323,12 +323,6 @@
   </url>
   
   <url>
-    <loc>https://praveenlobo.com/tags/tennis/</loc>
-    <lastmod>2012-08-18T17:44:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer/</loc>
     <lastmod>2012-08-18T17:44:02+00:00</lastmod>
   </url>
@@ -353,6 +347,12 @@
   
   <url>
     <loc>https://praveenlobo.com/tags/skydiving/</loc>
+    <lastmod>2012-08-18T17:44:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://praveenlobo.com/tags/tennis/</loc>
     <lastmod>2012-08-18T17:44:02+00:00</lastmod>
     <priority>0</priority>
   </url>
