@@ -196,9 +196,8 @@ One min read
   <form action='https://api.staticman.net/v2/entry/lobopraveen/praveenlobo.com/master/comments' method='post' id='comment-form' class='comment-form'>
     <input type='hidden' name='options[postId]' value='933eb1b52cd5fe83381f706f85f7d163'>
     <input type='hidden' name='options[redirect]' value='https://praveenlobo.com/contact/#submission-success'>
-    <input type='hidden' name='options[redirectError]' value='https://praveenlobo.com/contact/#submission-failure'>
-
-    <input type='address' name='fields[honeypot]' style='display:none'>
+    <input type='hidden' name='options[redirectError]' value='https://praveenlobo.com/contact/#submission-failure'><input type='hidden' name='options[reCaptcha][siteKey]' value='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp'>
+      <input type='hidden' name='options[reCaptcha][secret]' value='Wb4JOmR/cOt0fkaJ9gKxRarj8ADX1rSsI/jSVhpkNlINwcPCBSSfNKcZrDvQs8sSrQAUPWDILqHpYubB2TFR1raeVjrHuKvwChypXYOQzgN5lIEiL/8dN0UkG9kAc5qbheLJldGnaEiZiDrBTZmCM0kopP&#43;G/MtNjrVXfKvigZo='><input type='address' name='fields[honeypot]' style='display:none'>
     <input type='hidden' name='fields[permalink]' value='/contact/'>
     <input type='hidden' name='fields[parent_id]' value=''>
 
@@ -217,13 +216,19 @@ One min read
     <div>
       <label for='url'>Website</label>
       <input id='url' name='fields[site]' type='url'>
-    </div>
-    <div>
-      <button type='submit'>Comment!</button>
+    </div><div class='g-recaptcha' data-sitekey='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp' data-callback="enableCommentSubmit"></div><div>
+      <button type='submit' id="commentSubmit">Comment!</button>
     </div>
   </form>
-</div>
+</div><script type="text/javascript">
+  document.getElementById("commentSubmit").disabled = true;
 
+  function enableCommentSubmit(){
+    document.getElementById("commentSubmit").disabled = false;
+  }
+  </script>
+
+  <script async src='https://www.google.com/recaptcha/api.js'></script>
 </div>
   </div>
 </section>
