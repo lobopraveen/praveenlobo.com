@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='XML'><meta property='article:tag' content='VBA'><meta property='article:tag' content='Excel'><meta property='article:published_time' content='2014-09-20T00:00:00Z'/><meta property='article:modified_time' content='2014-09-20T00:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.55.0-DEV" />
+<meta name="generator" content="Hugo 0.56.0-DEV" />
 
   <title>Comparing Two XMLs In Excel VBA • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/'>
@@ -123,15 +123,16 @@ if (!doNotTrack) {
 <p>Although those are wonderful programs, they don&rsquo;t fit every use case. Sometimes you just have to write VBA code to compare two XML <em>strings</em>.</p>
 
 <div class='align-center'>
-  <figure>
+  
+<figure>
     <img src="/media/51-75/53-excel-xml-compare/basic_xml_compare.png"
          alt="basic_xml_compare.png"/> <figcaption>
             <p>Basic XML compare</p>
         </figcaption>
 </figure>
 
-</div>
 
+</div>
 
 <p>To compare two XML strings in VBA -</p>
 
@@ -150,16 +151,16 @@ if (!doNotTrack) {
 </ol>
 
 <p>To load the XML files, special references needs to be added from the Tools &gt; References menu.
-<div class='align-center'>
-  <figure>
+<div class='align-center'></p>
+
+<figure>
     <img src="/media/51-75/53-excel-xml-compare/references.png"
          alt="references.png"/> <figcaption>
             <p>References Needed.</p>
         </figcaption>
 </figure>
 
-</div>
-</p>
+<p></div></p>
 
 <p>The VBA code is below. The <code>compareXML()</code> needs to be assigned to the button click. This version of the code assumes that the two XML strings to compare are already on the spreadsheet. However, additional code can be added to bring these XMLs into the spreadsheet before running the compare. <a href="/blog/using-excel-to-compare-multiple-xmls">Refer the second part for more</a>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#e6db74">&#39;
@@ -391,7 +392,7 @@ End Sub
   <line x1="7" y1="7" x2="7" y2="7"/>
   
 </svg>
-<span class='screen-reader-text'>Tags: </span></div>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/xml/'>XML</a>, <a class='tag' href='/tags/vba/'>VBA</a>, <a class='tag' href='/tags/excel/'>excel</a></div>
 
   </div>
 </footer>
