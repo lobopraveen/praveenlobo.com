@@ -2,7 +2,7 @@ language: go
 
 install:
 # "Step 1 - instaling hugo"
-- go get github.com/gohugoio/hugo
+- go get github.com/gohugoio/hugo/releases/latest
 
 before_script:
 # "Step 2 - cleaning website publish folder 'docs'. Keeping media intact.
