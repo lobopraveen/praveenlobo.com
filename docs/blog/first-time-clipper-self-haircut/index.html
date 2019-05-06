@@ -18,7 +18,7 @@
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.4a10984a.css'><style>
+<link rel='stylesheet' href='/assets/css/main.fb20af92.css'><style>
 :root{--color-accent:#ffcd00;}
 </style>
 
@@ -125,15 +125,12 @@ if (!doNotTrack) {
 <p>When I was kid, I had this dream, albeit shot-lived, of becoming an hairstylist. But then I went to college trying to become an engineer! One fine day back from a bad haircut, I was thinking about it and decided to style my own hair for the first time. Just to give it a try! After some thinking, the easiest style was to go bald which is exactly what I used to do back in college; I used to shave my head twice a week and sport a beard. It continued for a couple months not only because I liked it but also due to the over-pouring compliments from friends and all those heads turned! So, this isn&rsquo;t the first time I designed my own hairstyle.</p>
 
 <div class='align-center'>
-  
-<figure>
+  <figure>
     <img src="/media/00-25/27-haircut/Before.jpg"
          alt="Before The Haircut Experiment"/> <figcaption>
             <p>Before The Haircut Experiment</p>
         </figcaption>
 </figure>
-
-
 </div>
 
 <p>I started off thinking that I will shave my head and started looking for a shaver. The electric shavers are used extensively here in US compared to India and there are a lot of varieties and a vast price range. When I got down to finding out the good electric shavers and started reading about the reviews, I realized that it can never be as close a shave as with a razor and it actually takes same amount of time if not more. So I dropped the idea of buying an electric shaver.</p>
@@ -141,29 +138,23 @@ if (!doNotTrack) {
 <p>During those browsing sessions I got to know about the hair clippers and decided to try them instead. The thought of not having to take an appointment a week before was very enticing. It&rsquo;s the couple of YouTube videos that really gave me the confidence. It was really not about self-independence nor saving money; I really just wanted to give it a try!</p>
 
 <div class='align-center'>
-  
-<figure>
+  <figure>
     <img src="/media/00-25/27-haircut/After.jpg"
          alt="After The Haircut Experiment"/> <figcaption>
             <p>After The Haircut Experiment - not bad?</p>
         </figcaption>
 </figure>
-
-
 </div>
 
 <p>After some research, I shortlisted three hair-clippers and finally bought <a href="http://amzn.to/2ru5cmX" target="_blank">Wahl 79524 24-Piece Deluxe Hair Clipper Kit</a>. The main reason for buying it out of three was that I was a little skeptical about the worth and it was the cheapest of the lot. It turned out to be a good clipper; I have used it for last four months and have no complaints except that it becomes a little loud if used continuously at one stretch.</p>
 
 <div class='align-center'>
-  
-<figure>
+  <figure>
     <img src="/media/00-25/27-haircut/Photographer.jpg"
          alt="The Haircut Experiment Photographer - myself"/> <figcaption>
             <p>The Haircut Experiment Photographer - myself</p>
         </figcaption>
 </figure>
-
-
 </div>
 
 <hr />
@@ -250,8 +241,9 @@ if (!doNotTrack) {
   <form action='https://api.staticman.net/v2/entry/lobopraveen/praveenlobo.com/master/comments' method='post' id='comment-form' class='comment-form'>
     <input type='hidden' name='options[postId]' value='2c5ace4b46a648835d011ef867d05323'>
     <input type='hidden' name='options[redirect]' value='https://praveenlobo.com/blog/first-time-clipper-self-haircut/#submission-success'>
-    <input type='hidden' name='options[redirectError]' value='https://praveenlobo.com/blog/first-time-clipper-self-haircut/#submission-failure'><input type='hidden' name='options[reCaptcha][siteKey]' value='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp'>
-      <input type='hidden' name='options[reCaptcha][secret]' value='Wb4JOmR/cOt0fkaJ9gKxRarj8ADX1rSsI/jSVhpkNlINwcPCBSSfNKcZrDvQs8sSrQAUPWDILqHpYubB2TFR1raeVjrHuKvwChypXYOQzgN5lIEiL/8dN0UkG9kAc5qbheLJldGnaEiZiDrBTZmCM0kopP&#43;G/MtNjrVXfKvigZo='><input type='address' name='fields[honeypot]' style='display:none'>
+    <input type='hidden' name='options[redirectError]' value='https://praveenlobo.com/blog/first-time-clipper-self-haircut/#submission-failure'>
+
+    <input type='address' name='fields[honeypot]' style='display:none'>
     <input type='hidden' name='fields[permalink]' value='/blog/first-time-clipper-self-haircut/'>
     <input type='hidden' name='fields[parent_id]' value=''>
 
@@ -270,19 +262,23 @@ if (!doNotTrack) {
     <div>
       <label for='url'>Website</label>
       <input id='url' name='fields[site]' type='url'>
-    </div><div class='g-recaptcha' data-sitekey='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp' data-callback="enableCommentSubmit"></div><div>
-      <button type='submit' id="submitComment">Comment!</button>
+    </div><input type='hidden' name='options[reCaptcha][siteKey]' value='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp'>
+      <input type='hidden' name='options[reCaptcha][secret]' value='Wb4JOmR/cOt0fkaJ9gKxRarj8ADX1rSsI/jSVhpkNlINwcPCBSSfNKcZrDvQs8sSrQAUPWDILqHpYubB2TFR1raeVjrHuKvwChypXYOQzgN5lIEiL/8dN0UkG9kAc5qbheLJldGnaEiZiDrBTZmCM0kopP&#43;G/MtNjrVXfKvigZo='>
+
+      <div class='g-recaptcha' data-sitekey='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp' data-callback="enableSubmitComment"></div>
+
+      <script type="text/javascript">
+        function enableSubmitComment(){
+          document.getElementById("submitComment").disabled = false;
+        }
+      </script>
+
+      <script async src='https://www.google.com/recaptcha/api.js'></script><div>
+      <button type='submit' id="submitComment"disabled>Comment!</button>
     </div>
   </form>
-</div><script type="text/javascript">
-  document.getElementById("submitComment").disabled = true;
+</div>
 
-  function enableCommentSubmit(){
-    document.getElementById("submitComment").disabled = false;
-  }
-  </script>
-
-  <script async src='https://www.google.com/recaptcha/api.js'></script>
 </div>
   </div>
 </section>
@@ -319,7 +315,7 @@ if (!doNotTrack) {
 </svg>
 </a>
       </li><li>
-        <a href='https://stackoverflow.com/users/319542' target='_blank' rel='noopener'>
+        <a href='%3cnil%3e319542' target='_blank' rel='noopener'>
           <span class='screen-reader-text'>Open Stackoverflow account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <path d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z"/>
@@ -354,9 +350,9 @@ if (!doNotTrack) {
       </footer>
 
     </div>
-  </div><script>window.__public_path__='\/assets\/js\/'</script>
+  </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.fae8ed32.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.9e5c4cf4.js'></script><script src='/js/custom.js'></script>
 
 </body>
 

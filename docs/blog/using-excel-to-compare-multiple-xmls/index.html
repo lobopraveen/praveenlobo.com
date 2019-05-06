@@ -18,7 +18,7 @@
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.4a10984a.css'><style>
+<link rel='stylesheet' href='/assets/css/main.fb20af92.css'><style>
 :root{--color-accent:#ffcd00;}
 </style>
 
@@ -154,15 +154,12 @@ in
 <p>The VBA code from <a href="/blog/comparing-two-xmls-in-excel-vba">previous post</a> talked about comparing a single XML. That same code can be put in a loop to compare multiple XML strings. The use case below lists a set of keys for which the matching XML strings from a file needs to be compared to matching XML strings from a database.</p>
 
 <div class='align-center'>
-  
-<figure><a href="/media/51-75/53-excel-xml-compare/search_and_compare_multiple_XMLs.png">
+  <figure><a href="/media/51-75/53-excel-xml-compare/search_and_compare_multiple_XMLs.png">
     <img src="/media/51-75/53-excel-xml-compare/search_and_compare_multiple_XMLs.png"
          alt="search_and_compare_multiple_XMLs.png"/> </a><figcaption>
             <p>Compare multiple XML strings</p>
         </figcaption>
 </figure>
-
-
 </div>
 
 <p>The &ldquo;SearchKeys&rdquo; mentioned above is a table and can take multiple rows/keys. There are three keys in the screenshot shown above (refer column A).</p>
@@ -483,7 +480,7 @@ End Sub
   <line x1="7" y1="7" x2="7" y2="7"/>
   
 </svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/xml/'>XML</a>, <a class='tag' href='/tags/vba/'>VBA</a>, <a class='tag' href='/tags/excel/'>excel</a></div>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/xml/'>XML</a>, <a class='tag' href='/tags/vba/'>VBA</a>, <a class='tag' href='/tags/excel/'>excel</a>, <a class='tag' href='/tags/power-query/'>power query</a></div>
 
   </div>
 </footer>
@@ -541,8 +538,9 @@ End Sub
   <form action='https://api.staticman.net/v2/entry/lobopraveen/praveenlobo.com/master/comments' method='post' id='comment-form' class='comment-form'>
     <input type='hidden' name='options[postId]' value='998d2821f54fb2435e74b19ebe4f7210'>
     <input type='hidden' name='options[redirect]' value='https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/#submission-success'>
-    <input type='hidden' name='options[redirectError]' value='https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/#submission-failure'><input type='hidden' name='options[reCaptcha][siteKey]' value='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp'>
-      <input type='hidden' name='options[reCaptcha][secret]' value='Wb4JOmR/cOt0fkaJ9gKxRarj8ADX1rSsI/jSVhpkNlINwcPCBSSfNKcZrDvQs8sSrQAUPWDILqHpYubB2TFR1raeVjrHuKvwChypXYOQzgN5lIEiL/8dN0UkG9kAc5qbheLJldGnaEiZiDrBTZmCM0kopP&#43;G/MtNjrVXfKvigZo='><input type='address' name='fields[honeypot]' style='display:none'>
+    <input type='hidden' name='options[redirectError]' value='https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/#submission-failure'>
+
+    <input type='address' name='fields[honeypot]' style='display:none'>
     <input type='hidden' name='fields[permalink]' value='/blog/using-excel-to-compare-multiple-xmls/'>
     <input type='hidden' name='fields[parent_id]' value=''>
 
@@ -561,19 +559,23 @@ End Sub
     <div>
       <label for='url'>Website</label>
       <input id='url' name='fields[site]' type='url'>
-    </div><div class='g-recaptcha' data-sitekey='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp' data-callback="enableCommentSubmit"></div><div>
-      <button type='submit' id="submitComment">Comment!</button>
+    </div><input type='hidden' name='options[reCaptcha][siteKey]' value='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp'>
+      <input type='hidden' name='options[reCaptcha][secret]' value='Wb4JOmR/cOt0fkaJ9gKxRarj8ADX1rSsI/jSVhpkNlINwcPCBSSfNKcZrDvQs8sSrQAUPWDILqHpYubB2TFR1raeVjrHuKvwChypXYOQzgN5lIEiL/8dN0UkG9kAc5qbheLJldGnaEiZiDrBTZmCM0kopP&#43;G/MtNjrVXfKvigZo='>
+
+      <div class='g-recaptcha' data-sitekey='6LeSCGoUAAAAADS2jeaiTgzwi_hIQQ2uVumPxpsp' data-callback="enableSubmitComment"></div>
+
+      <script type="text/javascript">
+        function enableSubmitComment(){
+          document.getElementById("submitComment").disabled = false;
+        }
+      </script>
+
+      <script async src='https://www.google.com/recaptcha/api.js'></script><div>
+      <button type='submit' id="submitComment"disabled>Comment!</button>
     </div>
   </form>
-</div><script type="text/javascript">
-  document.getElementById("submitComment").disabled = true;
+</div>
 
-  function enableCommentSubmit(){
-    document.getElementById("submitComment").disabled = false;
-  }
-  </script>
-
-  <script async src='https://www.google.com/recaptcha/api.js'></script>
 </div>
   </div>
 </section>
@@ -610,7 +612,7 @@ End Sub
 </svg>
 </a>
       </li><li>
-        <a href='https://stackoverflow.com/users/319542' target='_blank' rel='noopener'>
+        <a href='%3cnil%3e319542' target='_blank' rel='noopener'>
           <span class='screen-reader-text'>Open Stackoverflow account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <path d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z"/>
@@ -645,9 +647,9 @@ End Sub
       </footer>
 
     </div>
-  </div><script>window.__public_path__='\/assets\/js\/'</script>
+  </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.fae8ed32.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.9e5c4cf4.js'></script><script src='/js/custom.js'></script>
 
 </body>
 
