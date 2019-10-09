@@ -14,7 +14,7 @@ tags = ["hiking", "travel", "friends"]
 On a Friday's evening, eight of us set out to Devil's Lake State Park, Wisconsin in two cars. We reached when it was dark and setup three tents in two camps. The rain god was happy and decided  not to play spoilsport; it poured only when we were in the tent.
 
 {{% center %}}
-{{< figure src="/media/00-25/23-devils-lake/basecamp.jpg" alt="Tents at Devil's Lake State Park, Wisconsin" caption=Tents at Devil's Lake State Park, Wisconsin"" >}}
+{{< figure src="/media/00-25/23-devils-lake/basecamp.jpg" alt="Tents at Devil's Lake State Park, Wisconsin" caption="Tents at Devil's Lake State Park, Wisconsin" >}}
 {{% /center %}}
 
 We setup campfire, prepared dinner. Made s'more in the campfire for the first time; I had no clue what s'more was!
