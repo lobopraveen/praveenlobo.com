@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Praveen Lobo</title>
@@ -11,29 +11,20 @@
     
     
     <item>
+      <title>CI CD</title>
+      <link>https://praveenlobo.com/tags/ci-cd/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/ci-cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GitLab</title>
       <link>https://praveenlobo.com/tags/gitlab/</link>
       <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/gitlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://praveenlobo.com/tags/java/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ci cd</title>
-      <link>https://praveenlobo.com/tags/ci-cd/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/ci-cd/</guid>
       <description></description>
     </item>
     
@@ -47,6 +38,15 @@
     </item>
     
     <item>
+      <title>java</title>
+      <link>https://praveenlobo.com/tags/java/</link>
+      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>junit</title>
       <link>https://praveenlobo.com/tags/junit/</link>
       <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
@@ -56,7 +56,16 @@
     </item>
     
     <item>
-      <title>HTML</title>
+      <title>bookmark</title>
+      <link>https://praveenlobo.com/tags/bookmark/</link>
+      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/bookmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
       <link>https://praveenlobo.com/tags/html/</link>
       <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
       
@@ -70,15 +79,6 @@
       <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bookmark</title>
-      <link>https://praveenlobo.com/tags/bookmark/</link>
-      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/bookmark/</guid>
       <description></description>
     </item>
     
@@ -146,15 +146,6 @@
     </item>
     
     <item>
-      <title>UNIX</title>
-      <link>https://praveenlobo.com/tags/unix/</link>
-      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>backdated post</title>
       <link>https://praveenlobo.com/tags/backdated-post/</link>
       <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
@@ -169,6 +160,15 @@
       <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>https://praveenlobo.com/tags/unix/</link>
+      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/unix/</guid>
       <description></description>
     </item>
     
@@ -272,6 +272,24 @@
     </item>
     
     <item>
+      <title>Excel</title>
+      <link>https://praveenlobo.com/tags/excel/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>power query</title>
+      <link>https://praveenlobo.com/tags/power-query/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/power-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>VBA</title>
       <link>https://praveenlobo.com/tags/vba/</link>
       <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
@@ -290,24 +308,6 @@
     </item>
     
     <item>
-      <title>excel</title>
-      <link>https://praveenlobo.com/tags/excel/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/excel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>power query</title>
-      <link>https://praveenlobo.com/tags/power-query/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/power-query/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>csv</title>
       <link>https://praveenlobo.com/tags/csv/</link>
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
@@ -322,15 +322,6 @@
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/sed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tennis</title>
-      <link>https://praveenlobo.com/tags/tennis/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/tennis/</guid>
       <description></description>
     </item>
     
@@ -367,6 +358,15 @@
       <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/skydiving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tennis</title>
+      <link>https://praveenlobo.com/tags/tennis/</link>
+      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/tennis/</guid>
       <description></description>
     </item>
     
@@ -452,24 +452,6 @@
     </item>
     
     <item>
-      <title>Timezone</title>
-      <link>https://praveenlobo.com/tags/timezone/</link>
-      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/timezone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UTC</title>
-      <link>https://praveenlobo.com/tags/utc/</link>
-      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/utc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>epoch</title>
       <link>https://praveenlobo.com/tags/epoch/</link>
       <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
@@ -484,6 +466,24 @@
       <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/locale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timezone</title>
+      <link>https://praveenlobo.com/tags/timezone/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/timezone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UTC</title>
+      <link>https://praveenlobo.com/tags/utc/</link>
+      <pubDate>Tue, 27 Dec 2011 07:04:40 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/utc/</guid>
       <description></description>
     </item>
     
@@ -524,20 +524,20 @@
     </item>
     
     <item>
-      <title>VOIP</title>
-      <link>https://praveenlobo.com/tags/voip/</link>
-      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/voip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Voice mail</title>
       <link>https://praveenlobo.com/tags/voice-mail/</link>
       <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/voice-mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VOIP</title>
+      <link>https://praveenlobo.com/tags/voip/</link>
+      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/voip/</guid>
       <description></description>
     </item>
     
@@ -767,20 +767,20 @@
     </item>
     
     <item>
-      <title>Milwaukee</title>
-      <link>https://praveenlobo.com/tags/milwaukee/</link>
-      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/milwaukee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>facebook</title>
       <link>https://praveenlobo.com/tags/facebook/</link>
       <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Milwaukee</title>
+      <link>https://praveenlobo.com/tags/milwaukee/</link>
+      <pubDate>Fri, 19 Aug 2011 07:10:47 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/milwaukee/</guid>
       <description></description>
     </item>
     
@@ -1118,7 +1118,7 @@
     </item>
     
     <item>
-      <title>Count Down</title>
+      <title>count down</title>
       <link>https://praveenlobo.com/tags/count-down/</link>
       <pubDate>Mon, 27 Jun 2011 20:57:51 +0000</pubDate>
       
@@ -1127,7 +1127,7 @@
     </item>
     
     <item>
-      <title>Count Up</title>
+      <title>count up</title>
       <link>https://praveenlobo.com/tags/count-up/</link>
       <pubDate>Mon, 27 Jun 2011 20:57:51 +0000</pubDate>
       
@@ -1136,7 +1136,7 @@
     </item>
     
     <item>
-      <title>Counter</title>
+      <title>counter</title>
       <link>https://praveenlobo.com/tags/counter/</link>
       <pubDate>Mon, 27 Jun 2011 20:57:51 +0000</pubDate>
       
@@ -1388,20 +1388,20 @@
     </item>
     
     <item>
-      <title>Chicago</title>
-      <link>https://praveenlobo.com/tags/chicago/</link>
-      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/chicago/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>blizzard</title>
       <link>https://praveenlobo.com/tags/blizzard/</link>
       <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/blizzard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chicago</title>
+      <link>https://praveenlobo.com/tags/chicago/</link>
+      <pubDate>Tue, 15 Mar 2011 07:09:25 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/chicago/</guid>
       <description></description>
     </item>
     
@@ -1694,15 +1694,6 @@
     </item>
     
     <item>
-      <title>Chennai</title>
-      <link>https://praveenlobo.com/tags/chennai/</link>
-      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/tags/chennai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>airport</title>
       <link>https://praveenlobo.com/tags/airport/</link>
       <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
@@ -1717,6 +1708,15 @@
       <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
       
       <guid>https://praveenlobo.com/tags/bus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chennai</title>
+      <link>https://praveenlobo.com/tags/chennai/</link>
+      <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/tags/chennai/</guid>
       <description></description>
     </item>
     
