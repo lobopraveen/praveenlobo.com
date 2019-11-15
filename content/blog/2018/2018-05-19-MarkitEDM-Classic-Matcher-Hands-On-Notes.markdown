@@ -18,11 +18,11 @@ Markit has it's own product for Enterprise Data Management called Markit EDM. I 
 
 Please note that the entire thing below was carelessly jotted down which I cleaned up after a year or so. You might find a lot of case mismatches, abbreviations, and even some random sentences where it really didn't make any sense to me. I'm not trying to make it 100% accurate but just documenting it as is so that if I ever get a hold of an MEDM instance I can follow along. If you are currently working in MEDM, this might make a whole lot of sense to you!
 
-Warning: Markit introduced a replacement for the Data Matcher called the Core Matcher in their 11.x release. It is much faster, less cumbersome, and easier to manage. This page is not about the Core Matcher; yuo probably don't even want to read this junk!
+Warning: Markit introduced a replacement for the Data Matcher called the Core Matcher in their 11.x release. It is much faster, less cumbersome, and easier to manage. This page is not about the Core Matcher; you probably don't even want to read this junk!
 
 ### Abbreviations
 
-- ZX - is a prefix I used just so I can sort the objects easil towards the bottom in the list.
+- ZX - is a prefix I used just so I can sort the objects easily towards the bottom in the list.
 - ZXMCHR - Code for Matcher - MCHR with ZX prefix
 - BB - Bloomberg
 - PNT - Point
