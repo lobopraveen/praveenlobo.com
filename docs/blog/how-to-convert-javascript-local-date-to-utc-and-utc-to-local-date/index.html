@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='UTC'><meta property='article:tag' content='epoch'><meta property='article:tag' content='locale'><meta property='article:tag' content='Timezone'><meta property='article:published_time' content='2011-12-27T07:04:40Z'/><meta property='article:modified_time' content='2011-12-27T07:04:40Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.59.0-DEV" />
+<meta name="generator" content="Hugo 0.60.0-DEV" />
 
   <title>How To Convert JavaScript Local Date to UTC And UTC To Local Date • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/'>
@@ -126,8 +126,8 @@ if (!doNotTrack) {
 
 <h4 id="how-to-convert-the-date-into-a-local-time-cst">How to convert the date into a local time(CST)?</h4>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">now</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Date(<span style="color:#e6db74">&#34;January 02, 2012 2200 GMT+0530&#34;</span>);
-<span style="color:#75715e">/* now = Mon Jan 02 2012 1000 GMT-0600 (CST) */</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">now</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Date(<span style="color:#e6db74">&#34;January 02, 2012 22:00:00 GMT+0530&#34;</span>);
+<span style="color:#75715e">/* now = Mon Jan 02 2012 10:30:00 GMT-0600 (CST) */</span>
 </code></pre></div>
 
 <h4 id="how-to-convert-a-date-to-utc">How to convert a date to UTC?</h4>
@@ -135,7 +135,7 @@ if (!doNotTrack) {
 <p>This is where many of the online sources go wrong. The simple answer is to convert the date into milliseconds since Epoch and add the timezone offset and convert it back to a date object. Simple? No, this is partially correct. When the calculated milliseconds are converted back to a date, you get a local date.</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">nowUtc</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Date( <span style="color:#a6e22e">now</span>.<span style="color:#a6e22e">getTime</span>() <span style="color:#f92672">+</span> (<span style="color:#a6e22e">now</span>.<span style="color:#a6e22e">getTimezoneOffset</span>() <span style="color:#f92672">*</span> <span style="color:#ae81ff">60000</span>));
-<span style="color:#75715e">/* nowUtc = Mon Jan 02 2012 1600 GMT-0600 (CST) */</span>
+<span style="color:#75715e">/* nowUtc = Mon Jan 02 2012 16:30:00 GMT-0600 (CST) */</span>
 </code></pre></div>
 
 <p>Notice the GMT-0600 (CST) part at the end. That means the resulting date is not GMT, it is CST. If you convert this date to GMT it will read - <code>Mon Jan 02 2012 22:30:00 GMT</code> but we want it to be <code>Mon Jan 02 2012 16:30:00 GMT</code></p>
@@ -150,13 +150,13 @@ if (!doNotTrack) {
 <h4 id="how-to-convert-the-local-date-to-utc-date">How to convert the local date to UTC date?</h4>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#a6e22e">now</span>.<span style="color:#a6e22e">toUTCString</span>()
-<span style="color:#75715e">/* now = Mon, 02 Jan 2012 1600 GMT */</span>
+<span style="color:#75715e">/* now = Mon, 02 Jan 2012 16:30:00 GMT */</span>
 </code></pre></div>
 
 <h4 id="how-to-get-the-local-date-from-the-utc-date">How to get the local date from the UTC date?</h4>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#a6e22e">now</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Date(<span style="color:#a6e22e">now</span>.<span style="color:#a6e22e">toUTCString</span>());
-<span style="color:#75715e">/* now = Mon Jan 02 2012 1000 GMT-0600 (CST) */</span>
+<span style="color:#75715e">/* now = Mon Jan 02 2012 10:30:00 GMT-0600 (CST) */</span>
 </code></pre></div>
 
 <h4 id="that-is-a-long-string-to-store-is-there-any-alternative-to-store-the-utc-time">That is a long string to store, is there any alternative to store the UTC time?</h4>
@@ -172,7 +172,7 @@ if (!doNotTrack) {
 <p>Subtract the timezone offset.</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#a6e22e">now</span>.<span style="color:#a6e22e">setTime</span>(<span style="color:#a6e22e">millis</span> <span style="color:#f92672">-</span> (<span style="color:#a6e22e">now</span>.<span style="color:#a6e22e">getTimezoneOffset</span>() <span style="color:#f92672">*</span> <span style="color:#ae81ff">60000</span>))
-<span style="color:#75715e">/* now = Mon Jan 02 2012 1000 GMT-0600 (CST) */</span>
+<span style="color:#75715e">/* now = Mon Jan 02 2012 10:30:00 GMT-0600 (CST) */</span>
 </code></pre></div>
 
 <p>The code from above is used in this <a href="/media/51-75/52-javascript-utc/javascript-utc-demo.html">demo page</a>. Let me know if you have any questions or comments.</p>
