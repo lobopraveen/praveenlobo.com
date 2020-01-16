@@ -156,7 +156,7 @@ values ('bb2', 'cusip2', 'isin2', 'canada', 'csd'),
        ('bb3', 'cusip3', 'isin3', 'india', 'inr')
 
 insert into zxbrssmf (brscusip, isin, country, currency)
-values ('cusip3', 'isin3brs','us', 'usd')   
+values ('cusip3', 'isin3brs', 'us', 'usd')   
 ```
 
 Mastering didn't change `CADIS`. 1001 gets updated and 1003 gets created as expected.
@@ -165,7 +165,7 @@ Mastering didn't change `CADIS`. 1001 gets updated and 1003 gets created as expe
 update zxMasterSMF set country = 'canada', currency = 'csd' where AssetID = 1001
 
 insert into zxMasterSMF (AssetID, bbgid, cusip, BRScusip, pointid, isin, country, currency)
-values (1003, 'bb3','cusip3', null,null,'isin3','india', 'inr')
+values (1003, 'bb3','cusip3', null, null, 'isin3', 'india', 'inr')
 ```
 
 This gives a low confidence match. provisional 1. After accepting, only the search view shows my id rest all say matcher.
@@ -183,15 +183,15 @@ values ('bb4', 'cusip4', 'isin4', 'pak', 'pnr'),
        ('bb5', 'cusip5', 'isin5', 'pak', 'pnr')
 
 insert into zxbrssmf (brscusip, isin, country, currency)
-values ('cusip4', 'isin4','pak', 'usd')
+values ('cusip4', 'isin4', 'pak', 'usd')
 ```
 
 This leads to default insertion.
 
 ```sql
 insert into zxMasterSMF (AssetID, bbgid, cusip, BRScusip, pointid, isin, country, currency)
-values (1004, 'bb4','cusip4', null, null, 'isin4', 'pak', 'pnr'),
-       (1005, 'bb5','cusip5', null, null, 'isin5', 'pak', 'pnr')
+values (1004, 'bb4', 'cusip4', null, null, 'isin4', 'pak', 'pnr'),
+       (1005, 'bb5', 'cusip5', null, null, 'isin5', 'pak', 'pnr')
 ```
 
 High confidence match. no inbox.
@@ -274,7 +274,7 @@ values (1006, null, 'cusip50pnt', null, null, 'isin50', 'us', 'usd')
 
 ```sql
 insert into zxPointSMF (Pointid, cusip, isin, country, currency)
-values (51, 'cusip50pnt', 'isin50','us', 'usd')
+values (51, 'cusip50pnt', 'isin50', 'us', 'usd')
 ```
 
 In inbox 1007. Don't accept it yet.
@@ -443,7 +443,7 @@ Add rules to master - just enable complimentary on bbgid, brsid, pnt id ones.
 
 ```sql
 insert into zxMasterSMF (AssetID, bbgid, cusip, BRScusip, pointid, isin, country, currency)
-values (1018, 'bb124','cusip124', null,123,'isin124','india', 'inr')
+values (1018, 'bb124', 'cusip124', null, 123, 'isin124', 'india', 'inr')
 ```
 Then run matcher once. Now it should store all relationships. Also, point id 5 and 50 come up as subsequent diff match. Expected. Doing nothing.
 
