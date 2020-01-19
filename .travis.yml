@@ -1,8 +1,15 @@
-language: go
+language: minimal
+
+env:
+- HUGO_VERSION=0.62.2
 
 install:
 # "Step 1 - instaling hugo"
-- go get github.com/gohugoio/hugo
+# go get started failing
+#- go get github.com/gohugoio/hugo
+
+- curl -LO https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+- sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
 
 before_script:
 # "Step 2 - cleaning website publish folder 'docs'. Keeping media intact.
@@ -19,17 +26,29 @@ before_script:
 - rm -f travis_blog_deploy
 # "Step 6 - setting up git parameters"
 - git config --global user.email "lobopraveen@gmail.com"
-- git config --global user.name "travis"
+- git config --global user.name "Travis Deploy"
 # "Step 7 - commit the changes to the branch - $TRAVIS_BRANCH"
 - git status
-- git stash
-- git checkout $TRAVIS_BRANCH
-- git stash pop
+- git branch
+- echo $TRAVIS_PULL_REQUEST
+- echo $TRAVIS_BRANCH
+- echo $TRAVIS_PULL_REQUEST_BRANCH
+- if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+     echo "TRAVIS_BRANCH: $TRAVIS_BRANCH";
+     newbranchname=$TRAVIS_BRANCH
+  else
+     echo "TRAVIS_PULL_REQUEST_BRANCH: $TRAVIS_PULL_REQUEST_BRANCH";
+     newbranchname=$TRAVIS_PULL_REQUEST_BRANCH
+  fi
+- echo "newbranchname: $newbranchname"
+#- git stash
+#- git checkout $TRAVIS_BRANCH
+#- git stash pop
 - git add -A
 - git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
 # "Step 8 - push the changes to github if it is not a pull request"
-- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
-- if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git push origin; fi
+#- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
+#- if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git push origin; fi
 # "Successfully built and deployed the site!"
 
 script:
