@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='scroll'><meta property='article:tag' content='jQuery'><meta property='article:tag' content='HTML'><meta property='article:published_time' content='2011-08-11T02:08:01Z'/><meta property='article:modified_time' content='2011-08-11T02:08:01Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.60.0-DEV" />
+<meta name="generator" content="Hugo 0.62.2" />
 
   <title>How to scroll elements smoothly in JavaScript/jQuery  • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/'>
@@ -118,122 +118,83 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  
-
-<p>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The <a href="/media/26-50/38-scroll/ScrollDemo.html">demo</a> scrolls the page as well as the contents of a <code>DIV</code> and bring an element to view. These methods also use jQuery&rsquo;s <code>animate()</code> method. To best view the code in action click on RESET before clicking on the buttons.</p>
-
+  <p>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The <a href="/media/26-50/38-scroll/ScrollDemo.html">demo</a> scrolls the page as well as the contents of a <code>DIV</code> and bring an element to view. These methods also use jQuery's <code>animate()</code> method. To best view the code in action click on RESET before clicking on the buttons.</p>
 <p>Do you have a better way of scrolling elements? Ideas/comments/suggestions are always welcome.</p>
-
-<hr />
-
+<hr>
 <h4 id="the-simplest-one-will-be-to-use-an-anchor-tag">The simplest one will be to use <strong>an anchor tag</strong>:</h4>
-
 <p>Note that the anchor can be used on any element with an ID. This works exactly the same as <code>scrollIntoView(true)</code> - see [2] below</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">A</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#element&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Scroll</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">element</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/A&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">A</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#element&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Scroll</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">element</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#960050;background-color:#1e0010">A</span><span style="color:#960050;background-color:#1e0010">&gt;</span>
 ..
-<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">DIV</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;element&#34;</span><span style="color:#f92672">&gt;</span>...<span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/DIV&gt;</span>
+<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">DIV</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;element&#34;</span><span style="color:#f92672">&gt;</span>...<span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#960050;background-color:#1e0010">D</span><span style="color:#960050;background-color:#1e0010">I</span><span style="color:#960050;background-color:#1e0010">V</span><span style="color:#960050;background-color:#1e0010">&gt;</span>
 </code></pre></div>
-
 <h4 id="1-javascript-scrollto-method"><strong>[1] JavaScript scrollTo method</strong>:</h4>
-
 <p>This method takes coordinates on x and y axis to scroll.  The problem with this approach is that if the element to scroll is inside another element which has a scrollbar, it will not work as one might expect.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>){
  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">ele</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#a6e22e">element</span>);
  window.<span style="color:#a6e22e">scrollTo</span>(<span style="color:#a6e22e">ele</span>.<span style="color:#a6e22e">offsetLeft</span>,<span style="color:#a6e22e">ele</span>.<span style="color:#a6e22e">offsetTop</span>);
 }
 </code></pre></div>
-
-<h4 id="2-javascript-scrollintoview-alignwithtop-method"><strong>[2] JavaScript scrollIntoView(alignWithTop) method</strong>:</h4>
-
+<h4 id="2-javascript-scrollintoviewalignwithtop-method"><strong>[2] JavaScript scrollIntoView(alignWithTop) method</strong>:</h4>
 <p><code>alignWithTop=true</code> will align the element with the top of the scroll area.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
   <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>)[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">scrollIntoView</span>(<span style="color:#66d9ef">true</span>);
 }
 </code></pre></div>
-
-<h4 id="3-javascript-scrollintoview-alignwithtop-method"><strong>[3] JavaScript scrollIntoView(alignWithTop) method</strong>:</h4>
-
+<h4 id="3-javascript-scrollintoviewalignwithtop-method"><strong>[3] JavaScript scrollIntoView(alignWithTop) method</strong>:</h4>
 <p><code>alignWithTop=false</code> will align the element with the bottom of the scroll area.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){    
    <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>)[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">scrollIntoView</span>(<span style="color:#66d9ef">false</span>);
 }
 </code></pre></div>
-
 <h4 id="4-by-adjusting-scrolltop"><strong>[4] By adjusting scrollTop</strong>:</h4>
-
 <p>I think, this is the most commonly used/suggested way. However, if you try to scroll again, the scrolling goes for a toss. Try clicking on scroll twice on the demo page.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
-
-<h4 id="5-scrollintoview-alignwithtop-and-by-adjusting-scrolltop"><strong>[5] scrollIntoView(alignWithTop) and by adjusting scrollTop</strong>:</h4>
-
+<h4 id="5-scrollintoviewalignwithtop-and-by-adjusting-scrolltop"><strong>[5] scrollIntoView(alignWithTop) and by adjusting scrollTop</strong>:</h4>
 <p>This is just a combination of [2] and [4]</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>)[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">scrollIntoView</span>(<span style="color:#66d9ef">true</span>);
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">scrollTop</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
-
-<h4 id="6-scrollintoview-alignwithtop-and-by-adjusting-scrolltop"><strong>[6] scrollIntoView(alignWithTop) and by adjusting scrollTop</strong>:</h4>
-
+<h4 id="6-scrollintoviewalignwithtop-and-by-adjusting-scrolltop"><strong>[6] scrollIntoView(alignWithTop) and by adjusting scrollTop</strong>:</h4>
 <p>This is a combination of [3] and [4]</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript">   
 <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>)[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">scrollIntoView</span>(<span style="color:#66d9ef">false</span>);
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">scrollTop</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
-
 <h4 id="7-using-scrolltop-and-animation"><strong>[7] Using scrollTop and animation</strong>:</h4>
-
 <p>This is same as [5] but scrolls smoothly.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">scrollTop</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
     <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;html,body&#39;</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1000</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
-
 <h4 id="8-using-scrolltop-and-animation"><strong>[8] Using scrollTop and animation</strong>:</h4>
-
 <p>This is same as [6] but scrolls smoothly.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">scrollTop</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
     <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;html,body&#39;</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(window).<span style="color:#a6e22e">height</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">height</span>() }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1000</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
-
 <h4 id="9-using-scrolltop-and-animation"><strong>[9] Using scrollTop and animation</strong>:</h4>
-
 <p>This is essentially same as the last two methods except that this one will scroll the the page to bring the parent element to align the top with 1/3rd of the viewport.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">scroll</span>(<span style="color:#a6e22e">element</span>, <span style="color:#a6e22e">parent</span>){
     <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">scrollTop</span>() <span style="color:#f92672">+</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
     <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#39;html,body&#39;</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">parent</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span> <span style="color:#f92672">-</span> (<span style="color:#a6e22e">$</span>(window).<span style="color:#a6e22e">height</span>()<span style="color:#f92672">/</span><span style="color:#ae81ff">3</span>) }, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1000</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
-
 <h4 id="reset-scroll"><strong>Reset scroll</strong>:</h4>
-
 <p>This method will remove scroll from all elements on the page.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">resetAllScroll</span>(){
  <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;*&#34;</span>).<span style="color:#a6e22e">animate</span>({ <span style="color:#a6e22e">scrollTop</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>}, { <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;slow&#39;</span>, <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;swing&#39;</span>});
 }
 </code></pre></div>
-
-<hr />
-
+<hr>
 <p>Check out the <a href="/media/26-50/38-scroll/ScrollDemo.html">demo</a> and let me know what you think. To best view the code in action click on RESET before clicking on the buttons.</p>
 
 </div>
@@ -320,7 +281,7 @@ if (!doNotTrack) {
     <div class='comment-content'>
       My coder is trying to persuade me to move to .net from PHP.
 I have always disliked the idea because of the costs.
-But he&rsquo;s tryiong none the less. I&rsquo;ve been using Movable-type on a number
+But he's tryiong none the less. I've been using Movable-type on a number 
 of websites for about a year and am worried about switching to another platform.
 I have heard excellent things about blogengine.net.
 Is there a way I can import all my wordpress posts into it?
@@ -439,7 +400,7 @@ Any help would be really appreciated!
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2018-2019 Praveen Lobo </p>
+  <p> &copy; 2018-2020 Praveen Lobo </p>
 </div>
 
         </div>

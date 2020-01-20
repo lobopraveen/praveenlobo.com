@@ -16,8 +16,7 @@
       <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
  % in below scripts match shortest from the end of the string.</description>
     </item>
     
@@ -27,8 +26,7 @@ The following snippets show how to change the file name extensions on multiple f
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
     </item>
     
     <item>
@@ -68,7 +66,7 @@ $id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profil
       <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
+      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&#39;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&#39;t work!
 After a little search on the net, I found a workaround for this too!</description>
     </item>
     

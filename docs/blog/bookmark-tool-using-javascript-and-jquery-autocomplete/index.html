@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='HTML'><meta property='article:tag' content='jQuery'><meta property='article:tag' content='bookmark'><meta property='article:published_time' content='2018-06-14T20:00:00Z'/><meta property='article:modified_time' content='2018-06-14T20:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.60.0-DEV" />
+<meta name="generator" content="Hugo 0.62.2" />
 
   <title>Bookmark Tool/Manager Using JavaScript And jQuery Autocomplete • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete/'>
@@ -118,56 +118,34 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  
-
-<blockquote>
+  <blockquote>
 <p>How do you manage your bookmarks?</p>
 </blockquote>
-
 <p>This is a regular question usually from new team members for the past ten years or so. My answer has been the same, &ldquo;I use a tool I wrote.&rdquo; followed by, &ldquo;I will send you a link. You can use it from there or just make a copy of your own.&rdquo;</p>
-
-<p>I remember myself asking that question to others when I first started the job in mid 2000s. Most of my seniors liked to store the links in excel or a word document as we were not allowed to use any browser other than the Internet Explorer (IE) and the bookmarks in IE weren&rsquo;t searchable. No tools were allowed either. This was, and in some cases still is, a common thing at workplaces in enterprises.</p>
-
+<p>I remember myself asking that question to others when I first started the job in mid 2000s. Most of my seniors liked to store the links in excel or a word document as we were not allowed to use any browser other than the Internet Explorer (IE) and the bookmarks in IE weren't searchable. No tools were allowed either. This was, and in some cases still is, a common thing at workplaces in enterprises.</p>
 <p>After a couple of months of trying different options, I ended up using an HTML page which was another common thing to use. We would set the HTML page as home page and just do Control+F to search for links! Some people used HTML pages with different sections and it got fancier. There were a lot of different ways depending on who you asked.</p>
-
-<div class='align-center'>
-  <figure><a href="/media/51-75/54-bookmark-search/bookmark_search.png">
-    <img src="/media/51-75/54-bookmark-search/bookmark_search.png"
-         alt="Bookmark Search by Praveen Lobo"/> </a><figcaption>
-            <p>Bookmark Search</p>
-        </figcaption>
-</figure>
-</div>
-
-<p>If you guessed it, I didn&rsquo;t shy away in creating my own bookmark tool either; however, I&rsquo;m proud of it and use it even to this day! My version took the HTML page one step further by adding an input box and some JavaScript to search. The initial version was written in vanilla JavaScript and it would fire a search function <code>onkeyup</code> which would delete all rows from the table and add new rows that matched the input typed. On escape, it would redirect to the intranet search site with the text entered as search query.</p>
-
+<!-- raw HTML omitted -->
+<p>If you guessed it, I didn't shy away in creating my own bookmark tool either; however, I'm proud of it and use it even to this day! My version took the HTML page one step further by adding an input box and some JavaScript to search. The initial version was written in vanilla JavaScript and it would fire a search function <code>onkeyup</code> which would delete all rows from the table and add new rows that matched the input typed. On escape, it would redirect to the intranet search site with the text entered as search query.</p>
 <p>I re-wrote the HTML using jQuery and the autocomplete widget a couple of years after that and added <code>position</code> method to center the input box. I used some answers from StackOverflow to implement search on multiple words. After that the only change I did, other than adding the new links, was to update the jQuery version while publishing it now.</p>
-
-<h4 id="chrome-s-bookmark-manager">Chrome&rsquo;s bookmark manager</h4>
-
-<p>I use <a href="chrome://bookmarks/" target="_blank">chrome://bookmarks/</a> for personal use as I have maybe two or so dozens of links only. As you can see in that screenshot above, I really like saving bookmarks without names on the bookmarks bar. Why do I use Chrome&rsquo;s bookmark manager?</p>
-
+<h4 id="chromes-bookmark-manager">Chrome's bookmark manager</h4>
+<p>I use <a href="chrome://bookmarks/">chrome://bookmarks/</a> for personal use as I have maybe two or so dozens of links only. As you can see in that screenshot above, I really like saving bookmarks without names on the bookmarks bar. Why do I use Chrome's bookmark manager?</p>
 <ol>
 <li>Adding and removing bookmarks is easy.</li>
-<li>Search - unlike the tool, Chrome&rsquo;s search looks in the URLs as well. This is not difficult to implement in but I never really felt the need to do it. If you do, submit a <a href="https://github.com/lobopraveen/gists/tree/master/javascript" target="_blank">pull request</a>!</li>
+<li>Search - unlike the tool, Chrome's search looks in the URLs as well. This is not difficult to implement in but I never really felt the need to do it. If you do, submit a <a href="https://github.com/lobopraveen/gists/tree/master/javascript">pull request</a>!</li>
 <li>Sync - all my bookmarks are in sync across devices and operating systems.</li>
 </ol>
-
-<h4 id="why-use-bookmark-tool-over-chrome-s">Why use bookmark tool over Chrome&rsquo;s?</h4>
-
+<h4 id="why-use-bookmark-tool-over-chromes">Why use bookmark tool over Chrome's?</h4>
 <ol>
-<li>Sync - Chrome&rsquo;s sync feature is a plus for personal use and a minus for work. Saving work bookmarks in Chrome would lead to information leak. Also, like many people, I only use one device for work so there is no need for sync.</li>
+<li>Sync - Chrome's sync feature is a plus for personal use and a minus for work. Saving work bookmarks in Chrome would lead to information leak. Also, like many people, I only use one device for work so there is no need for sync.</li>
 <li>Cross browser sync and compatibility - a lot of enterprises still have applications that work only on IE! Using static HTML page that works in all browsers basically amounts to syncing between the browsers!</li>
 <li>Chrome opens file locations inside browser and IE opens them in Windows Explorer!</li>
 <li>Collaboration - all team members can use the same shared HTML page - I use a desktop shortcut to the shared page. A set of small published guidelines will help keep it consistent in terms of keywords.</li>
-<li>Usability - keyword highlighting, escape to search, and key-up/key-down to select a link is not available in Chrome&rsquo;s bookmark manager.</li>
+<li>Usability - keyword highlighting, escape to search, and key-up/key-down to select a link is not available in Chrome's bookmark manager.</li>
 </ol>
-
 <p>This bookmark tool can be implemented on an intranet site or a website easily too. The list of keywords+URL pairs (and even the code itself) can be obtained from the server on <code>onfocus</code> event and the list could be customized on the backend based on the user.</p>
-
 <p>This has saved me a lot of hours over the years and hope it helps you save some as well. Comments, suggestions, alternatives are always welcome. Please submit pull requests if you add any useful enhancements.
-The latest code can be found on <a href="https://github.com/lobopraveen/gists/tree/master/javascript" target="_blank">GitHub</a>. Here is a <a href="/media/51-75/54-bookmark-search/bookmark_search.html">demo</a>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-HTML" data-lang="HTML"><span style="color:#75715e">&lt;!--
+The latest code can be found on <a href="https://github.com/lobopraveen/gists/tree/master/javascript">GitHub</a>. Here is a <a href="/media/51-75/54-bookmark-search/bookmark_search.html">demo</a>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-HTML" data-lang="HTML"><span style="color:#75715e">&lt;!--</span><span style="color:#75715e">
 </span><span style="color:#75715e"> MIT License
 </span><span style="color:#75715e">
 </span><span style="color:#75715e"> Copyright (c) 2018 Praveen Lobo (praveenlobo.com)
@@ -191,7 +169,7 @@ The latest code can be found on <a href="https://github.com/lobopraveen/gists/tr
 </span><span style="color:#75715e"> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 </span><span style="color:#75715e"> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 </span><span style="color:#75715e"> SOFTWARE.
-</span><span style="color:#75715e">--&gt;</span>
+</span><span style="color:#75715e"></span><span style="color:#75715e">--&gt;</span>
 <span style="color:#75715e">&lt;!doctype html&gt;</span>
 &lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
   &lt;<span style="color:#f92672">head</span>&gt;
@@ -293,7 +271,8 @@ The latest code can be found on <a href="https://github.com/lobopraveen/gists/tr
   &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;signature&#34;</span>&gt;Bookmark Search by &lt;<span style="color:#f92672">i</span>&gt;Praveen Lobo&lt;/<span style="color:#f92672">i</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
 
 &lt;/<span style="color:#f92672">body</span>&gt;
-&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+&lt;/<span style="color:#f92672">html</span>&gt;
+</code></pre></div>
 </div>
 
   
@@ -466,7 +445,7 @@ The latest code can be found on <a href="https://github.com/lobopraveen/gists/tr
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2018-2019 Praveen Lobo </p>
+  <p> &copy; 2018-2020 Praveen Lobo </p>
 </div>
 
         </div>
