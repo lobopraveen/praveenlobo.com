@@ -5,15 +5,12 @@ env:
 
 install:
 # "Step 1 - instaling hugo"
-# go get started failing
-#- go get github.com/gohugoio/hugo
-
 - curl -LO https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
 - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
 - rm -rf hugo_${HUGO_VERSION}_Linux-64bit.deb
 
 before_script:
-# "Step 2 - cleaning website publish folder 'docs'. Keeping media intact.
+# "Step 2 - cleaning website publish folder 'docs'. Keeping media intact."
 - find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
 # "Step 3 - building the hugo site"
 - hugo version
@@ -28,15 +25,15 @@ before_script:
 # "Step 6 - setting up git parameters"
 - git config --global user.email "lobopraveen@gmail.com"
 - git config --global user.name "Travis Deploy"
-# "Step 7 - commit the changes to the branch - $TRAVIS_BRANCH"
+# "Step 7 - commit the changes to the branch"
 - git stash
 - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git checkout $TRAVIS_BRANCH; else git checkout $TRAVIS_PULL_REQUEST_BRANCH; fi
 - git stash pop
 - git add -A
 - git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
-# "Step 8 - push the changes to github if it is not a pull request"
+# "Step 8 - push the changes to github"
 - git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
-- if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git push origin; fi
+- git push
 # "Successfully built and deployed the site!"
 
 script:
