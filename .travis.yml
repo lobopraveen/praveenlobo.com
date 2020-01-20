@@ -10,6 +10,7 @@ install:
 
 - curl -LO https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
 - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+- rm -rf hugo_${HUGO_VERSION}_Linux-64bit.deb
 
 before_script:
 # "Step 2 - cleaning website publish folder 'docs'. Keeping media intact.
@@ -34,7 +35,7 @@ before_script:
 - git add -A
 - git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
 # "Step 8 - push the changes to github if it is not a pull request"
-#- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
+- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
 - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git push origin; fi
 # "Successfully built and deployed the site!"
 
