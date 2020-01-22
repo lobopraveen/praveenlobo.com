@@ -23,8 +23,8 @@ before_script:
 - ssh-add travis_blog_deploy
 - rm -f travis_blog_deploy
 # "Step 6 - setting up git parameters"
-- git config --global user.email "lobopraveen@gmail.com"
-- git config --global user.name "Travis Deploy"
+- git config --global user.email "$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
+- git config --global user.name "$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
 # "Step 7 - commit the changes to the branch"
 - git stash
 - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git checkout $TRAVIS_BRANCH; else git checkout $TRAVIS_PULL_REQUEST_BRANCH; fi
@@ -32,20 +32,16 @@ before_script:
 - git add -A
 - git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
 # "Step 8 - push the changes to github"
-#- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
-#- git push
-- echo $TRAVIS_REPO_SLUG
 - git remote set-url origin git@github.com:$TRAVIS_REPO_SLUG.git
 - git push
-- export COMMITTER_EMAIL="$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
-- echo "...$COMMITTER_EMAIL..."
-- export AUTHOR_NAME="$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
-- echo "...$AUTHOR_NAME..."
 # "Successfully built and deployed the site!"
 
 script:
 # Travis is failing for no reason. Just having this stage will prevent it from failing.
 - echo "Bye!"
+
+after_success:
+- test $TRAVIS_REPO_SLUG = "lobopraveen/praveenlobo.com" && echo "DEPOY"
 
 notifications:
   email:
