@@ -21,6 +21,8 @@ install:
 
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then travis_terminate 0; fi
 
+- if [ -z "$(git status --porcelain)" ]; then travis_terminate 0; fi
+
 - echo "Decrypt the deploy key"
 - openssl aes-256-cbc -K "$ENCRYPTED_KEY" -iv "$ENCRYPTED_IV" -in travis_blog_deploy.enc -out travis_blog_deploy -d
 - chmod 600 travis_blog_deploy
@@ -50,7 +52,7 @@ install:
 - echo "Push the changes to github"
 - git remote set-url origin git@github.com:"$TRAVIS_REPO_SLUG".git
 - git push
-- echo "last echo"
+- echo "Successfully pushed build results to the GitHub repo."
 
 
 notifications:
