@@ -1,14 +1,15 @@
 language: minimal
 
 env:
-- HUGO_VERSION=0.62.2
-- DEPLOY_REPO="lobopraveen/praveenlobo.com"
+    global:
+      - HUGO_VERSION=0.62.2
+      - DEPLOY_REPO="lobopraveen/praveenlobo.com"
 
 install:
 # Install hugo
-- curl -LO https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
-- sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
-- rm -rf hugo_${HUGO_VERSION}_Linux-64bit.deb
+- curl -LO https://github.com/gohugoio/hugo/releases/download/v"${HUGO_VERSION}"/hugo_"${HUGO_VERSION}"_Linux-64bit.deb
+- sudo dpkg -i hugo_"${HUGO_VERSION}"_Linux-64bit.deb
+- rm -rf hugo_"${HUGO_VERSION}"_Linux-64bit.deb
 - hugo version
 
 before_script:
@@ -22,9 +23,9 @@ script:
 after_success:
 # Commit the generated content if the build is on DEPLOY REPO
 - |
-  if [ $TRAVIS_REPO_SLUG = $DEPLOY_REPO ]; then
+  if [ "$TRAVIS_REPO_SLUG" = "$DEPLOY_REPO" ]; then
     # Decrypt the deploy key
-    openssl aes-256-cbc -K $encrypted_a781b6369385_key -iv $encrypted_a781b6369385_iv -in travis_blog_deploy.enc -out travis_blog_deploy -d
+    openssl aes-256-cbc -K "$encrypted_a781b6369385_key" -iv "$encrypted_a781b6369385_iv" -in travis_blog_deploy.enc -out travis_blog_deploy -d
     chmod 600 travis_blog_deploy
 
     # Add the deploy key to the keyring
@@ -40,9 +41,9 @@ after_success:
     git stash
 
     if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
-      git checkout $TRAVIS_BRANCH
+      git checkout "$TRAVIS_BRANCH"
     else
-      git checkout $TRAVIS_PULL_REQUEST_BRANCH
+      git checkout "$TRAVIS_PULL_REQUEST_BRANCH"
     fi
 
     git stash pop
@@ -50,7 +51,7 @@ after_success:
     git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
 
     # Push the changes to github
-    git remote set-url origin git@github.com:$TRAVIS_REPO_SLUG.git
+    git remote set-url origin git@github.com:"$TRAVIS_REPO_SLUG".git
     git push
   fi
 
