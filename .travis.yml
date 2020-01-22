@@ -21,6 +21,7 @@ install:
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then echo "Not a deploy repo. Exit."; travis_terminate 0; fi
 # Exit if the repo is clean i.e. hugo command didn't change any content
 - if [ -z "$(git status --porcelain)" ]; then echo "No content change. Exit."; travis_terminate 0; fi
+- git status --porcelain
 # Decrypt the deploy key
 - openssl aes-256-cbc -K "$ENCRYPTED_KEY" -iv "$ENCRYPTED_IV" -in travis_blog_deploy.enc -out travis_blog_deploy -d
 - chmod 600 travis_blog_deploy
