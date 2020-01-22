@@ -19,8 +19,6 @@ before_script:
 script:
 # Run hugo to build the site
 - hugo
-
-after_success:
 # Commit the generated content if the build is on DEPLOY REPO
 - |
   if [ "$TRAVIS_REPO_SLUG" = "$DEPLOY_REPO" ]; then
