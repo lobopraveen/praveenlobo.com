@@ -21,9 +21,9 @@ script:
 - hugo
 # Commit the generated content if the build is on DEPLOY REPO
 - |
-  if [ "$TRAVIS_REPO_SLUG" = "$DEPLOY_REPO" ]; then
+  if [ "$TRAVIS_REPO_SLUG" = "DEPLOY_REPO" ]; then
     echo "Decrypt the deploy key"
-    openssl aes-256-cbc -K "$encrypted_a781b6369385_key" -iv "$encrypted_a781b6369385_iv" -in travis_blog_deploy.enc -out travis_blog_deploy -d
+    openssl aes-256-cbc -K "$encrypted_a781b6369000_key" -iv "$encrypted_a781b6369385_iv" -in travis_blog_deploy.enc -out travis_blog_deploy -d
     chmod 600 travis_blog_deploy
 
     echo "Add the deploy key to the keyring"
