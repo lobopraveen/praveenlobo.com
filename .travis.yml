@@ -16,7 +16,7 @@ install:
 # Clean the website publish folder 'docs'. Keep media intact.
 - find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
 # Run hugo to build the site
-- hugo
+#- hugo
 # Commit the generated content if the build is on DEPLOY REPO
 
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then travis_terminate 0; fi
