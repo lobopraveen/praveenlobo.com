@@ -4,7 +4,7 @@ env:
     global:
       - HUGO_VERSION=0.62.2
       - DEPLOY_REPO="lobopraveen/praveenlobo.com"
-      - ENCRYPTED_KEY=$encrypted_a781b6369385_key
+      - ENCRYPTED_KEY=$encrypted_a781b6369300_key
       - ENCRYPTED_IV=$encrypted_a781b6369385_iv
 
 install:
@@ -21,7 +21,6 @@ install:
 
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then travis_terminate 0; fi
 
-- if [ -z "$(git status --porcelain)" ]; then travis_terminate 0; fi
 
 - echo "Decrypt the deploy key"
 - openssl aes-256-cbc -K "$ENCRYPTED_KEY" -iv "$ENCRYPTED_IV" -in travis_blog_deploy.enc -out travis_blog_deploy -d
@@ -31,6 +30,8 @@ install:
 - eval `ssh-agent -s`
 - ssh-add travis_blog_deploy
 - rm -f travis_blog_deploy
+
+- if [ -z "$(git status --porcelain)" ]; then travis_terminate 0; fi
 
 - echo "Set up git parameters"
 - git config --global user.email "$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
