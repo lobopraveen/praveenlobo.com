@@ -35,11 +35,12 @@ before_script:
 #- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
 #- git push
 - echo $TRAVIS_REPO_SLUG
-- git remote set-url origin git@github.com:$TRAVIS_REPO_SLUG
+- git remote set-url origin git@github.com:$TRAVIS_REPO_SLUG.git
+- git push
 - export COMMITTER_EMAIL="$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
+- echo "...$COMMITTER_EMAIL..."
 - export AUTHOR_NAME="$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
-- echo $COMMITTER_EMAIL
-- echo $AUTHOR_NAME
+- echo "...$AUTHOR_NAME..."
 # "Successfully built and deployed the site!"
 
 script:
