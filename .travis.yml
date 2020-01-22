@@ -16,7 +16,7 @@ install:
 # Clean the website publish folder 'docs'. Keep media intact.
 - find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
 # Run hugo to build the site
-- hugox
+- hugo
 # Commit the generated content if the build is on DEPLOY REPO
 
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then travis_terminate 0; fi
@@ -50,6 +50,7 @@ install:
 - echo "Push the changes to github"
 - git remote set-url origin git@github.com:"$TRAVIS_REPO_SLUG".git
 - git push
+- echo "last echo"
 
 
 notifications:
