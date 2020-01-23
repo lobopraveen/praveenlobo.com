@@ -7,6 +7,10 @@ env:
       - ENCRYPTED_KEY=$encrypted_a781b6369385_key
       - ENCRYPTED_IV=$encrypted_a781b6369385_iv
 
+# By defualt depth is set which implies --single-branch and the build will fail at checkout in case of pull requests
+git:
+  depth: false
+
 install:
 # Install hugo
 - curl -LO https://github.com/gohugoio/hugo/releases/download/v"${HUGO_VERSION}"/hugo_"${HUGO_VERSION}"_Linux-64bit.deb
