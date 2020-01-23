@@ -37,6 +37,12 @@ install:
 # Set up git parameters
 - git config --global user.email "$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
 - git config --global user.name "$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
+# Stash changes
+- git stash
+# Checkout the branch
+- git checkout "$TRAVIS_BRANCH"
+# Pop stash
+- git stash pop
 # Commit the changes to the branch
 - git add -A
 - git commit -m "Deploy for $TRAVIS_COMMIT. [skip ci]"
