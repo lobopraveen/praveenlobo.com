@@ -7,7 +7,7 @@ env:
       - ENCRYPTED_KEY=$encrypted_a781b6369385_key
       - ENCRYPTED_IV=$encrypted_a781b6369385_iv
 
-# By defualt depth is set which implies --single-branch and the build will fail at checkout in case of pull requests
+# By defualt depth is set which implies detached head so turn it off
 git:
   depth: false
 
@@ -23,6 +23,8 @@ install:
 - hugo
 # Exit if the build is NOT on the DEPLOY REPO
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then echo "Not a deploy repo. Exit."; travis_terminate 0; fi
+# Exit if the build is due to a pull request
+- if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then echo "Pull request build from $TRAVIS_PULL_REQUEST_BRANCH branch. Exit."; travis_terminate 0; fi
 # Exit if the repo is clean i.e. hugo command didn't change any content
 - if [ -z "$(git status --porcelain)" ]; then echo "No content change. Exit."; travis_terminate 0; fi
 # Decrypt the deploy key
@@ -35,12 +37,6 @@ install:
 # Set up git parameters
 - git config --global user.email "$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
 - git config --global user.name "$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
-# Stash changes
-- git stash
-# Checkout correct branch
-- if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git checkout "$TRAVIS_BRANCH"; else git checkout "$TRAVIS_PULL_REQUEST_BRANCH"; fi
-# Pop stash
-- git stash pop
 # Commit the changes to the branch
 - git add -A
 - git commit -m "Deploy for $TRAVIS_COMMIT. [skip ci]"
