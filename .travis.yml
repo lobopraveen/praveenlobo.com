@@ -13,7 +13,7 @@ install:
 - sudo dpkg -i hugo_"${HUGO_VERSION}"_Linux-64bit.deb
 - rm -rf hugo_"${HUGO_VERSION}"_Linux-64bit.deb
 - hugo version
-# Clean the website publish folder 'docs'. Keep media intact.
+# Clean the website publish folder 'docs'. Keep media intact
 - find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
 # Run hugo to build the site
 - hugo
@@ -21,7 +21,6 @@ install:
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then echo "Not a deploy repo. Exit."; travis_terminate 0; fi
 # Exit if the repo is clean i.e. hugo command didn't change any content
 - if [ -z "$(git status --porcelain)" ]; then echo "No content change. Exit."; travis_terminate 0; fi
-- git status --porcelain
 # Decrypt the deploy key
 - openssl aes-256-cbc -K "$ENCRYPTED_KEY" -iv "$ENCRYPTED_IV" -in travis_blog_deploy.enc -out travis_blog_deploy -d
 - chmod 600 travis_blog_deploy
@@ -40,7 +39,7 @@ install:
 - git stash pop
 # Commit the changes to the branch
 - git add -A
-- git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
+- git commit -m "Deploy for $TRAVIS_COMMIT. [skip ci]"
 # Push the changes to github
 - git remote set-url origin git@github.com:"$TRAVIS_REPO_SLUG".git
 - git push
