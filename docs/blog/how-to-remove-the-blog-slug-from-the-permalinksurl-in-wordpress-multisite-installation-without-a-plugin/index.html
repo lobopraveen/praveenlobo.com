@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='wordpress'><meta property='article:tag' content='blog'><meta property='article:tag' content='multisite'><meta property='article:tag' content='permalink'><meta property='article:tag' content='slug'><meta property='article:published_time' content='2011-05-24T06:58:10Z'/><meta property='article:modified_time' content='2011-05-24T06:58:10Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.60.0-DEV" />
+<meta name="generator" content="Hugo 0.62.2" />
 
   <title>How To Remove The /blog/ slug From The Permalinks(URL) Without A Plugin • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/'>
@@ -118,26 +118,18 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  
-
-<p>What is a blog slug? If you have no clue, this post isn&rsquo;t for you and if you want to know what it is, it is an ugly looking additional &ldquo;/blog/&rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&rsquo;s there and most probably you don&rsquo;t want it.</p>
-
-<p>How do you remove the additional &ldquo;blog&rdquo; in the URL of your posts? Simple, install some plugin which does it for you? That is what I thought; however, before doing so, I just took a careful look at the <code>wp_options</code> table. BAM! There it was. After spending about 30 minutes with settings and checking the data in this table, I have figured out a way to solve the blog slug problem without the need for a plugin. No need to change a bit of code. You don&rsquo;t even need to execute any queries. The query and the table values are shown below just to indicate what your action does to the database values. It&rsquo;s a simple process; only step 2 and 3 need your action, you can skip the rest!</p>
-
-<p>Just read on and try it out on your blog. I have also added the explanation (a little that I know). Beware, I haven&rsquo;t read more than 10 lines of PHP code, so I don&rsquo;t know what happens in the code but I&rsquo;m 100% sure on what the end result will be.</p>
-
+  <p>What is a blog slug? If you have no clue, this post isn't for you and if you want to know what it is, it is an ugly looking additional &ldquo;/blog/&rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it's there and most probably you don't want it.</p>
+<p>How do you remove the additional &ldquo;blog&rdquo; in the URL of your posts? Simple, install some plugin which does it for you? That is what I thought; however, before doing so, I just took a careful look at the <code>wp_options</code> table. BAM! There it was. After spending about 30 minutes with settings and checking the data in this table, I have figured out a way to solve the blog slug problem without the need for a plugin. No need to change a bit of code. You don't even need to execute any queries. The query and the table values are shown below just to indicate what your action does to the database values. It's a simple process; only step 2 and 3 need your action, you can skip the rest!</p>
+<p>Just read on and try it out on your blog. I have also added the explanation (a little that I know). Beware, I haven't read more than 10 lines of PHP code, so I don't know what happens in the code but I'm 100% sure on what the end result will be.</p>
 <p><em>Edit:</em> Mladen put all whys and hows to rest in a comment below. Three cheers to the awesome commenter!</p>
-
 <h4 id="steps-to-remove-blog-slug-from-post-links">Steps to remove blog slug from post links:</h4>
-
 <ul>
-<li>Here, I&rsquo;m assuming that you have your permalinks as <code>/%postname%/</code> Go to your blog and click on any post. You will notice the blog slug. This is because of the following to two records in <code>wp_options</code> table.<br />
+<li>Here, I'm assuming that you have your permalinks as <code>/%postname%/</code> Go to your blog and click on any post. You will notice the blog slug. This is because of the following to two records in <code>wp_options</code> table.<br>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span>
-<span style="color:#66d9ef">FROM</span>  <span style="color:#e6db74">&#39;wp_options&#39;</span>
-<span style="color:#66d9ef">WHERE</span> <span style="color:#e6db74">&#39;option_name&#39;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;permalink_structure&#39;</span> <span style="color:#66d9ef">OR</span>
-      <span style="color:#e6db74">&#39;option_name&#39;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;rewrite_rules&#39;</span></code></pre></div><br /></li>
+<span style="color:#66d9ef">FROM</span>  <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">wp_options</span><span style="color:#e6db74">&#39;</span>
+<span style="color:#66d9ef">WHERE</span> <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">option_name</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">permalink_structure</span><span style="color:#e6db74">&#39;</span> <span style="color:#66d9ef">OR</span>
+      <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">option_name</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">rewrite_rules</span><span style="color:#e6db74">&#39;</span></code></pre></div></li>
 </ul>
-
 <table>
 <thead>
 <tr>
@@ -148,7 +140,6 @@ if (!doNotTrack) {
 <th align="center">autoload</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="center">1234</td>
@@ -157,7 +148,6 @@ if (!doNotTrack) {
 <td align="center">/blog/%postname%/</td>
 <td align="center">yes</td>
 </tr>
-
 <tr>
 <td align="center">5678</td>
 <td align="center">0</td>
@@ -167,13 +157,11 @@ if (!doNotTrack) {
 </tr>
 </tbody>
 </table>
-
 <ul>
-<li>Now, update the Permalink Structure.<br />
-Go to Network Admin » Sites  » Move cursor over the main site name(/) » Edit » Settings » Scroll down to Permalink Structure and update it to <code>/%postname%/</code> and click on Save at the bottom of the page.<br />
+<li>Now, update the Permalink Structure.<br>
+Go to Network Admin » Sites  » Move cursor over the main site name(/) » Edit » Settings » Scroll down to Permalink Structure and update it to <code>/%postname%/</code> and click on Save at the bottom of the page.<br>
 Go to your blog and click on any post, you will notice a 404 - page not found error. This is because the above step only updates permalinks(<code>wp_options.permalink_structure</code>) and the records look like this:</li>
 </ul>
-
 <table>
 <thead>
 <tr>
@@ -184,7 +172,6 @@ Go to your blog and click on any post, you will notice a 404 - page not found er
 <th align="center">autoload</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="center">1234</td>
@@ -193,7 +180,6 @@ Go to your blog and click on any post, you will notice a 404 - page not found er
 <td align="center">%postname%/</td>
 <td align="center">yes</td>
 </tr>
-
 <tr>
 <td align="center">5678</td>
 <td align="center">0</td>
@@ -203,12 +189,10 @@ Go to your blog and click on any post, you will notice a 404 - page not found er
 </tr>
 </tbody>
 </table>
-
 <ul>
-<li>Update rewrite rules.<br />
+<li>Update rewrite rules.<br>
 Go to Site » move cursor on main site name(/) » Dashboard » Settings » Permalink. Notice Custom Structure. You will see that blog/ is outside the textbox and <code>%postname%/</code> appears in the textbox. Do <strong>not</strong> edit or save anything on this page. Now, the data in the table looks like:</li>
 </ul>
-
 <table>
 <thead>
 <tr>
@@ -219,7 +203,6 @@ Go to Site » move cursor on main site name(/) » Dashboard » Settings » Perma
 <th align="center">autoload</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="center">1234</td>
@@ -228,7 +211,6 @@ Go to Site » move cursor on main site name(/) » Dashboard » Settings » Perma
 <td align="center">%postname%/</td>
 <td align="center">yes</td>
 </tr>
-
 <tr>
 <td align="center">5678</td>
 <td align="center">0</td>
@@ -238,30 +220,21 @@ Go to Site » move cursor on main site name(/) » Dashboard » Settings » Perma
 </tr>
 </tbody>
 </table>
-
-<p>What happens is that when you visit this page, <code>rewrite_rules</code> gets changed automatically. May be it has something to do with autoload column, I don&rsquo;t know!</p>
-
-<hr />
-
+<p>What happens is that when you visit this page, <code>rewrite_rules</code> gets changed automatically. May be it has something to do with autoload column, I don't know!</p>
+<hr>
 <p>A few things I noticed:</p>
-
 <ul>
 <li>The value updated in step 2, goes to database as is and just to <code>permalink_structure</code> record.</li>
 <li>Any value updated in step 3, updates both rows mentioned above.</li>
 <li>WordPress takes the value in the database, removes the &ldquo;/blog/&rdquo; substring from it and shows the remaining in the textbox in step 3. The &ldquo;blog/&rdquo; shown outside the textbox is kinda fooling you.</li>
 <li>Wordpress adds &ldquo;/blog/&rdquo; to any value in the textbox updated from step 3 and updates both records in the database.</li>
-<li>That is the reason, you <strong>shouldn&rsquo;t</strong> update the permalinks from the page in step 3; it will automatically get &ldquo;/blog/&rdquo; added to the front of it and we will be back to square one.</li>
+<li>That is the reason, you <strong>shouldn't</strong> update the permalinks from the page in step 3; it will automatically get &ldquo;/blog/&rdquo; added to the front of it and we will be back to square one.</li>
 </ul>
-
-<hr />
-
-<p>Once done, visit the blog and click on any post. You should see the post and the permalink (URL) shouldn&rsquo;t have the &ldquo;blog slug&rdquo;. If you still see it or if you are getting 404 error, you have screwed up something. Antonio left a tip on how to solve the 404s in his comment below. Take a look if need be.</p>
-
+<hr>
+<p>Once done, visit the blog and click on any post. You should see the post and the permalink (URL) shouldn't have the &ldquo;blog slug&rdquo;. If you still see it or if you are getting 404 error, you have screwed up something. Antonio left a tip on how to solve the 404s in his comment below. Take a look if need be.</p>
 <p>Leave a comment on this blog saying how useful it was or how stupid I really am. If I take a look at the code someday, I will be sure to let you know how exactly it works. If you do know already, please leave a comment.</p>
-
 <p>Oh, I also noticed that WordPress auto corrects the permalinks (URLs) even if you enter it wrong. For e.g. if your blog post is &ldquo;example.com/somepost&rdquo;, WordPress will take you to the right page even if you enter &ldquo;example.com/YouCantSeeMe/somepost&rdquo;! It could be that, WordPress uses RegEx or some matching algorithm that compares from right to left and if it finds a match, it will take you to the page even if there are &ldquo;/.*/&rdquo; left on the left. Just a guess!  Any idea?</p>
-
-<p>Check this for more info -  <a href="https://wordpress.stackexchange.com/questions/19470/how-does-wordpress-handle-permalinks" target="_blank">How does WordPress handle permalinks?</a></p>
+<p>Check this for more info -  <a href="https://wordpress.stackexchange.com/questions/19470/how-does-wordpress-handle-permalinks">How does WordPress handle permalinks?</a></p>
 
 </div>
 
@@ -435,7 +408,7 @@ Go to Site » move cursor on main site name(/) » Dashboard » Settings » Perma
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2018-2019 Praveen Lobo </p>
+  <p> &copy; 2018-2020 Praveen Lobo </p>
 </div>
 
         </div>

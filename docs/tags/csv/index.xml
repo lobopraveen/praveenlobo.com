@@ -16,8 +16,7 @@
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
     </item>
     
   </channel>
