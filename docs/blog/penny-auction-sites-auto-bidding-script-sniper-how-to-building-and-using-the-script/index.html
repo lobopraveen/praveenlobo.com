@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='scam'><meta property='article:tag' content='bots'><meta property='article:tag' content='auction'><meta property='article:tag' content='bidding'><meta property='article:tag' content='penny'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='html'><meta property='article:tag' content='automation'><meta property='article:tag' content='bookmarklet'><meta property='article:published_time' content='2011-07-30T23:24:11Z'/><meta property='article:modified_time' content='2011-07-30T23:24:11Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.60.0-DEV" />
+<meta name="generator" content="Hugo 0.62.2" />
 
   <title>Penny Auction Sites Auto Bidding Script (Sniper) • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/'>
@@ -118,18 +118,12 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  
-
-<p>Part I and II of this post series can be found <a href="/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/">here</a> and <a href="/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/">here</a> respectively.</p>
-
-<hr />
-
+  <p>Part I and II of this post series can be found <a href="/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/">here</a> and <a href="/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/">here</a> respectively.</p>
+<hr>
 <h4 id="5-build-the-script">5. Build the script:</h4>
-
 <p>Assume that the HTML skeleton given in <a href="/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/">previous post</a> is indeed the code and when the bid ends the timer gets a class called <code>BIDEND</code>. Finally, say the code used by the site to place a bid is <code>PennyAuction.placeBid(itemCode);</code>. With this information build a script.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#75715e">// Get the codes from the user
-</span><span style="color:#75715e">// Note : If it&#39;s integer then parseInt method can be used around the prompt.
+</span><span style="color:#75715e"></span><span style="color:#75715e">// Note : If it&#39;s integer then parseInt method can be used around the prompt.
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">itemCode</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">prompt</span>(<span style="color:#e6db74">&#34;Please enter the item code:&#34;</span>);
 <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">lowPrice</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">prompt</span>(<span style="color:#e6db74">&#34;Please enter the price at which you want to start bidding:&#34;</span>), <span style="color:#ae81ff">10</span>);
 <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">highPrice</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">prompt</span>(<span style="color:#e6db74">&#34;Please enter the price at which you want to stop bidding:&#34;</span>), <span style="color:#ae81ff">10</span>);
@@ -197,38 +191,31 @@ if (!doNotTrack) {
 <span style="color:#75715e">// Call the method defined above to take care of the dirty business
 </span><span style="color:#75715e"></span><span style="color:#a6e22e">placeBid</span>();
 </code></pre></div>
-
 <p>This is it. This code should do the trick; Note that  <code>BIDEND</code>, <code>USERNAME</code> and <code>PennyAuction.placeBid(itemCode);</code> needs to be updated with respect to the auction site in question.</p>
-
-<hr />
-
+<hr>
 <h4 id="6-using-the-script">6. Using the script:</h4>
-
 <p><em>Update: Executing code from address bar as described below has been blocked in newer browsers. Please read one of the comments below for more info.</em></p>
-
-<p>Now that you have all the weapons, you should know how to use them. The above script can be saved as a bookmarklet and can be invoked on the auction site&rsquo;s bidding page. Or you can simply copy paste the updated script in the address bar of the browser. Of course, you should update the above mentioned values before you do that.</p>
-
+<p>Now that you have all the weapons, you should know how to use them. The above script can be saved as a bookmarklet and can be invoked on the auction site's bidding page. Or you can simply copy paste the updated script in the address bar of the browser. Of course, you should update the above mentioned values before you do that.</p>
 <p>To run the script from the address bar -</p>
-
 <ol>
-<li><p>Remove all comments. The lines starting with <code>//</code></p></li>
-
-<li><p>Remove all new line characters - the script should be in a single line. Some text editors allow Replacing newline character. Just perform a <code>Replace All</code> to replace <code>/n</code> with nothing.</p></li>
-
-<li><p>Append <code>javascript:</code> in front of the script</p></li>
-
-<li><p>Copy and paste the script line in the address bar and hit enter.</p></li>
+<li>
+<p>Remove all comments. The lines starting with <code>//</code></p>
+</li>
+<li>
+<p>Remove all new line characters - the script should be in a single line. Some text editors allow Replacing newline character. Just perform a <code>Replace All</code> to replace <code>/n</code> with nothing.</p>
+</li>
+<li>
+<p>Append <code>javascript:</code> in front of the script</p>
+</li>
+<li>
+<p>Copy and paste the script line in the address bar and hit enter.</p>
+</li>
 </ol>
-
-<p>If you want to see how it works, just copy and paste the below line in the address bar of the browser and hit enter:<br />
+<p>If you want to see how it works, just copy and paste the below line in the address bar of the browser and hit enter:<br>
 <code>javascript:var response = prompt('How is your day today?');alert('and you typed - ' + response);</code></p>
-
-<hr />
-
-<p>That&rsquo;s all. I hope it was helpful and you know how to build and use a sniper bot yourself now. I did try this on one of the famous bidding sites and it placed bids as it was designed to. However, I didn&rsquo;t win because I had very less bids to place and exhausted all of it. Let me reiterate, this script or anything for that matter won&rsquo;t guarantee winning. It all depends on the auction sites. They control the bidding with bots on the server side which keeps bidding until there is no one else to place a bid thus keeping the item as well as the price for bidding. However, they do frequently give some items away to make it look legitimate and fool people into participating. I&rsquo;m not guessing this; I&rsquo;m convinced that this is what they do. Their business model doesn&rsquo;t make sense otherwise!</p>
-
-<p>Edit: Don&rsquo;t believe me? Take a look at what Joshua Stein found - <a href="https://jcs.org/notaweblog/2009/03/06/trying_to_game_swoopo_com/" target="_blank">link</a>.</p>
-
+<hr>
+<p>That's all. I hope it was helpful and you know how to build and use a sniper bot yourself now. I did try this on one of the famous bidding sites and it placed bids as it was designed to. However, I didn't win because I had very less bids to place and exhausted all of it. Let me reiterate, this script or anything for that matter won't guarantee winning. It all depends on the auction sites. They control the bidding with bots on the server side which keeps bidding until there is no one else to place a bid thus keeping the item as well as the price for bidding. However, they do frequently give some items away to make it look legitimate and fool people into participating. I'm not guessing this; I'm convinced that this is what they do. Their business model doesn't make sense otherwise!</p>
+<p>Edit: Don't believe me? Take a look at what Joshua Stein found - <a href="https://jcs.org/notaweblog/2009/03/06/trying_to_game_swoopo_com/">link</a>.</p>
 <p><strong>Use the information found here at your own risk. I shall not be held liable for any losses or damages – monetary or otherwise.</strong></p>
 
 </div>
@@ -403,7 +390,7 @@ if (!doNotTrack) {
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2018-2019 Praveen Lobo </p>
+  <p> &copy; 2018-2020 Praveen Lobo </p>
 </div>
 
         </div>

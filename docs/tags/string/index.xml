@@ -16,7 +16,7 @@
       <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
-      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;ldquo;&amp;rdquo;) between A and In and the last blank token after Me.
+      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&#39;t like to use this class even if it weren&#39;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
 StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
     </item>
     
