@@ -27,7 +27,7 @@ I remember myself asking that question to others when I first started the job in
       <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
-      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&#39;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</guid>
-      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&amp;rsquo;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&amp;rsquo;m also having fun with their reputation points.</description>
+      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&#39;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&#39;m also having fun with their reputation points.</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
       
       <guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid>
       <description>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.
-If you didn&amp;rsquo;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
+If you didn&#39;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@ I remember myself asking that question to others when I first started the job in
       <guid>https://praveenlobo.com/blog/markitedm-classic-matcher-hands-on-notes/</guid>
       <description>IHS Markit defines Enterprise Data Management (EDM) as
  EDM is a data management platform for acquiring, validating and distributing trade, operational, risk, financial and customer data. It creates a single version of the truth in a consistent, transparent and fully audited environment. Firms benefit from greater control, ongoing compliance and transparency of their data.
- Markit has it&amp;rsquo;s own product for Enterprise Data Management called Markit EDM. I have fairly decent exposure to this tool including passing Markit&amp;rsquo;s core introduction and advanced course.</description>
+ Markit has it&#39;s own product for Enterprise Data Management called Markit EDM. I have fairly decent exposure to this tool including passing Markit&#39;s core introduction and advanced course.</description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@ I remember myself asking that question to others when I first started the job in
       
       <guid>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</guid>
       <description>While working on migrating this site from WordPress to Hugo, I did tweak somethings to make it work for my liking. I usually keep things simple so that future changes are as painless as possible, however, I decided to go ahead with these changes as it improved maintainability and reverting these changes are very straight forward.
-Hugo&amp;rsquo;s default publish directory Hugo generates the static site content in public directory by default.</description>
+Hugo&#39;s default publish directory Hugo generates the static site content in public directory by default.</description>
     </item>
     
     <item>
@@ -68,7 +68,7 @@ Hugo&amp;rsquo;s default publish directory Hugo generates the static site conten
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</guid>
-      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&amp;rsquo;t commit to it. I feel like I have hit this big writer&amp;rsquo;s block and I somehow don&amp;rsquo;t want to get out if it.</description>
+      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&#39;t commit to it. I feel like I have hit this big writer&#39;s block and I somehow don&#39;t want to get out if it.</description>
     </item>
     
     <item>
@@ -77,8 +77,7 @@ Hugo&amp;rsquo;s default publish directory Hugo generates the static site conten
       <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
  % in below scripts match shortest from the end of the string.</description>
     </item>
     
@@ -88,7 +87,7 @@ The following snippets show how to change the file name extensions on multiple f
       <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</guid>
-      <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&amp;rsquo;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
+      <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&#39;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
 The problem was with a query that used to run fine for a long time and started failing a couple of weeks ago.</description>
     </item>
     
@@ -109,7 +108,7 @@ Search File: To get a matching line from a file, use VBA code as shown here on t
       
       <guid>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</guid>
       <description>The easiest way to compare two XML files would be to see if any available tool can do the job. My favorite compare tool to use at work is Beyond Compare - it supports folders as well as files comparison, supports multiple file formats, and has ton of options. For personal use, I prefer meld as it is free and gets the job done.
-Although those are wonderful programs, they don&amp;rsquo;t fit every use case.</description>
+Although those are wonderful programs, they don&#39;t fit every use case.</description>
     </item>
     
     <item>
@@ -118,8 +117,7 @@ Although those are wonderful programs, they don&amp;rsquo;t fit every use case.<
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
     </item>
     
     <item>
@@ -147,7 +145,7 @@ CSV files with values that contain commas in them is a pain if the system was bu
       
       <guid>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</guid>
       <description>From the recent notes I made on the Google Voice and how it uses the carrier minutes and data to operate, it should be free in 2012 and beyond.
-Why? Currently, Google Voice is not a VOIP service and it uses the carrier minutes and data to operate which means to make or receive calls the subscriber has to pay the carrier. See the image in that post. If Google Voice doesn&amp;rsquo;t offer VOIP service and starts charging for the voice calls, the subscriber will be double charged.</description>
+Why? Currently, Google Voice is not a VOIP service and it uses the carrier minutes and data to operate which means to make or receive calls the subscriber has to pay the carrier. See the image in that post. If Google Voice doesn&#39;t offer VOIP service and starts charging for the voice calls, the subscriber will be double charged.</description>
     </item>
     
     <item>
@@ -156,7 +154,7 @@ Why? Currently, Google Voice is not a VOIP service and it uses the carrier minut
       <pubDate>Thu, 01 Dec 2011 05:55:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</guid>
-      <description>Does Google Voice Use Minutes or Data? Does Google Voice cost money? How does Google Voice calling or texting work? The answer is Yes, Yes, and I don&amp;rsquo;t know.
+      <description>Does Google Voice Use Minutes or Data? Does Google Voice cost money? How does Google Voice calling or texting work? The answer is Yes, Yes, and I don&#39;t know.
 Update: See this for more info
 Google Voice is an awesome idea and piece of software (if you are willing to give away more self information to Google than you already have). It is not a VOIP service like Google Talk; it is a call management service.</description>
     </item>
@@ -167,8 +165,7 @@ Google Voice is an awesome idea and piece of software (if you are willing to giv
       <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
-      <description>Update: moved the code to github
-Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
+      <description>Update: moved the code to githubJava List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&#39;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
     </item>
     
     <item>
@@ -177,7 +174,7 @@ Java List APIs provides a way to get the elements (sub-list) in a List between t
       <pubDate>Fri, 14 Oct 2011 02:41:54 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/it-needs-a-genius-to-understand-the-simplicity-r-i-p-dennis-ritchie/</guid>
-      <description>U changed the world; it is because of the people like you we C the world the way it is today. You didn&amp;rsquo;t make billions, but billionaires. You have such an impact not only on those who lived in your lifetime, but also on those who are yet to C the light of the day. Your influence is ubiquitous. The mankind will forever be grateful to you.
+      <description>U changed the world; it is because of the people like you we C the world the way it is today. You didn&#39;t make billions, but billionaires. You have such an impact not only on those who lived in your lifetime, but also on those who are yet to C the light of the day. Your influence is ubiquitous. The mankind will forever be grateful to you.
 R.I.P. Dennis Ritchie.</description>
     </item>
     
@@ -187,7 +184,7 @@ R.I.P. Dennis Ritchie.</description>
       <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
-      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;ldquo;&amp;rdquo;) between A and In and the last blank token after Me.
+      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&#39;t like to use this class even if it weren&#39;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
 StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
     </item>
     
@@ -197,7 +194,7 @@ StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &am
       <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
-      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&#39;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
     </item>
     
     <item>
@@ -216,9 +213,9 @@ We, at least some of us, code for a living. We cannot support it forever. We mig
       <pubDate>Wed, 10 Aug 2011 05:16:33 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/</guid>
-      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&amp;rsquo;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
- WordPress: Install WordPress.
- Plugins: Install necessary plugins.</description>
+      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&#39;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
+   WordPress: Install WordPress.
+  Plugins: Install necessary plugins.</description>
     </item>
     
     <item>
@@ -227,7 +224,7 @@ We, at least some of us, code for a living. We cannot support it forever. We mig
       <pubDate>Wed, 10 Aug 2011 03:04:53 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/why-are-comments-important/</guid>
-      <description>Around three months ago, I was shocked looking at some newly added code in one of our applications. It was naked. Not a single line of comment whatsoever!! I asked the person who wrote it to explain the code and it turned out that the code is indeed very cleverly written. I&amp;rsquo;d rate the code as top notch if only it had comments. When I demanded an explanation, it turned out that he thinks commenting is an utterly boring task.</description>
+      <description>Around three months ago, I was shocked looking at some newly added code in one of our applications. It was naked. Not a single line of comment whatsoever!! I asked the person who wrote it to explain the code and it turned out that the code is indeed very cleverly written. I&#39;d rate the code as top notch if only it had comments. When I demanded an explanation, it turned out that he thinks commenting is an utterly boring task.</description>
     </item>
     
     <item>
@@ -246,9 +243,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</guid>
-      <description>I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no null items.
-  Google Reader - null items
-   </description>
+      <description>I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no null items.</description>
     </item>
     
     <item>
@@ -258,7 +253,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</guid>
       <description>Part I and II of this post series can be found here and here respectively.
-5. Build the script: Assume that the HTML skeleton given in previous post is indeed the code and when the bid ends the timer gets a class called BIDEND. Finally, say the code used by the site to place a bid is PennyAuction.placeBid(itemCode);. With this information build a script.
+ 5. Build the script: Assume that the HTML skeleton given in previous post is indeed the code and when the bid ends the timer gets a class called BIDEND. Finally, say the code used by the site to place a bid is PennyAuction.placeBid(itemCode);. With this information build a script.
 // Get the codes from the user // Note : If it&amp;#39;s integer then parseInt method can be used around the prompt.</description>
     </item>
     
@@ -269,9 +264,8 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
       <description>Part I of this post series can be found here.
-3. Requirements for the script:  The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
- The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.
- The script shall bid a fixed number of times i.</description>
+ 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&#39;t crossed a set limit.
+  The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.</description>
     </item>
     
     <item>
@@ -280,7 +274,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
-      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&#39;t because I didn&#39;t want others to lose money, but shouldn&#39;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
     </item>
     
     <item>
@@ -301,8 +295,8 @@ Script after:
       <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid>
-      <description>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
-Advantges and Disadvantages of WordPress Multisite Advantages:  The multisite blogs have all features of a regular blog with just one installation i.</description>
+      <description>When you start out with the WordPress, it&#39;s common to assume that each blog needs a separate WordPress installation. But there&#39;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
+Advantges and Disadvantages of WordPress Multisite Advantages:   The multisite blogs have all features of a regular blog with just one installation i.</description>
     </item>
     
     <item>
@@ -333,7 +327,7 @@ Please do leave me a comment. Thanks!
       <pubDate>Mon, 27 Jun 2011 05:44:31 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</guid>
-      <description>I keep getting requests and I can&amp;rsquo;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
+      <description>I keep getting requests and I can&#39;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
 JavaScript Counter to Count Days Hours Minutes Seconds - This script is very simple; it takes a date to count the time from/to, an ID to put the timer in. To be very precise, this counter shows the total number of 24 hours intervals between the date-time given and current date-time.</description>
     </item>
     
@@ -343,7 +337,7 @@ JavaScript Counter to Count Days Hours Minutes Seconds - This script is very sim
       <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</guid>
-      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&amp;rsquo;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&amp;rsquo;m also having fun with their reputation points.</description>
+      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&#39;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&#39;m also having fun with their reputation points.</description>
     </item>
     
     <item>
@@ -353,7 +347,7 @@ JavaScript Counter to Count Days Hours Minutes Seconds - This script is very sim
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days/</guid>
       <description>John Watt sent me a request asking if I could help with changing the JavaScript CountUp Timer to show only the number of days in a counter. He also wanted to display the days in 3 digits.
-I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&amp;rsquo;t update every second.</description>
+I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&#39;t update every second.</description>
     </item>
     
     <item>
@@ -362,7 +356,7 @@ I did reply with changes but it had a defect due to a last minute change! So, I 
       <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
-      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
+      <description>What is a blog slug? If you have no clue, this post isn&#39;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&#39;s there and most probably you don&#39;t want it.
 How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
     </item>
     
@@ -374,7 +368,7 @@ How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your p
       <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate-contd/</guid>
       <description>Continued from here&amp;hellip;
 Advantages/Disadvantages: Advantages of multiple blogs include monetization, ease of finding advertisers, reaching right audience, and building a resource of articles all in the same niche. Disadvantages? Unless you are an expert you will run out of good articles, might have to hire writers. Multiple blogs needs more time in terms of maintenance, updates etc. It needs more resources which cost money.
-You will have enough time on your hand with a single blog and you don&amp;rsquo;t have to worry about all blogs that miss your constant love.</description>
+You will have enough time on your hand with a single blog and you don&#39;t have to worry about all blogs that miss your constant love.</description>
     </item>
     
     <item>
@@ -392,8 +386,8 @@ You will have enough time on your hand with a single blog and you don&amp;rsquo;
       <pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid>
-      <description>Disclaimer: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
-Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea.</description>
+      <description>Disclaimer: I&#39;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
+Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea. However, after sometime you will feel as if you should keep the posts separate and in their own blogs rather than having them all in under one blog.</description>
     </item>
     
     <item>
@@ -403,11 +397,9 @@ Why? If you are starting/have started blogging as a hobby, at first it may seem 
       
       <guid>https://praveenlobo.com/blog/rss-feed-url-changed/</guid>
       <description>Dear readers,
-Though there are only a few of you and I&amp;rsquo;m very sure you are very capable of finding it out yourselves, I think I must save your time and tell you that I&amp;rsquo;m moving my RSS Feed address.
+Though there are only a few of you and I&#39;m very sure you are very capable of finding it out yourselves, I think I must save your time and tell you that I&#39;m moving my RSS Feed address.
 The idea is simple:
- I post this post and then
- change my RSS feed address.
-  So that, assuming you miss this post, in case you wonder why you are not finding any new unread items in Lobo&amp;rsquo;s blog feed, this is the post you find on the old feed and you know the answer.</description>
+ I post this post and then change my RSS feed address.  So that, assuming you miss this post, in case you wonder why you are not finding any new unread items in Lobo&#39;s blog feed, this is the post you find on the old feed and you know the answer.</description>
     </item>
     
     <item>
@@ -416,7 +408,7 @@ The idea is simple:
       <pubDate>Sat, 02 Apr 2011 03:08:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/oops-facebook-image-compression-sucks/</guid>
-      <description>Facebook [profile picture] image compression not only sucks big time, but it is also stupid. I don&amp;rsquo;t use Facebook as an image storage service, neither do I care about the EXIF data that they strip. I&amp;rsquo;m also okay with their approach to compress each and every image(?), but compressing an image which results in an image size bigger than the originally uploaded image? I think it fits in my O_ops series.</description>
+      <description>Facebook [profile picture] image compression not only sucks big time, but it is also stupid. I don&#39;t use Facebook as an image storage service, neither do I care about the EXIF data that they strip. I&#39;m also okay with their approach to compress each and every image(?), but compressing an image which results in an image size bigger than the originally uploaded image? I think it fits in my O_ops series.</description>
     </item>
     
     <item>
@@ -435,8 +427,7 @@ The idea is simple:
       <pubDate>Thu, 03 Feb 2011 07:10:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/oops-re-try-again/</guid>
-      <description>You can&amp;rsquo;t attempt more than 5 times, please re-try again!
-   The best part is that once this message comes, the only way to succeed is to call the service center.</description>
+      <description>The best part is that once this message comes, the only way to succeed is to call the service center.</description>
     </item>
     
     <item>
@@ -445,10 +436,10 @@ The idea is simple:
       <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/working-on-the-blog/</guid>
-      <description>This is a perfect example for a seemingly easy task taking up so much of one&amp;rsquo;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
+      <description>This is a perfect example for a seemingly easy task taking up so much of one&#39;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
 Here is what I have done so far:
- Updated feed through FeedBurner: this was already present, I updated some settings.
- Added Google AdSense: there comes a time in everyone&amp;rsquo;s life when they turn greedy.</description>
+  Updated feed through FeedBurner: this was already present, I updated some settings.
+  Added Google AdSense: there comes a time in everyone&#39;s life when they turn greedy.</description>
     </item>
     
     <item>
@@ -466,8 +457,8 @@ Here is what I have done so far:
       <pubDate>Mon, 03 Jan 2011 21:20:12 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites/</guid>
-      <description>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those penny auction sites are amazing, aren&amp;rsquo;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.
-If you haven&amp;rsquo;t got a clue about it, I urge you to read about them.</description>
+      <description>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those penny auction sites are amazing, aren&#39;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.
+If you haven&#39;t got a clue about it, I urge you to read about them.</description>
     </item>
     
     <item>
@@ -505,7 +496,7 @@ $id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profil
       <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
+      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&#39;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&#39;t work!
 After a little search on the net, I found a workaround for this too!</description>
     </item>
     
@@ -528,8 +519,8 @@ Ubuntu 10.04 (Lucid Lynx) is impressive; thanks to all those who made it possibl
       <pubDate>Sun, 02 May 2010 12:23:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-i-put-my-first-gimp-work-to-use/</guid>
-      <description>HotLinking. If you don&amp;rsquo;t know what it means follow the link and spend a couple of minutes reading about it. For those who are not interested in doing so - hotlinking is somebody else riding your superbike on your petrol without your knowledge and without giving you any credit. Bad analogy? :o)
-How do you make sure you don&amp;rsquo;t allow something which you don&amp;rsquo;t even know is happening? Very simple, using .</description>
+      <description>HotLinking. If you don&#39;t know what it means follow the link and spend a couple of minutes reading about it. For those who are not interested in doing so - hotlinking is somebody else riding your superbike on your petrol without your knowledge and without giving you any credit. Bad analogy? :o)
+How do you make sure you don&#39;t allow something which you don&#39;t even know is happening? Very simple, using .</description>
     </item>
     
     <item>
@@ -538,8 +529,8 @@ How do you make sure you don&amp;rsquo;t allow something which you don&amp;rsquo
       <pubDate>Fri, 16 Apr 2010 13:30:03 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-countup-timer/</guid>
-      <description>Update (2018): I have moved the code to GitHub - JavaScript Counters AS IS. 
-I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&amp;rsquo;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&amp;rsquo;t easily understandable; most of them were using approximation (esp.</description>
+      <description>I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&#39;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&#39;t easily understandable; most of them were using approximation (esp. for months and years).
+My requirement was that the timer should be simple and which counts time exactly the same way we humans do.</description>
     </item>
     
     <item>
@@ -557,8 +548,8 @@ I was in need of timer to mark an important decision; I did what most of us woul
       <pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</guid>
-      <description>A post about switching the Operating System(OS)? Yeah, why not? After all It&amp;rsquo;s the OS that made one man the richest in the world. It&amp;rsquo;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&amp;rsquo;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!
-I&amp;rsquo;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it!</description>
+      <description>A post about switching the Operating System(OS)? Yeah, why not? After all It&#39;s the OS that made one man the richest in the world. It&#39;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&#39;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!
+I&#39;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it!</description>
     </item>
     
     <item>
@@ -567,11 +558,11 @@ I&amp;rsquo;m not a Linux freak or a guru but an average user helping the open s
       <pubDate>Tue, 22 Dec 2009 19:31:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/yet-another-hello-world/</guid>
-      <description>I&amp;rsquo;m bored of Hello, world!; I did that over
+      <description>I&#39;m bored of Hello, world!; I did that over
  9000 days 1300 weeks 200,000 hours 13,000,000 minutes 750,000,000 seconds  ago. Yeah, about 25 years ago, I did my personal Hello, world!
  Hello, world!
- Yet another &amp;ldquo;Hello, world!&amp;rdquo;? Yes, this time not from me but from this very blog you are reading! :o)
-On a serious note, I&amp;rsquo;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
+ Yet another &amp;ldquo;Hello, world!&amp;quot;? Yes, this time not from me but from this very blog you are reading! :o)
+On a serious note, I&#39;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
     </item>
     
   </channel>

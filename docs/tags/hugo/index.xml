@@ -27,7 +27,7 @@
       
       <guid>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</guid>
       <description>While working on migrating this site from WordPress to Hugo, I did tweak somethings to make it work for my liking. I usually keep things simple so that future changes are as painless as possible, however, I decided to go ahead with these changes as it improved maintainability and reverting these changes are very straight forward.
-Hugo&amp;rsquo;s default publish directory Hugo generates the static site content in public directory by default.</description>
+Hugo&#39;s default publish directory Hugo generates the static site content in public directory by default.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ Hugo&amp;rsquo;s default publish directory Hugo generates the static site conten
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</guid>
-      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&amp;rsquo;t commit to it. I feel like I have hit this big writer&amp;rsquo;s block and I somehow don&amp;rsquo;t want to get out if it.</description>
+      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&#39;t commit to it. I feel like I have hit this big writer&#39;s block and I somehow don&#39;t want to get out if it.</description>
     </item>
     
   </channel>

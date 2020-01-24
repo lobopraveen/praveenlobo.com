@@ -16,7 +16,7 @@
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</guid>
-      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&amp;rsquo;t commit to it. I feel like I have hit this big writer&amp;rsquo;s block and I somehow don&amp;rsquo;t want to get out if it.</description>
+      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&#39;t commit to it. I feel like I have hit this big writer&#39;s block and I somehow don&#39;t want to get out if it.</description>
     </item>
     
     <item>
@@ -44,9 +44,9 @@ The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinishe
       <pubDate>Wed, 10 Aug 2011 05:16:33 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/</guid>
-      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&amp;rsquo;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
- WordPress: Install WordPress.
- Plugins: Install necessary plugins.</description>
+      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&#39;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
+   WordPress: Install WordPress.
+  Plugins: Install necessary plugins.</description>
     </item>
     
     <item>
@@ -55,8 +55,8 @@ The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinishe
       <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid>
-      <description>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
-Advantges and Disadvantages of WordPress Multisite Advantages:  The multisite blogs have all features of a regular blog with just one installation i.</description>
+      <description>When you start out with the WordPress, it&#39;s common to assume that each blog needs a separate WordPress installation. But there&#39;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
+Advantges and Disadvantages of WordPress Multisite Advantages:   The multisite blogs have all features of a regular blog with just one installation i.</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ Advantges and Disadvantages of WordPress Multisite Advantages:  The multisite bl
       <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
-      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
+      <description>What is a blog slug? If you have no clue, this post isn&#39;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&#39;s there and most probably you don&#39;t want it.
 How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
     </item>
     
@@ -77,7 +77,7 @@ How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your p
       <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate-contd/</guid>
       <description>Continued from here&amp;hellip;
 Advantages/Disadvantages: Advantages of multiple blogs include monetization, ease of finding advertisers, reaching right audience, and building a resource of articles all in the same niche. Disadvantages? Unless you are an expert you will run out of good articles, might have to hire writers. Multiple blogs needs more time in terms of maintenance, updates etc. It needs more resources which cost money.
-You will have enough time on your hand with a single blog and you don&amp;rsquo;t have to worry about all blogs that miss your constant love.</description>
+You will have enough time on your hand with a single blog and you don&#39;t have to worry about all blogs that miss your constant love.</description>
     </item>
     
     <item>
@@ -95,8 +95,8 @@ You will have enough time on your hand with a single blog and you don&amp;rsquo;
       <pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid>
-      <description>Disclaimer: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
-Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea.</description>
+      <description>Disclaimer: I&#39;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
+Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea. However, after sometime you will feel as if you should keep the posts separate and in their own blogs rather than having them all in under one blog.</description>
     </item>
     
     <item>
@@ -105,10 +105,10 @@ Why? If you are starting/have started blogging as a hobby, at first it may seem 
       <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/working-on-the-blog/</guid>
-      <description>This is a perfect example for a seemingly easy task taking up so much of one&amp;rsquo;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
+      <description>This is a perfect example for a seemingly easy task taking up so much of one&#39;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
 Here is what I have done so far:
- Updated feed through FeedBurner: this was already present, I updated some settings.
- Added Google AdSense: there comes a time in everyone&amp;rsquo;s life when they turn greedy.</description>
+  Updated feed through FeedBurner: this was already present, I updated some settings.
+  Added Google AdSense: there comes a time in everyone&#39;s life when they turn greedy.</description>
     </item>
     
     <item>
@@ -117,11 +117,11 @@ Here is what I have done so far:
       <pubDate>Tue, 22 Dec 2009 19:31:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/yet-another-hello-world/</guid>
-      <description>I&amp;rsquo;m bored of Hello, world!; I did that over
+      <description>I&#39;m bored of Hello, world!; I did that over
  9000 days 1300 weeks 200,000 hours 13,000,000 minutes 750,000,000 seconds  ago. Yeah, about 25 years ago, I did my personal Hello, world!
  Hello, world!
- Yet another &amp;ldquo;Hello, world!&amp;rdquo;? Yes, this time not from me but from this very blog you are reading! :o)
-On a serious note, I&amp;rsquo;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
+ Yet another &amp;ldquo;Hello, world!&amp;quot;? Yes, this time not from me but from this very blog you are reading! :o)
+On a serious note, I&#39;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
     </item>
     
   </channel>

@@ -11,7 +11,7 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='Unix'><meta property='article:tag' content='cron'><meta property='article:tag' content='torrent'><meta property='article:tag' content='wget'><meta property='article:tag' content='script'><meta property='article:tag' content='transmission'><meta property='article:published_time' content='2010-05-27T00:00:00Z'/><meta property='article:modified_time' content='2010-05-27T00:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.60.0-DEV" />
+<meta name="generator" content="Hugo 0.62.2" />
 
   <title>Automate Torrent Download Using Transmission • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/automate-torrent-download-using-transmission/'>
@@ -118,26 +118,27 @@ One min read
   
 
   <div class='container entry-content'>
-  <p>A while ago I wrote about <a href="/blog/swget-a-simple-wget-wrapper">swget - A Simple wget Wrapper</a> The methods described don&rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&rsquo;t work!</p>
-
+  <p>A while ago I wrote about <a href="/blog/swget-a-simple-wget-wrapper">swget - A Simple wget Wrapper</a> The methods described don't work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn't work!</p>
 <p>After a little search on the net, I found a workaround for this too!</p>
-
 <ol>
-<li><p>install transmission-cli -<br />
-<code>$sudo apt-get install transmission-cli</code></p></li>
-
-<li><p>add a cron job to start downloading all torrents and set it to start at 2:05AM<br />
-<code>5 2 * * * transmission-remote --torrent all --start</code></p></li>
-
-<li><p>add another cron job to stop all downloads at 7:55AM<br />
-<code>55 7 * * * transmission-remote --torrent all --stop</code></p></li>
-
-<li><p>put the torrents for download, pause all of them, and go to sleep!</p></li>
+<li>
+<p>install transmission-cli -<br>
+<code>$sudo apt-get install transmission-cli</code></p>
+</li>
+<li>
+<p>add a cron job to start downloading all torrents and set it to start at 2:05AM<br>
+<code>5 2 * * * transmission-remote --torrent all --start</code></p>
+</li>
+<li>
+<p>add another cron job to stop all downloads at 7:55AM<br>
+<code>55 7 * * * transmission-remote --torrent all --stop</code></p>
+</li>
+<li>
+<p>put the torrents for download, pause all of them, and go to sleep!</p>
+</li>
 </ol>
-
 <p>Last step is very important as <code>transmission-remote</code> command works only if the Transmission is already up and running.</p>
-
-<p>That&rsquo;s all for now. Comments/suggestions are welcome.</p>
+<p>That's all for now. Comments/suggestions are welcome.</p>
 
 </div>
 
@@ -311,7 +312,7 @@ One min read
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2018-2019 Praveen Lobo </p>
+  <p> &copy; 2018-2020 Praveen Lobo </p>
 </div>
 
         </div>
