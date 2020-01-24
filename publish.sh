@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# 
 # MIT License
 #
 # Copyright (c) 2018 Praveen Lobo (praveenlobo.com)
