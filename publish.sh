@@ -22,12 +22,13 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-
-# Function to git add all commit push (gaacp). Up to two parameters are accepted for commit message
+###############################################
+# Function to git add all commit push (gaacp) #
+###############################################
 gaacp() {
   echo "Updating local repo with latest files..."
   git add -A
-  git commit -m "$1. $2"
+  git commit -m "$1"
 
   if [[ $? -ne 0 ]]; then
     echo "ERROR: Local repo commit failed."
@@ -44,7 +45,7 @@ gaacp() {
 }
 # End Function
 
-if [ $# -ne 1 ]; then
+if [[ $# -ne 1 ]]; then
   echo -e "ERROR: Missing parameter. \nUsage: $0 \"commit message\""
   exit 1
 fi
@@ -75,7 +76,7 @@ if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
     exit 1
   fi
 
-  gaacp "$1" "[skip ci]"
+  gaacp "$1 [skip ci]"
 
 elif [[ $localbuild = "n" || $localbuild = "N" ]]; then
   echo "Remote build selected."
