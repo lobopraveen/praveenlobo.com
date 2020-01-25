@@ -8,8 +8,8 @@ env:
       - ENCRYPTED_IV=$encrypted_a781b6369385_iv
 
 # By defualt depth is set which implies detached head so turn it off
-git:
-  depth: false
+#git:
+#  depth: false
 
 install:
 # Install hugo

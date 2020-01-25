@@ -4,17 +4,20 @@ description = "Using Travis-CI"
 slug = "../Hugo-Static-Site-GitHub-Continuous-Integration-Deployment"
 author = "Lobo"
 comments = "true"
-date = "2018-05-01 23:00:00"
-timezone = "CDT"
+date = "2020-01-25"
 categories = ["1"]
 tags = ["hugo", "static site", "travis", "ci cd", "automation"]
 toc = true
 +++
 
+*Original post date: 2018-05-01. Edited to include [changes made in 2020](https://github.com/lobopraveen/praveenlobo.com/pull/63). I don't build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.*
+
+---
+
 After [migrating](/blog/from-wordpress-to-a-static-site-generator/) the blog to Hugo and making some [custom changes](/blog/hugo-static-site-on-github-customizations/), it was time to develop the CI-CD pipeline. The key objectives for my CI-CD pipeline were
 
 1. to be able to build the site locally and
-1. to be able to build the site remotely on an integration server
+1. to be able to build the site remotely on a CI server
 
 ### Build Locally
 
@@ -26,16 +29,13 @@ I built the following script to automate the build and deployment activities. Th
 
 ```bash
 #!/bin/bash
-
-#
-# Find the latest script on https://github.com/lobopraveen/praveenlobo.com
-#
-
-# Function to git add all commit push (gaacp). Up to two parameters are accepted for commit message
+###############################################
+# Function to git add all commit push (gaacp) #
+###############################################
 gaacp() {
   echo "Updating local repo with latest files..."
   git add -A
-  git commit -m "$1. $2"
+  git commit -m "$1"
 
   if [[ $? -ne 0 ]]; then
     echo "ERROR: Local repo commit failed."
@@ -52,7 +52,7 @@ gaacp() {
 }
 # End Function
 
-if [ $# -ne 1 ]; then
+if [[ $# -ne 1 ]]; then
   echo -e "ERROR: Missing parameter. \nUsage: $0 \"commit message\""
   exit 1
 fi
@@ -83,7 +83,7 @@ if [[ $localbuild = "y" || $localbuild = "Y" ]]; then
     exit 1
   fi
 
-  gaacp "$1" "[skip ci]"
+  gaacp "$1 [skip ci]"
 
 elif [[ $localbuild = "n" || $localbuild = "N" ]]; then
   echo "Remote build selected."
@@ -94,7 +94,6 @@ else
   echo "ERROR: Incorrect input supplied."
   exit 1
 fi
-
 ```
 
 Notice the `git pull` at the very beginning. It is added so that the local code is updated with any changes or updates made from other workspaces or remote builds.
@@ -114,67 +113,74 @@ Setting this up at a high level was as easy as -
 1. [Encrypting the private key](https://docs.travis-ci.com/user/encrypting-files/) so it remains secret and only Travis can decrypt it. This needs travis gems installed and of course, Ruby as well.
 1. Building the steps that Travis will take whenever it finds a commit to the repo.
 
-Here is the travis.yml I use.
+The travis.yml is shown below. Latest is available on the GitHub repo.
 
 ```yml
-#
-# Find the latest config file on https://github.com/lobopraveen/praveenlobo.com
-#
+language: minimal
 
-language: go
+env:
+    global:
+      - HUGO_VERSION=0.62.2
+      - DEPLOY_REPO="lobopraveen/praveenlobo.com"
+      - ENCRYPTED_KEY=$encrypted_a781b6369385_key
+      - ENCRYPTED_IV=$encrypted_a781b6369385_iv
+
+# By defualt depth is set which implies detached head so turn it off
+#git:
+#  depth: false
 
 install:
-# "Step 1 - instaling hugo"
-- go get github.com/gohugoio/hugo
-
-before_script:
-# "Step 2 - cleaning website publish folder 'docs'. Keeping media intact.
-- find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
-# "Step 3 - building the hugo site"
+# Install hugo
+- curl -LO https://github.com/gohugoio/hugo/releases/download/v"${HUGO_VERSION}"/hugo_"${HUGO_VERSION}"_Linux-64bit.deb
+- sudo dpkg -i hugo_"${HUGO_VERSION}"_Linux-64bit.deb
+- rm -rf hugo_"${HUGO_VERSION}"_Linux-64bit.deb
 - hugo version
+# Clean the website publish folder 'docs'. Keep media intact
+- find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
+# Run hugo to build the site
 - hugo
-# "Step 4 - decrypting the deploy key"
-- openssl aes-256-cbc -K $encrypted_a781b6369385_key -iv $encrypted_a781b6369385_iv -in travis_blog_deploy.enc -out travis_blog_deploy -d
+# Exit if the build is NOT on the DEPLOY REPO
+- if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then echo "Not a deploy repo. Exit."; travis_terminate 0; fi
+# Exit if the build is due to a pull request
+- if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then echo "Pull request build from $TRAVIS_PULL_REQUEST_BRANCH branch. Exit."; travis_terminate 0; fi
+# Exit if the repo is clean i.e. hugo command didn't change any content
+- if [ -z "$(git status --porcelain)" ]; then echo "No content change. Exit."; travis_terminate 0; fi
+# Decrypt the deploy key
+- openssl aes-256-cbc -K "$ENCRYPTED_KEY" -iv "$ENCRYPTED_IV" -in travis_blog_deploy.enc -out travis_blog_deploy -d
 - chmod 600 travis_blog_deploy
-# "Step 5 - adding the deploy key to the keyring"
+# Add the deploy key to the keyring
 - eval `ssh-agent -s`
 - ssh-add travis_blog_deploy
 - rm -f travis_blog_deploy
-# "Step 6 - setting up git parameters"
-- git config --global user.email "lobopraveen@gmail.com"
-- git config --global user.name "travis"
-# "Step 7 - commit the changes to the branch - $TRAVIS_BRANCH"
-- git status
+# Set up git parameters
+- git config --global user.email "$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
+- git config --global user.name "$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
+# Stash changes
 - git stash
-- git checkout $TRAVIS_BRANCH
+# Checkout the branch
+- git checkout "$TRAVIS_BRANCH"
+# Pop stash
 - git stash pop
+# Commit the changes to the branch
 - git add -A
-- git commit -m "Travis deploy for $TRAVIS_COMMIT. [skip ci]"
-# "Step 8 - push the changes to github"
-- git remote set-url origin git@github.com:lobopraveen/praveenlobo.com.git
-- git push origin
-# "Successfully built and deployed the site!"
-
-script:
-# Travis is failing for no reason. Just having this stage will prevent it from failing.
-- echo "Bye!"
+- git commit -m "Deploy for $TRAVIS_COMMIT. [skip ci]"
+# Push the changes to github
+- git remote set-url origin git@github.com:"$TRAVIS_REPO_SLUG".git
+- git push
+- echo "Successfully pushed build results to the GitHub repo."
 
 notifications:
   email:
     on_success: change
     on_failure: always
-
 ```
 
-Notice how I have `before_script` phase doing all the work? It is because Travis build doesn't fail immediately on error in certain phases. See more details [here](https://github.com/travis-ci/travis-ci/issues/1066).
+Notice how the `install` phase is doing all the work? It is because Travis build doesn't fail immediately on error in certain phases. See more details [here](https://github.com/travis-ci/travis-ci/issues/1066) and [here](https://docs.travis-ci.com/user/job-lifecycle/#breaking-the-build).
 
-Hugo publish directory cleanup retains media folder due to the [ Hugo media de-duplicate strategy](/blog/hugo-static-site-on-github-customizations/#de-duplicating-the-media) I employ.
+Hugo publish directory cleanup retains the media folder due to the [ Hugo media de-duplicate strategy](/blog/hugo-static-site-on-github-customizations/#de-duplicating-the-media) I employ.
 
 The `[skip ci]` text in the Git commit message notifies Travis to ignore the check-in so that it doesn't go into an infinite loop.
 
-As mentioned above already, any time the site is built remotely, it throws the local repo out of sync due to the newly published artifacts committed to GitHub by Travis.
-
 ---
-The repo this site is based on is on GitHub - https://github.com/lobopraveen/praveenlobo.com  
-
-The Travis-CI page for this site is here - https://travis-ci.org/lobopraveen/praveenlobo.com
+* [GitHub - lobopraveen/praveenlobo.com](https://github.com/lobopraveen/praveenlobo.com)
+* [The Travis-CI page](https://travis-ci.org/lobopraveen/praveenlobo.com)
