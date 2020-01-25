@@ -5,10 +5,20 @@
     <link>https://praveenlobo.com/categories/1/</link>
     <description>Recent content in 1 on Praveen Lobo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Aug 2018 20:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://praveenlobo.com/categories/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Static Site on GitHub - Continuous Integration/Deployment</title>
+      <link>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid>
+      <description>Original post date: 2018-05-01. Edited to include changes made in 2020. I don&#39;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.
+ After migrating the blog to Hugo and making some custom changes, it was time to develop the CI-CD pipeline.</description>
+    </item>
     
     <item>
       <title>Get Last Friday Of The Month In Java</title>
@@ -40,16 +50,6 @@ I remember myself asking that question to others when I first started the job in
       <description>IHS Markit defines Enterprise Data Management (EDM) as
  EDM is a data management platform for acquiring, validating and distributing trade, operational, risk, financial and customer data. It creates a single version of the truth in a consistent, transparent and fully audited environment. Firms benefit from greater control, ongoing compliance and transparency of their data.
  Markit has it&#39;s own product for Enterprise Data Management called Markit EDM. I have fairly decent exposure to this tool including passing Markit&#39;s core introduction and advanced course.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Static Site on GitHub - Continuous Integration/Deployment</title>
-      <link>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</link>
-      <pubDate>Tue, 01 May 2018 23:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid>
-      <description>After migrating the blog to Hugo and making some custom changes, it was time to develop the CI-CD pipeline. The key objectives for my CI-CD pipeline were
- to be able to build the site locally and to be able to build the site remotely on an integration server  Build Locally More often than not, I use my computer to post stuff on this site. As I already have the site repo and Hugo on my machine, I run the hugo server --buildDrafts while editing the repo with a browser window open on my secondary monitor to monitor the edits.</description>
     </item>
     
     <item>
