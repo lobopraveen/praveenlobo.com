@@ -9,7 +9,7 @@ timezone = "CST"
 categories = ["1"]
 tags = ["oops"]
 +++
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/15-oops/SelfHelp.jpg" alt="Infinite loop" caption="You can't attempt more than 5 times, please re-try again!" >}}
-{{% /center %}}
+{{< /center >}}
 The best part is that once this message comes, the only way to succeed is to call the service center.

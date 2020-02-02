@@ -17,7 +17,7 @@ If I'm not following the recipes which I read somewhere, I will keep it very sim
 
 #### Chicken Biryani
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/08-chicken-biriyani/start2.jpg" alt="Keep all ingredients ready" caption="Keep all ingredients ready" >}}
 
 {{< figure src="/media/00-25/08-chicken-biriyani/onions_etc.jpg" alt="Deep fry onions with spices" caption="Deep fry onions with spices" >}}
@@ -32,4 +32,4 @@ If I'm not following the recipes which I read somewhere, I will keep it very sim
 
 {{< figure src="/media/00-25/08-chicken-biriyani/done2.jpg" alt="Ready to eat with raitha- no garnishing again!" caption="Ready to eat with raitha- no garnishing again!" >}}
 
-{{% /center %}}
+{{< /center >}}

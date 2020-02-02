@@ -14,7 +14,7 @@ Another summer, another camping. This time at [Big Foot Beach State Park, Lake G
 
 Some pictures from camping at Big Foot beach State Park.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/37-lake-geneva-camping/tent.jpg" alt="Tent" caption="Tent" >}}
 
 {{< figure src="/media/26-50/37-lake-geneva-camping/fire.jpg" alt="Campfire" caption="Campfire" >}}
@@ -26,7 +26,7 @@ Some pictures from camping at Big Foot beach State Park.
 {{< figure src="/media/26-50/37-lake-geneva-camping/swing.jpg" alt="Swing" caption="Swing" >}}
 
 {{< figure src="/media/26-50/37-lake-geneva-camping/soda.jpg" alt="Soda Vending Machine!" caption="Soda Vending Machine!" >}}
-{{% /center %}}
+{{< /center >}}
 
 We had a wonderful time. Setting up the camp, the fire, the food, the conversations, a walk, the trails, swimming in the lake made the camping trip a nice one. We also went on a boat tour in Lake Geneva which is a must for anyone going there. The minuses - a lot of insects (bug spray is a must) and the campsites are smaller and are very close to each other.
 

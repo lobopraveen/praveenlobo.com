@@ -18,9 +18,9 @@ Yesterday at around 7PM I started jogging and was planning to jog till Alterra C
 
 After a while as I couldn't see any familiar places and the tall buildings in downtown was nowhere to be seen. I realized I was kinda lost. But I still had some idea on which direction I should go. Couple of more minutes of jogging and I knew for sure I was in the wrong direction. I tried to see which side are the tallest buildings of downtown Milwaukee. Unfortunately, I couldn't see any! It was around 8:15PM and started getting a little dark. The roads I was on didn't look as safe as the downtown. It was time to ask for direction.
 
-[{{% center %}}
+[{{< center >}}
 {{< figure src="/media/26-50/32-jog/The Lost Track.png" alt="The Lost Track" caption="The Lost Track" >}}
-{{% /center %}}]
+{{< /center >}}]
 (http://www.walkjogrun.net/routes/current_route.cfm?rid=21559DDF-D528-3906-545FAAB8F1C01E82)
 
 First up, a communication shop on Holton and Center street. He didn't understand my pronunciation of Cass Street and asked me to go ask elsewhere. Damn, in my country people would try at least. On the other side of the road, there was a store and as soon as I went in, I knew these guys are from India! However, they were more confused than I was; I got scared not being lost, but because of their tone. I turned back to see 2-3 guys trying to eavesdrop. I got out and checked with a couple for direction.

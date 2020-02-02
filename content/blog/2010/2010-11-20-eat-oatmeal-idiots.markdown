@@ -16,9 +16,9 @@ Believe it or not with very little or no exercise I was able to cut down all fat
 
 For all those who read this subject line with the third word first, go look at yourself in the mirror!
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/12-oats/oats.jpg" alt="Oatmeal - fruits and honey" caption="Oatmeal - fruits and honey" >}}
-{{% /center %}}
+{{< /center >}}
 
 In case you want to know, I like [Quaker Oats Old Fashioned](http://amzn.to/2DwUQr1); I never add sugar; once in a while, I use honey.
 

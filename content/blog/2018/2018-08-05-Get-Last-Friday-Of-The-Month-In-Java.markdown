@@ -42,9 +42,9 @@ int lobosMagicNumber = (13 - Calendar.FRIDAY) % 7;  // equals 0
 Here is a the worksheet:  
 (read: when the first day of the NEXT month is Sunday, we need to subtract 7 to get the last Sunday of the month. 6 to get the last Monday and so on.)
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/51-75/55-java-lastdayutil/LastDay.png" link="/media/51-75/55-java-lastdayutil/LastDay.png"  alt="Get Last Any Day Of The Month" caption="Get Last Any Day of The Month" >}}
-{{% /center %}}
+{{< /center >}}
 
 Here is the implementation:
 

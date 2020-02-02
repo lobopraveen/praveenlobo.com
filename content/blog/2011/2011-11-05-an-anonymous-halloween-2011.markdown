@@ -10,13 +10,13 @@ categories = ["0"]
 tags = ["halloween", "anonymous", "pumpkin", "carving"]
 +++
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/47-halloween/Tombstone and eyeballs.jpg" alt="Tombstone and eyeballs cupcakes" caption="Tombstone and eyeballs cupcakes" >}}
-{{% /center %}}
+{{< /center >}}
 
 It was that time of the year again when the pumpkins are carved, people get costumed, and walk around downtown, of course, showing off. Guess what I did different this time - I carved a pumpkin! The family I was with loves cars so I thought of carving a Mustang (they own one). I made a sketch of it from a picture I had taken of their car, but decided not to do it as it'd be difficult and was probably going to take more time. I left the sketch at home and when I reached there, I didn't know what to carve other than a smiley face. So, I just decided to go for the Mustang carving with the sketch out of my mind. It didn't turn out to be a Mustang not even close, but it looks like a car at least. See them below. Oh, that's them driving the car. :smile:
 
-{{% center %}}
+{{< center >}}
 
 {{< figure src="/media/26-50/47-halloween/Mustang.jpg" alt="Mustang" caption="Mustang" >}}
 
@@ -25,7 +25,7 @@ It was that time of the year again when the pumpkins are carved, people get cost
 
 {{< figure src="/media/26-50/47-halloween/Pumpkin Carving.jpg" alt="Pumpkin Carving - Mustang" caption="Pumpkin Carving - Mustang. LOL" >}}
 
-{{% /center %}}
+{{< /center >}}
 
 ---
 
@@ -35,6 +35,6 @@ Anonymous was in news all year round and I thought it'd be appropriate for me to
 
 > Remember, remember today is the fifth of November.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/47-halloween/Anonymous.jpg" alt="Anonymous Me" caption="Anonymous Me!" >}}
-{{% /center %}}
+{{< /center >}}

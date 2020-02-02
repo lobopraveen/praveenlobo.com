@@ -16,8 +16,8 @@ After moving to US, I live very close walk to work and don't need any vehicles f
 
 With the Wheel and Sprocket Bike Expo at the State Fair Park around the corner, I started looking around for bikes. Though I love the mountain bikes, after a little research, I found that they aren't really practical for downtown commute. And I hate how the road bikes look! I decided to go for a new hybrid bicycle.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/50-bicycle/Trek DS 8.3.jpg" alt="2012 Trek DS 8.3" caption="2012 Trek DS 8.3" >}}
-{{% /center %}}
+{{< /center >}}
 
 After spending more than four hours at the exhibition last Friday and looking at each and every bike that was there, I finally settled for [a 2012 Trek DS 8.3](http://www.trekbikes.com/us/en/bikes/mountain/dual_sport/ds_series/8_3_ds/). Other models like 8.4, 8.5 etc were really good, but out of my budget. 8.3 has features like shocks, disc brakes etc. which I always wanted in my bicycle since my first bicycle. I'm really happy and excited for my second episode with the bicycles and looking forward to bike as much as possible. Ride safe. Cheers.

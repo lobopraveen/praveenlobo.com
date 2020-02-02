@@ -12,7 +12,7 @@ tags = ["packers", "football", "bears", "superbowl", "friends", "sports"]
 
 The whole office was green! Some pictures(scaled down) from the team spirit day mentioned in my previous post.
 
-{{% center %}}
+{{< center >}}
 
 {{< figure src="/media/00-25/14-packers/Packers_Lobo.jpg" alt="Yours truly" caption="Yours truly" >}}
 
@@ -26,16 +26,16 @@ The whole office was green! Some pictures(scaled down) from the team spirit day 
 
 {{< figure src="/media/00-25/14-packers/Packers_Shailesh_Pravin_Bharath.jpg" alt="Shailesh, Pravin, and Bharath" caption="Shailesh, Pravin, and Bharath" >}}
 
-{{% /center %}}
+{{< /center >}}
 
 The game at Major Goolsby's with a couple of my friends - Shailesh, Myself, Balaji, Bharath, Mada, Ramendra (behind the camera).
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/14-packers/AtTheSportsbar.jpg" alt="At Major Goolsby's" caption="At Major Goolsby's" >}}
-{{% /center %}}
+{{< /center >}}
 
 Northwestern Mutual building in downtown Milwaukee illuminated to support home team on January 23rd.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/14-packers/NM_Office.jpg" alt="Northwestern Mutual Office, Downtown Milwaukee" caption="Northwestern Mutual Office, Downtown Milwaukee" >}}
-{{% /center %}}
+{{< /center >}}

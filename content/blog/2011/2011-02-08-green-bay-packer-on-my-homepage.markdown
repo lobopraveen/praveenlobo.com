@@ -16,13 +16,13 @@ I dedicated my [homepage](/index_archive/index_002.html) for Green Bay Packers o
 
 **It's hard not to be a packer fan.**
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/16-superbowl/Packer fans II.JPG" alt="Packer Fans on Super Bowl day" caption="Packer Fans on Super Bowl day" >}}
 
 {{< figure src="/media/00-25/16-superbowl/Packer fans I.JPG" alt="Packer Fans on Super Bowl day" caption="Packer Fans on Super Bowl day" >}}
 
 {{< figure src="/media/00-25/16-superbowl/Vince Lombardi Trophy - Superbowl XLV.jpg" alt="Northwestern Mutual Superbowl XLV celebration - Vince Lombardi Ice Trophy" caption="Northwestern Mutual Superbowl XLV celebration - Vince Lombardi Ice Trophy" >}}
-{{% /center %}}
+{{< /center >}}
 
 Yours truly,  
 Newest Packer Fan in town.

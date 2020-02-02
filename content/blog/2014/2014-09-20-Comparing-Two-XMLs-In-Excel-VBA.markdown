@@ -14,9 +14,9 @@ The easiest way to compare two XML files would be to see if any available tool c
 
 Although those are wonderful programs, they don't fit every use case. Sometimes you just have to write VBA code to compare two XML _strings_.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/51-75/53-excel-xml-compare/basic_xml_compare.png" alt="basic_xml_compare.png" caption="Basic XML compare" >}}
-{{% /center %}}
+{{< /center >}}
 
 To compare two XML strings in VBA -
 
@@ -30,9 +30,9 @@ To compare two XML strings in VBA -
 1. Any tags left over in the dictionary object are in source XML only
 
 To load the XML files, special references needs to be added from the Tools > References menu.
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/51-75/53-excel-xml-compare/references.png" alt="references.png" caption="References Needed." >}}
-{{% /center %}}
+{{< /center >}}
 
 
 The VBA code is below. The `compareXML()` needs to be assigned to the button click. This version of the code assumes that the two XML strings to compare are already on the spreadsheet. However, additional code can be added to bring these XMLs into the spreadsheet before running the compare. [Refer the second part for more](/blog/using-excel-to-compare-multiple-xmls).

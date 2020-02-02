@@ -14,6 +14,6 @@ My second Deepavali in Milwaukee. Celebrated by visiting temple, doing a small p
 
 My roommates kept American dollars next to Indian rupees on the alter. I wonder what they were praying for. :stuck_out_tongue_closed_eyes:
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/46-deepavali/deepavali.jpg" alt="Deepavali 2011, Milwaukee" caption="Deepavali 2011, Milwaukee" >}}
-{{% /center %}}
+{{< /center >}}

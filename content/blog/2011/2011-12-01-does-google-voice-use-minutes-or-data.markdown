@@ -22,9 +22,9 @@ Are text messages free on Google Voice? Yes. Whether you use it from a cellphone
 
 How does Google Voice use your minutes or data to send/make or receive calls/texts? From what I read about it on Google forums, I put together a simple diagram. Notice the color coding in the image.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/48-google-voice/GoogleVoiceCarrierMinutesData.png" alt="Google Voice and Carrier Minutes or Data" caption="Google Voice and Carrier Minutes or Data" >}}
-{{% /center %}}
+{{< /center >}}
 
 #### Incoming and voicemails
 Google transfers the call to your cellphone which costs carrier minutes. If you are using Google for voicemail, whenever you miss a call, your carrier forwards the call to Google voicemail. Call forwarding uses carrier minutes.

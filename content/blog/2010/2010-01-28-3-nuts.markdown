@@ -12,13 +12,13 @@ tags = ["gimp", "photography"]
 
 The title is inspired by the movie [3 Idiots](http://en.wikipedia.org/wiki/3_Idiots) which the world around me is going gaga over. The picture was clicked over the weekend with a point & shoot camera when I was going mad with boredom. Reason for posting this? I don't know! I started experimenting with GIMP and I have provided both versions of the picture.  
 
-{{% center %}}
+{{< center >}}
 
 {{< figure src="/media/00-25/01-nuts/3Nuts1.jpg" alt="3 nuts - Unedited" caption="3 nuts - Unedited" >}}
 
 {{< figure src="/media/00-25/01-nuts/3Nuts.jpg" alt="3 nuts - Edited" caption="3 nuts - Edited" >}}
 
-{{% /center %}}
+{{< /center >}}
 
 This is not my first GIMP work. I have tried GIMP once or twice back in college days. I will dig those images from my hard-disk and post it later.
 

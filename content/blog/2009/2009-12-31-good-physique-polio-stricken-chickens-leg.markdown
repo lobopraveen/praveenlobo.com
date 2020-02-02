@@ -12,7 +12,7 @@ tags = ["gym"]
 
 I don't know whether to be happy or doubtful when a stranger walks up to me in the gym and
 
-{{% convo %}}
+{{< convo >}}
 Stranger:: Hey
 Me:: Hi
 Stranger::You are regular here?
@@ -21,7 +21,7 @@ Stranger::Oh okay.
 Me::Why?
 Stranger::You have got a good physique dude. (smiles)
 Me::Aha, thanks buddy! (flees the scene)
-{{% /convo %}}
+{{< /convo >}}
 
 This has happened a couple of times before; back then it was my friends/acquaintances and I knew I deserved it! :o)  But now? Gentleman, you are either trying to motivate me or hitting on me!
 

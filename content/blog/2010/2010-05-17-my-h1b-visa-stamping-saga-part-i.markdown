@@ -18,12 +18,12 @@ Once at airport, I didn't know what to do. I asked at one of the counter outside
 
 Lady at the counter asked,
 
-{{% convo %}}
+{{< convo >}}
 Lady::'Sir, which seat do you prefer?'
 Me::'The one next to the pilot', I replied.
 Lady::'That seat is not available sir'
 Me::'ok, in that case I do not mind any seat'
-{{% /convo %}}
+{{< /convo >}}
 
 She asked me to go upstairs for security check through gate 10. I couldn't find the gate and just went to and joined a queue and put my bag on the small conveyor belt and stood in the queue to be frisked. Just before the guard asked me to step forward, I read a board which said I should  put the cell-phones on the belt too. I dropped my cell on one of the laptop which was going in.
 

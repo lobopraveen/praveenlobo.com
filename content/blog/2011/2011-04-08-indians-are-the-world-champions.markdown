@@ -26,8 +26,8 @@ Now, am I gonna pull a hat-trick in this?
 #### Food Art?
 My roommates and I prepared dosas just before the super bowl championship game and  the world cup cricket finals match. Did the dosas do the trick? Food wins everyone over so...
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/25-homepage/GreenBayPackersDosa.jpg" alt="Green Bay Packers Dosa!" caption="Green Bay Packers Dosa!" >}}
 
 {{< figure src="/media/00-25/25-homepage/IndianCricketTeamDosa.jpg" alt="Indian Dosa!" caption="Indian Dosa!" >}}
-{{% /center %}}
+{{< /center >}}

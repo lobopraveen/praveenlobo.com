@@ -52,9 +52,9 @@ I really miss those days. I wanna do it all over again, may be a little bit diff
 
 Song that best suits my mood right now -
 
-{{% center %}}
+{{< center >}}
 {{< youtube HZu3bXWhnX4 >}}
-{{% /center %}}
+{{< /center >}}
 
 
 That's all for now. Bbye, take care.

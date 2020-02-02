@@ -12,10 +12,10 @@ tags = ["packers", "superbowl", "football", "Milwaukee", "sports"]
 
 Pictures of Northwestern Mutual Insurance company in downtown Milwaukee during NFL 2011 showing support for Green Bay Packers.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/16-superbowl/NM East Building.jpg" alt="Northwestern Mutual East Building lit up to support Packers, Milwaukee" caption="Northwestern Mutual East Building lit up to support Packers, Milwaukee" >}}
 
 {{< figure src="/media/00-25/16-superbowl/NM South Building.jpg" alt="Northwestern Mutual South Building lit up to support Packers, Milwaukee" caption="Northwestern Mutual South Building lit up to support Packers, Milwaukee" >}}
-{{% /center %}}
+{{< /center >}}
 
 Photo courtesy: [Sushanth Mohan](sushanthmohan.com)

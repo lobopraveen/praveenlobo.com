@@ -18,17 +18,17 @@ As part of the celebrations, Storm The Bastille, a 5K run, was started back in 1
 
 I had no intention of participating in this run especially just a day after [The Lost Track](/blog/the-lost-track-on-the-streets-of-milwaukee/). I was only planning to go there with my friends who were willing to participate in the run. At the very end, I decided to give it a try.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/33-storm-the-bastille/4657.jpg" alt="Getting ready to storm The Bastille" caption="Getting ready to storm The Bastille" >}}
-{{% /center %}}
+{{< /center >}}
 
 We were a group of six and we had decided to stick together if possible. It started off very well, with the event anchor making people stretch and warm up. Once the storming started, there were big air balls on the route being kicked, punched. I got to punch it once too!
 
 After the initial 200 meters or so, I lost the group and started running alone. It was a little embarrassing to be overtaken by people twice my age, I continued nonetheless. I was later told that the group stuck together throughout except me!
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/33-storm-the-bastille/Storm The Bastille Map.jpg" alt="Storm The Bastille Map" caption="Storm The Bastille Map" >}}
-{{% /center %}}
+{{< /center >}}
 
 I slowed down once to drink water and then I walked from Buffalo to St. Paul Avenue. I started only when I was cheered by a group of bystanders shouting, 'just a few blocks away', 'you can do it' etc. I high-fived some of them and took off only to stop at the very end.
 

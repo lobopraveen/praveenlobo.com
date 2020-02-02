@@ -87,13 +87,13 @@ I think, it was right thing to catch him, but he should have been handed over to
 
 Lastly, there was something about V's calmness. He never lost it. Closing it with this little conversation.
 
-{{% convo %}}
+{{< convo >}}
 Police:: was it you on Tuesday?
 V:: No
 Police:: it wasn't you?
 V:: No, I came yesterday.
 Police:: (angrily) Just now you said you didn't. Tell the truth.
 V:: Sir, it is already past midnight and is Thursday. I came here yesterday that is Wednesday. I don't know about the day before yesterday!
-{{% /convo %}}
+{{< /convo >}}
 
 You should have seen the look on people's face. I almost laughed out loud.

@@ -18,28 +18,28 @@ Last weekend, I had one of my friend come over from Chicago. I hadn't met him in
 
 #### Days before my school - when I was under 5.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/41-childhood/railway track.jpg" alt="The railway track" caption="The railway track" >}}
-{{% /center %}}
+{{< /center >}}
 
 Well, there's is nothing much to say. Other than a couple of visuals I have in my head about those days. I don't recollect spending the first six months of my life in Coorg. My mom says, Dad moved the family to Bangalore looking for a job. We were in Venkateshapuram for six months and then moved to Kadugondanahalli for about two years. I remember it was close to a railway track. My dad and uncles would take me to the track and tell me how the train creates magic and turns the coin kept on the track into a magnet! I used to wonder.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/41-childhood/nut and bolt.jpg" alt="nut and bolt" caption="nut and bolt" >}}
-{{% /center %}}
+{{< /center >}}
 
 The only other thing I remember about the track was that once my brother and I went to the track and found a bolt near the track and got it home. At home, mom got a little upset thinking we had removed it from the track, and told us that the it can cause an accident and the train might have gone off the track. I don't know about my, then extremely mischievous, brother but I was terrified. Thankfully, no train went off the track that day.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/41-childhood/sparrow.jpg" alt="sparrow" caption="sparrow" >}}
-{{% /center %}}
+{{< /center >}}
 
 Once my brother went missing. He used to run behind those insects, dragon flies, sparrows, catching them and playing with them. So, my parents, uncles, entire neighborhood went frantic and thought someone might have abducted him. When they decided to lodge a police complaint, he walked in holding an old military man's hands who the entire neighborhood knew. Apparently, he was chasing after a bird and had gone quite a distant where the old man spotted him and brought him back. (My brother hasn't changed; in his recent facebook picture, he had a green parrot on his shoulder!)
 
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/41-childhood/Bicycle.jpg" alt="Bicycle" caption="Bicycle" >}}
-{{% /center %}}
+{{< /center >}}
 
 We owned three bicycles. So, we used to go to church on Davis road every Sunday. Mom and Dad on one cycle, my brother and I used to ride on our uncles' bicycles. Every time on the way back, these crazy people used to bet and race home!
 I can't forget the testicle-crushing experience sitting on the front bar of the bicycles. My dad and all my uncles had Hero cycles and the kids used to get the front bar without any seat to sit on. I recall my dad taking me along with him to get ration from far far away place. They finally fitted it with a small seat heeding an old Muslim uncle's advice. Those used to be hell of a rides! And fortunately nothing was ever crushed. That uncle was god send! :wink:

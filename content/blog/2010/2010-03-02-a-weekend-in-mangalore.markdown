@@ -34,24 +34,24 @@ I was the _atithi_ and the hosts had prepared Puri-bhaji. ;o) It was nice; I gul
 
 We started from Mangalore around 10AM in Wagon R. We visited **Thousand Pillars Jain Temple in Moodabidri**, followed by **Shri Annapoorneshwari Temple at Hosanadu Kodyadka in Moodbidri**. This temple has [a 61-feet Hanuman statue](http://www.hindu-blog.com/2008/05/huge-61-feet-hanuman-statue-at-hosanadu.html), an elephant and a few deers. This was the second time I visited these two temples. I had come here to Kodyadka with Surekha and her parents before in the same Wagon R. She is very fond of this temple.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/03-hanuman-gundi/HanumanGundi_2.jpg" alt="Hanuman Gundi Waterfalls" caption="Hanuman Gundi Waterfalls" >}}
-{{% /center %}}
+{{< /center >}}
 
 Next destination was **Madhuraa hotel at Karkala**. After having lunch there, we went to Sunil's house in Karkala – his native place. After an hour or so, we left to **Hanumangundi waterfalls**.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/03-hanuman-gundi/HanumanGundi.jpg" alt="Hanuman Gundi Waterfalls" caption="Hanuman Gundi Waterfalls" >}}
-{{% /center %}}
+{{< /center >}}
 
 I really wanted to dive into the water but I had gone there unprepared and decided not to. The path leading to the falls is very steep, climbing your way up could be a tough task.
 We then stopped for the sunset at **Hejmadi beach**. Unlike Panambur beach, this one was very quite and there were very few people.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/03-hanuman-gundi/HejmadiBeach.jpg" alt="Praveen Lobo at Hejmadi Beach" caption="Praveen Lobo at Hejmadi Beach" >}}
 
 {{< figure src="/media/00-25/03-hanuman-gundi/Sunset_HejmadiBeach.jpg" alt="Sunset at Hejmadi Beach" caption="Sunset at Hejmadi Beach" >}}
-{{% /center %}}
+{{< /center >}}
 
 I somehow like the sunsets in pictures than in real life unless I'm walking hand in hand with a girl! **:o)**
 

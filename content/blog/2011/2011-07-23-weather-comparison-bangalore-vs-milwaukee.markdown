@@ -16,12 +16,12 @@ You know by now, [I'm a bit concerned about this weather](/blog/doesnt-this-weat
 
 The below graphs are drawn with the data available freely on the net(weather.com, wikipedia and wunderground.com). I believe they should be fairly accurate.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/34-summer/Bangalore vs Milwaukee - Weather(F).png" alt="Bangalore vs Milwaukee - Weather(°F)" caption="Bangalore vs Milwaukee - Weather(°F)" >}}
 
 
 {{< figure src="/media/26-50/34-summer/Bangalore vs Milwaukee - Weather(C).png" alt="Bangalore vs Milwaukee - Weather(°C)" caption="Bangalore vs Milwaukee - Weather(°C)" >}}
-{{% /center %}}
+{{< /center >}}
 
 ---
 

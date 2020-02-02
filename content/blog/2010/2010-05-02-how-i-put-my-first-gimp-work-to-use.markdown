@@ -14,9 +14,9 @@ tags = ["GIMP", "hotlinking", "htaccess", "art"]
 
 How do you make sure you don't allow something which you don't even know is happening? Very simple, using [.htaccess file](https://en.wikipedia.org/wiki/Htaccess) - a directory level configuration file. I'm not going to tell you what you have to put in that file; there are innumerable tutorials on the net - just search for "hotlink prevention".
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/05-hotlinking/hotlinking.jpg" alt="HotLinking" caption="My First GIMP Creation - HotLinking" >}}
-{{% /center %}}
+{{< /center >}}
 
 If anybody uses any image hosted on my website (praveenlobo.com), this is the image that gets displayed - my first GIMP creation!
 
