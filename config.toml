@@ -32,7 +32,7 @@ title404 = "Nothing's here!"
 
 [params.assets]
 #favicon = "favicon.ico"
-#customCSS = ["css/custom.css"]
+customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
@@ -51,7 +51,7 @@ hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
 showReadingTime = true
 taxonomyCloudShuffle = true
-accentColor = "#ffcd00"
+accentColor = "grey"
 hideMainMenu = false
 
 [params.sidebar]
