@@ -144,7 +144,15 @@ in
 </code></pre></div><p>Using the snippets shown above XML strings to compare can be brought in to the spreadsheet before running the comparison. This way an XML string from a file can be compared to another one from a different file or even a database.</p>
 <h4 id="comparing-multiple-xml-strings">Comparing multiple XML strings:</h4>
 <p>The VBA code from <a href="/blog/comparing-two-xmls-in-excel-vba">previous post</a> talked about comparing a single XML. That same code can be put in a loop to compare multiple XML strings. The use case below lists a set of keys for which the matching XML strings from a file needs to be compared to matching XML strings from a database.</p>
-<!-- raw HTML omitted -->
+<div class='align-center'>
+  <figure><a href="/media/51-75/53-excel-xml-compare/search_and_compare_multiple_XMLs.png">
+    <img src="/media/51-75/53-excel-xml-compare/search_and_compare_multiple_XMLs.png"
+         alt="search_and_compare_multiple_XMLs.png"/> </a><figcaption>
+            <p>Compare multiple XML strings</p>
+        </figcaption>
+</figure>
+</div>
+
 <p>The &ldquo;SearchKeys&rdquo; mentioned above is a table and can take multiple rows/keys. There are three keys in the screenshot shown above (refer column A).</p>
 <ol>
 <li>The &ldquo;Search File&rdquo; can be assigned to a macro that refreshes the connection for the file search power query from above. The result of the power query should go to the &ldquo;file&rdquo; sheet.</li>
@@ -437,7 +445,7 @@ NextKeyCell:
         MsgBox (<span style="color:#e6db74">&#34;Success: XMLs match!&#34;</span>)
     End If
 End Sub
-</code></pre></div><p><!-- raw HTML omitted -->The <a href="https://github.com/lobopraveen/gists/blob/master/msexcel/xmlcompare/search_and_compare_multiple_XMLs.vba">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists">GitHub repo</a>. Please report any issues there.<!-- raw HTML omitted --></p>
+</code></pre></div><p><small>The <a href="https://github.com/lobopraveen/gists/blob/master/msexcel/xmlcompare/search_and_compare_multiple_XMLs.vba">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists">GitHub repo</a>. Please report any issues there.</small></p>
 <p>A sample excel file is also provided on the GitHub repo - <a href="https://github.com/lobopraveen/gists/blob/master/msexcel/xmlcompare/search_and_compare_multiple_XMLs.xlsb?raw=true">direct link</a>. Please note that the links to the file and the database info needs to be updated to suit the needs.</p>
 <p>If you make any enhancement like color coding the result to make it more visual or make the code better in anyway, please submit a pull request and pass on the goodness!</p>
 

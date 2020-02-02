@@ -209,7 +209,9 @@ Also, I'm not sure if the incomplete downloads are resumed. By default wget comm
 <p>If the system is on, the wget command runs at 2:05AM every day and downloads the content from URLs mentioned in the URLFile to DownloadFolder. There is no need to delete this from cron once the download is complete; however, the URLFile needs to be cleaned up so that when the job runs again at next 2:05AM, it doesn't download anything.</p>
 <p>The beauty of this approach is that I can just put the URLs in URLFile as and when I get them and leave the system turned on at the end of the day to get the contents downloaded. However, I see a problem with this approach - if I decide to download something after 2:05AM, I would have run the wget command explicitly since the cron job runs exactly once at 2:05AM everyday. It goes without saying that even this approach doesn't take care of 8:00AM deadline. I can either stop the download manually or add another job to shutdown the system at 8:00AM!</p>
 <p>Thanks for reading it till the end! If you have any questions or suggestions other than shifting to a unlimited plan, please feel free to leave a comment. BSNL 500C+ is best for me! ;o)</p>
-<!-- raw HTML omitted -->
+<small>
+_Update (2010-05-27):_ The above methods don't work for torrents, here is a [solution](/blog/automate-torrent-download-using-transmission).
+</small>
 
 </div>
 

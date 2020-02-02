@@ -104,7 +104,7 @@ if (!doNotTrack) {
   <polyline points="12 6 12 12 15 15"/>
   
 </svg>
-5 mins read
+6 mins read
 </span>
 
 
@@ -120,7 +120,15 @@ if (!doNotTrack) {
   <div class='container entry-content'>
   <p>The easiest way to compare two XML files would be to see if any available tool can do the job. My favorite compare tool to use at work is <a href="https://www.scootersoftware.com/">Beyond Compare</a> - it supports folders as well as files comparison, supports multiple file formats, and has ton of options. For personal use, I prefer <a href="http://meldmerge.org/">meld</a> as it is free and gets the job done.</p>
 <p>Although those are wonderful programs, they don't fit every use case. Sometimes you just have to write VBA code to compare two XML <em>strings</em>.</p>
-<!-- raw HTML omitted -->
+<div class='align-center'>
+  <figure>
+    <img src="/media/51-75/53-excel-xml-compare/basic_xml_compare.png"
+         alt="basic_xml_compare.png"/> <figcaption>
+            <p>Basic XML compare</p>
+        </figcaption>
+</figure>
+</div>
+
 <p>To compare two XML strings in VBA -</p>
 <ol>
 <li>parse the source XML strings</li>
@@ -135,8 +143,16 @@ if (!doNotTrack) {
 </li>
 <li>Any tags left over in the dictionary object are in source XML only</li>
 </ol>
-<p>To load the XML files, special references needs to be added from the Tools &gt; References menu.</p>
-<!-- raw HTML omitted -->
+<p>To load the XML files, special references needs to be added from the Tools &gt; References menu.
+<div class='align-center'>
+  <figure>
+    <img src="/media/51-75/53-excel-xml-compare/references.png"
+         alt="references.png"/> <figcaption>
+            <p>References Needed.</p>
+        </figcaption>
+</figure>
+</div>
+</p>
 <p>The VBA code is below. The <code>compareXML()</code> needs to be assigned to the button click. This version of the code assumes that the two XML strings to compare are already on the spreadsheet. However, additional code can be added to bring these XMLs into the spreadsheet before running the compare. <a href="/blog/using-excel-to-compare-multiple-xmls">Refer the second part for more</a>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#e6db74">&#39;
 </span><span style="color:#e6db74">&#39;</span> MIT License
@@ -345,7 +361,7 @@ Sub CompareXML()
     End If
 End Sub
 
-</code></pre></div><p><!-- raw HTML omitted -->The <a href="https://github.com/lobopraveen/gists/blob/master/msexcel/xmlcompare/basic_xml_compare.vba">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists">GitHub repo</a>. Please report any issues there.<!-- raw HTML omitted --></p>
+</code></pre></div><p><small>The <a href="https://github.com/lobopraveen/gists/blob/master/msexcel/xmlcompare/basic_xml_compare.vba">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists">GitHub repo</a>. Please report any issues there.</small></p>
 <p>A sample excel file is also provided on the GitHub repo - <a href="https://github.com/lobopraveen/gists/blob/master/msexcel/xmlcompare/basic_xml_compare.xlsb?raw=true">direct link</a></p>
 <p>If you make any enhancement like color coding the result to make it more visual or make the code better in anyway, please submit a pull request and pass on the goodness!</p>
 

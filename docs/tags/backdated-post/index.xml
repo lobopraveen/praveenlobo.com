@@ -16,7 +16,8 @@
       <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
+The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
  % in below scripts match shortest from the end of the string.</description>
     </item>
     
@@ -46,7 +47,8 @@ The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinishe
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
+CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
     </item>
     
   </channel>

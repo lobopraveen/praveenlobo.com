@@ -124,7 +124,15 @@ if (!doNotTrack) {
 <p>This is a regular question usually from new team members for the past ten years or so. My answer has been the same, &ldquo;I use a tool I wrote.&rdquo; followed by, &ldquo;I will send you a link. You can use it from there or just make a copy of your own.&rdquo;</p>
 <p>I remember myself asking that question to others when I first started the job in mid 2000s. Most of my seniors liked to store the links in excel or a word document as we were not allowed to use any browser other than the Internet Explorer (IE) and the bookmarks in IE weren't searchable. No tools were allowed either. This was, and in some cases still is, a common thing at workplaces in enterprises.</p>
 <p>After a couple of months of trying different options, I ended up using an HTML page which was another common thing to use. We would set the HTML page as home page and just do Control+F to search for links! Some people used HTML pages with different sections and it got fancier. There were a lot of different ways depending on who you asked.</p>
-<!-- raw HTML omitted -->
+<div class='align-center'>
+  <figure><a href="/media/51-75/54-bookmark-search/bookmark_search.png">
+    <img src="/media/51-75/54-bookmark-search/bookmark_search.png"
+         alt="Bookmark Search by Praveen Lobo"/> </a><figcaption>
+            <p>Bookmark Search</p>
+        </figcaption>
+</figure>
+</div>
+
 <p>If you guessed it, I didn't shy away in creating my own bookmark tool either; however, I'm proud of it and use it even to this day! My version took the HTML page one step further by adding an input box and some JavaScript to search. The initial version was written in vanilla JavaScript and it would fire a search function <code>onkeyup</code> which would delete all rows from the table and add new rows that matched the input typed. On escape, it would redirect to the intranet search site with the text entered as search query.</p>
 <p>I re-wrote the HTML using jQuery and the autocomplete widget a couple of years after that and added <code>position</code> method to center the input box. I used some answers from StackOverflow to implement search on multiple words. After that the only change I did, other than adding the new links, was to update the jQuery version while publishing it now.</p>
 <h4 id="chromes-bookmark-manager">Chrome's bookmark manager</h4>

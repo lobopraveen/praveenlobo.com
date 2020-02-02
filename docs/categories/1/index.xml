@@ -77,7 +77,8 @@ Hugo&#39;s default publish directory Hugo generates the static site content in p
       <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
+The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
  % in below scripts match shortest from the end of the string.</description>
     </item>
     
@@ -117,7 +118,8 @@ Although those are wonderful programs, they don&#39;t fit every use case.</descr
       <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
+      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
+CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
     </item>
     
     <item>
@@ -165,7 +167,8 @@ Google Voice is an awesome idea and piece of software (if you are willing to giv
       <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
-      <description>Update: moved the code to githubJava List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&#39;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
+      <description>Update: moved the code to github
+Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&#39;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
     </item>
     
     <item>
@@ -243,7 +246,9 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</guid>
-      <description>I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no null items.</description>
+      <description>I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no null items.
+  Google Reader - null items
+   </description>
     </item>
     
     <item>
@@ -427,7 +432,8 @@ The idea is simple:
       <pubDate>Thu, 03 Feb 2011 07:10:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/oops-re-try-again/</guid>
-      <description>The best part is that once this message comes, the only way to succeed is to call the service center.</description>
+      <description>You can&#39;t attempt more than 5 times, please re-try again!
+   The best part is that once this message comes, the only way to succeed is to call the service center.</description>
     </item>
     
     <item>
@@ -529,8 +535,7 @@ How do you make sure you don&#39;t allow something which you don&#39;t even know
       <pubDate>Fri, 16 Apr 2010 13:30:03 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-countup-timer/</guid>
-      <description>I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&#39;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&#39;t easily understandable; most of them were using approximation (esp. for months and years).
-My requirement was that the timer should be simple and which counts time exactly the same way we humans do.</description>
+      <description>_Update (2018):_ I have moved the code to [GitHub - JavaScript Counters](https://github.com/lobopraveen/JavaScript-Counters) AS IS.  I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&#39;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&#39;t easily understandable; most of them were using approximation (esp.</description>
     </item>
     
     <item>

@@ -118,7 +118,7 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  <p><!-- raw HTML omitted -->The <a href="https://github.com/lobopraveen/gists/blob/master/unix/remove_comma_from_values_in_csv_file.md">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists">GitHub repo</a>. Please report any issues there.<!-- raw HTML omitted --></p>
+  <p><small>The <a href="https://github.com/lobopraveen/gists/blob/master/unix/remove_comma_from_values_in_csv_file.md">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists">GitHub repo</a>. Please report any issues there.</small></p>
 <p>CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</p>
 <p>What would you do if this happened at mid-night during the batch process? Would you fix the CSV implementation or contact the source of the feed to get it fixed? The former was a non-starter; keeping the SLA in mind and the response from the vendor, we resorted to almighty UNIX tools!</p>
 <h4 id="sed-to-the-rescue">SED to the rescue</h4>
@@ -155,7 +155,7 @@ UNVERIFIED,&quot;Jan 30, 2013 12:00 AM&quot;,Jane Doe,&quot;20,000.00&quot;
 <pre><code>VERIFIED,&quot;Apr 30 2004 12:00 AM&quot;,Jon Doe,&quot;3000000.00&quot;
 UNVERIFIED,&quot;Jan 30 2013 12:00 AM&quot;,Jane Doe,&quot;20000.00&quot;
 </code></pre><p>This can be expanded to remove when values have more commas as long as the maximum number of commas in any value is known. I'm sure this can be simplified and made elegant to deal with any number of commas. How would you do it? Using sed, awk, or perl? Let me know and I will add it here.</p>
-<p><!-- raw HTML omitted -->_All posts with <a href="/tags/backdated-post">backdated post</a> tag are published long after they were written._<!-- raw HTML omitted --></p>
+<p><small>_All posts with <a href="/tags/backdated-post">backdated post</a> tag are published long after they were written._</small></p>
 
 </div>
 

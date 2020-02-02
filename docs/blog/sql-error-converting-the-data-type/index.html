@@ -150,7 +150,7 @@ Error converting <span style="color:#66d9ef">data</span> <span style="color:#66d
 </blockquote>
 <p>There was some recent change to the query and it was promoted to higher environment. When we looked at the failures, it started occurring exactly the day the change was promoted. Ditto with the second query as well. The recent changes had forced the optimizer to redo the execution plan and the one picked was different than the previous one leading to the conversion error. The same queries were running fine in the lower environment as the optimizer was picking a different execution plan.</p>
 <p>The important thing to remember is that the way we write the query is not necessarily the same way the optimizer decides to run it. Also, write the query to make it easy for humans to understand and leave it to the optimizer to pick the best way to execute it.</p>
-<p><!-- raw HTML omitted -->_All posts with <a href="/tags/backdated-post">backdated post</a> tag are published long after they were written._<!-- raw HTML omitted --></p>
+<p><small>_All posts with <a href="/tags/backdated-post">backdated post</a> tag are published long after they were written._</small></p>
 
 </div>
 
