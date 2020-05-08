@@ -20,9 +20,9 @@ What did I miss? One, the start line and two, the Hoan bridge! Kinda sucks, does
 
 Mistakes? Not having enough sleep, not stretching before the ride, skipping breakfast, not stopping at any stations to grab a snack or a energy drink. Sometimes stupidity takes over common sense. Around 5-mile to the finish line, my calf muscles gave up. Thankfully, the last station was just a few blocks away. I stopped for a while and grabbed 2 granola bars and a gatorade. The next 5-mile stretch took me 30 minutes or so.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/51-75/51-UPAF-ride/PraveenLoboatUPAFRideForTheArts.jpg" alt="Lobo at UPAF Ride For The Arts 2012" caption="Lobo at UPAF Ride For The Arts 2012" >}}
-{{% /center %}}
+{{< /center >}}
 
 All that feeling of missing the start line and the Hoan bridge, and the pain went away in an instant when I saw two familiar faces holding a poster that read, 'Ride Lobo Ride' This was the only poster I saw in the entire ride! I felt bad for them as they were waiting there expecting me in the 12-mile ride without knowing that I had taken 25-mile ride.
 

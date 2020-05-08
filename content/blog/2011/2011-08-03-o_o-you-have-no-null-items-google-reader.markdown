@@ -12,6 +12,6 @@ tags = ["null", "oops"]
 
 I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no `null` items.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/36-oops/Google Err Msg.jpg" alt="Google Reader - null items" caption="Google Reader - null items" >}}
-{{% /center %}}
+{{< /center >}}

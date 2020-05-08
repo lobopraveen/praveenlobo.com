@@ -10,8 +10,8 @@ categories = ["0"]
 tags = ["art", "sketch", "painting"]
 +++
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/31-sketch/Abused.jpg" alt="Abused" caption="Abused" >}}
-{{% /center %}}
+{{< /center >}}
 
 _From archives. Not my original imagination._

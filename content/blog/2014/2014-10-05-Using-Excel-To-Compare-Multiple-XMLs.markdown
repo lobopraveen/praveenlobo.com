@@ -50,9 +50,9 @@ Using the snippets shown above XML strings to compare can be brought in to the s
 #### Comparing multiple XML strings:
 The VBA code from [previous post](/blog/comparing-two-xmls-in-excel-vba) talked about comparing a single XML. That same code can be put in a loop to compare multiple XML strings. The use case below lists a set of keys for which the matching XML strings from a file needs to be compared to matching XML strings from a database.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/51-75/53-excel-xml-compare/search_and_compare_multiple_XMLs.png" link="/media/51-75/53-excel-xml-compare/search_and_compare_multiple_XMLs.png" alt="search_and_compare_multiple_XMLs.png" caption="Compare multiple XML strings" >}}
-{{% /center %}}
+{{< /center >}}
 
 The "SearchKeys" mentioned above is a table and can take multiple rows/keys. There are three keys in the screenshot shown above (refer column A).
 

@@ -3,7 +3,7 @@
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='Get Any Last Day actually!'>
-<meta name='theme-color' content='#ffcd00'>
+<meta name='theme-color' content='grey'>
 
 <meta property='og:title' content='Get Last Friday Of The Month In Java • Praveen Lobo'>
 <meta property='og:description' content='Get Any Last Day actually!'>
@@ -18,8 +18,8 @@
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><style>
-:root{--color-accent:#ffcd00;}
+<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
+:root{--color-accent:grey;}
 </style>
 
 <script type="application/javascript">
@@ -136,7 +136,15 @@ if (!doNotTrack) {
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> lobosMagicNumber <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>13 <span style="color:#f92672">-</span> Calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">FRIDAY</span><span style="color:#f92672">)</span> <span style="color:#f92672">%</span> 7<span style="color:#f92672">;</span>  <span style="color:#75715e">// equals 0
 </span></code></pre></div><p>Here is a the worksheet:<br>
 (read: when the first day of the NEXT month is Sunday, we need to subtract 7 to get the last Sunday of the month. 6 to get the last Monday and so on.)</p>
-<!-- raw HTML omitted -->
+<div class='align-center'>
+  <figure><a href="/media/51-75/55-java-lastdayutil/LastDay.png">
+    <img src="/media/51-75/55-java-lastdayutil/LastDay.png"
+         alt="Get Last Any Day Of The Month"/> </a><figcaption>
+            <p>Get Last Any Day of The Month</p>
+        </figcaption>
+</figure>
+</div>
+
 <p>Here is the implementation:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">/**
 </span><span style="color:#75715e"> * Returns the date of the last specified &lt;code&gt;day&lt;/code&gt; of the month.
@@ -256,7 +264,7 @@ edit: pathspec error shouldn't come up for this edit.
 edit2: fetch was not set to fetch everything from origin. fixed it now. 
 edit3:just to run build 
 edit4:another build 
-<!-- raw HTML omitted -->edit5:another build; forgot to wait!
+<br>edit5:another build; forgot to wait!
     </div>
     <footer class='reply'><a rel='nofollow' class='button comment-reply-link' href='#respond' onclick='return moveRespondBlock(&#34;ae08e1b0-9b40-11e8-866e-bf549459b282&#34;)' aria-label='Reply to Lobo'>
         Reply

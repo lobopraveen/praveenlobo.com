@@ -18,9 +18,9 @@ I remember myself asking that question to others when I first started the job in
 
 After a couple of months of trying different options, I ended up using an HTML page which was another common thing to use. We would set the HTML page as home page and just do Control+F to search for links! Some people used HTML pages with different sections and it got fancier. There were a lot of different ways depending on who you asked.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/51-75/54-bookmark-search/bookmark_search.png" link="/media/51-75/54-bookmark-search/bookmark_search.png"  alt="Bookmark Search by Praveen Lobo" caption="Bookmark Search" >}}
-{{% /center %}}
+{{< /center >}}
 
 If you guessed it, I didn't shy away in creating my own bookmark tool either; however, I'm proud of it and use it even to this day! My version took the HTML page one step further by adding an input box and some JavaScript to search. The initial version was written in vanilla JavaScript and it would fire a search function `onkeyup` which would delete all rows from the table and add new rows that matched the input typed. On escape, it would redirect to the intranet search site with the text entered as search query.
 

@@ -18,16 +18,16 @@ This valentine's day along with a promise, 'Do anything in life, I will always s
 
 After the first day's session she was explaining it to me with so much enthusiasm. I could see a kid in her eyes; a kid trying to explain her dad the new stuff she has learnt! After the second day's session she came back with a few trials and explained to me how each one was done. I clicked them all together.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/02-vday/trials.jpg" alt="Screen Printing Trials" caption="Screen Printing Trials" >}}
 {{< figure src="/media/00-25/02-vday/certificate.jpg" alt="The Certificate!"  caption="The Certificate!" >}}
-{{% /center %}}
+{{< /center >}}
 
 Her birthday is just two days away and here is the birthday gift, I  hope she will like it -
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/02-vday/bday_gift.jpg" alt="Birthday Gift - Screen Printing Materials" caption="Birthday Gift - Screen Printing Materials" >}}
-{{% /center %}}
+{{< /center >}}
 
 I know it’s my turn to support someone who has been supporting me throughout - though the ups and downs in life. Wherever I am and whatever I am is because of her sacrifice!
 

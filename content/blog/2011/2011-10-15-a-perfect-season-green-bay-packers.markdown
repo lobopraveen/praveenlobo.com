@@ -16,9 +16,9 @@ tags = ["packers", "football"]
 
 This news reminded me that I haven't seen a single game that Green Bay Packers lost! The first time I heard of American Football was at the end of 2006 in a session helping people understand the basics of the game. It was conducted by one of my senior colleague in Mangalore office. I never really got interested until I moved to Milwaukee in 2010. I kept on hearing about football for months before I really followed anything.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/45-packer-game/lambeau leap.jpg" alt=" Lambeau Leap" caption=" Lambeau Leap :-)" >}}
-{{% /center %}}
+{{< /center >}}
 
 Packers had just beat New York Giants and were about to play Chicago Bears on January 2nd 2011, it was the beginning of the post-season, Packers were playing good and I was in Milwaukee. What else does one need? It was a perfect setting and I became the newest Packer fan in town and boy oh boy, they didn't fail to impress me. They won the first game, then the second and then the third and on and on and on and the winning streak is still on. Packers have not lost a single game since then!
 

@@ -17,12 +17,12 @@ I had a tough time searching for a blue map of India online and ended up creatin
 
 
 #### There is no other place like India.
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/28-India/India_Blue_Light.png" alt="Light Blue India Map" caption="Light Blue India Map" >}}
 
 {{< figure src="/media/00-25/28-India/India_Blue_Dark.png" alt="Dark Blue India Map" caption="Dark Blue India Map" >}}
 
 {{< figure src="/media/00-25/28-India/India_color.png" alt="Orange, Green India Map" caption="Orange, Green India Map (colours can be changed easily)" >}}
-{{% /center %}}
+{{< /center >}}
 
 \* Created using the wallpaper found [here](http://kushaldas.in/posts/fedora-india-wallpaper/).

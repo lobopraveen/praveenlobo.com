@@ -16,9 +16,9 @@ We had two guys who had never skied before so we helped them on the bunny hills 
 
 The very second slope Cottontail had some 'bumps' where one could catch some air. It was great setup to learn. I had some problem landing, mostly my posture wasn't correct, I wasn't leaning forward as much as I wanted to just before hitting the snow. Fell down once or twice. My left ski kept coming off most of the times.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="https://lh4.googleusercontent.com/--Eljs-mz52Q/ThQZFvTFr2I/AAAAAAAAEJM/0oEK5M5wm5s/s0/wi04tm01f.jpg" alt="Cascade Mountain Trail Map" caption="Cascade Mountain Trail Map" >}}
-{{% /center %}}
+{{< /center >}}
 
 My left show was lose. At Ski Brule I got 9.5 shoe which was perfect. But here, they had no 9.5 and 9 was a little lose and 8 was too tight. After some time on the slope I had to return and get another 9 which was slightly better.
 
@@ -26,9 +26,9 @@ I moved on to Adele's Alley, Upper Adele's, Badger Pass etc. I kept falling down
 
 Cascade Mountain was different compared to Ski Brule. At Cascade, I could try a lot of combinations such as start on blue, get onto green and go down bunny hills etc. I covered everything to the left of Upper North Wall and Mogul Monster. Once we went almost till the edge where Mogul starts and came back terrified! :grin:
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/21-cascade-mountains/At cascade.jpg" alt="Lobo(Cascade Mountain)" caption="Lobo(Cascade Mountain)" >}}
-{{% /center %}}
+{{< /center >}}
 
 The very last time, I went down on Manitou to Upper Ptarmigan to Badger Pass to Adele's Alley to Cottontail. On Cottontail, hit the bumps and caught more air than before. Then I saw my friend falling down in front and I couldn't resist pointing finger and laughing at him. The very next bump, you guessed it, I fell down! Sucker!
 

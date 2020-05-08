@@ -16,9 +16,9 @@ I can take a good tease but the attitude of getting things done quickly and avoi
 
 Below is the video I got from the skydiving place with some cuts and silly text I added. The one I used in my [previous post](/blog/do-it-now-or-you-might-never-get-a-chance-again/) was edited to change the audio track.
 
-{{% center %}}
+{{< center >}}
 {{< youtube NOQTlPDJ1pc >}}
-{{% /center %}}
+{{< /center >}}
 
 >
 

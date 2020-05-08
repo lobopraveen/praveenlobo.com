@@ -9,10 +9,10 @@ timezone = "CDT"
 categories = ["0"]
 tags = ["halloween", "friends"]
 +++
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/10-halloween/pic2.JPG" alt="V and Evey" caption="V and Evey" >}}
 
 {{< figure src="/media/00-25/10-halloween/last.JPG" alt="Hey, that's not!" caption="Hey, that's not!" >}}
-{{% /center %}}
+{{< /center >}}
 
 I was once told that people lose their inhibitions when they are behind the mask. I don't think I agree completely.

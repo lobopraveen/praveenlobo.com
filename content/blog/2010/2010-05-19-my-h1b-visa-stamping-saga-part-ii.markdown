@@ -21,15 +21,15 @@ Then it was the security check inside, document verification, and finger printin
 
 I was in the queue; the lady in front and the gentleman behind me were from the same company. I was noticing the interview and the interviewer. She asked a few questions to one person and then she didn't ask much to the next two. This pattern repeated. I silently calculated – if the pattern were to continue, the girl in front of me would get the questions and I wouldn't. Guess what, she was asked a few questions. It was my turn -
 
-{{% convo %}}
+{{< convo >}}
 Me:: Good morning.
 Interviewer:: Good morning. Pass me the documents please.  
 Me:: here they are.  
-{{% /convo %}}
+{{< /convo >}}
 
 At this point she turned to her computer and started entering something. I was thinking if she would ask any question. After may be a minute -
 
-{{% convo %}}
+{{< convo >}}
 Interviewer:: which client?
 Me:: \*client name\*
 Interviewer:: what is your highest degree?
@@ -43,7 +43,7 @@ Me:: okay(showing middle finger. I suppressed laughter. It was odd and funny. :s
 Interviewer:: Your visa is approved and you would get it in four to five days. You may go now.
 Me:: Thank you. Have a nice day ahead.
 Interviewer:: Thank you.
-{{% /convo %}}
+{{< /convo >}}
 
 I took a cab back to guest house on sharing basis and it cost only 150 Rupees!!! Though my employer was paying the expenses, I called up the morning cab and they said 270 Rupees was their minimum charge. Don't ever take MTT(Madrastravels) if you can find some local taxi unless they offer you a free ride.
 

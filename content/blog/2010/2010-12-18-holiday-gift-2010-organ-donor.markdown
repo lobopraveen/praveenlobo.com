@@ -10,17 +10,17 @@ categories = ["0"]
 tags = ["donor"]
 +++
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/13-donor/dl.jpg" alt="Driving License" 3caption="See that orange dot there?" >}}
-{{% /center %}}
+{{< /center >}}
 
 I didn't have any problem communicating it to Mom. She knew it since I was 10 years old or so. I had told her about this wish and so did she. We both want not just organs but entire body to be donated when we pass away.
 
 This is a picture of an eye donation card I signed nearly 15 years ago! (I must have been 10 years old or so.) I still have it in my wallet, I know it carries little value but I still keep it.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/13-donor/EyeDonor.jpg" alt="Eye Donor Card" caption="The signature has changed, address has changed, phone numbers have changed!" >}}
-{{% /center %}}
+{{< /center >}}
 
 
 Why do you want to keep it when you don't need them when you are gone. Please decide and act today for tomorrow may be too late! Be a reason for others' life and happiness even when you are dead. DONATE.

@@ -10,9 +10,9 @@ categories = ["0", "1"]
 tags = ["blog" ]
 +++
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/00-bday/Bday.jpg" alt="Happy Birthday!" caption="" >}}
-{{% /center %}}
+{{< /center >}}
 
 I'm bored of [Hello, world!](http://en.wikipedia.org/wiki/Hello_world_program); I did that over
 

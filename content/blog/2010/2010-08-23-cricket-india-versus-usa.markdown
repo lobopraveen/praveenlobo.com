@@ -12,7 +12,7 @@ tags = ["cricket", "friends", "sports"]
 
 It was about a month after the softball match between _India and USA_, the Americans wanted to try a match of Cricket. Rightly so, Cricket to Americans is like softball to Indians. We did have a match and due to less attendance on USA team, it was played after shuffling the teams.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/09-cricket/Cricket_1.jpg" alt="Cricket: India vs USA" caption="Cricket: India vs USA" >}}
 
 {{< figure src="/media/00-25/09-cricket/Cricket_2.jpg" alt="Cricket: India vs USA" caption="Cricket: India vs USA" >}}
@@ -21,4 +21,4 @@ It was about a month after the softball match between _India and USA_, the Ameri
 
 {{< figure src="/media/00-25/09-cricket/Cricket_4.jpg" alt="Cricket: India vs USA" caption="Cricket: India vs USA" >}}
 
-{{% /center %}}
+{{< /center >}}

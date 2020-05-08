@@ -14,6 +14,6 @@ Well, the magic spell is over! Packers won 19 consecutive games before I ever sa
 
 Oh, wait a minute, I’m not just a fan; I’m a mutual owner of Green Bay Packers! I own a part of NFL’s most mesmerizing team - the Green Bay Packers. I was just wondering if there are other Indians who own Green Bay Packers’ stock? Surely, there must be more!?!?
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/49-packers/Packers Share.jpg" alt="Indian Green Bay Packer owner" caption="Indian Green Bay Packer owner" >}}
-{{% /center %}}
+{{< /center >}}

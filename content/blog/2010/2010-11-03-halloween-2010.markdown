@@ -19,9 +19,9 @@ Anyway, this is kind of new. Different lifestyles. Cultures. New friends. Work e
 
 The reason I came here is to tell you about Halloween. There have been numerous events after I landed in US which I plan to tell you later when I catch hold of some photos, may be briefly .
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/10-halloween/V.JPG" alt="V" caption="V" >}}
-{{% /center %}}
+{{< /center >}}
 
 I bet, I didn't know about Halloween until recently. I didn't have any clue until this Saturday afternoon that I will be wearing any costume as part of Halloween at all. It's when these friends of mine started buying costumes, it hit me that I should also try something. That's all. I became V - V for Vendetta.
 
@@ -29,16 +29,16 @@ We went to Water Street here in Milwaukee. It was really nice. A lot of people r
 
 Cool eh? I bet. It was fun too. It was really amazing to see everyone in Halloween spirit. My friends were also dressed up very cool. See for yourself. Before that, here, a cool dialog from the movie.
 
-{{% convo %}}
+{{< convo >}}
 V :: I can assure you I mean you no harm.  
 Evey :: Who are you?  
 V :: Who? Who is but the form following the function of what and what I am is a man in a mask.  
 Evey :: Well I can see that.  
 V :: Of course you can. I'm not questioning your powers of observation I'm merely remarking upon the paradox of asking a masked man who he is.  
 Evey :: Oh. Right.  
-{{% /convo %}}
+{{< /convo >}}
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/10-halloween/pic1.JPG" alt="Mada" caption="" >}}
 
 {{< figure src="/media/00-25/10-halloween/pic5.JPG" alt="Repaka" caption="" >}}
@@ -47,4 +47,4 @@ Evey :: Oh. Right.
 
 {{< figure src="/media/00-25/10-halloween/pic4.JPG" alt="Repaka, Lobo, Yuvika, bharath, Pallavi, Mada, Donald, Balaji" caption="Brethren" >}}
 
-{{% /center %}}
+{{< /center >}}

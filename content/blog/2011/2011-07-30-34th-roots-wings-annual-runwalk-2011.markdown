@@ -22,22 +22,22 @@ Facebook status on July 24 at 9:57am
 
 Says it all, doesn't it?
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/35-roots-wings/tshirt.jpg" alt="Roots & Wings T-Shirt" caption="Roots & Wings T-Shirt" >}}
-{{% /center %}}
+{{< /center >}}
 
 It was the 34th Roots & Wings Annual Run/Walk 2011 (in Milwaukee marks the beginning of the Northwestern Mutual's Annual Meeting of the Association of Network Representatives) and there I was a good 5 minutes late at the start line!
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/35-roots-wings/RootsAndWings2011.jpg" alt="Roots & Wings Start" caption="Roots & Wings Start (courtesy - NM Photo Team)" >}}
-{{% /center %}}
+{{< /center >}}
 
 I completed the 5K run in 29:13 just 3 seconds shy of my goal. Not sure if starting late hurt the time. It was difficult to get around the walkers and was forced to walk frequently. Again, not sure if it helped me complete or made it difficult to keep up. During [Bastille's day run](/blog/storm-the-bastille-2011-milwaukee/), I started almost at the front and had picked a good runner and stuck with him. I really think that helped me complete the run with just one small walk.
 
 Anyway, it was a good Sunday morning and a great run. I also got to spend some time with colleagues immediately after the run enjoying the fruits, cookies, and Gatorade.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/35-roots-wings/Group.jpg" alt="Group of runners" caption="Group of runners" >}}
-{{% /center %}}
+{{< /center >}}
 
 May be I should try to complete a 5K within 25 minutes, what say? The results can be found online [here](http://onlineraceresults.com/race/view_race.php?race_id=19853).

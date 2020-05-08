@@ -17,10 +17,10 @@ Then the Orkut and other social networking thing happened and I got in touch wit
 
 Then all of a sudden, he asks for my number and says he is in Chicago! This dude was in Chicago! I met him once in Chicago and had him come over to Milwaukee last weekend. It was great meeting my oldest friend.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/26-50/40-Kris/Kris and Lobo.jpg" alt="That's my oldest pal, Kris." caption="That's my oldest pal, Kris." >}}
 
 {{< figure src="/media/26-50/40-Kris/Kris got voilent.jpg" alt="That's my oldest pal Kris trying to kill me." caption="That's my oldest pal Kris trying to kill me." >}}
 
 {{< figure src="/media/26-50/40-Kris/Milwaukee Art Museum.jpg" alt="Because I told him I own this building (Milwaukee Art Museum)." caption="Because I told him I own this building (Milwaukee Art Museum)." >}}
-{{% /center %}}
+{{< /center >}}

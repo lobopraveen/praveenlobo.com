@@ -19,29 +19,29 @@ Year 2010 was a totally different and a very special one for me. It all started 
 
 **Chicago trip with friends(July)**: This was just after two weeks of landing in US. Visited some parts of Downtown like John Hancock Observatory, Cheesecake factory, Magnificent Mile - Michigan Avenue, Millennium Park, Willis(Sears) Towers was closed due to high winds, Field Museum, Shedd Aquarium and the dolphins show.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/22-lookback/hancock observatory.jpg" alt="Aliens seen from John Hancock Observatory :P" caption="Aliens seen from John Hancock Observatory :P" >}}
-{{% /center %}}
+{{< /center >}}
 
 Played **Tennis** by the lake in downtown Milwaukee for the first time and realized it is not easy as it seems. Also, refereed in a couple of matches. I couldn't get to play much as I didn't have a company (beginner to be exact). I'm planning to play as much tennis as possible this summer.  **Most memorable moment** - Once when I was trying to serve the ball, I missed it and it landed on my head! :stuck_out_tongue_winking_eye:
 
 [**India versus USA(Aug-Sep)**](/blog/cricket-india-versus-usa/): We played softball and then cricket. No points for guessing who won! Highlight was Mada, from Indian team, scoring the only home-run of the game. Since we didn't have enough players in USA team for Cricket, we mixed the teams and played.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/22-lookback/Cricket_3.jpg" alt="Cricket: India vs USA" caption="Cricket: India vs USA" >}}
-{{% /center %}}
+{{< /center >}}
 
 [**Cedar Point and Niagara visit(Sep)**](/blog/niagara-falls-and-cedar-point-trip-day-1/): Millennium Force was the first roller coaster I ever sat on! I had been to Coimbatore Veega Land and Mangalore Karavali Utsava ground but never sat on a roller coaster (giant wheel and columbus aren't roller coasters, are they?)
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/22-lookback/Niagara falls.jpg" alt="Niagara: cave of winds" caption="Niagara: cave of winds" >}}
-{{% /center %}}
+{{< /center >}}
 
 [**Camping at Devil's Lake State Park, Wisconsin(Sep)**](/blog/camping-at-devils-lake-state-park-wisconsin/):This was an awesome experience. Setting up tents, campfire, preparing food, s'mores, a lot of time talking around the campfire, trekking and the list goes on. This is where Rahul and Kusuma announced their wedding for the first time. We knew it anyways!
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/22-lookback/lake.jpg" alt="Devil's Lake, Wisconsin" caption="Devil's Lake, Wisconsin" >}}
-{{% /center %}}
+{{< /center >}}
 
 **Door county, Wisconsin(10/10/10)**: This was a road trip with three other friends. We didn't get to see much of fall colour though. The best part of the trip was the rented boat and Lake Michigan. It was getting dark when we rented the boat (at Sister Bay, Wisconsin). We were fighting like kids to drive the boat! I was already making plans of visiting here and having a party on boat in the fall of 2011. Memorable splash - Once our boat hit a wave and splashed water inside the boat soaking us wet. Remember, it was a cold October evening in upper Wisconsin and we didn't have proper winter clothing! ouch!
 
@@ -52,12 +52,12 @@ Played **Tennis** by the lake in downtown Milwaukee for the first time and reali
 
 **First real winter(2010)**: This wasn't as bad as I expected. The first snow fall wasn't very exciting. It's only good in pictures and videos; the mess it creates after it snows is terrible. However, I did enjoy the winter. Later in February there was a blizzard and we went out when it was snowing heavily in the strong winds. Then I skied.. oh well, I'm in 2011... Rewind!!!
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/22-lookback/3.jpg" alt="Downtown Milwaukee during snow" caption="Downtown Milwaukee during blizzard" >}}
 
 
 {{< figure src="/media/00-25/22-lookback/1.jpg" alt="Cars covered in snow" caption="Cars covered in snow" >}}
-{{% /center %}}
+{{< /center >}}
 
 **New Friendships**: Made a lot of friends here in US, been on a few trips with them, went to a couple of parties, gatherings and all of it was great fun.
 
@@ -65,7 +65,7 @@ Played **Tennis** by the lake in downtown Milwaukee for the first time and reali
 
 **The Deepavali celebrations(early Nov)**: prayers, food, mild firecrackers, friends. Thanks to all those who organized this one.
 
-{{% center %}}
+{{< center >}}
 {{< figure src="/media/00-25/22-lookback/deepavali.jpg" alt="Deepavali pooja" caption="Deepavali pooja" >}}
 
 
@@ -73,7 +73,7 @@ Played **Tennis** by the lake in downtown Milwaukee for the first time and reali
 
 
 {{< figure src="/media/00-25/22-lookback/group.jpg" alt="Deepavali with friends" caption="Deepavali with friends" >}}
-{{% /center %}}
+{{< /center >}}
 
 
 **Only second Christmas away home**:  This is not a good feeling. First time was due to hectic work schedule and this time, err, was also somehow related to work! No complaints about the latter which has given me an opportunity to visit USA. When I look back, no matter how fulfilling it was I don't remember what I worked on, but all I remember is the very fact that I didn't go and spend time with my loved ones! :disappointed:

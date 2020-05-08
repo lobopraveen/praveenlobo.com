@@ -17,6 +17,6 @@ I was sleepy, but somehow this match seemed too good to miss. I had to wash my f
 
 Finally Luis Suarez did it. It was The Hands of God. If it wasn't for these Hands, Uruguay was surely going out of the world cup. It gave them a hope, a chance to come back and oh boy, they didn't miss it. For the Uruguayans Luis Suarez is a hero!
 
-{{% center %}}
-{{% youtube tDpx9GGH79I %}}
-{{% /center %}}
+{{< center >}}
+{{< youtube tDpx9GGH79I >}}
+{{< /center >}}
