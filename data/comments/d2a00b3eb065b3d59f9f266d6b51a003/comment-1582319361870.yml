@@ -1,0 +1,12 @@
+_id: 6e15e620-54ee-11ea-ab35-9d6f4f0cfa4e
+honeypot: ''
+permalink: /blog/how-to-convert-javascript-local-date-to-utc-and-utc-to-local-date/
+parent_id: ''
+content: >-
+  this (i.e., now.toUTCString()) works for me but, the type of is string
+  obviously but i need it in date object and i am not able to find that meaning
+  i need UTC in date object
+author: Sumit
+email: 262c55e5594970c77a995506b54468dc
+site: ''
+date: 1582319361840
