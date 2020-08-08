@@ -2,7 +2,7 @@ language: minimal
 
 env:
     global:
-      - HUGO_VERSION=0.62.2
+      - HUGO_VERSION=0.74.3
       - DEPLOY_REPO="lobopraveen/praveenlobo.com"
       - DEPLOY_BRANCH="master"
       - ENCRYPTED_KEY=$encrypted_a781b6369385_key
