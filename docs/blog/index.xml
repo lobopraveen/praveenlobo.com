@@ -16,7 +16,7 @@
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid>
-      <description>Original post date: 2018-05-01. Edited to include changes made in 2020. I don&#39;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.
+      <description>Original post date: 2018-05-01. Edited to include changes made in 2020. I don&amp;rsquo;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.
  After migrating the blog to Hugo and making some custom changes, it was time to develop the CI-CD pipeline.</description>
     </item>
     
@@ -27,7 +27,7 @@
       
       <guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid>
       <description>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.
-If you didn&#39;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
+If you didn&amp;rsquo;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ I remember myself asking that question to others when I first started the job in
       <guid>https://praveenlobo.com/blog/markitedm-classic-matcher-hands-on-notes/</guid>
       <description>IHS Markit defines Enterprise Data Management (EDM) as
  EDM is a data management platform for acquiring, validating and distributing trade, operational, risk, financial and customer data. It creates a single version of the truth in a consistent, transparent and fully audited environment. Firms benefit from greater control, ongoing compliance and transparency of their data.
- Markit has it&#39;s own product for Enterprise Data Management called Markit EDM. I have fairly decent exposure to this tool including passing Markit&#39;s core introduction and advanced course.</description>
+ Markit has it&amp;rsquo;s own product for Enterprise Data Management called Markit EDM. I have fairly decent exposure to this tool including passing Markit&amp;rsquo;s core introduction and advanced course.</description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@ I remember myself asking that question to others when I first started the job in
       
       <guid>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</guid>
       <description>While working on migrating this site from WordPress to Hugo, I did tweak somethings to make it work for my liking. I usually keep things simple so that future changes are as painless as possible, however, I decided to go ahead with these changes as it improved maintainability and reverting these changes are very straight forward.
-Hugo&#39;s default publish directory Hugo generates the static site content in public directory by default.</description>
+Hugo&amp;rsquo;s default publish directory Hugo generates the static site content in public directory by default.</description>
     </item>
     
     <item>
@@ -68,7 +68,7 @@ Hugo&#39;s default publish directory Hugo generates the static site content in p
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</guid>
-      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&#39;t commit to it. I feel like I have hit this big writer&#39;s block and I somehow don&#39;t want to get out if it.</description>
+      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&amp;rsquo;t commit to it. I feel like I have hit this big writer&amp;rsquo;s block and I somehow don&amp;rsquo;t want to get out if it.</description>
     </item>
     
     <item>
@@ -78,7 +78,7 @@ Hugo&#39;s default publish directory Hugo generates the static site content in p
       
       <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
       <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
+The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
  % in below scripts match shortest from the end of the string.</description>
     </item>
     
@@ -88,7 +88,7 @@ The following snippets show how to change the file name extensions on multiple f
       <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</guid>
-      <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&#39;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
+      <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&amp;rsquo;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
 The problem was with a query that used to run fine for a long time and started failing a couple of weeks ago.</description>
     </item>
     
@@ -129,7 +129,7 @@ Search File: To get a matching line from a file, use VBA code as shown here on t
       
       <guid>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</guid>
       <description>The easiest way to compare two XML files would be to see if any available tool can do the job. My favorite compare tool to use at work is Beyond Compare - it supports folders as well as files comparison, supports multiple file formats, and has ton of options. For personal use, I prefer meld as it is free and gets the job done.
-Although those are wonderful programs, they don&#39;t fit every use case.</description>
+Although those are wonderful programs, they don&amp;rsquo;t fit every use case.</description>
     </item>
     
     <item>
@@ -157,7 +157,7 @@ CSV files with values that contain commas in them is a pain if the system was bu
       <pubDate>Sun, 03 Jun 2012 16:46:47 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/ride-lobo-ride-upaf-ride-for-the-arts-2012/</guid>
-      <description>Over quarter of a million participants have taken part in annual United Performing Arts Fund (UPAF) Ride for the Arts since 1981. According to UPAF, which provides financial support to 36 beneficiary groups, the ride helps keep the performing arts scene dynamic and a vital part of the community&#39;s culture and that they are among the nation&#39;s largest united arts funds in terms of dollars raised and number of donors.</description>
+      <description>Over quarter of a million participants have taken part in annual United Performing Arts Fund (UPAF) Ride for the Arts since 1981. According to UPAF, which provides financial support to 36 beneficiary groups, the ride helps keep the performing arts scene dynamic and a vital part of the community&amp;rsquo;s culture and that they are among the nation&amp;rsquo;s largest united arts funds in terms of dollars raised and number of donors.</description>
     </item>
     
     <item>
@@ -166,8 +166,8 @@ CSV files with values that contain commas in them is a pain if the system was bu
       <pubDate>Mon, 09 Apr 2012 03:08:32 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/my-second-bicycle-a-2012-trek-ds-8-3-bicycle-from-wheel-and-sprocket-bike-expo/</guid>
-      <description>I used to love bicycles until I started working and moved on to ride motorbikes. Motorbikes were convenient, affordable, and fast. I had bought myself a TVS Suzuki Fiero DS (India&#39;s first 150cc bike I think) and I was using it for everyday commute. I had sold my first bicycle and didn&#39;t have one to ride. As it happens as one grows up, I had given up on bicycles.
-After moving to US, I live very close walk to work and don&#39;t need any vehicles for travel.</description>
+      <description>I used to love bicycles until I started working and moved on to ride motorbikes. Motorbikes were convenient, affordable, and fast. I had bought myself a TVS Suzuki Fiero DS (India&amp;rsquo;s first 150cc bike I think) and I was using it for everyday commute. I had sold my first bicycle and didn&amp;rsquo;t have one to ride. As it happens as one grows up, I had given up on bicycles.
+After moving to US, I live very close walk to work and don&amp;rsquo;t need any vehicles for travel.</description>
     </item>
     
     <item>
@@ -176,7 +176,7 @@ After moving to US, I live very close walk to work and don&#39;t need any vehicl
       <pubDate>Wed, 04 Apr 2012 01:50:53 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/my-first-bicycle-hercules-mtb-bangalore-year-2000/</guid>
-      <description>As a kid I was jealous of my brother, my cousin, and all my friends (who knew how to ride a bicycle). I didn&#39;t know how to ride a bike until I was thirteen or fourteen I think. My mom was too scared to allow me to ride a bicycle. I&#39;d lie to mom and go trying to ride a bike instead of playing. I can&#39;t remember anyone helping me how to ride.</description>
+      <description>As a kid I was jealous of my brother, my cousin, and all my friends (who knew how to ride a bicycle). I didn&amp;rsquo;t know how to ride a bike until I was thirteen or fourteen I think. My mom was too scared to allow me to ride a bicycle. I&amp;rsquo;d lie to mom and go trying to ride a bike instead of playing. I can&amp;rsquo;t remember anyone helping me how to ride.</description>
     </item>
     
     <item>
@@ -214,7 +214,7 @@ Oh, wait a minute, I’m not just a fan; I’m a mutual owner of Green Bay Packe
       
       <guid>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</guid>
       <description>From the recent notes I made on the Google Voice and how it uses the carrier minutes and data to operate, it should be free in 2012 and beyond.
-Why? Currently, Google Voice is not a VOIP service and it uses the carrier minutes and data to operate which means to make or receive calls the subscriber has to pay the carrier. See the image in that post. If Google Voice doesn&#39;t offer VOIP service and starts charging for the voice calls, the subscriber will be double charged.</description>
+Why? Currently, Google Voice is not a VOIP service and it uses the carrier minutes and data to operate which means to make or receive calls the subscriber has to pay the carrier. See the image in that post. If Google Voice doesn&amp;rsquo;t offer VOIP service and starts charging for the voice calls, the subscriber will be double charged.</description>
     </item>
     
     <item>
@@ -223,7 +223,7 @@ Why? Currently, Google Voice is not a VOIP service and it uses the carrier minut
       <pubDate>Thu, 01 Dec 2011 05:55:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</guid>
-      <description>Does Google Voice Use Minutes or Data? Does Google Voice cost money? How does Google Voice calling or texting work? The answer is Yes, Yes, and I don&#39;t know.
+      <description>Does Google Voice Use Minutes or Data? Does Google Voice cost money? How does Google Voice calling or texting work? The answer is Yes, Yes, and I don&amp;rsquo;t know.
 Update: See this for more info
 Google Voice is an awesome idea and piece of software (if you are willing to give away more self information to Google than you already have). It is not a VOIP service like Google Talk; it is a call management service.</description>
     </item>
@@ -245,7 +245,7 @@ I can take a good tease but the attitude of getting things done quickly and avoi
       
       <guid>https://praveenlobo.com/blog/an-anonymous-halloween-2011/</guid>
       <description>Tombstone and eyeballs cupcakes
-   It was that time of the year again when the pumpkins are carved, people get costumed, and walk around downtown, of course, showing off. Guess what I did different this time - I carved a pumpkin! The family I was with loves cars so I thought of carving a Mustang (they own one). I made a sketch of it from a picture I had taken of their car, but decided not to do it as it&#39;d be difficult and was probably going to take more time.</description>
+   It was that time of the year again when the pumpkins are carved, people get costumed, and walk around downtown, of course, showing off. Guess what I did different this time - I carved a pumpkin! The family I was with loves cars so I thought of carving a Mustang (they own one). I made a sketch of it from a picture I had taken of their car, but decided not to do it as it&amp;rsquo;d be difficult and was probably going to take more time.</description>
     </item>
     
     <item>
@@ -267,7 +267,7 @@ My roommates kept American dollars next to Indian rupees on the alter. I wonder 
       
       <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
       <description>Update: moved the code to github
-Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&#39;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
+Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
     </item>
     
     <item>
@@ -276,7 +276,7 @@ Java List APIs provides a way to get the elements (sub-list) in a List between t
       <pubDate>Sat, 22 Oct 2011 05:54:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/i-tried-roller-blading/</guid>
-      <description>On the Sweetest Day of 2011, I just happened to visit the Incredi-Roll Skate &amp;amp; Laser Tag Family Fun Center (on Oklahoma) for some rollerblade fun. I always wanted to learn rollerblading. A friend of mine forced me to get into it for sometime before giving up on me. But this sweetest day, I gave it a try. It&#39;s indoors so there&#39;s no danger of getting run over by a truck.</description>
+      <description>On the Sweetest Day of 2011, I just happened to visit the Incredi-Roll Skate &amp;amp; Laser Tag Family Fun Center (on Oklahoma) for some rollerblade fun. I always wanted to learn rollerblading. A friend of mine forced me to get into it for sometime before giving up on me. But this sweetest day, I gave it a try. It&amp;rsquo;s indoors so there&amp;rsquo;s no danger of getting run over by a truck.</description>
     </item>
     
     <item>
@@ -286,7 +286,7 @@ Java List APIs provides a way to get the elements (sub-list) in a List between t
       
       <guid>https://praveenlobo.com/blog/a-perfect-season-green-bay-packers/</guid>
       <description>Elle Meissner - The Lions haven’t won a championship since her grandfather was 5 and haven’t won a playoff game since her father was 10, in her lifetime, the Detroit Lions haven’t lost a game. more
- This news reminded me that I haven&#39;t seen a single game that Green Bay Packers lost! The first time I heard of American Football was at the end of 2006 in a session helping people understand the basics of the game.</description>
+ This news reminded me that I haven&amp;rsquo;t seen a single game that Green Bay Packers lost! The first time I heard of American Football was at the end of 2006 in a session helping people understand the basics of the game.</description>
     </item>
     
     <item>
@@ -295,7 +295,7 @@ Java List APIs provides a way to get the elements (sub-list) in a List between t
       <pubDate>Fri, 14 Oct 2011 02:41:54 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/it-needs-a-genius-to-understand-the-simplicity-r-i-p-dennis-ritchie/</guid>
-      <description>U changed the world; it is because of the people like you we C the world the way it is today. You didn&#39;t make billions, but billionaires. You have such an impact not only on those who lived in your lifetime, but also on those who are yet to C the light of the day. Your influence is ubiquitous. The mankind will forever be grateful to you.
+      <description>U changed the world; it is because of the people like you we C the world the way it is today. You didn&amp;rsquo;t make billions, but billionaires. You have such an impact not only on those who lived in your lifetime, but also on those who are yet to C the light of the day. Your influence is ubiquitous. The mankind will forever be grateful to you.
 R.I.P. Dennis Ritchie.</description>
     </item>
     
@@ -315,7 +315,7 @@ R.I.P. Dennis Ritchie.</description>
       
       <guid>https://praveenlobo.com/blog/a-visit-to-the-frozen-tundra-lambeau-field/</guid>
       <description>Lambeau Field
-   I have driven around the stadium once while returning from the Door County last fall. This time while returning from a trip to Pictured Rocks, I visited the Lambeau Field a.k.a The Frozen Tundra and took a tour of the stadium. It was just so unbelievable to be there and to learn some history about the Packers. I even got a customized replica jersey and a Packer&#39;s Rubik cube among other things.</description>
+   I have driven around the stadium once while returning from the Door County last fall. This time while returning from a trip to Pictured Rocks, I visited the Lambeau Field a.k.a The Frozen Tundra and took a tour of the stadium. It was just so unbelievable to be there and to learn some history about the Packers. I even got a customized replica jersey and a Packer&amp;rsquo;s Rubik cube among other things.</description>
     </item>
     
     <item>
@@ -335,7 +335,7 @@ R.I.P. Dennis Ritchie.</description>
       <pubDate>Tue, 23 Aug 2011 05:58:27 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/do-it-now-or-you-might-never-get-a-chance-again/</guid>
-      <description>Finally on August 20th, 2011, I skydived for the first time, not only unheeding my friends&amp;rsquo; suggestions to go for tandem first and then solo/Accelerated Free Fall (AFF) but also my own fear of jumping into the unknown. I didn&#39;t know how it will be to fall from 14,000 feet, descending at 120MPH (193KMPH). I wasn&#39;t sure if the instructors will be able to guide me ntil the pull; I wasn&#39;t sure if the parachute will open fine or not; I wasn&#39;t sure if I would land on Interstate-94 and get dragged down the road.</description>
+      <description>Finally on August 20th, 2011, I skydived for the first time, not only unheeding my friends&amp;rsquo; suggestions to go for tandem first and then solo/Accelerated Free Fall (AFF) but also my own fear of jumping into the unknown. I didn&amp;rsquo;t know how it will be to fall from 14,000 feet, descending at 120MPH (193KMPH). I wasn&amp;rsquo;t sure if the instructors will be able to guide me ntil the pull; I wasn&amp;rsquo;t sure if the parachute will open fine or not; I wasn&amp;rsquo;t sure if I would land on Interstate-94 and get dragged down the road.</description>
     </item>
     
     <item>
@@ -344,7 +344,7 @@ R.I.P. Dennis Ritchie.</description>
       <pubDate>Sat, 20 Aug 2011 04:54:12 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/the-story-of-my-childhood/</guid>
-      <description>Last weekend, I had one of my friend come over from Chicago. I hadn&#39;t met him in nearly 6-7 years until a couple of days ago when I met him Chicago. We went skydiving, and visited Lake Geneva and had good time together. Meeting him brought back many memories from my childhood and school days and inspired me to write. I think, it&#39;s time to share and put them down here before they are completely erased from my already weak memories.</description>
+      <description>Last weekend, I had one of my friend come over from Chicago. I hadn&amp;rsquo;t met him in nearly 6-7 years until a couple of days ago when I met him Chicago. We went skydiving, and visited Lake Geneva and had good time together. Meeting him brought back many memories from my childhood and school days and inspired me to write. I think, it&amp;rsquo;s time to share and put them down here before they are completely erased from my already weak memories.</description>
     </item>
     
     <item>
@@ -362,7 +362,7 @@ R.I.P. Dennis Ritchie.</description>
       <pubDate>Thu, 18 Aug 2011 05:44:24 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/i-paid-a-bribe-once/</guid>
-      <description>When I was growing up, I used to read the articles in the newspaper about people returning the money/jewelry that somebody else had lost, the auto driver returning thousands of rupees the passengers had left behind. I used to wonder what made them do what they did especially when the person who did it was indeed very poor. Why didn&#39;t s/he keep it her/himself, used it to feed his family, made a life out of it.</description>
+      <description>When I was growing up, I used to read the articles in the newspaper about people returning the money/jewelry that somebody else had lost, the auto driver returning thousands of rupees the passengers had left behind. I used to wonder what made them do what they did especially when the person who did it was indeed very poor. Why didn&amp;rsquo;t s/he keep it her/himself, used it to feed his family, made a life out of it.</description>
     </item>
     
     <item>
@@ -371,7 +371,7 @@ R.I.P. Dennis Ritchie.</description>
       <pubDate>Tue, 16 Aug 2011 03:37:17 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/one-hell-of-a-tiring-weekend-skydive-plan-gone-wrong-and-lake-geneva-again/</guid>
-      <description>If everything went according to the plan, I&#39;d have had my first ever free-fall by now. But the mother nature had some other plans. Six friends and I had planned for a skydiving weekend on my room-mate&#39;s birthday last Saturday. Two of them had come down from Chicago. The venue was none other than the closest Skydive Midwest. None of us had previous experience and were looking forward to having a great time.</description>
+      <description>If everything went according to the plan, I&amp;rsquo;d have had my first ever free-fall by now. But the mother nature had some other plans. Six friends and I had planned for a skydiving weekend on my room-mate&amp;rsquo;s birthday last Saturday. Two of them had come down from Chicago. The venue was none other than the closest Skydive Midwest. None of us had previous experience and were looking forward to having a great time.</description>
     </item>
     
     <item>
@@ -380,7 +380,7 @@ R.I.P. Dennis Ritchie.</description>
       <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
-      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&#39;t like to use this class even if it weren&#39;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
+      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
 StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
     </item>
     
@@ -390,7 +390,7 @@ StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &am
       <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
-      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&#39;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
     </item>
     
     <item>
@@ -409,7 +409,7 @@ We, at least some of us, code for a living. We cannot support it forever. We mig
       <pubDate>Wed, 10 Aug 2011 05:16:33 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/</guid>
-      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&#39;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
+      <description>I recently moved a bunch of blog posts to a new blog installation. This wasn&amp;rsquo;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!
    WordPress: Install WordPress.
   Plugins: Install necessary plugins.</description>
     </item>
@@ -420,7 +420,7 @@ We, at least some of us, code for a living. We cannot support it forever. We mig
       <pubDate>Wed, 10 Aug 2011 03:04:53 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/why-are-comments-important/</guid>
-      <description>Around three months ago, I was shocked looking at some newly added code in one of our applications. It was naked. Not a single line of comment whatsoever!! I asked the person who wrote it to explain the code and it turned out that the code is indeed very cleverly written. I&#39;d rate the code as top notch if only it had comments. When I demanded an explanation, it turned out that he thinks commenting is an utterly boring task.</description>
+      <description>Around three months ago, I was shocked looking at some newly added code in one of our applications. It was naked. Not a single line of comment whatsoever!! I asked the person who wrote it to explain the code and it turned out that the code is indeed very cleverly written. I&amp;rsquo;d rate the code as top notch if only it had comments. When I demanded an explanation, it turned out that he thinks commenting is an utterly boring task.</description>
     </item>
     
     <item>
@@ -443,10 +443,10 @@ Some pictures from camping at Big Foot beach State Park.
       <pubDate>Tue, 09 Aug 2011 04:23:03 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/three-rules-to-excel-at-work/</guid>
-      <description>My day at work had just began, when I overheard a colleague of mine talking about rule number two. He is very senior to me and is dangerously intelligent! I couldn&#39;t stop myself from asking him what the rule number two was.
-&amp;ldquo;Hey, what is rule number two?&amp;quot;, I asked.
-&amp;ldquo;Well, do you know rule number one?&amp;quot;, he questioned.
-I replied, &amp;ldquo;Nope&amp;rdquo;, thinking why didn&#39;t I ask about rule number one first!</description>
+      <description>My day at work had just began, when I overheard a colleague of mine talking about rule number two. He is very senior to me and is dangerously intelligent! I couldn&amp;rsquo;t stop myself from asking him what the rule number two was.
+&amp;ldquo;Hey, what is rule number two?&amp;rdquo;, I asked.
+&amp;ldquo;Well, do you know rule number one?&amp;rdquo;, he questioned.
+I replied, &amp;ldquo;Nope&amp;rdquo;, thinking why didn&amp;rsquo;t I ask about rule number one first!</description>
     </item>
     
     <item>
@@ -488,7 +488,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
       <description>Part I of this post series can be found here.
- 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&#39;t crossed a set limit.
+ 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
   The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.</description>
     </item>
     
@@ -502,9 +502,9 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
  1750 to beat.
  Facebook status on July 24 at 9:57am
  1753 seconds to finish; just 3 seconds dammit.
- Says it all, doesn&#39;t it?
+ Says it all, doesn&amp;rsquo;t it?
   Roots &amp;amp; Wings T-Shirt
-   It was the 34th Roots &amp;amp; Wings Annual Run/Walk 2011 (in Milwaukee marks the beginning of the Northwestern Mutual&#39;s Annual Meeting of the Association of Network Representatives) and there I was a good 5 minutes late at the start line!</description>
+   It was the 34th Roots &amp;amp; Wings Annual Run/Walk 2011 (in Milwaukee marks the beginning of the Northwestern Mutual&amp;rsquo;s Annual Meeting of the Association of Network Representatives) and there I was a good 5 minutes late at the start line!</description>
     </item>
     
     <item>
@@ -513,7 +513,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
-      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&#39;t because I didn&#39;t want others to lose money, but shouldn&#39;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
     </item>
     
     <item>
@@ -522,7 +522,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/weather-comparison-bangalore-vs-milwaukee/</guid>
-      <description>You know by now, I&#39;m a bit concerned about this weather. While checking the weather forecast, I came up with this idea of comparing the weather between Bangalore and Milwaukee. Just for giggles.
+      <description>You know by now, I&amp;rsquo;m a bit concerned about this weather. While checking the weather forecast, I came up with this idea of comparing the weather between Bangalore and Milwaukee. Just for giggles.
  The below graphs are drawn with the data available freely on the net(weather.com, wikipedia and wunderground.com). I believe they should be fairly accurate.
   Bangalore vs Milwaukee - Weather(°F)
     Bangalore vs Milwaukee - Weather(°C)</description>
@@ -545,7 +545,7 @@ Rewind to 2010 I landed exactly one year ago in Milwaukee. The weather was not b
       
       <guid>https://praveenlobo.com/blog/storm-the-bastille-2011-milwaukee/</guid>
       <description>The Bastille, the medieval fortress and prison in Paris, was stormed by the demonstrators to acquire the ammunition on 14 July 1789. This day marks the start of the French Revolution and is celebrated as a national holiday in France. The same is celebrated in across the world. One such place is Milwaukee. Yes, the place I live now!
- Bastille Days is North America&#39;s largest outdoor French themed festival held in downtown Milwaukee in Cathedral Square Park.</description>
+ Bastille Days is North America&amp;rsquo;s largest outdoor French themed festival held in downtown Milwaukee in Cathedral Square Park.</description>
     </item>
     
     <item>
@@ -554,7 +554,7 @@ Rewind to 2010 I landed exactly one year ago in Milwaukee. The weather was not b
       <pubDate>Thu, 14 Jul 2011 05:16:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/the-lost-track-on-the-streets-of-milwaukee/</guid>
-      <description>I&#39;m one of those lazy ones when it comes to gym or jogging. I don&#39;t even remember when I jogged last. Gym has been on and off with a total I can count with my fingers of one hand. After all it&#39;s for those who want to be fit; not for those who are already fit. 😉
+      <description>I&amp;rsquo;m one of those lazy ones when it comes to gym or jogging. I don&amp;rsquo;t even remember when I jogged last. Gym has been on and off with a total I can count with my fingers of one hand. After all it&amp;rsquo;s for those who want to be fit; not for those who are already fit. 😉
 Anyhow, I started practicing for a 5K run scheduled for June 24th Sunday morning.</description>
     </item>
     
@@ -576,7 +576,7 @@ Script after:
       <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid>
-      <description>When you start out with the WordPress, it&#39;s common to assume that each blog needs a separate WordPress installation. But there&#39;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
+      <description>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
 Advantges and Disadvantages of WordPress Multisite Advantages:   The multisite blogs have all features of a regular blog with just one installation i.</description>
     </item>
     
@@ -618,7 +618,7 @@ Please do leave me a comment. Thanks!
       <pubDate>Mon, 27 Jun 2011 05:44:31 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</guid>
-      <description>I keep getting requests and I can&#39;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
+      <description>I keep getting requests and I can&amp;rsquo;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
 JavaScript Counter to Count Days Hours Minutes Seconds - This script is very simple; it takes a date to count the time from/to, an ID to put the timer in. To be very precise, this counter shows the total number of 24 hours intervals between the date-time given and current date-time.</description>
     </item>
     
@@ -637,7 +637,7 @@ JavaScript Counter to Count Days Hours Minutes Seconds - This script is very sim
       <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</guid>
-      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&#39;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&#39;m also having fun with their reputation points.</description>
+      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&amp;rsquo;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&amp;rsquo;m also having fun with their reputation points.</description>
     </item>
     
     <item>
@@ -647,7 +647,7 @@ JavaScript Counter to Count Days Hours Minutes Seconds - This script is very sim
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days/</guid>
       <description>John Watt sent me a request asking if I could help with changing the JavaScript CountUp Timer to show only the number of days in a counter. He also wanted to display the days in 3 digits.
-I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&#39;t update every second.</description>
+I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&amp;rsquo;t update every second.</description>
     </item>
     
     <item>
@@ -656,7 +656,7 @@ I did reply with changes but it had a defect due to a last minute change! So, I 
       <pubDate>Wed, 08 Jun 2011 06:27:27 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/a-small-gift-box-for-me-pain-in-the-neck-for-most/</guid>
-      <description>Don&#39;t get me wrong, I really don&#39;t mean most by &amp;ldquo;most&amp;rdquo;. It&#39;s just the most I encountered here. The other day I had to send some gifts through one of my friend who was travelling in next couple of hours. The idiot that I am, I had forgotten to buy the gift boxes! So, I decided to make them myself. I had just about everything it takes - some cardboard boxes, gift wrap, glue, a pair of scissors, and mighty interest.</description>
+      <description>Don&amp;rsquo;t get me wrong, I really don&amp;rsquo;t mean most by &amp;ldquo;most&amp;rdquo;. It&amp;rsquo;s just the most I encountered here. The other day I had to send some gifts through one of my friend who was travelling in next couple of hours. The idiot that I am, I had forgotten to buy the gift boxes! So, I decided to make them myself. I had just about everything it takes - some cardboard boxes, gift wrap, glue, a pair of scissors, and mighty interest.</description>
     </item>
     
     <item>
@@ -666,7 +666,7 @@ I did reply with changes but it had a defect due to a last minute change! So, I 
       
       <guid>https://praveenlobo.com/blog/niagara-falls-and-cedar-point-trip-day-2/</guid>
       <description>Niagara, New York, United States   Terrapin Point, Goat Island
-   The next day as planned we drove to Niagara falls. There were a lot of people; I could see a lot of Indians as well. You probably won&#39;t believe me but I met my a friend from my college (India) with his friends on Goat Island, I had no clue he was also visiting. Then I met another friend of mine from Bangalore on the Observation Tower!</description>
+   The next day as planned we drove to Niagara falls. There were a lot of people; I could see a lot of Indians as well. You probably won&amp;rsquo;t believe me but I met my a friend from my college (India) with his friends on Goat Island, I had no clue he was also visiting. Then I met another friend of mine from Bangalore on the Observation Tower!</description>
     </item>
     
     <item>
@@ -685,7 +685,7 @@ First we drove to Cedar Point (Sandusky Ohio) from Marriott (Cleveland Airport M
       <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
-      <description>What is a blog slug? If you have no clue, this post isn&#39;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&#39;s there and most probably you don&#39;t want it.
+      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
 How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
     </item>
     
@@ -697,7 +697,7 @@ How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your p
       <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate-contd/</guid>
       <description>Continued from here&amp;hellip;
 Advantages/Disadvantages: Advantages of multiple blogs include monetization, ease of finding advertisers, reaching right audience, and building a resource of articles all in the same niche. Disadvantages? Unless you are an expert you will run out of good articles, might have to hire writers. Multiple blogs needs more time in terms of maintenance, updates etc. It needs more resources which cost money.
-You will have enough time on your hand with a single blog and you don&#39;t have to worry about all blogs that miss your constant love.</description>
+You will have enough time on your hand with a single blog and you don&amp;rsquo;t have to worry about all blogs that miss your constant love.</description>
     </item>
     
     <item>
@@ -716,7 +716,7 @@ You will have enough time on your hand with a single blog and you don&#39;t have
       
       <guid>https://praveenlobo.com/blog/dark-blue-light-blue-maps-of-india/</guid>
       <description>These are the India maps I created* when designing my homepage for the grand 2011 Cricket World Cup.
-I had a tough time searching for a blue map of India online and ended up creating them myself. With this post they are released online; you are free to use them as you may wish. However, a link to this blog is really appreciated (which I&#39;m sure none of you are going to do!</description>
+I had a tough time searching for a blue map of India online and ended up creating them myself. With this post they are released online; you are free to use them as you may wish. However, a link to this blog is really appreciated (which I&amp;rsquo;m sure none of you are going to do!</description>
     </item>
     
     <item>
@@ -726,7 +726,7 @@ I had a tough time searching for a blue map of India online and ended up creatin
       
       <guid>https://praveenlobo.com/blog/first-time-clipper-self-haircut/</guid>
       <description>[Dated 12/12/2010; Posted 5/2/2011 due to photos.]
-If you think this is a &amp;ldquo;own haircut how to&amp;rdquo;, let me tell you, you&#39;ll be disappointed because it is not. However, you can read further to find out my tale with giving myself a haircut for the first time.
+If you think this is a &amp;ldquo;own haircut how to&amp;rdquo;, let me tell you, you&amp;rsquo;ll be disappointed because it is not. However, you can read further to find out my tale with giving myself a haircut for the first time.
 When I was kid, I had this dream, albeit shot-lived, of becoming an hairstylist. But then I went to college trying to become an engineer!</description>
     </item>
     
@@ -738,7 +738,7 @@ When I was kid, I had this dream, albeit shot-lived, of becoming an hairstylist.
       <guid>https://praveenlobo.com/blog/pencil-sketch-sachin-tendulkar/</guid>
       <description>A pencil sketch of the greatest batsman to ever play the game of Cricket - Sachin Tendulkar. Sketched more than half a decade ago. Does it look like Sachin?
   Sachin Tendulkar
-    Sachin Tendulkar (scanned and GIMP&#39;d)
+    Sachin Tendulkar (scanned and GIMP&amp;rsquo;d)
    </description>
     </item>
     
@@ -748,7 +748,7 @@ When I was kid, I had this dream, albeit shot-lived, of becoming an hairstylist.
       <pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid>
-      <description>Disclaimer: I&#39;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
+      <description>Disclaimer: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
 Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea. However, after sometime you will feel as if you should keep the posts separate and in their own blogs rather than having them all in under one blog.</description>
     </item>
     
@@ -759,9 +759,9 @@ Why? If you are starting/have started blogging as a hobby, at first it may seem 
       
       <guid>https://praveenlobo.com/blog/rss-feed-url-changed/</guid>
       <description>Dear readers,
-Though there are only a few of you and I&#39;m very sure you are very capable of finding it out yourselves, I think I must save your time and tell you that I&#39;m moving my RSS Feed address.
+Though there are only a few of you and I&amp;rsquo;m very sure you are very capable of finding it out yourselves, I think I must save your time and tell you that I&amp;rsquo;m moving my RSS Feed address.
 The idea is simple:
- I post this post and then change my RSS feed address.  So that, assuming you miss this post, in case you wonder why you are not finding any new unread items in Lobo&#39;s blog feed, this is the post you find on the old feed and you know the answer.</description>
+ I post this post and then change my RSS feed address.  So that, assuming you miss this post, in case you wonder why you are not finding any new unread items in Lobo&amp;rsquo;s blog feed, this is the post you find on the old feed and you know the answer.</description>
     </item>
     
     <item>
@@ -771,7 +771,7 @@ The idea is simple:
       
       <guid>https://praveenlobo.com/blog/strike-out-corruption-in-india-support-jan-lokpal-bill/</guid>
       <description>CORRUPTION IN INDIA
-Will Jan Lokpal bill solve the issue? I don&#39;t know for sure, but it will definitely set us on the right path by giving more power to those who matter. It&#39;s heartening to see India united to fight against the corruption. If an old man [Anna Hazare] can do so much, why can&#39;t the youth do more? If you can, PLEASE SHOW YOUR SUPPORT in any way possible.</description>
+Will Jan Lokpal bill solve the issue? I don&amp;rsquo;t know for sure, but it will definitely set us on the right path by giving more power to those who matter. It&amp;rsquo;s heartening to see India united to fight against the corruption. If an old man [Anna Hazare] can do so much, why can&amp;rsquo;t the youth do more? If you can, PLEASE SHOW YOUR SUPPORT in any way possible.</description>
     </item>
     
     <item>
@@ -781,7 +781,7 @@ Will Jan Lokpal bill solve the issue? I don&#39;t know for sure, but it will def
       
       <guid>https://praveenlobo.com/blog/indians-are-the-world-champions/</guid>
       <description>You know by now. Indians are the world champions! Yeah, say that again, WE ARE THE CHAMPIONS!
-Remember &amp;ldquo;More than a billion hearts and one shared dream&amp;rdquo;? That&#39;s what I wrote when the world cup started. That dream has come true! Now more than 50% of Indian population can proudly say they saw their captain lift the world cup at least once in their life. Glory!
+Remember &amp;ldquo;More than a billion hearts and one shared dream&amp;rdquo;? That&amp;rsquo;s what I wrote when the world cup started. That dream has come true! Now more than 50% of Indian population can proudly say they saw their captain lift the world cup at least once in their life. Glory!
 Homepage mania: I dedicated the homepage to Green Bay Packers and they won the super bowl; they are the Champions!</description>
     </item>
     
@@ -791,7 +791,7 @@ Homepage mania: I dedicated the homepage to Green Bay Packers and they won the s
       <pubDate>Sat, 02 Apr 2011 03:08:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/oops-facebook-image-compression-sucks/</guid>
-      <description>Facebook [profile picture] image compression not only sucks big time, but it is also stupid. I don&#39;t use Facebook as an image storage service, neither do I care about the EXIF data that they strip. I&#39;m also okay with their approach to compress each and every image(?), but compressing an image which results in an image size bigger than the originally uploaded image? I think it fits in my O_ops series.</description>
+      <description>Facebook [profile picture] image compression not only sucks big time, but it is also stupid. I don&amp;rsquo;t use Facebook as an image storage service, neither do I care about the EXIF data that they strip. I&amp;rsquo;m also okay with their approach to compress each and every image(?), but compressing an image which results in an image size bigger than the originally uploaded image? I think it fits in my O_ops series.</description>
     </item>
     
     <item>
@@ -810,9 +810,9 @@ Homepage mania: I dedicated the homepage to Green Bay Packers and they won the s
       <pubDate>Thu, 17 Mar 2011 07:14:37 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/camping-at-devils-lake-state-park-wisconsin/</guid>
-      <description>On a Friday&#39;s evening, eight of us set out to Devil&#39;s Lake State Park, Wisconsin in two cars. We reached when it was dark and setup three tents in two camps. The rain god was happy and decided not to play spoilsport; it poured only when we were in the tent.
-  Tents at Devil&#39;s Lake State Park, Wisconsin
-   We setup campfire, prepared dinner. Made s&#39;more in the campfire for the first time; I had no clue what s&#39;more was!</description>
+      <description>On a Friday&amp;rsquo;s evening, eight of us set out to Devil&amp;rsquo;s Lake State Park, Wisconsin in two cars. We reached when it was dark and setup three tents in two camps. The rain god was happy and decided not to play spoilsport; it poured only when we were in the tent.
+  Tents at Devil&amp;rsquo;s Lake State Park, Wisconsin
+   We setup campfire, prepared dinner. Made s&amp;rsquo;more in the campfire for the first time; I had no clue what s&amp;rsquo;more was!</description>
     </item>
     
     <item>
@@ -822,7 +822,7 @@ Homepage mania: I dedicated the homepage to Green Bay Packers and they won the s
       
       <guid>https://praveenlobo.com/blog/a-year-that-was-2010-excerpts-from-the-unborn-posts/</guid>
       <description>Year 2010 was a totally different and a very special one for me. It all started in late 2009; from someone who used to talk so less and hardly socialize to wherever I am right now was quite a journey. I had a jolly good time and I wish it is one of the many years to come.
-2010 had some downs, but I hardly remember them. The good ones are so many that I don&#39;t have time to recall the bad ones.</description>
+2010 had some downs, but I hardly remember them. The good ones are so many that I don&amp;rsquo;t have time to recall the bad ones.</description>
     </item>
     
     <item>
@@ -831,7 +831,7 @@ Homepage mania: I dedicated the homepage to Green Bay Packers and they won the s
       <pubDate>Wed, 09 Mar 2011 07:06:49 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/easiest-way-to-solve-rubiks-cube-without-cheating/</guid>
-      <description>The following tutorials/videos helped me a lot in learning to solve the 3x3 Rubik&#39;s Cube). I think these are the easiest ways to solve the rubik&#39;s cube and hope you find it helpful too. You may find that the technique used is the same, just the explanation differs in most of the cases. Second and third videos take different approaches to solve third layer. Latter is easier and has less number of steps.</description>
+      <description>The following tutorials/videos helped me a lot in learning to solve the 3x3 Rubik&amp;rsquo;s Cube). I think these are the easiest ways to solve the rubik&amp;rsquo;s cube and hope you find it helpful too. You may find that the technique used is the same, just the explanation differs in most of the cases. Second and third videos take different approaches to solve third layer. Latter is easier and has less number of steps.</description>
     </item>
     
     <item>
@@ -840,8 +840,8 @@ Homepage mania: I dedicated the homepage to Green Bay Packers and they won the s
       <pubDate>Wed, 09 Mar 2011 04:53:15 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/skiing-on-cascade-mountains-wisconsin/</guid>
-      <description>Another ski trip. This time just for a day. I loved skiing last time so much that when I heard that another group was heading to Cascade Mountains, I simply couldn&#39;t resist.
-We had two guys who had never skied before so we helped them on the bunny hills and moved on to others slopes. Though I&#39;m a newbie I could tell that the snow at the Ski Brule was better.</description>
+      <description>Another ski trip. This time just for a day. I loved skiing last time so much that when I heard that another group was heading to Cascade Mountains, I simply couldn&amp;rsquo;t resist.
+We had two guys who had never skied before so we helped them on the bunny hills and moved on to others slopes. Though I&amp;rsquo;m a newbie I could tell that the snow at the Ski Brule was better.</description>
     </item>
     
     <item>
@@ -850,8 +850,8 @@ We had two guys who had never skied before so we helped them on the bunny hills 
       <pubDate>Sun, 06 Mar 2011 23:08:56 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/preparing-chocolate-brownie/</guid>
-      <description>This is Sunday afternoon, I&#39;m bored and I&#39;m planning to prepare Chocolate Brownies. I have never prepared it before and looking at the instructions on the pack, I must say it is not big deal at all. All you need is, well, Chocolate Brownie mix, some eggs and vegetable oil. I&#39;m off.
-PS: Okay, I don&#39;t have anything to blog about. Big deal. 😝
+      <description>This is Sunday afternoon, I&amp;rsquo;m bored and I&amp;rsquo;m planning to prepare Chocolate Brownies. I have never prepared it before and looking at the instructions on the pack, I must say it is not big deal at all. All you need is, well, Chocolate Brownie mix, some eggs and vegetable oil. I&amp;rsquo;m off.
+PS: Okay, I don&amp;rsquo;t have anything to blog about. Big deal. 😝
   Brownies in the tray</description>
     </item>
     
@@ -874,7 +874,7 @@ PS: Okay, I don&#39;t have anything to blog about. Big deal. 😝
       <pubDate>Mon, 28 Feb 2011 08:41:16 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/skiing-whats-the-big-deal/</guid>
-      <description>Skiing is fun. As a beginner, it is something you will hate during but love afterward. If you have skied already, you&#39;ll easily dismiss me, but if you have not then you&#39;ll know what I&#39;m talking about. Don&#39;t get me wrong here, if you have never been skiing before and if you have a chance, just pack up and go. It is fun. It is as much fun to ski as it is pain as a beginner.</description>
+      <description>Skiing is fun. As a beginner, it is something you will hate during but love afterward. If you have skied already, you&amp;rsquo;ll easily dismiss me, but if you have not then you&amp;rsquo;ll know what I&amp;rsquo;m talking about. Don&amp;rsquo;t get me wrong here, if you have never been skiing before and if you have a chance, just pack up and go. It is fun. It is as much fun to ski as it is pain as a beginner.</description>
     </item>
     
     <item>
@@ -884,7 +884,7 @@ PS: Okay, I don&#39;t have anything to blog about. Big deal. 😝
       
       <guid>https://praveenlobo.com/blog/2011-world-cup-men-in-blue-will-rock-the-world/</guid>
       <description>My dear fellow Indians and everyone,
-Remember 1983 Prudential world cup? Remember Captain Kapil Dev&#39;s greatest catch that dethroned King Viv? No? Neither do I! It&#39;s been 28 years since our captain lifted the cricket world cup. Not just me, nearly 50% of the current Indian population wasn&#39;t even born back then!
+Remember 1983 Prudential world cup? Remember Captain Kapil Dev&amp;rsquo;s greatest catch that dethroned King Viv? No? Neither do I! It&amp;rsquo;s been 28 years since our captain lifted the cricket world cup. Not just me, nearly 50% of the current Indian population wasn&amp;rsquo;t even born back then!
 More than a billion hearts and one shared dream, to see the men in blue lift the 2011 cricket world cup.</description>
     </item>
     
@@ -896,7 +896,7 @@ More than a billion hearts and one shared dream, to see the men in blue lift the
       <guid>https://praveenlobo.com/blog/green-bay-packer-on-my-homepage/</guid>
       <description>Hello world,
 I dedicated my homepage for Green Bay Packers on 6th February, 2011 and what they got me the same day?! THE SUPER BOWL!
-It&#39;s hard not to be a packer fan.
+It&amp;rsquo;s hard not to be a packer fan.
   Packer Fans on Super Bowl day
     Packer Fans on Super Bowl day
     Northwestern Mutual Superbowl XLV celebration - Vince Lombardi Ice Trophy
@@ -921,7 +921,7 @@ It&#39;s hard not to be a packer fan.
       <pubDate>Thu, 03 Feb 2011 07:10:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/oops-re-try-again/</guid>
-      <description>You can&#39;t attempt more than 5 times, please re-try again!
+      <description>You can&amp;rsquo;t attempt more than 5 times, please re-try again!
    The best part is that once this message comes, the only way to succeed is to call the service center.</description>
     </item>
     
@@ -938,7 +938,7 @@ It&#39;s hard not to be a packer fan.
     Rahul and I, again.
     Pravin, Shailesh, and Bharath
     Shailesh, Pravin, and Bharath
-   The game at Major Goolsby&#39;s with a couple of my friends - Shailesh, Myself, Balaji, Bharath, Mada, Ramendra (behind the camera).</description>
+   The game at Major Goolsby&amp;rsquo;s with a couple of my friends - Shailesh, Myself, Balaji, Bharath, Mada, Ramendra (behind the camera).</description>
     </item>
     
     <item>
@@ -947,7 +947,7 @@ It&#39;s hard not to be a packer fan.
       <pubDate>Mon, 24 Jan 2011 03:35:45 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/the-bears-still-suck/</guid>
-      <description>Green Bay Packers didn&#39;t disappoint in the playoff; they did just what I hoped for in my previous post, First Winter in Milwaukee. They kicked the Bears ass.
+      <description>Green Bay Packers didn&amp;rsquo;t disappoint in the playoff; they did just what I hoped for in my previous post, First Winter in Milwaukee. They kicked the Bears ass.
 I watched the game at Major Goolsby’s with a couple of my friends. Packers played really well in the first and second quarter with a touchdown in each. Then their game was down and they were struggling just like Chicago Bears (but, the bears still suck!</description>
     </item>
     
@@ -957,8 +957,8 @@ I watched the game at Major Goolsby’s with a couple of my friends. Packers pla
       <pubDate>Fri, 21 Jan 2011 06:30:42 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/first-winter-in-milwaukee/</guid>
-      <description>Just when I started to laugh at people who were scaring me about the winter, mother nature made sure I shut up. It was a total pain to walk 6 blocks back home from office today! The main problem is the wind. If it isn&#39;t for the wind chill factor, the winter is not much of a problem.
-It&#39;s getting freaking cold here in Milwaukee; it&#39;s expected to hit -8°F(-22°C) tomorrow and with the wind and other factors, it&#39;s expected to feel like -27°F(-32°C).</description>
+      <description>Just when I started to laugh at people who were scaring me about the winter, mother nature made sure I shut up. It was a total pain to walk 6 blocks back home from office today! The main problem is the wind. If it isn&amp;rsquo;t for the wind chill factor, the winter is not much of a problem.
+It&amp;rsquo;s getting freaking cold here in Milwaukee; it&amp;rsquo;s expected to hit -8°F(-22°C) tomorrow and with the wind and other factors, it&amp;rsquo;s expected to feel like -27°F(-32°C).</description>
     </item>
     
     <item>
@@ -982,10 +982,10 @@ Hey Lobo Marry Christmas</description>
       <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/working-on-the-blog/</guid>
-      <description>This is a perfect example for a seemingly easy task taking up so much of one&#39;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
+      <description>This is a perfect example for a seemingly easy task taking up so much of one&amp;rsquo;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
 Here is what I have done so far:
   Updated feed through FeedBurner: this was already present, I updated some settings.
-  Added Google AdSense: there comes a time in everyone&#39;s life when they turn greedy.</description>
+  Added Google AdSense: there comes a time in everyone&amp;rsquo;s life when they turn greedy.</description>
     </item>
     
     <item>
@@ -1003,8 +1003,8 @@ Here is what I have done so far:
       <pubDate>Mon, 03 Jan 2011 21:20:12 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites/</guid>
-      <description>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those penny auction sites are amazing, aren&#39;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.
-If you haven&#39;t got a clue about it, I urge you to read about them.</description>
+      <description>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those penny auction sites are amazing, aren&amp;rsquo;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.
+If you haven&amp;rsquo;t got a clue about it, I urge you to read about them.</description>
     </item>
     
     <item>
@@ -1014,7 +1014,7 @@ If you haven&#39;t got a clue about it, I urge you to read about them.</descript
       
       <guid>https://praveenlobo.com/blog/happy-new-year-2011/</guid>
       <description>I think, this is the first time I was out on the new year (January 1st 00:00:00 to be precise). Either I used to be at home or with family in the Church at this time every year. Had loads of fun last few moments of 2010 and enjoyed starting of 2011 with friends at Whiskey Bar in Milwaukee.
-Not sure why I&#39;m blogging about it but hey this is my blog and I&#39;ll post whatever I want&amp;hellip;.</description>
+Not sure why I&amp;rsquo;m blogging about it but hey this is my blog and I&amp;rsquo;ll post whatever I want&amp;hellip;.</description>
     </item>
     
     <item>
@@ -1023,7 +1023,7 @@ Not sure why I&#39;m blogging about it but hey this is my blog and I&#39;ll post
       <pubDate>Sat, 18 Dec 2010 07:48:40 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/holiday-gift-2010-organ-donor/</guid>
-      <description>I didn&#39;t have any problem communicating it to Mom. She knew it since I was 10 years old or so. I had told her about this wish and so did she. We both want not just organs but entire body to be donated when we pass away.
+      <description>I didn&amp;rsquo;t have any problem communicating it to Mom. She knew it since I was 10 years old or so. I had told her about this wish and so did she. We both want not just organs but entire body to be donated when we pass away.
 This is a picture of an eye donation card I signed nearly 15 years ago! (I must have been 10 years old or so.</description>
     </item>
     
@@ -1043,7 +1043,7 @@ I always use different passwords on different sites. All of them are at least 10
       <pubDate>Sun, 28 Nov 2010 01:47:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/thanksgiving-2010-a-long-weekend/</guid>
-      <description>A long weekend (four days) - many of my friends are on trips visiting places. I&#39;m sitting here writing this post! I couldn&#39;t go due to work. I had to work for a couple of hours exactly in the middle of the four days so I stayed back. It sure doesn&#39;t feel good but not as bad as I imagined it to be. Almost 3/4th of the long weekend has gone by.</description>
+      <description>A long weekend (four days) - many of my friends are on trips visiting places. I&amp;rsquo;m sitting here writing this post! I couldn&amp;rsquo;t go due to work. I had to work for a couple of hours exactly in the middle of the four days so I stayed back. It sure doesn&amp;rsquo;t feel good but not as bad as I imagined it to be. Almost 3/4th of the long weekend has gone by.</description>
     </item>
     
     <item>
@@ -1052,7 +1052,7 @@ I always use different passwords on different sites. All of them are at least 10
       <pubDate>Sat, 20 Nov 2010 03:14:47 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/eat-oatmeal-idiots/</guid>
-      <description>I know, the subject is a bit harsh, but it&#39;s well suited for all comments I get from my room-mates about eating oats. Oats is one of the food that I just love. I first started having oatmeal three years ago when I came across many articles on the net. I felt like, it was made for me! Why? It&#39;s simple, easy to prepare, healthy.
+      <description>I know, the subject is a bit harsh, but it&amp;rsquo;s well suited for all comments I get from my room-mates about eating oats. Oats is one of the food that I just love. I first started having oatmeal three years ago when I came across many articles on the net. I felt like, it was made for me! Why? It&amp;rsquo;s simple, easy to prepare, healthy.
 Believe it or not with very little or no exercise I was able to cut down all fat and lose weight just by controlling eating habits.</description>
     </item>
     
@@ -1096,8 +1096,8 @@ Believe it or not with very little or no exercise I was able to cut down all fat
       
       <guid>https://praveenlobo.com/blog/halloween-2010-more-pics/</guid>
       <description>V and Evey
-    Hey, that&#39;s not!
-   I was once told that people lose their inhibitions when they are behind the mask. I don&#39;t think I agree completely.</description>
+    Hey, that&amp;rsquo;s not!
+   I was once told that people lose their inhibitions when they are behind the mask. I don&amp;rsquo;t think I agree completely.</description>
     </item>
     
     <item>
@@ -1106,7 +1106,7 @@ Believe it or not with very little or no exercise I was able to cut down all fat
       <pubDate>Wed, 03 Nov 2010 03:37:08 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/halloween-2010/</guid>
-      <description>Dear blog, as you know, uh oh you don&#39;t, do you? I never mentioned about it! I&#39;m in US right now. The very fact that I haven&#39;t mentioned it till now shows how busy I&#39;m here! Naah, not really, that&#39;s what I say when I turn lazy and forget about you. I won&#39;t promise you that I won&#39;t again; I can&#39;t keep such promises. Sorry!
+      <description>Dear blog, as you know, uh oh you don&amp;rsquo;t, do you? I never mentioned about it! I&amp;rsquo;m in US right now. The very fact that I haven&amp;rsquo;t mentioned it till now shows how busy I&amp;rsquo;m here! Naah, not really, that&amp;rsquo;s what I say when I turn lazy and forget about you. I won&amp;rsquo;t promise you that I won&amp;rsquo;t again; I can&amp;rsquo;t keep such promises. Sorry!
 Anyway, this is kind of new.</description>
     </item>
     
@@ -1117,7 +1117,7 @@ Anyway, this is kind of new.</description>
       
       <guid>https://praveenlobo.com/blog/my-culinary-skills-ii/</guid>
       <description>This was in draft mode for over 5 months now! There is something with me and updating this blog. There are a couple of more drafts. I plan to post all of them in next two weeks.
-If I&#39;m not following the recipes which I read somewhere, I will keep it very simple. First I check what are the items I can use, then etch a plan, pick the items, and cook.</description>
+If I&amp;rsquo;m not following the recipes which I read somewhere, I will keep it very simple. First I check what are the items I can use, then etch a plan, pick the items, and cook.</description>
     </item>
     
     <item>
@@ -1138,8 +1138,8 @@ If I&#39;m not following the recipes which I read somewhere, I will keep it very
       <pubDate>Sat, 10 Jul 2010 05:00:42 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/from-india-to-usa/</guid>
-      <description>I can write a detailed travelogue, but I don&#39;t want to bore you to death! I don&#39;t think I&#39;m good at writing! Here is the short version! 😃
-A weeks notice was all I got about my first ever business trip. To work at client&#39;s location, to deal with client interaction, to deal with the cultural differences, and the list goes on. Though I was prepared for all of it, I was caught off guard with other stuff.</description>
+      <description>I can write a detailed travelogue, but I don&amp;rsquo;t want to bore you to death! I don&amp;rsquo;t think I&amp;rsquo;m good at writing! Here is the short version! 😃
+A weeks notice was all I got about my first ever business trip. To work at client&amp;rsquo;s location, to deal with client interaction, to deal with the cultural differences, and the list goes on. Though I was prepared for all of it, I was caught off guard with other stuff.</description>
     </item>
     
     <item>
@@ -1159,7 +1159,7 @@ I remember the very first day - I entered the class when Taj Khan (we call him s
       
       <guid>https://praveenlobo.com/blog/hands-of-god/</guid>
       <description>Uruguay vs. Ghana Quarter final match - 2010 FIFA World Cup
-I was sleepy, but somehow this match seemed too good to miss. I had to wash my face with cold water to stay awake. I must tell you, it was WORTH it. Much much more than WORTH it. An exciting match. Last few moments I had my heart in my mouth. I wasn&#39;t supporting any of the teams, but still I feel heartbroken; Ghana should have won.</description>
+I was sleepy, but somehow this match seemed too good to miss. I had to wash my face with cold water to stay awake. I must tell you, it was WORTH it. Much much more than WORTH it. An exciting match. Last few moments I had my heart in my mouth. I wasn&amp;rsquo;t supporting any of the teams, but still I feel heartbroken; Ghana should have won.</description>
     </item>
     
     <item>
@@ -1179,7 +1179,7 @@ I was sleepy, but somehow this match seemed too good to miss. I had to wash my f
       <guid>https://praveenlobo.com/blog/my-culinary-skills-i/</guid>
       <description>Keep the ingredients ready
    I wanted to show off my culinary skill (if I have any 😛) the other day when I made a chicken dish, unfortunately, I forgot to post it. This was in draft mode for over 5 months now! I had completely forgotten about it until yesterday when I started preparing biriyani. Publishing it now, enjoy. 😃
-If I&#39;m not following the recipes, I will keep it very simple.</description>
+If I&amp;rsquo;m not following the recipes, I will keep it very simple.</description>
     </item>
     
     <item>
@@ -1198,7 +1198,7 @@ $id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profil
       <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&#39;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&#39;t work!
+      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
 After a little search on the net, I found a workaround for this too!</description>
     </item>
     
@@ -1208,7 +1208,7 @@ After a little search on the net, I found a workaround for this too!</descriptio
       <pubDate>Wed, 19 May 2010 19:05:23 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/my-h1b-visa-stamping-saga-part-ii/</guid>
-      <description>The day of stamping - My interview was schedule at 8:30AM and I was expected to be there by 8AM. The previous day night I set alarm for 6, 6:10, 6:15AM. My usual pattern even after which I don&#39;t wake up! I slept through all three alarms and woke up when Mom called me to wish me at 7AM. The cab guy also called at the same time. Cleverly, I had ironed clothes and arranged documents in Bangalore itself; I got ready in just about 15 minutes.</description>
+      <description>The day of stamping - My interview was schedule at 8:30AM and I was expected to be there by 8AM. The previous day night I set alarm for 6, 6:10, 6:15AM. My usual pattern even after which I don&amp;rsquo;t wake up! I slept through all three alarms and woke up when Mom called me to wish me at 7AM. The cab guy also called at the same time. Cleverly, I had ironed clothes and arranged documents in Bangalore itself; I got ready in just about 15 minutes.</description>
     </item>
     
     <item>
@@ -1240,7 +1240,7 @@ Ubuntu 10.04 (Lucid Lynx) is impressive; thanks to all those who made it possibl
       <pubDate>Sat, 08 May 2010 17:48:45 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/childhood-memories/</guid>
-      <description>I&#39;m feeling nostalgic today. Very much. I had lot of time at my hand and decided to clean up my cupboard, which I do from time to time. Until a few years back, I used to keep all things I used to have during my childhood days and one day I decided to get rid of all the junk. First time I did it, believe me, it was so painful. Each small item had so many memories associated with it, but I had to clean up stuff.</description>
+      <description>I&amp;rsquo;m feeling nostalgic today. Very much. I had lot of time at my hand and decided to clean up my cupboard, which I do from time to time. Until a few years back, I used to keep all things I used to have during my childhood days and one day I decided to get rid of all the junk. First time I did it, believe me, it was so painful. Each small item had so many memories associated with it, but I had to clean up stuff.</description>
     </item>
     
     <item>
@@ -1249,8 +1249,8 @@ Ubuntu 10.04 (Lucid Lynx) is impressive; thanks to all those who made it possibl
       <pubDate>Sun, 02 May 2010 12:23:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-i-put-my-first-gimp-work-to-use/</guid>
-      <description>HotLinking. If you don&#39;t know what it means follow the link and spend a couple of minutes reading about it. For those who are not interested in doing so - hotlinking is somebody else riding your superbike on your petrol without your knowledge and without giving you any credit. Bad analogy? :o)
-How do you make sure you don&#39;t allow something which you don&#39;t even know is happening? Very simple, using .</description>
+      <description>HotLinking. If you don&amp;rsquo;t know what it means follow the link and spend a couple of minutes reading about it. For those who are not interested in doing so - hotlinking is somebody else riding your superbike on your petrol without your knowledge and without giving you any credit. Bad analogy? :o)
+How do you make sure you don&amp;rsquo;t allow something which you don&amp;rsquo;t even know is happening? Very simple, using .</description>
     </item>
     
     <item>
@@ -1259,7 +1259,7 @@ How do you make sure you don&#39;t allow something which you don&#39;t even know
       <pubDate>Fri, 16 Apr 2010 13:30:03 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-countup-timer/</guid>
-      <description>_Update (2018):_ I have moved the code to [GitHub - JavaScript Counters](https://github.com/lobopraveen/JavaScript-Counters) AS IS.  I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&#39;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&#39;t easily understandable; most of them were using approximation (esp.</description>
+      <description>_Update (2018):_ I have moved the code to [GitHub - JavaScript Counters](https://github.com/lobopraveen/JavaScript-Counters) AS IS.  I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&amp;rsquo;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&amp;rsquo;t easily understandable; most of them were using approximation (esp.</description>
     </item>
     
     <item>
@@ -1268,7 +1268,7 @@ How do you make sure you don&#39;t allow something which you don&#39;t even know
       <pubDate>Sun, 04 Apr 2010 18:20:08 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/quit-smoking/</guid>
-      <description>I started smoking, I guess, eight or nine years ago. For the initial four or five years it was more or less like two or three cigarettes a year, so I wasn&#39;t a smoker then by any standard. :o) However, I really started smoking nearly three years ago.
+      <description>I started smoking, I guess, eight or nine years ago. For the initial four or five years it was more or less like two or three cigarettes a year, so I wasn&amp;rsquo;t a smoker then by any standard. :o) However, I really started smoking nearly three years ago.
 I have been on and off at it. I quit smoking for a couple of months a couple of times in these three years.</description>
     </item>
     
@@ -1330,7 +1330,7 @@ Mangalore. Stirs up a lot of feeling. The first city, other than Bangalore, wher
       <pubDate>Thu, 25 Feb 2010 04:30:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/highest-runs-in-an-odi-match-sachin-tendulkar/</guid>
-      <description>I have come across a lot of comments, communications, posts, and people (even my Dad and Bro) where they mention how they hated a Pakistani cricketer(Saeed Anwar) holding the record for highest ODI runs in a match. I don&#39;t understand! A cricketer is a cricketer, a game is a game, a record is a record, what does it have to do with the citizenship?
+      <description>I have come across a lot of comments, communications, posts, and people (even my Dad and Bro) where they mention how they hated a Pakistani cricketer(Saeed Anwar) holding the record for highest ODI runs in a match. I don&amp;rsquo;t understand! A cricketer is a cricketer, a game is a game, a record is a record, what does it have to do with the citizenship?
 What would you(esp. Indians) have called Sachin, if he was a Pakistani?</description>
     </item>
     
@@ -1340,8 +1340,8 @@ What would you(esp. Indians) have called Sachin, if he was a Pakistani?</descrip
       <pubDate>Sun, 14 Feb 2010 18:18:37 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/valentines-day-gift/</guid>
-      <description>This valentine&#39;s day she was very happy. She has been with me for quite long time now; I had never seen her so happy and excited in before. As I type this post she is on call and I can clearly hear her sharing it with her sister and this is her third call! :o)
-Though she&#39;d never tell me, I always knew that she wanted it. She is very interested in stitching, embroidery, and other creative stuff which mainly deals with fabric.</description>
+      <description>This valentine&amp;rsquo;s day she was very happy. She has been with me for quite long time now; I had never seen her so happy and excited in before. As I type this post she is on call and I can clearly hear her sharing it with her sister and this is her third call! :o)
+Though she&amp;rsquo;d never tell me, I always knew that she wanted it. She is very interested in stitching, embroidery, and other creative stuff which mainly deals with fabric.</description>
     </item>
     
     <item>
@@ -1350,7 +1350,7 @@ Though she&#39;d never tell me, I always knew that she wanted it. She is very in
       <pubDate>Thu, 28 Jan 2010 19:43:49 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/3-nuts/</guid>
-      <description>The title is inspired by the movie 3 Idiots which the world around me is going gaga over. The picture was clicked over the weekend with a point &amp;amp; shoot camera when I was going mad with boredom. Reason for posting this? I don&#39;t know! I started experimenting with GIMP and I have provided both versions of the picture.
+      <description>The title is inspired by the movie 3 Idiots which the world around me is going gaga over. The picture was clicked over the weekend with a point &amp;amp; shoot camera when I was going mad with boredom. Reason for posting this? I don&amp;rsquo;t know! I started experimenting with GIMP and I have provided both versions of the picture.
   3 nuts - Unedited
     3 nuts - Edited</description>
     </item>
@@ -1361,8 +1361,8 @@ Though she&#39;d never tell me, I always knew that she wanted it. She is very in
       <pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</guid>
-      <description>A post about switching the Operating System(OS)? Yeah, why not? After all It&#39;s the OS that made one man the richest in the world. It&#39;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&#39;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!
-I&#39;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it!</description>
+      <description>A post about switching the Operating System(OS)? Yeah, why not? After all It&amp;rsquo;s the OS that made one man the richest in the world. It&amp;rsquo;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&amp;rsquo;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!
+I&amp;rsquo;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it!</description>
     </item>
     
     <item>
@@ -1371,7 +1371,7 @@ I&#39;m not a Linux freak or a guru but an average user helping the open source 
       <pubDate>Thu, 31 Dec 2009 07:43:59 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/good-physique-polio-stricken-chickens-leg/</guid>
-      <description>I don&#39;t know whether to be happy or doubtful when a stranger walks up to me in the gym and
+      <description>I don&amp;rsquo;t know whether to be happy or doubtful when a stranger walks up to me in the gym and
   Stranger :  Hey   Me :  Hi   Stranger :  You are regular here?   Me :  (have you ever seen me here earlier?) No. Second day in this gym.   Stranger :  Oh okay.   Me :  Why?</description>
     </item>
     
@@ -1381,11 +1381,11 @@ I&#39;m not a Linux freak or a guru but an average user helping the open source 
       <pubDate>Tue, 22 Dec 2009 19:31:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/yet-another-hello-world/</guid>
-      <description>I&#39;m bored of Hello, world!; I did that over
+      <description>I&amp;rsquo;m bored of Hello, world!; I did that over
  9000 days 1300 weeks 200,000 hours 13,000,000 minutes 750,000,000 seconds  ago. Yeah, about 25 years ago, I did my personal Hello, world!
  Hello, world!
- Yet another &amp;ldquo;Hello, world!&amp;quot;? Yes, this time not from me but from this very blog you are reading! :o)
-On a serious note, I&#39;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
+ Yet another &amp;ldquo;Hello, world!&amp;rdquo;? Yes, this time not from me but from this very blog you are reading! :o)
+On a serious note, I&amp;rsquo;m very happy to start this blog, it was one of the items pending on my Bucket List for a long time now.</description>
     </item>
     
   </channel>

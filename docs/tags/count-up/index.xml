@@ -26,7 +26,7 @@ This counter acts as a count down as well as count up timer. As soon as the coun
       <pubDate>Mon, 27 Jun 2011 05:44:31 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</guid>
-      <description>I keep getting requests and I can&#39;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
+      <description>I keep getting requests and I can&amp;rsquo;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
 JavaScript Counter to Count Days Hours Minutes Seconds - This script is very simple; it takes a date to count the time from/to, an ID to put the timer in. To be very precise, this counter shows the total number of 24 hours intervals between the date-time given and current date-time.</description>
     </item>
     
@@ -37,7 +37,7 @@ JavaScript Counter to Count Days Hours Minutes Seconds - This script is very sim
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days/</guid>
       <description>John Watt sent me a request asking if I could help with changing the JavaScript CountUp Timer to show only the number of days in a counter. He also wanted to display the days in 3 digits.
-I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&#39;t update every second.</description>
+I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&amp;rsquo;t update every second.</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ I did reply with changes but it had a defect due to a last minute change! So, I 
       <pubDate>Fri, 16 Apr 2010 13:30:03 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-countup-timer/</guid>
-      <description>_Update (2018):_ I have moved the code to [GitHub - JavaScript Counters](https://github.com/lobopraveen/JavaScript-Counters) AS IS.  I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&#39;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&#39;t easily understandable; most of them were using approximation (esp.</description>
+      <description>_Update (2018):_ I have moved the code to [GitHub - JavaScript Counters](https://github.com/lobopraveen/JavaScript-Counters) AS IS.  I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&amp;rsquo;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&amp;rsquo;t easily understandable; most of them were using approximation (esp.</description>
     </item>
     
   </channel>

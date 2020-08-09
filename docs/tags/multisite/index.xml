@@ -16,7 +16,7 @@
       <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid>
-      <description>When you start out with the WordPress, it&#39;s common to assume that each blog needs a separate WordPress installation. But there&#39;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
+      <description>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
 Advantges and Disadvantages of WordPress Multisite Advantages:   The multisite blogs have all features of a regular blog with just one installation i.</description>
     </item>
     
@@ -26,7 +26,7 @@ Advantges and Disadvantages of WordPress Multisite Advantages:   The multisite b
       <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
-      <description>What is a blog slug? If you have no clue, this post isn&#39;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&#39;s there and most probably you don&#39;t want it.
+      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
 How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
     </item>
     
@@ -45,7 +45,7 @@ How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your p
       <pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid>
-      <description>Disclaimer: I&#39;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
+      <description>Disclaimer: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
 Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea. However, after sometime you will feel as if you should keep the posts separate and in their own blogs rather than having them all in under one blog.</description>
     </item>
     

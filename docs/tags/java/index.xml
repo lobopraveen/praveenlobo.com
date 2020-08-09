@@ -17,7 +17,7 @@
       
       <guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid>
       <description>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.
-If you didn&#39;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
+If you didn&amp;rsquo;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@ If you didn&#39;t get the point, please use java.time or joda-time in that order
       
       <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
       <description>Update: moved the code to github
-Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&#39;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
+Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ Java List APIs provides a way to get the elements (sub-list) in a List between t
       <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
-      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&#39;t like to use this class even if it weren&#39;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
+      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
 StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
     </item>
     

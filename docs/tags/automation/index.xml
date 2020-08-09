@@ -16,7 +16,7 @@
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid>
-      <description>Original post date: 2018-05-01. Edited to include changes made in 2020. I don&#39;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.
+      <description>Original post date: 2018-05-01. Edited to include changes made in 2020. I don&amp;rsquo;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.
  After migrating the blog to Hugo and making some custom changes, it was time to develop the CI-CD pipeline.</description>
     </item>
     
@@ -38,7 +38,7 @@
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
       <description>Part I of this post series can be found here.
- 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&#39;t crossed a set limit.
+ 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
   The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.</description>
     </item>
     
@@ -48,7 +48,7 @@
       <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
-      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&#39;t because I didn&#39;t want others to lose money, but shouldn&#39;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
     </item>
     
   </channel>

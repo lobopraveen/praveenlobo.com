@@ -17,7 +17,7 @@
       
       <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
       <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
+The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
  % in below scripts match shortest from the end of the string.</description>
     </item>
     
@@ -27,7 +27,7 @@ The following snippets show how to change the file name extensions on multiple f
       <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</guid>
-      <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&#39;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
+      <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&amp;rsquo;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
 The problem was with a query that used to run fine for a long time and started failing a couple of weeks ago.</description>
     </item>
     

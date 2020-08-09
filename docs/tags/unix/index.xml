@@ -17,7 +17,7 @@
       
       <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
       <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&#39;s parameter expansion to operate on multiple files.
+The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
  % in below scripts match shortest from the end of the string.</description>
     </item>
     
@@ -68,7 +68,7 @@ $id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profil
       <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&#39;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&#39;t work!
+      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
 After a little search on the net, I found a workaround for this too!</description>
     </item>
     

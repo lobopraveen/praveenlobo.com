@@ -16,7 +16,7 @@
       <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&#39;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&#39;t work!
+      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
 After a little search on the net, I found a workaround for this too!</description>
     </item>
     

@@ -36,7 +36,7 @@ I remember myself asking that question to others when I first started the job in
       <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
-      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&#39;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
       <description>Part I of this post series can be found here.
- 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&#39;t crossed a set limit.
+ 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
   The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.</description>
     </item>
     
@@ -77,7 +77,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
-      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&#39;t because I didn&#39;t want others to lose money, but shouldn&#39;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ Please do leave me a comment. Thanks!
       <pubDate>Mon, 27 Jun 2011 05:44:31 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days-hours-minutes-seconds/</guid>
-      <description>I keep getting requests and I can&#39;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
+      <description>I keep getting requests and I can&amp;rsquo;t help but post another JavaScript related counter! As always, in case of any issues/doubts/suggestions, feel free to leave a comment.
 JavaScript Counter to Count Days Hours Minutes Seconds - This script is very simple; it takes a date to count the time from/to, an ID to put the timer in. To be very precise, this counter shows the total number of 24 hours intervals between the date-time given and current date-time.</description>
     </item>
     
@@ -118,7 +118,7 @@ JavaScript Counter to Count Days Hours Minutes Seconds - This script is very sim
       <pubDate>Tue, 14 Jun 2011 06:32:09 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/jquery-v1-6-checkbox-issue-attr-vs-prop/</guid>
-      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&#39;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&#39;m also having fun with their reputation points.</description>
+      <description>I have been visiting Stackoverflow a lot recently. This is a cool forum where you not only get your questions answered but also learn. Learn a lot, in fact. I always enjoy learning from others&amp;rsquo; experience and mistakes; it&amp;rsquo;s dirty but it is also very easy and fast. This is exactly what Stackoverflow is providing me; an opportunity to learn from others&amp;rsquo; knowledge. I&amp;rsquo;m also having fun with their reputation points.</description>
     </item>
     
     <item>
@@ -128,7 +128,7 @@ JavaScript Counter to Count Days Hours Minutes Seconds - This script is very sim
       
       <guid>https://praveenlobo.com/blog/javascript-counter-count-days/</guid>
       <description>John Watt sent me a request asking if I could help with changing the JavaScript CountUp Timer to show only the number of days in a counter. He also wanted to display the days in 3 digits.
-I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&#39;t update every second.</description>
+I did reply with changes but it had a defect due to a last minute change! So, I wrote a clean script which is the reason for this post. One main improvement here is, the script doesn&amp;rsquo;t update every second.</description>
     </item>
     
     <item>
@@ -137,7 +137,7 @@ I did reply with changes but it had a defect due to a last minute change! So, I 
       <pubDate>Fri, 16 Apr 2010 13:30:03 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/javascript-countup-timer/</guid>
-      <description>_Update (2018):_ I have moved the code to [GitHub - JavaScript Counters](https://github.com/lobopraveen/JavaScript-Counters) AS IS.  I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&#39;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&#39;t easily understandable; most of them were using approximation (esp.</description>
+      <description>_Update (2018):_ I have moved the code to [GitHub - JavaScript Counters](https://github.com/lobopraveen/JavaScript-Counters) AS IS.  I was in need of timer to mark an important decision; I did what most of us would do - search on the internet. I found quite a few of them, but I didn&amp;rsquo;t like any of them. Some of them were unnecessarily complicated; a couple of others weren&amp;rsquo;t easily understandable; most of them were using approximation (esp.</description>
     </item>
     
   </channel>

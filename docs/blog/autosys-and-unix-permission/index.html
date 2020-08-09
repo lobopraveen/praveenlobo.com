@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'><head>
+<html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='How does this work?'>
@@ -11,14 +11,14 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='Autosys'><meta property='article:tag' content='Unix'><meta property='article:tag' content='script'><meta property='article:published_time' content='2010-05-27T17:57:27Z'/><meta property='article:modified_time' content='2010-11-04T00:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.74.3" />
 
   <title>Autosys and Unix Permission • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/autosys-and-unix-permission/'>
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
+<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
 :root{--color-accent:grey;}
 </style>
 
@@ -132,7 +132,7 @@ $autorep -q -J jobName | egrep <span style="color:#e6db74">&#39;command|owner&#3
 command: jobScript
 owner: xyz
 $</code></pre></div>
-<p>When the Autosys job is executed, it fails with return code 1. This is correct since <code>xyz</code> doesn't have execute permission on profile.</p>
+<p>When the Autosys job is executed, it fails with return code 1. This is correct since <code>xyz</code> doesn&rsquo;t have execute permission on profile.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$chmod <span style="color:#ae81ff">544</span> profile
 $ll profile
 -r-xr--r-- <span style="color:#ae81ff">1</span> abc abc <span style="color:#ae81ff">1000</span> <span style="color:#f92672">[</span>...<span style="color:#f92672">]</span> profile
@@ -145,7 +145,7 @@ $rm -f tempProfile
 $. jobScript</code></pre></div>
 <p>I need to check how Autosys sources the profile and invokes the command in detail. Drop in a comment if you have an explanation.</p>
 <p><em>[UPDATE - 11/4/2010]</em></p>
-<p><code>xyz</code> is able execute the profile simple because scripts are interpreted! Each line from the script is first read and then executed. If there is a command in the profile which <code>xyz</code> doesn't have execute permission on, the execution will fail.</p>
+<p><code>xyz</code> is able execute the profile simple because scripts are interpreted! Each line from the script is first read and then executed. If there is a command in the profile which <code>xyz</code> doesn&rsquo;t have execute permission on, the execution will fail.</p>
 <p>It is somewhat like my last guess with <code>tempProfile</code>. It is so easy to forget the basics. Stupid me!</p>
 
 </div>
@@ -329,7 +329,7 @@ $. jobScript</code></pre></div>
     </div>
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.67d669ac.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
 
 </body>
 

@@ -27,7 +27,7 @@ I remember myself asking that question to others when I first started the job in
       <pubDate>Thu, 11 Aug 2011 02:08:01 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/</guid>
-      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&#39;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
+      <description>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The demo scrolls the page as well as the contents of a DIV and bring an element to view. These methods also use jQuery&amp;rsquo;s animate() method. To best view the code in action click on RESET before clicking on the buttons.</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
       <description>Part I of this post series can be found here.
- 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&#39;t crossed a set limit.
+ 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
   The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.</description>
     </item>
     
@@ -68,7 +68,7 @@ JavaScript // get the element var dd = document.getElementById(&amp;#34;dropdown
       <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
       
       <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
-      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&#39;t because I didn&#39;t want others to lose money, but shouldn&#39;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
+      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
     </item>
     
   </channel>

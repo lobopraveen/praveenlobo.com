@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'><head>
+<html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='A checklist.'>
@@ -11,14 +11,14 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='wordpress'><meta property='article:tag' content='blog'><meta property='article:tag' content='checklist'><meta property='article:published_time' content='2011-08-10T05:16:33Z'/><meta property='article:modified_time' content='2011-08-10T05:16:33Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.74.3" />
 
   <title>WordPress: Moving Some Old Posts To A New Blog • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/wordpress-moving-some-old-posts-to-a-new-blog/'>
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
+<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
 :root{--color-accent:grey;}
 </style>
 
@@ -118,7 +118,7 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  <p>I recently moved a bunch of blog posts to a new blog installation. This wasn't necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!</p>
+  <p>I recently moved a bunch of blog posts to a new blog installation. This wasn&rsquo;t necessary but just an exercise to learn what it takes to move the posts. It was easy after a lot of reading. Here is a checklist I prepared. Hope it helps someone looking for similar stuff. Comments and suggestions are welcome. Use it at your own risk!</p>
 <hr>
 <ol>
 <li>
@@ -128,13 +128,13 @@ if (!doNotTrack) {
 <p><strong>Plugins:</strong> Install necessary plugins. Enable all of them and set them up. Some plugins do provide an option to import/export settings. Export settings from old blog to a file and replace all occurrences of old blog URL to new blog if needed.</p>
 </li>
 <li>
-<p><strong>Export Database:</strong> Using MyPHP Admin from CPanel export the all tables from old WordPress database except <code>wp_options</code>. (I'm not sure about other tables but this one gave me some problems when I imported). Also export the entire database for the new blog before next step so that you can clean it up by importing the new database SQL in case anything goes wrong.</p>
+<p><strong>Export Database:</strong> Using MyPHP Admin from CPanel export the all tables from old WordPress database except <code>wp_options</code>. (I&rsquo;m not sure about other tables but this one gave me some problems when I imported). Also export the entire database for the new blog before next step so that you can clean it up by importing the new database SQL in case anything goes wrong.</p>
 </li>
 <li>
 <p><strong>Import database:</strong> Replace all occurrences of old blog URL in the backup file and import the tables (basically run the SQL file). If you see anything amiss, try exporting and importing the tables excluded in previous step!</p>
 </li>
 <li>
-<p><strong>Permanent Redirect:</strong> Once the old blog is gone, all links on the web pointing to the old blog posts will throw 404 error and will affect the site rankings. To avoid the side effect and to keep all traffic to the new blog, redirect the old URLs to new ones. This can be done via plugins. However, I noticed that the plugin needed me to keep the posts on old blog as well for it to work which I didn't like. There were also other problems. So, I ended up adding 301 (permanent) redirects in the .htaccess file.</p>
+<p><strong>Permanent Redirect:</strong> Once the old blog is gone, all links on the web pointing to the old blog posts will throw 404 error and will affect the site rankings. To avoid the side effect and to keep all traffic to the new blog, redirect the old URLs to new ones. This can be done via plugins. However, I noticed that the plugin needed me to keep the posts on old blog as well for it to work which I didn&rsquo;t like. There were also other problems. So, I ended up adding 301 (permanent) redirects in the .htaccess file.</p>
 </li>
 <li>
 <p><strong>Check redirect:</strong> test a couple of old blog post links and see if 301 redirect works correct.</p>
@@ -143,7 +143,7 @@ if (!doNotTrack) {
 <p><strong>Test new blog:</strong> go to new blog and just click on links and mess around a bit to make sure nothing is broken esp. the tags, categories, and other meta stuff.</p>
 </li>
 <li>
-<p><strong>Delete old blog post:</strong> Delete (move to trash) the old blog posts on the old blog. Don't remove them completely yet; you can keep that task when you are sure everything is setup correctly.</p>
+<p><strong>Delete old blog post:</strong> Delete (move to trash) the old blog posts on the old blog. Don&rsquo;t remove them completely yet; you can keep that task when you are sure everything is setup correctly.</p>
 </li>
 <li>
 <p><strong>Update Tags and Categories:</strong> Go to the old blog and delete all tags and categories that were unique to the moved posts. Easiest way is to check if they have any posts associated with them. If there are none, just get rid of them. The new blog will have tags and categories from old blog due to import. Delete orphan tags and categories from new blog as well.</p>
@@ -155,8 +155,8 @@ if (!doNotTrack) {
 <p><strong>Media:</strong> Move the media (such as images, videos, documents etc) to new blog. Since we did a replace all on the SQL file, the image URLs will be pointing to the new blog.</p>
 </li>
 <li>
-<p><strong>RSS:</strong> The most important task. Provide correct RSS. If you do not want your old blog RSS subscribers to get new blog RSS, you don't need to do anything. If you want to provide old as well as new posts to the subscribers, you need some more settings. This is where services like FeedBurner are valuable. If you are using FeedBurner and want the original RSS to include both old and new blog posts, create a combined RSS feed using Yahoo Pipes. You can update the FeedBurner settings to include the Yahoo piped RSS so that RSS readers will continue to get all posts.
-Don't fret if you are not using FeedBurner. You can create one now and redirect your old RSS link to FeedBurner's link using htaccess. Once that is done, just use pipes as described above.  The Subscribe All option I provide uses Yahoo Pipes.</p>
+<p><strong>RSS:</strong> The most important task. Provide correct RSS. If you do not want your old blog RSS subscribers to get new blog RSS, you don&rsquo;t need to do anything. If you want to provide old as well as new posts to the subscribers, you need some more settings. This is where services like FeedBurner are valuable. If you are using FeedBurner and want the original RSS to include both old and new blog posts, create a combined RSS feed using Yahoo Pipes. You can update the FeedBurner settings to include the Yahoo piped RSS so that RSS readers will continue to get all posts.
+Don&rsquo;t fret if you are not using FeedBurner. You can create one now and redirect your old RSS link to FeedBurner&rsquo;s link using htaccess. Once that is done, just use pipes as described above.  The Subscribe All option I provide uses Yahoo Pipes.</p>
 </li>
 </ol>
 <hr>
@@ -343,7 +343,7 @@ Don't fret if you are not using FeedBurner. You can create one now and redirect 
     </div>
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.67d669ac.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
 
 </body>
 

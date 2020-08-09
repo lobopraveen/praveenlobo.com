@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'><head>
+<html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='Because I can!'>
@@ -11,14 +11,14 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='hugo'><meta property='article:tag' content='static site'><meta property='article:published_time' content='2018-04-27T13:00:00Z'/><meta property='article:modified_time' content='2018-04-27T13:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.74.3" />
 
   <title>Hugo Static Site on GitHub - Customizations • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/'>
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
+<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
 :root{--color-accent:grey;}
 </style>
 
@@ -124,7 +124,7 @@ if (!doNotTrack) {
   <ul>
     <li>
       <ul>
-        <li><a href="#hugos-default-publish-directory">Hugo's default publish directory</a></li>
+        <li><a href="#hugos-default-publish-directory">Hugo&rsquo;s default publish directory</a></li>
         <li><a href="#theme-as-a-regular-folder">Theme as a regular folder</a></li>
         <li><a href="#content-organization">Content organization</a></li>
         <li><a href="#de-duplicating-the-media">De-duplicating the media</a></li>
@@ -137,19 +137,19 @@ if (!doNotTrack) {
 
   <div class='container entry-content'>
   <p>While working on migrating this site from <a href="/blog/from-wordpress-to-a-static-site-generator/">WordPress to Hugo</a>, I did tweak somethings to make it work for my liking. I usually keep things simple so that future changes are as painless as possible, however, I decided to go ahead with these changes as it improved maintainability and reverting these changes are very straight forward.</p>
-<h3 id="hugos-default-publish-directory">Hugo's default publish directory</h3>
-<p>Hugo generates the static site content in <code>public</code> directory by default. This worked fine for me when I tried hosting this site on GitHub's <code>master</code> and <code>gh-pages</code> branches. The only <em>problem</em> was that the actual source code and the generated content were in two repositories and that is one more than what I wanted to maintain. Using a <code>submodule</code> approach worked fine, but I think it complicates the setup unnecessarily and is easy to mess up.</p>
-<p>I wanted to keep it simple and all in one place and that's around the same time GitHub announced <a href="https://blog.github.com/2016-08-17-simpler-github-pages-publishing/">publishing from <code>docs</code> folder</a>. Exactly what I wanted and at the right time! Yes, that was 2016 and this post was long overdue!</p>
+<h3 id="hugos-default-publish-directory">Hugo&rsquo;s default publish directory</h3>
+<p>Hugo generates the static site content in <code>public</code> directory by default. This worked fine for me when I tried hosting this site on GitHub&rsquo;s <code>master</code> and <code>gh-pages</code> branches. The only <em>problem</em> was that the actual source code and the generated content were in two repositories and that is one more than what I wanted to maintain. Using a <code>submodule</code> approach worked fine, but I think it complicates the setup unnecessarily and is easy to mess up.</p>
+<p>I wanted to keep it simple and all in one place and that&rsquo;s around the same time GitHub announced <a href="https://blog.github.com/2016-08-17-simpler-github-pages-publishing/">publishing from <code>docs</code> folder</a>. Exactly what I wanted and at the right time! Yes, that was 2016 and this post was long overdue!</p>
 <p>I have set Hugo to use <code>docs</code> as the publish folder and set GitHub Pages to publish the site from <code>docs</code> folder on the master branch.</p>
 <pre><code>publishdir = &quot;docs&quot;
 </code></pre><h3 id="theme-as-a-regular-folder">Theme as a regular folder</h3>
-<p>Instead of setting up the theme using Git's <code>submodule</code>, I just keep the theme as a regular folder to avoid using <code>submodule</code>. I make sure to watch the theme repo on GitHub so that I get notified about any changes to the theme. I then decide when to get the latest changes.</p>
-<p>Another reason for doing this is sometimes I find it easier to edit the theme a little to make it work for me. Editing the source files from another repo is something to avoid as it makes upgrading difficult, but this was an easy way out. Hugo does provide a way to override the theme with <code>layouts</code>; however, I haven't really put anytime into making it work that way.</p>
+<p>Instead of setting up the theme using Git&rsquo;s <code>submodule</code>, I just keep the theme as a regular folder to avoid using <code>submodule</code>. I make sure to watch the theme repo on GitHub so that I get notified about any changes to the theme. I then decide when to get the latest changes.</p>
+<p>Another reason for doing this is sometimes I find it easier to edit the theme a little to make it work for me. Editing the source files from another repo is something to avoid as it makes upgrading difficult, but this was an easy way out. Hugo does provide a way to override the theme with <code>layouts</code>; however, I haven&rsquo;t really put anytime into making it work that way.</p>
 <h3 id="content-organization">Content organization</h3>
-<p>I had about 125 content files directly under <code>content\blog\</code> neatly ordered <code>YYYY-MM-DD</code> due to filename and it got old really quick. It was annoying when I was trying to look for something or add a new post. I can't imagine maintaining a huge site with a lot of files this way - doable but not my style. I broke down the blog folder into sub-folders based on the year the post was published. The content is now easier to handle.</p>
+<p>I had about 125 content files directly under <code>content\blog\</code> neatly ordered <code>YYYY-MM-DD</code> due to filename and it got old really quick. It was annoying when I was trying to look for something or add a new post. I can&rsquo;t imagine maintaining a huge site with a lot of files this way - doable but not my style. I broke down the blog folder into sub-folders based on the year the post was published. The content is now easier to handle.</p>
 <p>When the content is moved to different folders, the URLs of the content files change based on where the content file is located. To avoid the URL change, I defined where the content should be shown using the  <code>slug</code> variable in the front matter.</p>
 <p>After the reorganization, all I had to do was search and replace all occurrences of <code>slug = &quot;</code> with <code>slug = &quot;../</code>. This worked as I wanted the URL to remain the same as before and wanted to remove the additional <code>/YYYY/</code> due to the re-org. This can be achieved using the <code>url</code> variable as well.</p>
-<p>Note that I had to do this because I don't use the <code>permalinks</code> variable in the Hugo config. My content files are named <code>YYYY-MM-DD-&lt;file/title name&gt;</code> from WordPress extraction and I already had some posts whose URL didn't match the filename so I was already using slugs to keep URLs clean.</p>
+<p>Note that I had to do this because I don&rsquo;t use the <code>permalinks</code> variable in the Hugo config. My content files are named <code>YYYY-MM-DD-&lt;file/title name&gt;</code> from WordPress extraction and I already had some posts whose URL didn&rsquo;t match the filename so I was already using slugs to keep URLs clean.</p>
 <p>I did break down the <code>media</code> folder similar to content files but they are ordered just by numerals. This was a breeze thanks to pattern matching and back-referencing in regex find and replace.</p>
 <h3 id="de-duplicating-the-media">De-duplicating the media</h3>
 <p>In my site repo, I had the media in two places. One under <code>static/media</code> and the other under the published directory <code>docs/media</code>. The total size of media in my case is around 1MB which is just fine but this could be a problem if the size of the media directory is huge.</p>
@@ -163,9 +163,9 @@ if (!doNotTrack) {
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git clone https://github.com/lobopraveen/praveenlobo.com.git
 $ cd praveenlobo.com
 $ cp -r docs/media static/media
-</code></pre></div><p>I did take this one step further by creating a symlink instead of copying the media to static directory. This is my preferred approach and it works fine for me as I don't use Microsoft Windows.</p>
+</code></pre></div><p>I did take this one step further by creating a symlink instead of copying the media to static directory. This is my preferred approach and it works fine for me as I don&rsquo;t use Microsoft Windows.</p>
 <ol>
-<li>Place the <code>media</code> folder in the Hugo's publish directory <code>docs</code></li>
+<li>Place the <code>media</code> folder in the Hugo&rsquo;s publish directory <code>docs</code></li>
 <li>Create a symlink in <code>static</code> directory to follow the actual media directory. This is required to make the <code>hugo server</code> render media properly when run locally.<br>
 <code>$ ln -s ../docs/media/ media</code></li>
 <li>Update the clean-up script to retain the <code>media</code> in the publish directory<br>
@@ -175,7 +175,7 @@ $ cp -r docs/media static/media
 <blockquote>
 <p>ERROR 2018/04/27 17:16:36 Symbolic links for directories not supported, skipping &ldquo;/home/lobo/blog/praveenlobo.com/static/media&rdquo;</p>
 </blockquote>
-<p>While running the server, Hugo doesn't actually build the site which means it uses the <code>static/media</code> folder and since this is on the local machine, browser's media request follows the symlinks and render the media properly. Hugo ignores/skips the symlinks while building the site which is what I want as the media is already in the publish folder.</p>
+<p>While running the server, Hugo doesn&rsquo;t actually build the site which means it uses the <code>static/media</code> folder and since this is on the local machine, browser&rsquo;s media request follows the symlinks and render the media properly. Hugo ignores/skips the symlinks while building the site which is what I want as the media is already in the publish folder.</p>
 <p>All these customizations are visible on the <a href="https://github.com/lobopraveen/praveenlobo.com">GitHub repository of this site</a>.</p>
 
 </div>
@@ -359,7 +359,7 @@ $ cp -r docs/media static/media
     </div>
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.67d669ac.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
 
 </body>
 

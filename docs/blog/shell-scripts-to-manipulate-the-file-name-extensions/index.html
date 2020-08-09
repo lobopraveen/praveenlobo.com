@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'><head>
+<html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='Basically, renaming!'>
@@ -11,14 +11,14 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='script'><meta property='article:tag' content='unix'><meta property='article:tag' content='backdated post'><meta property='article:published_time' content='2017-10-02T20:00:00Z'/><meta property='article:modified_time' content='2017-10-02T20:00:00Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.74.3" />
 
   <title>Shell Scripts to Manipulate The File Name Extensions • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/'>
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
+<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
 :root{--color-accent:grey;}
 </style>
 
@@ -119,7 +119,7 @@ if (!doNotTrack) {
 
   <div class='container entry-content'>
   <p><small>The <a href="https://github.com/lobopraveen/gists/blob/master/unix/filename_extension_manipulation.md">latest version</a> of this should be available on <a href="https://github.com/lobopraveen/gists">GitHub repo</a>. Please report any issues there.</small></p>
-<p>The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like <code>rename</code> and <code>mmv</code> might offer alternatives when they are available on the systems. The scripts below use <a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html">shell's parameter expansion</a> to operate on multiple files.</p>
+<p>The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like <code>rename</code> and <code>mmv</code> might offer alternatives when they are available on the systems. The scripts below use <a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html">shell&rsquo;s parameter expansion</a> to operate on multiple files.</p>
 <ul>
 <li><code>%</code> in below scripts match shortest from the end of the string.</li>
 <li><code>%%</code> matches longest from the end</li>
@@ -131,28 +131,28 @@ if (!doNotTrack) {
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ksh" data-lang="ksh"><span style="color:#75715e">#!/usr/bin/ksh
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">for</span> filename in pattern*
 <span style="color:#66d9ef">do</span>
-    test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$filename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">.pgp</span><span style="color:#e6db74">&#34;</span>
+    test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$filename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">.pgp&#34;</span>
 <span style="color:#66d9ef">done</span>
 </code></pre></div><p>This can be easily tweaked to change one extension to another. The below script changes extension to &ldquo;.gpg&rdquo; on all &ldquo;.pgp&rdquo; files that match a pattern.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ksh" data-lang="ksh"><span style="color:#75715e">#!/usr/bin/ksh
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">for</span> filename in pattern*
 <span style="color:#66d9ef">do</span>
-    test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$filename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg</span><span style="color:#e6db74">&#34;</span>
+    test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$filename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg&#34;</span>
 <span style="color:#66d9ef">done</span>
 </code></pre></div><p>The above two scripts can be combined when the goal is to change the extension to &ldquo;.gpg&rdquo; on all &ldquo;.pgp&rdquo; files that match a pattern along with adding &ldquo;.gpg&rdquo; extension on extensionless files.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ksh" data-lang="ksh"><span style="color:#75715e">#!/usr/bin/ksh
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">for</span> filename in pattern*
 <span style="color:#66d9ef">do</span>    
-  echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Changing .pgp extension, if any, to .gpg : </span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+  echo <span style="color:#e6db74">&#34;Changing .pgp extension, if any, to .gpg : </span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 
   modifiedfilename<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>  
-  test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$filename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg</span><span style="color:#e6db74">&#34;</span>  <span style="color:#f92672">&amp;&amp;</span> modifiedfilename<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg</span><span style="color:#e6db74">&#34;</span>
+  test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> !<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$filename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg&#34;</span>  <span style="color:#f92672">&amp;&amp;</span> modifiedfilename<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>filename%.pgp<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg&#34;</span>
 
-  echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Append .gpg extension if not present already: </span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+  echo <span style="color:#e6db74">&#34;Append .gpg extension if not present already: </span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 
-  test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename%.gpg<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$modifiedfilename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> modifiedfilename<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg</span><span style="color:#e6db74">&#34;</span>
+  test <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename%.gpg<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> mv <span style="color:#e6db74">&#34;</span>$modifiedfilename<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg&#34;</span> <span style="color:#f92672">&amp;&amp;</span> modifiedfilename<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">.gpg&#34;</span>
 
-  echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Final name: </span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+  echo <span style="color:#e6db74">&#34;Final name: </span><span style="color:#e6db74">${</span>modifiedfilename<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 <span style="color:#66d9ef">done</span>
 </code></pre></div><p><small>_All posts with <a href="/tags/backdated-post">backdated post</a> tag are published long after they were written._</small></p>
 
@@ -337,7 +337,7 @@ if (!doNotTrack) {
     </div>
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.67d669ac.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
 
 </body>
 

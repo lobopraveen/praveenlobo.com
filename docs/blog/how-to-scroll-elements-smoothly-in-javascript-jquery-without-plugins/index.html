@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'><head>
+<html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='without plugins'>
@@ -11,14 +11,14 @@
 <meta property='og:site_name' content='Praveen Lobo'>
 <meta property='og:type' content='article'><meta property='article:section' content='blog'><meta property='article:tag' content='JavaScript'><meta property='article:tag' content='scroll'><meta property='article:tag' content='jQuery'><meta property='article:tag' content='HTML'><meta property='article:published_time' content='2011-08-11T02:08:01Z'/><meta property='article:modified_time' content='2011-08-11T02:08:01Z'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.62.2" />
+<meta name="generator" content="Hugo 0.74.3" />
 
   <title>How to scroll elements smoothly in JavaScript/jQuery  • Praveen Lobo</title>
   <link rel='canonical' href='https://praveenlobo.com/blog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/'>
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
+<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
 :root{--color-accent:grey;}
 </style>
 
@@ -118,14 +118,14 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  <p>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The <a href="/media/26-50/38-scroll/ScrollDemo.html">demo</a> scrolls the page as well as the contents of a <code>DIV</code> and bring an element to view. These methods also use jQuery's <code>animate()</code> method. To best view the code in action click on RESET before clicking on the buttons.</p>
+  <p>There are multitude of ways to scroll the page to bring certain elements to view through code. A few of them below. The code given below can be used to scroll any element with an ID on the page. The <a href="/media/26-50/38-scroll/ScrollDemo.html">demo</a> scrolls the page as well as the contents of a <code>DIV</code> and bring an element to view. These methods also use jQuery&rsquo;s <code>animate()</code> method. To best view the code in action click on RESET before clicking on the buttons.</p>
 <p>Do you have a better way of scrolling elements? Ideas/comments/suggestions are always welcome.</p>
 <hr>
 <h4 id="the-simplest-one-will-be-to-use-an-anchor-tag">The simplest one will be to use <strong>an anchor tag</strong>:</h4>
 <p>Note that the anchor can be used on any element with an ID. This works exactly the same as <code>scrollIntoView(true)</code> - see [2] below</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">A</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#element&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Scroll</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">element</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#960050;background-color:#1e0010">A</span><span style="color:#960050;background-color:#1e0010">&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">A</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#element&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Scroll</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">element</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/A&gt;</span>
 ..
-<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">DIV</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;element&#34;</span><span style="color:#f92672">&gt;</span>...<span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#960050;background-color:#1e0010">D</span><span style="color:#960050;background-color:#1e0010">I</span><span style="color:#960050;background-color:#1e0010">V</span><span style="color:#960050;background-color:#1e0010">&gt;</span>
+<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">DIV</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;element&#34;</span><span style="color:#f92672">&gt;</span>...<span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/DIV&gt;</span>
 </code></pre></div>
 <h4 id="1-javascript-scrollto-method"><strong>[1] JavaScript scrollTo method</strong>:</h4>
 <p>This method takes coordinates on x and y axis to scroll.  The problem with this approach is that if the element to scroll is inside another element which has a scrollbar, it will not work as one might expect.</p>
@@ -281,7 +281,7 @@ if (!doNotTrack) {
     <div class='comment-content'>
       My coder is trying to persuade me to move to .net from PHP.
 I have always disliked the idea because of the costs.
-But he's tryiong none the less. I've been using Movable-type on a number 
+But he&rsquo;s tryiong none the less. I&rsquo;ve been using Movable-type on a number 
 of websites for about a year and am worried about switching to another platform.
 I have heard excellent things about blogengine.net.
 Is there a way I can import all my wordpress posts into it?
@@ -409,7 +409,7 @@ Any help would be really appreciated!
     </div>
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.67d669ac.js'></script><script src='/js/custom.js'></script>
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
 
 </body>
 
