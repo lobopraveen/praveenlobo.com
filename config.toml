@@ -22,6 +22,11 @@ enableEmoji = true
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
+[module]
+    [[module.mounts]]
+        source = "docs/media"
+        target = "static/media"
+
 # Set the unsafe to true as Hugo v0.60 broke shortcodes
 [markup.goldmark.renderer]
 unsafe = true
