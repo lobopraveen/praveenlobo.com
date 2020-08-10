@@ -113,15 +113,16 @@ Setting this up at a high level was as easy as -
 1. [Encrypting the private key](https://docs.travis-ci.com/user/encrypting-files/) so it remains secret and only Travis can decrypt it. This needs travis gems installed and of course, Ruby as well.
 1. Building the steps that Travis will take whenever it finds a commit to the repo.
 
-The travis.yml is shown below. Latest is available on the GitHub repo.
+The travis.yml is shown below. Latest is available on the [GitHub repo](https://github.com/lobopraveen/praveenlobo.com/blob/master/.travis.yml).
 
 ```yml
 language: minimal
 
 env:
     global:
-      - HUGO_VERSION=0.62.2
+      - HUGO_VERSION=0.74.3
       - DEPLOY_REPO="lobopraveen/praveenlobo.com"
+      - DEPLOY_BRANCH="master"
       - ENCRYPTED_KEY=$encrypted_a781b6369385_key
       - ENCRYPTED_IV=$encrypted_a781b6369385_iv
 
@@ -141,6 +142,8 @@ install:
 - hugo
 # Exit if the build is NOT on the DEPLOY REPO
 - if [ "$TRAVIS_REPO_SLUG" != "$DEPLOY_REPO" ]; then echo "Not a deploy repo. Exit."; travis_terminate 0; fi
+# Exit if the build is NOT from the DEPLOY BRANCH
+- if [ "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]; then echo "Not a deploy branch. Exit."; travis_terminate 0; fi
 # Exit if the build is due to a pull request
 - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then echo "Pull request build from $TRAVIS_PULL_REQUEST_BRANCH branch. Exit."; travis_terminate 0; fi
 # Exit if the repo is clean i.e. hugo command didn't change any content
@@ -167,7 +170,7 @@ install:
 # Push the changes to github
 - git remote set-url origin git@github.com:"$TRAVIS_REPO_SLUG".git
 - git push
-- echo "Successfully pushed build results to the GitHub repo."
+- echo "Successfully deployed to $TRAVIS_BRANCH branch."
 
 notifications:
   email:
