@@ -222,13 +222,14 @@ read -p <span style="color:#e6db74">&#34;Do you want to build the site locally? 
 <li><a href="https://docs.travis-ci.com/user/encrypting-files/">Encrypting the private key</a> so it remains secret and only Travis can decrypt it. This needs travis gems installed and of course, Ruby as well.</li>
 <li>Building the steps that Travis will take whenever it finds a commit to the repo.</li>
 </ol>
-<p>The travis.yml is shown below. Latest is available on the GitHub repo.</p>
+<p>The travis.yml is shown below. Latest is available on the <a href="https://github.com/lobopraveen/praveenlobo.com/blob/master/.travis.yml">GitHub repo</a>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">language</span>: minimal
 
 <span style="color:#66d9ef">env</span>:
     <span style="color:#66d9ef">global</span>:
-      - HUGO_VERSION=<span style="color:#ae81ff">0.62.2</span>
+      - HUGO_VERSION=<span style="color:#ae81ff">0.74.3</span>
       - DEPLOY_REPO=<span style="color:#e6db74">&#34;lobopraveen/praveenlobo.com&#34;</span>
+      - DEPLOY_BRANCH=<span style="color:#e6db74">&#34;master&#34;</span>
       - ENCRYPTED_KEY=$encrypted_a781b6369385_key
       - ENCRYPTED_IV=$encrypted_a781b6369385_iv
 
@@ -248,6 +249,8 @@ read -p <span style="color:#e6db74">&#34;Do you want to build the site locally? 
 - hugo
 <span style="color:#75715e"># Exit if the build is NOT on the DEPLOY REPO</span>
 - if [ <span style="color:#e6db74">&#34;$TRAVIS_REPO_SLUG&#34;</span> != <span style="color:#e6db74">&#34;$DEPLOY_REPO&#34;</span> ]; then echo <span style="color:#e6db74">&#34;Not a deploy repo. Exit.&#34;</span>; travis_terminate <span style="color:#ae81ff">0</span>; fi
+<span style="color:#75715e"># Exit if the build is NOT from the DEPLOY BRANCH</span>
+- if [ <span style="color:#e6db74">&#34;$TRAVIS_BRANCH&#34;</span> != <span style="color:#e6db74">&#34;$DEPLOY_BRANCH&#34;</span> ]; then echo <span style="color:#e6db74">&#34;Not a deploy branch. Exit.&#34;</span>; travis_terminate <span style="color:#ae81ff">0</span>; fi
 <span style="color:#75715e"># Exit if the build is due to a pull request</span>
 - if [ <span style="color:#e6db74">&#34;$TRAVIS_PULL_REQUEST&#34;</span> != <span style="color:#e6db74">&#34;false&#34;</span> ]; then echo <span style="color:#e6db74">&#34;Pull request build from $TRAVIS_PULL_REQUEST_BRANCH branch. Exit.&#34;</span>; travis_terminate <span style="color:#ae81ff">0</span>; fi
 <span style="color:#75715e"># Exit if the repo is clean i.e. hugo command didn&#39;t change any content</span>
@@ -274,7 +277,7 @@ read -p <span style="color:#e6db74">&#34;Do you want to build the site locally? 
 <span style="color:#75715e"># Push the changes to github</span>
 - git remote set-url origin git@github.com:<span style="color:#e6db74">&#34;$TRAVIS_REPO_SLUG&#34;</span>.git
 - git push
-- echo <span style="color:#e6db74">&#34;Successfully pushed build results to the GitHub repo.&#34;</span>
+- echo <span style="color:#e6db74">&#34;Successfully deployed to $TRAVIS_BRANCH branch.&#34;</span>
 
 <span style="color:#66d9ef">notifications</span>:
   <span style="color:#66d9ef">email</span>:
