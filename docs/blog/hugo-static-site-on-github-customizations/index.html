@@ -127,7 +127,7 @@ if (!doNotTrack) {
         <li><a href="#hugos-default-publish-directory">Hugo&rsquo;s default publish directory</a></li>
         <li><a href="#theme-as-a-regular-directory">Theme as a regular directory</a></li>
         <li><a href="#content-organization">Content organization</a></li>
-        <li><a href="#de-duplicating-the-media">De-duplicating the media</a></li>
+        <li><a href="#de-duplicating-the-static-content">De-duplicating the static-content</a></li>
       </ul>
     </li>
   </ul>
@@ -151,7 +151,7 @@ if (!doNotTrack) {
 <p>After the reorganization, all I had to do was search and replace all occurrences of <code>slug = &quot;</code> with <code>slug = &quot;../</code>. This worked as I wanted the URL to remain the same as before and wanted to remove the additional <code>/YYYY/</code> due to the re-org. This can be achieved using the <code>url</code> variable as well.</p>
 <p>Note that I had to do this because I don&rsquo;t use the <code>permalinks</code> variable in the Hugo config. My content files are named <code>YYYY-MM-DD-&lt;file/title name&gt;</code> from WordPress extraction and I already had some posts whose URL didn&rsquo;t match the filename so I was already using slugs to keep URLs clean.</p>
 <p>I did break down the <code>media</code> directory similar to content files but they are ordered just by numerals. This was a breeze thanks to pattern matching and back-referencing in regex find and replace.</p>
-<h3 id="de-duplicating-the-media">De-duplicating the media</h3>
+<h3 id="de-duplicating-the-static-content">De-duplicating the static-content</h3>
 <p>In my site repo, I had the media (images, video, audio etc.) in two places. One under <code>static/media</code> and the other under the published directory <code>docs/media</code>. The total size of media in my case is around 1MB which is just fine but this could be a problem if the size of the media directory is huge as the size would be doubled.</p>
 <p>To de-duplicate the media on the Hugo site repository, I came up with the following strategy.</p>
 <ol>
@@ -160,18 +160,18 @@ if (!doNotTrack) {
 <li>Build Hugo site. The <code>media</code> directory gets copied from <code>static</code> directory to the publish directory <code>docs</code></li>
 </ol>
 <p>This approach came with caveats - if I was cloning the repository, I would have only one copy in the <code>docs</code> directory which meant the <code>hugo server</code> command would not render any media. Worse yet, my build step that cleared the publish directory used to remove the only copy of the media. Even if I fixed the build step and I would have to copy the media directory to the static directory right after a clone.</p>
-<p>I came up with another approach described below and this is my preferred approach.</p>
+<p>I came up with another approach described below and this is my current preferred approach.</p>
 <ol>
-<li>Place the <code>media</code> directory in the Hugo&rsquo;s publish directory <code>docs</code></li>
+<li>Place the static contents in the Hugo&rsquo;s publish directory <code>docs</code></li>
 <li>Use the mounts module to mount the directory. This goes in the config file.</li>
 </ol>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[<span style="color:#a6e22e">module</span>]
-    [[<span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">mounts</span>]]
-        <span style="color:#a6e22e">source</span> = <span style="color:#e6db74">&#34;docs/media&#34;</span>
-        <span style="color:#a6e22e">target</span> = <span style="color:#e6db74">&#34;static/media&#34;</span>
+  [[<span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">mounts</span>]]
+    <span style="color:#a6e22e">source</span> = <span style="color:#e6db74">&#34;docs&#34;</span>
+    <span style="color:#a6e22e">target</span> = <span style="color:#e6db74">&#34;static&#34;</span>
 </code></pre></div><ol start="3">
-<li>Update the clean-up script to retain the <code>media</code> in the publish directory<br>
-<code>$ find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;</code></li>
+<li>Update the clean up step in the build to retain the static content in the publish directory
+<code>$ find docs -mindepth 1 -maxdepth 1 ! \( -name css -o -name js -o -name media -o -name CNAME \) -exec rm -rf {} \;</code></li>
 </ol>
 <p>Earlier version of this approach used symlinks instead of the mounts module. It worked well even though Hugo threw <code>Symbolic links for directories not supported</code> error; Hugo used to ignore/skip the symlinks while building the site which is what I wanted as the media was already in the publish directory. Some Hugo version after 0.62.2 broke the symlink setup with <code>Error: Error copying static files: symlinks not allowed in this filesystem</code> error. See <a href="https://github.com/lobopraveen/praveenlobo.com/issues/74">issue #74</a></p>
 <p>All these customizations are visible on the <a href="https://github.com/lobopraveen/praveenlobo.com">GitHub repository of this site</a>.</p>
