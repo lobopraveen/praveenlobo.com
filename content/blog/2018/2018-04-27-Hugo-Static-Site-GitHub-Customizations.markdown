@@ -43,7 +43,7 @@ Note that I had to do this because I don't use the `permalinks` variable in the 
 
 I did break down the `media` directory similar to content files but they are ordered just by numerals. This was a breeze thanks to pattern matching and back-referencing in regex find and replace.
 
-### De-duplicating the media
+### De-duplicating the static-content
 
 In my site repo, I had the media (images, video, audio etc.) in two places. One under `static/media` and the other under the published directory `docs/media`. The total size of media in my case is around 1MB which is just fine but this could be a problem if the size of the media directory is huge as the size would be doubled.
 
@@ -55,18 +55,18 @@ To de-duplicate the media on the Hugo site repository, I came up with the follow
 
 This approach came with caveats - if I was cloning the repository, I would have only one copy in the `docs` directory which meant the `hugo server` command would not render any media. Worse yet, my build step that cleared the publish directory used to remove the only copy of the media. Even if I fixed the build step and I would have to copy the media directory to the static directory right after a clone. 
 
-I came up with another approach described below and this is my preferred approach.
+I came up with another approach described below and this is my current preferred approach.
 
-1. Place the `media` directory in the Hugo's publish directory `docs`
+1. Place the static contents in the Hugo's publish directory `docs`
 1. Use the mounts module to mount the directory. This goes in the config file.
 ```toml
 [module]
-    [[module.mounts]]
-        source = "docs/media"
-        target = "static/media"
+  [[module.mounts]]
+    source = "docs"
+    target = "static"
 ```
-3. Update the clean-up script to retain the `media` in the publish directory  
-`$ find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;`
+3. Update the clean up step in the build to retain the static content in the publish directory
+`$ find docs -mindepth 1 -maxdepth 1 ! \( -name css -o -name js -o -name media -o -name CNAME \) -exec rm -rf {} \;`
 
 
 Earlier version of this approach used symlinks instead of the mounts module. It worked well even though Hugo threw `Symbolic links for directories not supported` error; Hugo used to ignore/skip the symlinks while building the site which is what I wanted as the media was already in the publish directory. Some Hugo version after 0.62.2 broke the symlink setup with `Error: Error copying static files: symlinks not allowed in this filesystem` error. See [issue #74](https://github.com/lobopraveen/praveenlobo.com/issues/74)

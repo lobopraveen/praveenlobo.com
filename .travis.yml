@@ -18,8 +18,8 @@ install:
 - sudo dpkg -i hugo_"${HUGO_VERSION}"_Linux-64bit.deb
 - rm -rf hugo_"${HUGO_VERSION}"_Linux-64bit.deb
 - hugo version
-# Clean the website publish folder 'docs'. Keep media intact
-- find docs -mindepth 1 -maxdepth 1 ! -name media -exec rm -rf {} \;
+# Clean the website publish folder 'docs'. See https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/#de-duplicating-the-static-content
+- find docs -mindepth 1 -maxdepth 1 ! \( -name css -o -name js -o -name media -o -name CNAME \) -exec rm -rf {} \;
 # Run hugo to build the site
 - hugo
 # Exit if the build is NOT on the DEPLOY REPO

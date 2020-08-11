@@ -22,10 +22,12 @@ enableEmoji = true
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
+# See https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/#de-duplicating-the-static-content
 [module]
-    [[module.mounts]]
-        source = "docs/media"
-        target = "static/media"
+  [[module.mounts]]
+    source = "docs"
+    target = "static"
+
 
 # Set the unsafe to true as Hugo v0.60 broke shortcodes
 [markup.goldmark.renderer]
@@ -140,36 +142,36 @@ weight = 1
 
 
 [[menu.main]]
-    name = "Search"
-    url = "/search"
-    weight = -1
+  name = "Search"
+  url = "/search"
+  weight = -1
 
 [[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 1
+  name = "Blog"
+  url = "/blog"
+  weight = 1
 
 [[menu.main]]
-    name = "Archive"
-    url = "/archive"
-    weight = 3
+  name = "Archive"
+  url = "/archive"
+  weight = 3
 
 [[menu.main]]
-    name = "Reviews"
-    url = "/reviews-and-referral-links"
-    weight = 2
+  name = "Reviews"
+  url = "/reviews-and-referral-links"
+  weight = 2
 
 [[menu.main]]
-    name = "Subscribe"
-    url = "/subscribe"
-    weight = 4
+  name = "Subscribe"
+  url = "/subscribe"
+  weight = 4
 
 [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 5
+  name = "Contact"
+  url = "/contact"
+  weight = 5
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 6
+  name = "About"
+  url = "/about"
+  weight = 6
