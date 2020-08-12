@@ -27,7 +27,10 @@ defaultContentLanguage = "en"
   [[module.mounts]]
     source = "docs"
     target = "static"
-
+  # Adding theme's static directory due to an issue with the minimo theme. See https://github.com/MunifTanjim/minimo/issues/290
+  [[module.mounts]]
+    source = "themes/minimo/static"
+    target = "static"
 
 # Set the unsafe to true as Hugo v0.60 broke shortcodes
 [markup.goldmark.renderer]
