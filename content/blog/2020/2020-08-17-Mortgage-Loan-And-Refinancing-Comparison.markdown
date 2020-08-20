@@ -23,7 +23,7 @@ After reading for a couple of hours, I was certain that there is no one size fit
 
 - The same author has another article - [Mortgage Refinance and Resetting the Clock](https://www.mymoneyblog.com/mortgage-refinance-and-resetting-the-clock.html) - but it still lacks the level of detail I want to see. I built a calculator that can do everything from that article except the *catch up on principal* part as my calculator doesn't take in extra monthly payment. At least not yet!
 
-- [The Ultimate Refinancing Spreadsheet Calculator](https://www.keepthrifty.com/2016/12/12/ultimate-refinancing-spreadsheet-calculator/) has a slightly different take and a nice calculator that shows you the results based on making extra payments. It lacks the level of details I want to see and yet I link it here because it does take in the extra payment unlike mine.
+- [The Ultimate Refinancing Spreadsheet Calculator](https://www.keepthrifty.com/2016/12/12/ultimate-refinancing-spreadsheet-calculator/) has a slightly different take and a nice calculator that shows you the results based on making extra payments. It lacks the level of details I want to see and yet I link it here because it does take in the extra monthly payment unlike mine.
 
 - [The Truth About Mortgages](https://www.daveramsey.com/blog/the-truth-about-mortgages/) by Dave Ramsey is very opinionated and my least liked calculators in this list. 
 
