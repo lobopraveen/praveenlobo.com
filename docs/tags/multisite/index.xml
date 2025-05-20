@@ -1,53 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>multisite on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/multisite/</link>
-    <description>Recent content in multisite on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Jul 2011 07:58:39 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/multisite/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Why I choose to go against using WordPress Multisite?</title>
-      <link>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</link>
-      <pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid>
-      <description>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?
-Advantges and Disadvantages of WordPress Multisite Advantages:   The multisite blogs have all features of a regular blog with just one installation i.</description>
-    </item>
-    
-    <item>
-      <title>How To Remove The /blog/ slug From The Permalinks(URL) Without A Plugin</title>
-      <link>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</link>
-      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
-      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
-How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
-    </item>
-    
-    <item>
-      <title>Multisite WordPress Installation On Sibling Directories Of An Existing Single Installation</title>
-      <link>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</link>
-      <pubDate>Thu, 05 May 2011 05:33:39 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</guid>
-      <description>Is it possible to create a blog in a sibling directory of an already installed WordPress directory? If yes, how to? If not, can it be done on a fresh installation? 1. Existing Installation: Assume that the domain is praveenlobo.com and there is an existing WordPress installation in /blog directory (so, praveenlobo.com/blog is a WordPress blog and the root directory at praveenlobo.com is free). Now, is it possible to create a networked site or blog at praveenlobo.</description>
-    </item>
-    
-    <item>
-      <title>Keeping Personal and Technical Blogs Separate</title>
-      <link>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</link>
-      <pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid>
-      <description>Disclaimer: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.
-Why? If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea. However, after sometime you will feel as if you should keep the posts separate and in their own blogs rather than having them all in under one blog.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multisite on Praveen Lobo</title><link>https://praveenlobo.com/tags/multisite/</link><description>Recent content in Multisite on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 09 Jul 2011 07:58:39 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/multisite/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I choose to go against using WordPress Multisite?</title><link>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</link><pubDate>Sat, 09 Jul 2011 07:58:39 +0000</pubDate><guid>https://praveenlobo.com/blog/why-i-choose-to-go-against-using-wordpress-multisite/</guid><description>&lt;p>When you start out with the WordPress, it&amp;rsquo;s common to assume that each blog needs a separate WordPress installation. But there&amp;rsquo;s a simpler way. WordPress Multisite installation. This lets one have different blogs with just one installation of WordPress. But, why did I choose not to use it?&lt;/p>
+&lt;h3 id="advantges-and-disadvantages-of-wordpress-multisite">Advantges and Disadvantages of WordPress Multisite&lt;/h3>
+&lt;h4 id="advantages">Advantages:&lt;/h4>
+&lt;ol>
+&lt;li>
+&lt;p>The multisite blogs have all features of a regular blog with just one installation i.e only one database and one set of code-base. Easy to back-up all blogs.&lt;/p></description></item><item><title>How To Remove The /blog/ slug From The Permalinks(URL) Without A Plugin</title><link>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</link><pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate><guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid><description>&lt;p>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.&lt;/p>
+&lt;p>How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts? Simple, install some plugin which does it for you? That is what I thought; however, before doing so, I just took a careful look at the &lt;code>wp_options&lt;/code> table. BAM! There it was. After spending about 30 minutes with settings and checking the data in this table, I have figured out a way to solve the blog slug problem without the need for a plugin. No need to change a bit of code. You don&amp;rsquo;t even need to execute any queries. The query and the table values are shown below just to indicate what your action does to the database values. It&amp;rsquo;s a simple process; only step 2 and 3 need your action, you can skip the rest!&lt;/p></description></item><item><title>Multisite WordPress Installation On Sibling Directories Of An Existing Single Installation</title><link>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</link><pubDate>Thu, 05 May 2011 05:33:39 +0000</pubDate><guid>https://praveenlobo.com/blog/multisite-wordpress-installation-on-sibling-directories-of-an-existing-single-installation/</guid><description>&lt;h4 id="is-it-possible-to-create-a-blog-in-a-sibling-directory-of-an-already-installed-wordpress-directory-if-yes-how-to-if-not-can-it-be-done-on-a-fresh-installation">Is it possible to create a blog in a sibling directory of an already installed WordPress directory? If yes, how to? If not, can it be done on a fresh installation?&lt;/h4>
+&lt;h5 id="1-existing-installation">1. Existing Installation:&lt;/h5>
+&lt;p>Assume that the domain is praveenlobo.com and there is an existing WordPress installation in /blog directory (so, praveenlobo.com/blog is a WordPress blog and the root directory at praveenlobo.com is free). Now, is it possible to create a networked site or blog at praveenlobo.com/anotherblog by setting up the network and allowing multisite?&lt;/p></description></item><item><title>Keeping Personal and Technical Blogs Separate</title><link>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</link><pubDate>Wed, 27 Apr 2011 04:46:05 +0000</pubDate><guid>https://praveenlobo.com/blog/keeping-personal-and-technical-blogs-separate/</guid><description>&lt;p>&lt;strong>Disclaimer&lt;/strong>: I&amp;rsquo;m no expert in blogging. I do not have much knowledge about the Wordpress framework either. The following post is based on my previous couple of hours of reading on multisite blogging. Feel free to enlighten me in the comment section.&lt;/p>
+&lt;h3 id="why">Why?&lt;/h3>
+&lt;p>If you are starting/have started blogging as a hobby, at first it may seem that having one blog and blogging everything in it is a good idea. However, after sometime you will feel as if you should keep the posts separate and in their own blogs rather than having them all in under one blog. I was no different; I never gave much time to think about it until one of my readers (second category below) sent me a message.&lt;/p></description></item></channel></rss>

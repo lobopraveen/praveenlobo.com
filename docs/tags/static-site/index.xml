@@ -1,43 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>static site on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/static-site/</link>
-    <description>Recent content in static site on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Hugo Static Site on GitHub - Continuous Integration/Deployment</title>
-      <link>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid>
-      <description>Original post date: 2018-05-01. Edited to include changes made in 2020. I don&amp;rsquo;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.
- After migrating the blog to Hugo and making some custom changes, it was time to develop the CI-CD pipeline.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Static Site on GitHub - Customizations</title>
-      <link>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</link>
-      <pubDate>Fri, 27 Apr 2018 13:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</guid>
-      <description>While working on migrating this site from WordPress to Hugo, I did tweak somethings to make it work for my liking. I usually keep things simple so that future changes are as painless as possible, however, I decided to go ahead with these changes as it improved maintainability and reverting these changes are very straight forward.
-Hugo&amp;rsquo;s default publish directory Hugo generates the static site content in public directory by default.</description>
-    </item>
-    
-    <item>
-      <title>From WordPress to A Static Site Generator</title>
-      <link>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</link>
-      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</guid>
-      <description>I have been telling myself that I will get back into blogging again and again in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about current affairs and daily life. For some reason I just can&amp;rsquo;t commit to it. I feel like I have hit this big writer&amp;rsquo;s block and I somehow don&amp;rsquo;t want to get out if it.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Static Site on Praveen Lobo</title><link>https://praveenlobo.com/tags/static-site/</link><description>Recent content in Static Site on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/static-site/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Static Site on GitHub - Continuous Integration/Deployment</title><link>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</link><pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid><description>&lt;p>&lt;em>Original post date: 2018-05-01. Edited to include &lt;a href="https://github.com/lobopraveen/praveenlobo.com/pull/63">changes made in 2020&lt;/a>. I don&amp;rsquo;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>After &lt;a href="https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/">migrating&lt;/a> the blog to Hugo and making some &lt;a href="https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/">custom changes&lt;/a>, it was time to develop the CI-CD pipeline. The key objectives for my CI-CD pipeline were&lt;/p></description></item><item><title>Hugo Static Site on GitHub - Customizations</title><link>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</link><pubDate>Fri, 27 Apr 2018 13:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/</guid><description>&lt;p>While working on migrating this site from &lt;a href="https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/">WordPress to Hugo&lt;/a>, I did tweak somethings to make it work for my liking. I usually keep things simple so that future changes are as painless as possible, however, I decided to go ahead with these changes as it improved maintainability and reverting these changes are very straight forward.&lt;/p>
+&lt;h3 id="hugos-default-publish-directory">Hugo&amp;rsquo;s default publish directory&lt;/h3>
+&lt;p>Hugo generates the static site content in &lt;code>public&lt;/code> directory by default. This worked fine for me when I tried hosting this site on GitHub&amp;rsquo;s &lt;code>master&lt;/code> and &lt;code>gh-pages&lt;/code> branches. The only &lt;em>problem&lt;/em> was that the actual source code and the generated content were in two repositories and that is one more than what I wanted to maintain. Using a &lt;code>submodule&lt;/code> approach worked fine, but I think it complicates the setup unnecessarily and is easy to mess up.&lt;/p></description></item><item><title>From WordPress to A Static Site Generator</title><link>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</link><pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/</guid><description>&lt;p>I have been telling myself that I will get back into blogging &lt;a href="https://praveenlobo.com/blog/holy-crap-missing-in-action">again&lt;/a> and &lt;a href="https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer">again&lt;/a> in vain. I have a bunch of drafts that I have not posted; I keep thinking about posting them and posting my views about &lt;a href="https://praveenlobo.com/tags/current-affairs/">current affairs&lt;/a> and daily life. For some reason I just can&amp;rsquo;t commit to it. I feel like I have hit this big writer&amp;rsquo;s block and I somehow don&amp;rsquo;t want to get out if it. I have been very happy with my personal as well as work life and have been spending time learning and doing things that are fulfilling. I do have a few regrets and one them is not blogging; I wish I had written more that when I looked back I could see how I have evolved over time. Anyway, I getting slightly off-topic.&lt;/p></description></item></channel></rss>

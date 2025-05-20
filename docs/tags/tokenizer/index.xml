@@ -1,24 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tokenizer on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/tokenizer/</link>
-    <description>Recent content in Tokenizer on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Aug 2011 03:54:41 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/tokenizer/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>A couple of ways to tokenize a delimited String in Java</title>
-      <link>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</link>
-      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
-      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
-StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tokenizer on Praveen Lobo</title><link>https://praveenlobo.com/tags/tokenizer/</link><description>Recent content in Tokenizer on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 12 Aug 2011 03:54:41 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/tokenizer/index.xml" rel="self" type="application/rss+xml"/><item><title>A couple of ways to tokenize a delimited String in Java</title><link>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</link><pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate><guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid><description>&lt;h4 id="stringtokenizer">StringTokenizer:&lt;/h4>
+&lt;p>It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between &lt;em>A&lt;/em> and &lt;em>In&lt;/em> and the last blank token after &lt;em>Me&lt;/em>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-Java" data-lang="Java">&lt;span style="display:flex;">&lt;span>StringTokenizer st &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">new&lt;/span> StringTokenizer(&lt;span style="color:#e6db74">&amp;#34;I,Have,A,,In,Me,&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;,&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">while&lt;/span> (st.&lt;span style="color:#a6e22e">hasMoreTokens&lt;/span>()) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	System.&lt;span style="color:#a6e22e">out&lt;/span>.&lt;span style="color:#a6e22e">println&lt;/span>(st.&lt;span style="color:#a6e22e">nextToken&lt;/span>());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h4 id="split-method">split method:&lt;/h4>
+&lt;p>Javadoc suggests &lt;code>split&lt;/code> method of &lt;code>String&lt;/code> or the &lt;code>java.util.regex&lt;/code> package as alternatives. The split method returns the blank tokens in-between two tokens; however, the last blank token(after &lt;em>Me&lt;/em>) will still be missing. We need some extra code to get the last token.&lt;/p></description></item></channel></rss>

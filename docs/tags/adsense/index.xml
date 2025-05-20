@@ -1,26 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AdSense on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/adsense/</link>
-    <description>Recent content in AdSense on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Jan 2011 09:16:58 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/adsense/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Working on The Blog</title>
-      <link>https://praveenlobo.com/blog/working-on-the-blog/</link>
-      <pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/working-on-the-blog/</guid>
-      <description>This is a perfect example for a seemingly easy task taking up so much of one&amp;rsquo;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!
-Here is what I have done so far:
-  Updated feed through FeedBurner: this was already present, I updated some settings.
-  Added Google AdSense: there comes a time in everyone&amp;rsquo;s life when they turn greedy.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AdSense on Praveen Lobo</title><link>https://praveenlobo.com/tags/adsense/</link><description>Recent content in AdSense on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 18 Jan 2011 09:16:58 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/adsense/index.xml" rel="self" type="application/rss+xml"/><item><title>Working on The Blog</title><link>https://praveenlobo.com/blog/working-on-the-blog/</link><pubDate>Tue, 18 Jan 2011 09:16:58 +0000</pubDate><guid>https://praveenlobo.com/blog/working-on-the-blog/</guid><description>&lt;p>This is a perfect example for a seemingly easy task taking up so much of one&amp;rsquo;s time. I have been busy working on this blog for a last couple of days. I spent so much time and yet there are so many things to do!&lt;/p>
+&lt;p>Here is what I have done so far:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Updated feed through &lt;a href="https://feeds.feedburner.com/lobopraveen">FeedBurner&lt;/a>: this was already present, I updated some settings.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Added Google AdSense: there comes a time in everyone&amp;rsquo;s life when they turn greedy. This is my time. &amp;#x1f61b;&lt;/p></description></item></channel></rss>

@@ -1,63 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>work on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/work/</link>
-    <description>Recent content in work on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Aug 2012 17:44:02 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/work/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>What Have I Been Up To This Summer?</title>
-      <link>https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer/</link>
-      <pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer/</guid>
-      <description>It has been a long time since I blogged regularly. We have a couple of weeks of summer left in 2012 and I don’t want to waste that spending more time on blogging. Lately, I have been feeling like blogging is a winter activity (not saying that I blog regularly in winter). There are a number of topics blog about but no time. I keep adding topics to the todo list and keep deleting when I revisit because it’s either too late or it is making the list too big.</description>
-    </item>
-    
-    <item>
-      <title>Three Rules to Excel at Work</title>
-      <link>https://praveenlobo.com/blog/three-rules-to-excel-at-work/</link>
-      <pubDate>Tue, 09 Aug 2011 04:23:03 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/three-rules-to-excel-at-work/</guid>
-      <description>My day at work had just began, when I overheard a colleague of mine talking about rule number two. He is very senior to me and is dangerously intelligent! I couldn&amp;rsquo;t stop myself from asking him what the rule number two was.
-&amp;ldquo;Hey, what is rule number two?&amp;rdquo;, I asked.
-&amp;ldquo;Well, do you know rule number one?&amp;rdquo;, he questioned.
-I replied, &amp;ldquo;Nope&amp;rdquo;, thinking why didn&amp;rsquo;t I ask about rule number one first!</description>
-    </item>
-    
-    <item>
-      <title>RELATIVE Performance Evaluation</title>
-      <link>https://praveenlobo.com/blog/relative-performance-evaluation/</link>
-      <pubDate>Thu, 13 Jan 2011 23:53:47 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/relative-performance-evaluation/</guid>
-      <description>if( parseInt(&amp;#34;1&amp;#34;) === parseInt(&amp;#34;1+&amp;#34;) ){ alert(&amp;#34;Depends on &amp;#39;the context&amp;#39; and is controlled by external factors!&amp;#34;); } else { alert(&amp;#34;Loser!&amp;#34;); } alert(&amp;#34;Think again!&amp;#34;);  </description>
-    </item>
-    
-    <item>
-      <title>Thanksgiving 2010 - A Long Weekend</title>
-      <link>https://praveenlobo.com/blog/thanksgiving-2010-a-long-weekend/</link>
-      <pubDate>Sun, 28 Nov 2010 01:47:36 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/thanksgiving-2010-a-long-weekend/</guid>
-      <description>A long weekend (four days) - many of my friends are on trips visiting places. I&amp;rsquo;m sitting here writing this post! I couldn&amp;rsquo;t go due to work. I had to work for a couple of hours exactly in the middle of the four days so I stayed back. It sure doesn&amp;rsquo;t feel good but not as bad as I imagined it to be. Almost 3/4th of the long weekend has gone by.</description>
-    </item>
-    
-    <item>
-      <title>A Week That Was</title>
-      <link>https://praveenlobo.com/blog/a-week-that-was/</link>
-      <pubDate>Sun, 14 Mar 2010 19:33:46 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/a-week-that-was/</guid>
-      <description>Last week was the crappiest of all, but it ended in a good note. It oscillated between okay to bad, bad to worse, and back to okay and then to good. First two days were uneventful and I had no clue of what lie ahead.
-Wednesday was the beginning. Firstly, a brand new system welcomed me to office on Wednesday morning; they had formatted my machine without any kind of confirmation.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on Praveen Lobo</title><link>https://praveenlobo.com/tags/work/</link><description>Recent content in Work on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 18 Aug 2012 17:44:02 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/work/index.xml" rel="self" type="application/rss+xml"/><item><title>What Have I Been Up To This Summer?</title><link>https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer/</link><pubDate>Sat, 18 Aug 2012 17:44:02 +0000</pubDate><guid>https://praveenlobo.com/blog/what-have-i-been-up-to-this-summer/</guid><description>&lt;p>It has been a long time since I blogged regularly. We have a couple of weeks of summer left in 2012 and I don’t want to waste that spending more time on blogging. Lately, I have been feeling like blogging is a winter activity (not saying that I blog regularly in winter). There are a number of topics blog about but no time. I keep adding topics to the todo list and keep deleting when I revisit because it’s either too late or it is making the list too big. This has been my story for past year or so. I can’t sit down and just do it. Maybe I should fix a schedule and stick to it. I don’t know.&lt;/p></description></item><item><title>Three Rules to Excel at Work</title><link>https://praveenlobo.com/blog/three-rules-to-excel-at-work/</link><pubDate>Tue, 09 Aug 2011 04:23:03 +0000</pubDate><guid>https://praveenlobo.com/blog/three-rules-to-excel-at-work/</guid><description>&lt;p>My day at work had just began, when I overheard a colleague of mine talking about rule number two. He is very senior to me and is dangerously intelligent! I couldn&amp;rsquo;t stop myself from asking him what the rule number two was.&lt;/p>
+&lt;p>&amp;ldquo;Hey, what is rule number two?&amp;rdquo;, I asked.&lt;/p>
+&lt;p>&amp;ldquo;Well, do you know rule number one?&amp;rdquo;, he questioned.&lt;/p>
+&lt;p>I replied, &amp;ldquo;Nope&amp;rdquo;, thinking why didn&amp;rsquo;t I ask about rule number one first!&lt;/p></description></item><item><title>RELATIVE Performance Evaluation</title><link>https://praveenlobo.com/blog/relative-performance-evaluation/</link><pubDate>Thu, 13 Jan 2011 23:53:47 +0000</pubDate><guid>https://praveenlobo.com/blog/relative-performance-evaluation/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span>( parseInt(&lt;span style="color:#e6db74">&amp;#34;1&amp;#34;&lt;/span>) &lt;span style="color:#f92672">===&lt;/span> parseInt(&lt;span style="color:#e6db74">&amp;#34;1+&amp;#34;&lt;/span>) ){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Depends on &amp;#39;the context&amp;#39; and is controlled by external factors!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Loser!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Think again!&amp;#34;&lt;/span>);&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Thanksgiving 2010 - A Long Weekend</title><link>https://praveenlobo.com/blog/thanksgiving-2010-a-long-weekend/</link><pubDate>Sun, 28 Nov 2010 01:47:36 +0000</pubDate><guid>https://praveenlobo.com/blog/thanksgiving-2010-a-long-weekend/</guid><description>&lt;p>A long weekend (four days) - many of my friends are on trips visiting places. I&amp;rsquo;m sitting here writing this post! I couldn&amp;rsquo;t go due to work. I had to work for a couple of hours exactly in the middle of the four days so I stayed back. It sure doesn&amp;rsquo;t feel good but not as bad as I imagined it to be. Almost 3/4th of the long weekend has gone by. It&amp;rsquo;s work and someone had to do it. Moreover, it&amp;rsquo;s because of work I&amp;rsquo;m here in US in the first place so no whining.&lt;/p></description></item><item><title>A Week That Was</title><link>https://praveenlobo.com/blog/a-week-that-was/</link><pubDate>Sun, 14 Mar 2010 19:33:46 +0000</pubDate><guid>https://praveenlobo.com/blog/a-week-that-was/</guid><description>&lt;p>Last week was the crappiest of all, but it ended in a good note. It oscillated between okay to bad, bad to worse, and back to okay and then to good. First two days were uneventful and I had no clue of what lie ahead.&lt;/p>
+&lt;p>Wednesday was the beginning. Firstly, a brand new system welcomed me to office on Wednesday morning; they had formatted my machine without any kind of confirmation. Secondly, two priority-one production issues on Thursday and some actions taken to resolve the issues came back on Friday as a different issue. To top it all, I had to deal with it using a newly installed operating system. No links, no data, no mail archives, and no software. Only notepad and the damned communicator which kept pissing me off! This whole thing happened in the same week in which I failed in a certification, which I&amp;rsquo;m not worried about, and a written test.&lt;/p></description></item></channel></rss>

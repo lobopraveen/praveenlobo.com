@@ -1,36 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sketch on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/sketch/</link>
-    <description>Recent content in sketch on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Jun 2011 05:47:26 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/sketch/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Abused</title>
-      <link>https://praveenlobo.com/blog/abused/</link>
-      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/abused/</guid>
-      <description>Abused
-   From archives. Not my original imagination.</description>
-    </item>
-    
-    <item>
-      <title>Pencil Sketch</title>
-      <link>https://praveenlobo.com/blog/pencil-sketch-sachin-tendulkar/</link>
-      <pubDate>Thu, 28 Apr 2011 06:00:17 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/pencil-sketch-sachin-tendulkar/</guid>
-      <description>A pencil sketch of the greatest batsman to ever play the game of Cricket - Sachin Tendulkar. Sketched more than half a decade ago. Does it look like Sachin?
-  Sachin Tendulkar
-    Sachin Tendulkar (scanned and GIMP&amp;rsquo;d)
-   </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sketch on Praveen Lobo</title><link>https://praveenlobo.com/tags/sketch/</link><description>Recent content in Sketch on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 29 Jun 2011 05:47:26 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/sketch/index.xml" rel="self" type="application/rss+xml"/><item><title>Abused</title><link>https://praveenlobo.com/blog/abused/</link><pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate><guid>https://praveenlobo.com/blog/abused/</guid><description>&lt;div class='align-center'>
+ &lt;figure>&lt;img src="https://praveenlobo.com/media/26-50/31-sketch/Abused.jpg"
+ alt="Abused">&lt;figcaption>
+ &lt;p>Abused&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+
+&lt;p>&lt;em>From archives. Not my original imagination.&lt;/em>&lt;/p></description></item><item><title>Pencil Sketch</title><link>https://praveenlobo.com/blog/pencil-sketch-sachin-tendulkar/</link><pubDate>Thu, 28 Apr 2011 06:00:17 +0000</pubDate><guid>https://praveenlobo.com/blog/pencil-sketch-sachin-tendulkar/</guid><description>&lt;p>A pencil sketch of the greatest batsman to ever play the game of Cricket - Sachin Tendulkar. Sketched more than half a decade ago. Does it look like Sachin?&lt;/p>
+&lt;div class='align-center'>
+ &lt;figure>&lt;img src="https://praveenlobo.com/media/00-25/26-sketch/Sachin%20Tendulkar.jpg"
+ alt="Sachin Tendulkar">&lt;figcaption>
+ &lt;p>Sachin Tendulkar&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://praveenlobo.com/media/00-25/26-sketch/Sachin%20Tendulkar%20v2.jpg"
+ alt="Sachin Tendulkar">&lt;figcaption>
+ &lt;p>Sachin Tendulkar (scanned and GIMP&amp;rsquo;d)&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;/div></description></item></channel></rss>

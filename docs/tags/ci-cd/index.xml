@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>CI CD on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/ci-cd/</link>
-    <description>Recent content in CI CD on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/ci-cd/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Hugo Static Site on GitHub - Continuous Integration/Deployment</title>
-      <link>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid>
-      <description>Original post date: 2018-05-01. Edited to include changes made in 2020. I don&amp;rsquo;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.
- After migrating the blog to Hugo and making some custom changes, it was time to develop the CI-CD pipeline.</description>
-    </item>
-    
-    <item>
-      <title>Get Last Friday Of The Month In Java</title>
-      <link>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid>
-      <description>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.
-If you didn&amp;rsquo;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ci Cd on Praveen Lobo</title><link>https://praveenlobo.com/tags/ci-cd/</link><description>Recent content in Ci Cd on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/ci-cd/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Static Site on GitHub - Continuous Integration/Deployment</title><link>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</link><pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/hugo-static-site-github-continuous-integration-deployment/</guid><description>&lt;p>&lt;em>Original post date: 2018-05-01. Edited to include &lt;a href="https://github.com/lobopraveen/praveenlobo.com/pull/63">changes made in 2020&lt;/a>. I don&amp;rsquo;t build locally anymore so the script is basically unused; however, I did update it to make it slightly better. The Travis script has been updated to make it generic. Only the environment variables need to be changed if anyone else decides to use it.&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>After &lt;a href="https://praveenlobo.com/blog/from-wordpress-to-a-static-site-generator/">migrating&lt;/a> the blog to Hugo and making some &lt;a href="https://praveenlobo.com/blog/hugo-static-site-on-github-customizations/">custom changes&lt;/a>, it was time to develop the CI-CD pipeline. The key objectives for my CI-CD pipeline were&lt;/p></description></item><item><title>Get Last Friday Of The Month In Java</title><link>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</link><pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid><description>&lt;p>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.&lt;/p>
+&lt;p>If you didn&amp;rsquo;t get the point, please use &lt;code>java.time&lt;/code> or &lt;code>joda-time&lt;/code> in that order before using mine. Apparently, even &lt;code>calendar&lt;/code> has a &lt;a href="https://stackoverflow.com/a/2545695/319542">slick&lt;/a> way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original &lt;code>java.util.date or calendar&lt;/code> implementation.&lt;/p></description></item></channel></rss>

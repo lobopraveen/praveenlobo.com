@@ -1,37 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ubuntu on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/ubuntu/</link>
-    <description>Recent content in ubuntu on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 10 May 2010 18:09:03 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Ubuntu 10.04 - Lucid Lynx</title>
-      <link>https://praveenlobo.com/blog/ubuntu-10-04-lucid-lynx/</link>
-      <pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/ubuntu-10-04-lucid-lynx/</guid>
-      <description>Very first impression(within a minute of installing):
- WTF, it hung!
- I had kept /home on a separate partition for the first time and wanted to check if it works fine for all users. I created an account and set the home folder as /home/irine and then hit save - switch user - log off - WTF!
-Bug #574909
-Ubuntu 10.04 (Lucid Lynx) is impressive; thanks to all those who made it possible :o)</description>
-    </item>
-    
-    <item>
-      <title>OS Switch: Fedora to Ubuntu</title>
-      <link>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</link>
-      <pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</guid>
-      <description>A post about switching the Operating System(OS)? Yeah, why not? After all It&amp;rsquo;s the OS that made one man the richest in the world. It&amp;rsquo;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&amp;rsquo;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!
-I&amp;rsquo;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it!</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on Praveen Lobo</title><link>https://praveenlobo.com/tags/ubuntu/</link><description>Recent content in Ubuntu on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 10 May 2010 18:09:03 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu 10.04 - Lucid Lynx</title><link>https://praveenlobo.com/blog/ubuntu-10-04-lucid-lynx/</link><pubDate>Mon, 10 May 2010 18:09:03 +0000</pubDate><guid>https://praveenlobo.com/blog/ubuntu-10-04-lucid-lynx/</guid><description>&lt;p>Very first impression(within a minute of installing):&lt;/p>
+&lt;blockquote>
+&lt;p>WTF, it hung!&lt;/p>&lt;/blockquote>
+&lt;p>I had kept &lt;code>/home&lt;/code> on a separate partition for the first time and wanted to check if it works fine for all users. I created an account and set the home folder as &lt;code>/home/irine&lt;/code> and then hit save - switch user - log off - WTF!&lt;/p>
+&lt;p>&lt;a href="https://bugs.launchpad.net/ubuntu/&amp;#43;source/fast-user-switch-applet/&amp;#43;bug/574909">Bug #574909&lt;/a>&lt;/p>
+&lt;p>Ubuntu 10.04 (Lucid Lynx) is impressive; thanks to all those who made it possible &lt;em>:o)&lt;/em>&lt;/p></description></item><item><title>OS Switch: Fedora to Ubuntu</title><link>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</link><pubDate>Sat, 02 Jan 2010 16:52:25 +0000</pubDate><guid>https://praveenlobo.com/blog/os-switch-fedora-to-ubuntu/</guid><description>&lt;p>A post about switching the Operating System(OS)? Yeah, why not? After all It&amp;rsquo;s the OS that made one man the richest in the world. It&amp;rsquo;s the OS that has made so many people across the globe dedicate their own resources and time to better it. It&amp;rsquo;s the OS that makes people argue - be it MS vs Linux or different distributions of Linux itself!&lt;/p>
+&lt;p>I&amp;rsquo;m not a Linux freak or a guru but an average user helping the open source in a way that most of the people do - by using it! I have been using a personal computer since 2004 and have been using Fedora Core for more than 95% of my personal use. I have tried a lot of different flavours of Linux but no clue why I stuck to Fedora all this time.  No, I&amp;rsquo;m not saying that it is bad; I wouldn&amp;rsquo;t have been using it for such a long time if it was, right? Fedora rocks but I just got bored of it!&lt;/p></description></item></channel></rss>

@@ -5,10 +5,11 @@ copyright = ""
 
 theme = "minimo"
 
-disqusShortname = "" # "lobopraveen"
+disqusShortname = ""
+# "lobopraveen"
 googleAnalytics = "UA-20788457-1"
 
-Paginate = 10
+pagination.pagerSize = 10
 
 publishdir = "docs"
 
@@ -78,16 +79,10 @@ footer = ["social_menu"]
 titleSeparator = "•"
 
 [params.social]
-codepen = ""
 email = "gmail@praveenlobo.com"
 github = "lobopraveen"
 gitlab = "lobopraveen"
-instagram = "lobopraveen"
 linkedin = "lobopraveen"
-twitter = "lobopraveen"
-telegram = ""
-google_scholar = ""
-youtube = ""
 stackoverflow = "319542"
 
 [params.comments]
@@ -122,7 +117,7 @@ indexName = ""
 searchApiKey = ""
 
 [params.social.config]
-platforms = ["email","linkedin","github","gitlab","stackoverflow","twitter","instagram"]
+platforms = ["email","linkedin","github","gitlab","stackoverflow"]
 
 [taxonomies]
 #author = "authors"
@@ -131,7 +126,7 @@ category = "categories"
 tag = "tags"
 
 [permalinks]
-page = "/:filename/"
+page = "/:contentbasename/"
 
 [blackfriday]
 hrefTargetBlank = true

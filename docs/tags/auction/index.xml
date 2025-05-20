@@ -1,55 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>auction on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/auction/</link>
-    <description>Recent content in auction on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 30 Jul 2011 23:24:11 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/auction/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
-      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</link>
-      <pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</guid>
-      <description>Part I and II of this post series can be found here and here respectively.
- 5. Build the script: Assume that the HTML skeleton given in previous post is indeed the code and when the bid ends the timer gets a class called BIDEND. Finally, say the code used by the site to place a bid is PennyAuction.placeBid(itemCode);. With this information build a script.
-// Get the codes from the user // Note : If it&amp;#39;s integer then parseInt method can be used around the prompt.</description>
-    </item>
-    
-    <item>
-      <title>Penny Auction Sites Auto Bidding Script (Sniper)</title>
-      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</link>
-      <pubDate>Sat, 30 Jul 2011 18:26:40 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid>
-      <description>Part I of this post series can be found here.
- 3. Requirements for the script:   The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.
-  The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.</description>
-    </item>
-    
-    <item>
-      <title>Penny Auction Sites Auto Bidding Script (Bid Sniper)</title>
-      <link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</link>
-      <pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid>
-      <description>I wrote a prologue to penny auction sites beginning of this year, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise.</description>
-    </item>
-    
-    <item>
-      <title>Penny Auction Sites</title>
-      <link>https://praveenlobo.com/blog/penny-auction-sites/</link>
-      <pubDate>Mon, 03 Jan 2011 21:20:12 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/penny-auction-sites/</guid>
-      <description>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those penny auction sites are amazing, aren&amp;rsquo;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.
-If you haven&amp;rsquo;t got a clue about it, I urge you to read about them.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Auction on Praveen Lobo</title><link>https://praveenlobo.com/tags/auction/</link><description>Recent content in Auction on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 30 Jul 2011 23:24:11 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/auction/index.xml" rel="self" type="application/rss+xml"/><item><title>Penny Auction Sites Auto Bidding Script (Sniper)</title><link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</link><pubDate>Sat, 30 Jul 2011 23:24:11 +0000</pubDate><guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-building-and-using-the-script/</guid><description>&lt;p>Part I and II of this post series can be found &lt;a href="https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/">here&lt;/a> and &lt;a href="https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/">here&lt;/a> respectively.&lt;/p>
+&lt;hr>
+&lt;h4 id="5-build-the-script">5. Build the script:&lt;/h4>
+&lt;p>Assume that the HTML skeleton given in &lt;a href="https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/">previous post&lt;/a> is indeed the code and when the bid ends the timer gets a class called &lt;code>BIDEND&lt;/code>. Finally, say the code used by the site to place a bid is &lt;code>PennyAuction.placeBid(itemCode);&lt;/code>. With this information build a script.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Get the codes from the user
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Note : If it&amp;#39;s integer then parseInt method can be used around the prompt.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">itemCode&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">prompt&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Please enter the item code:&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">lowPrice&lt;/span> &lt;span style="color:#f92672">=&lt;/span> parseInt(&lt;span style="color:#a6e22e">prompt&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Please enter the price at which you want to start bidding:&amp;#34;&lt;/span>), &lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">highPrice&lt;/span> &lt;span style="color:#f92672">=&lt;/span> parseInt(&lt;span style="color:#a6e22e">prompt&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Please enter the price at which you want to stop bidding:&amp;#34;&lt;/span>), &lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">maxBids&lt;/span> &lt;span style="color:#f92672">=&lt;/span> parseInt(&lt;span style="color:#a6e22e">prompt&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Please enter the maximum number of bids you want to place:&amp;#34;&lt;/span>), &lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">secondsToPlaceBid&lt;/span> &lt;span style="color:#f92672">=&lt;/span> parseInt(&lt;span style="color:#a6e22e">prompt&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Please enter the remaining time below which a bid should be placed:&amp;#34;&lt;/span>), &lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Build the identifiers
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">who&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Winning_&amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">itemCode&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">priceID&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Price_&amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">itemCode&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">timerID&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Timer_&amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">itemCode&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">/*
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * This method places a bid if the item is in the price range if the timer goes below
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * &amp;#34;secondsToPlaceBid&amp;#34; and if the maximum number of bids has not been reached.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> *
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * Note that the &amp;#34;BIDEND&amp;#34; and the &amp;#34;USERNAME&amp;#34; needs to be updated for the site in question.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> *
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">placeBid&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (document.&lt;span style="color:#a6e22e">getElementsByClassName&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;BIDEND&amp;#34;&lt;/span>).&lt;span style="color:#a6e22e">length&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// The bid ended; stop bidding.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">return&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Get the price; strip $ sign
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">currPrice&lt;/span> &lt;span style="color:#f92672">=&lt;/span> parseInt((document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#a6e22e">priceID&lt;/span>).&lt;span style="color:#a6e22e">innerHTML&lt;/span>.&lt;span style="color:#a6e22e">substring&lt;/span>(&lt;span style="color:#ae81ff">1&lt;/span>)),&lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">currPrice&lt;/span> &lt;span style="color:#f92672">&amp;lt;=&lt;/span> &lt;span style="color:#a6e22e">lowPrice&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Price limit not reached; wake up just in time for next bid
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">setTimeout&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;placeBid()&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">8000&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#a6e22e">who&lt;/span>).&lt;span style="color:#a6e22e">innerHTML&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;USERNAME&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// You are not the current bidder
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">maxBids&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;All of the allocated bids have been placed!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">currPrice&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#a6e22e">highPrice&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Price of the item has exceeded the high price set!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">secondsRemaining&lt;/span> &lt;span style="color:#f92672">=&lt;/span> parseInt(document.&lt;span style="color:#a6e22e">getElementById&lt;/span>(&lt;span style="color:#a6e22e">timerID&lt;/span>).&lt;span style="color:#a6e22e">innerHTML&lt;/span>.&lt;span style="color:#a6e22e">split&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;:&amp;#34;&lt;/span>)[&lt;span style="color:#ae81ff">2&lt;/span>], &lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">secondsRemaining&lt;/span> &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">secondsToPlaceBid&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Time to place a bid; update counter &amp;amp; wake up just in time for next bid
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">PennyAuction&lt;/span>.&lt;span style="color:#a6e22e">placeBid&lt;/span>(&lt;span style="color:#a6e22e">itemCode&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">maxBids&lt;/span> &lt;span style="color:#f92672">=&lt;/span> (&lt;span style="color:#a6e22e">maxBids&lt;/span> &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">setTimeout&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;placeBid()&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">8000&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Enough time left; wake up later to try
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">setTimeout&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;placeBid()&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">500&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// You are the current bidder; wake up just in time for next bid(if exists)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">setTimeout&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;placeBid()&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">8000&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Call the method defined above to take care of the dirty business
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">placeBid&lt;/span>();&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>This is it. This code should do the trick; Note that &lt;code>BIDEND&lt;/code>, &lt;code>USERNAME&lt;/code> and &lt;code>PennyAuction.placeBid(itemCode);&lt;/code> needs to be updated with respect to the auction site in question.&lt;/p></description></item><item><title>Penny Auction Sites Auto Bidding Script (Sniper)</title><link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</link><pubDate>Sat, 30 Jul 2011 18:26:40 +0000</pubDate><guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-sniper-how-to-requirements-preparation/</guid><description>&lt;p>Part I of this post series can be found &lt;a href="https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/">here&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h4 id="3-requirements-for-the-script">3. Requirements for the script:&lt;/h4>
+&lt;ol>
+&lt;li>
+&lt;p>The script shall have a lower limit to start bidding i.e. the script should not start bidding if the actual price in the bid hasn&amp;rsquo;t crossed a set limit.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The script shall have an upper limit to bidding i.e. it shall stop bidding if the bid price crosses certain limit.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The script shall bid a fixed number of times i.e. the script shall stop bidding if the total number bids placed by it exceeds a preset number even if the upper limit has not been reached.&lt;/p></description></item><item><title>Penny Auction Sites Auto Bidding Script (Bid Sniper)</title><link>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</link><pubDate>Wed, 27 Jul 2011 04:11:36 +0000</pubDate><guid>https://praveenlobo.com/blog/penny-auction-sites-auto-bidding-script-bid-sniper-how-to-introduction/</guid><description>&lt;p>I wrote a prologue to penny auction sites &lt;a href="https://praveenlobo.com/blog/penny-auction-sites/">beginning of this year&lt;/a>, but never posted the bot script I promised I would! I didn&amp;rsquo;t because I didn&amp;rsquo;t want others to lose money, but shouldn&amp;rsquo;t one use his own judgment before using any advice found on the Internet? Before anything else I would like to warn you - use the information found here at your own risk. I shall not be held liable for any damage - monetary or otherwise. Also, this will not guarantee winning; the auction sites are built smart enough to cheat most users and pick winners rarely and randomly!&lt;/p></description></item><item><title>Penny Auction Sites</title><link>https://praveenlobo.com/blog/penny-auction-sites/</link><pubDate>Mon, 03 Jan 2011 21:20:12 +0000</pubDate><guid>https://praveenlobo.com/blog/penny-auction-sites/</guid><description>&lt;p>Okay, you must have landed here through some search engine while trying to figure out a way to make a fortune by spending pennies. Those &lt;a href="http://en.wikipedia.org/wiki/Bidding_fee_auction">penny auction sites&lt;/a> are amazing, aren&amp;rsquo;t they? The concept is so clear and it almost sounds like anyone can get one of those shiny new iPads, Macs, Nikkon D90, or Canon EOS 7D on auction just for a few pennies.&lt;/p>
+&lt;p>If you haven&amp;rsquo;t got a clue about it, I urge you to read about them. READ ABOUT THEM. DO NOT JUMP INTO BIDDING! I mean, I&amp;rsquo;m just saying. If you want go ahead and spend some money; however, do not hold me responsible for any damage. I have already shouted at you. You are lucky that I warned you; It&amp;rsquo;s kind of sad that nobody warned me!&lt;/p></description></item></channel></rss>

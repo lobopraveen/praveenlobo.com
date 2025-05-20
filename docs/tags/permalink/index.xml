@@ -1,24 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>permalink on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/permalink/</link>
-    <description>Recent content in permalink on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 May 2011 06:58:10 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/permalink/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How To Remove The /blog/ slug From The Permalinks(URL) Without A Plugin</title>
-      <link>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</link>
-      <pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid>
-      <description>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.
-How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts?</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Permalink on Praveen Lobo</title><link>https://praveenlobo.com/tags/permalink/</link><description>Recent content in Permalink on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 24 May 2011 06:58:10 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/permalink/index.xml" rel="self" type="application/rss+xml"/><item><title>How To Remove The /blog/ slug From The Permalinks(URL) Without A Plugin</title><link>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</link><pubDate>Tue, 24 May 2011 06:58:10 +0000</pubDate><guid>https://praveenlobo.com/blog/how-to-remove-the-blog-slug-from-the-permalinksurl-in-wordpress-multisite-installation-without-a-plugin/</guid><description>&lt;p>What is a blog slug? If you have no clue, this post isn&amp;rsquo;t for you and if you want to know what it is, it is an ugly looking additional &amp;ldquo;/blog/&amp;rdquo; in the permalinks (URLs) in your website that comes free with the multisite feature in WordPress. Why ugly? Because it comes uninvited, it&amp;rsquo;s there and most probably you don&amp;rsquo;t want it.&lt;/p>
+&lt;p>How do you remove the additional &amp;ldquo;blog&amp;rdquo; in the URL of your posts? Simple, install some plugin which does it for you? That is what I thought; however, before doing so, I just took a careful look at the &lt;code>wp_options&lt;/code> table. BAM! There it was. After spending about 30 minutes with settings and checking the data in this table, I have figured out a way to solve the blog slug problem without the need for a plugin. No need to change a bit of code. You don&amp;rsquo;t even need to execute any queries. The query and the table values are shown below just to indicate what your action does to the database values. It&amp;rsquo;s a simple process; only step 2 and 3 need your action, you can skip the rest!&lt;/p></description></item></channel></rss>

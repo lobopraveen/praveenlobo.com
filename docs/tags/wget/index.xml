@@ -1,33 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>wget on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/wget/</link>
-    <description>Recent content in wget on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 27 May 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/wget/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Automate Torrent Download Using Transmission</title>
-      <link>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</link>
-      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
-After a little search on the net, I found a workaround for this too!</description>
-    </item>
-    
-    <item>
-      <title>swget - A Simple wget Wrapper</title>
-      <link>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</link>
-      <pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</guid>
-      <description>THE PROBLEM I have BSNL 500C+ broadband connection which gives me 2.5GB of data transfer per month. This limit is sufficient only for usual surfing. 500C+ plan also gives me night unlimited option i.e. the data transferred between 2AM to 8AM is not counted towards the 2.5GB quota per month. I can download around 4GB in this time frame. I use this time to download contents, but the real problem is starting the download at 2AM.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wget on Praveen Lobo</title><link>https://praveenlobo.com/tags/wget/</link><description>Recent content in Wget on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 27 May 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/wget/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate Torrent Download Using Transmission</title><link>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</link><pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid><description>&lt;p>A while ago I wrote about &lt;a href="https://praveenlobo.com/blog/swget-a-simple-wget-wrapper">swget - A Simple wget Wrapper&lt;/a> The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!&lt;/p>
+&lt;p>After a little search on the net, I found a workaround for this too!&lt;/p></description></item><item><title>swget - A Simple wget Wrapper</title><link>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</link><pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate><guid>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</guid><description>&lt;h3 id="the-problem">THE PROBLEM&lt;/h3>
+&lt;p>I have BSNL 500C+ broadband connection which gives me 2.5GB of data transfer per month. This limit is sufficient only for usual surfing. 500C+ plan also gives me night unlimited option i.e. the data transferred between 2AM to 8AM is not counted towards the 2.5GB quota per month. I can download around 4GB in this time frame. I use this time to download contents, but the real problem is starting the download at 2AM.&lt;/p></description></item></channel></rss>

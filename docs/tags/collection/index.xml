@@ -1,24 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>collection on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/collection/</link>
-    <description>Recent content in collection on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Oct 2011 04:51:59 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/collection/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Java: Get Sub List of Elements between two elements (instead of indexes) in a List</title>
-      <link>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</link>
-      <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
-      <description>Update: moved the code to github
-Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Collection on Praveen Lobo</title><link>https://praveenlobo.com/tags/collection/</link><description>Recent content in Collection on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 25 Oct 2011 04:51:59 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/collection/index.xml" rel="self" type="application/rss+xml"/><item><title>Java: Get Sub List of Elements between two elements (instead of indexes) in a List</title><link>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</link><pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate><guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid><description>&lt;p>&lt;small>Update: moved the code to &lt;a href="https://github.com/lobopraveen/Java-betterSublist">github&lt;/a>&lt;/small>&lt;/p>
+&lt;p>Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using &lt;code>List subList(int fromIndex, int toIndex)&lt;/code>. However, there is no API to get the elements in a List between two list elements &lt;code>List subList(Object fromElement, Object toElement)&lt;/code>. The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.&lt;/p></description></item></channel></rss>

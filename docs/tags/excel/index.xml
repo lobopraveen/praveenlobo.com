@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Excel on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/excel/</link>
-    <description>Recent content in Excel on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Oct 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/excel/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Using Excel To Compare Multiple XMLs</title>
-      <link>https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/</guid>
-      <description>The VBA code from last post explains how two XML strings that are already on the spreadsheet can be compared. This can be extended to add a search functionality to search and bring in the XML before running the comparison.
-Search File: To get a matching line from a file, use VBA code as shown here on the gists repo I maintain. Or just use power query as shown below and place the result in the XML cell.</description>
-    </item>
-    
-    <item>
-      <title>Comparing Two XMLs In Excel VBA</title>
-      <link>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</link>
-      <pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</guid>
-      <description>The easiest way to compare two XML files would be to see if any available tool can do the job. My favorite compare tool to use at work is Beyond Compare - it supports folders as well as files comparison, supports multiple file formats, and has ton of options. For personal use, I prefer meld as it is free and gets the job done.
-Although those are wonderful programs, they don&amp;rsquo;t fit every use case.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Excel on Praveen Lobo</title><link>https://praveenlobo.com/tags/excel/</link><description>Recent content in Excel on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 05 Oct 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/excel/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Excel To Compare Multiple XMLs</title><link>https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/</link><pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/using-excel-to-compare-multiple-xmls/</guid><description>&lt;p>The VBA code from &lt;a href="https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba">last post&lt;/a> explains how two XML strings that are already on the spreadsheet can be compared. This can be extended to add a search functionality to search and bring in the XML before running the comparison.&lt;/p>
+&lt;h4 id="search-file">Search File:&lt;/h4>
+&lt;p>To get a matching line from a file, use VBA code as shown &lt;a href="https://github.com/lobopraveen/gists/blob/master/msexcel/vba_extract_matching_line_from_a_file.vba">here&lt;/a> on the gists repo I maintain. Or just use power query as shown below and place the result in the XML cell. Note that the power query returns all matching lines as opposed to the aforementioned VBA code which returns the first occurrence. The VBA code can be edited to return multiple lines if needed.&lt;/p></description></item><item><title>Comparing Two XMLs In Excel VBA</title><link>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</link><pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/comparing-two-xmls-in-excel-vba/</guid><description>&lt;p>The easiest way to compare two XML files would be to see if any available tool can do the job. My favorite compare tool to use at work is &lt;a href="https://www.scootersoftware.com/">Beyond Compare&lt;/a> - it supports folders as well as files comparison, supports multiple file formats, and has ton of options. For personal use, I prefer &lt;a href="http://meldmerge.org/">meld&lt;/a> as it is free and gets the job done.&lt;/p>
+&lt;p>Although those are wonderful programs, they don&amp;rsquo;t fit every use case. Sometimes you just have to write VBA code to compare two XML &lt;em>strings&lt;/em>.&lt;/p></description></item></channel></rss>

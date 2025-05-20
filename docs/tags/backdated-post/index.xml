@@ -1,55 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>backdated post on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/backdated-post/</link>
-    <description>Recent content in backdated post on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 Oct 2017 20:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/backdated-post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Shell Scripts to Manipulate The File Name Extensions</title>
-      <link>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</link>
-      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
- % in below scripts match shortest from the end of the string.</description>
-    </item>
-    
-    <item>
-      <title>SQL Error Converting The Data Type</title>
-      <link>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</link>
-      <pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</guid>
-      <description>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&amp;rsquo;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.
-The problem was with a query that used to run fine for a long time and started failing a couple of weeks ago.</description>
-    </item>
-    
-    <item>
-      <title>HOLY CRAP!!!</title>
-      <link>https://praveenlobo.com/blog/holy-crap-missing-in-action/</link>
-      <pubDate>Thu, 29 Oct 2015 20:58:12 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/holy-crap-missing-in-action/</guid>
-      <description>HOLY MOTHER OF SWEET BABY CORN! It has seriously been a long while! 3 years? 4 years? Surprised the blog still exists! LOL! Actually not that much surprised. I pay every year to renew hosting so I know it exists! 😛
-The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinished drafts from 2011, 2012, 2013 which are still not posted! I feel embarrassed; at the same time I feel overwhelmed thinking how fast the time flies!</description>
-    </item>
-    
-    <item>
-      <title>Remove Commas From Values in CSV File</title>
-      <link>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</link>
-      <pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Backdated Post on Praveen Lobo</title><link>https://praveenlobo.com/tags/backdated-post/</link><description>Recent content in Backdated Post on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 02 Oct 2017 20:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/backdated-post/index.xml" rel="self" type="application/rss+xml"/><item><title>Shell Scripts to Manipulate The File Name Extensions</title><link>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</link><pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid><description>&lt;p>&lt;small>The &lt;a href="https://github.com/lobopraveen/gists/blob/master/unix/filename_extension_manipulation.md">latest version&lt;/a> of this should be available on &lt;a href="https://github.com/lobopraveen/gists">GitHub repo&lt;/a>. Please report any issues there.&lt;/small>&lt;/p>
+&lt;p>The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like &lt;code>rename&lt;/code> and &lt;code>mmv&lt;/code> might offer alternatives when they are available on the systems. The scripts below use &lt;a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html">shell&amp;rsquo;s parameter expansion&lt;/a> to operate on multiple files.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>%&lt;/code> in below scripts match shortest from the end of the string.&lt;/li>
+&lt;li>&lt;code>%%&lt;/code> matches longest from the end&lt;/li>
+&lt;li>&lt;code>#&lt;/code> shortest from the beginning&lt;/li>
+&lt;li>&lt;code>##&lt;/code> longest from the beginning&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>test&lt;/code> command controls if a rename should occur or not.&lt;/p></description></item><item><title>SQL Error Converting The Data Type</title><link>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</link><pubDate>Fri, 21 Jul 2017 20:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/sql-error-converting-the-data-type/</guid><description>&lt;p>A team mate of mine approached me asking for help in debugging an issue that has been ongoing for a while. He mentioned that the issue with query he was dealing with was sporadic and doesn&amp;rsquo;t happen in all environments. That sounded interesting. I asked him to pull up a chair so we can go over it together.&lt;/p>
+&lt;p>The problem was with a query that used to run fine for a long time and started failing a couple of weeks ago. This had caused manual work for his team each time it failed. The error was with some conversion he said.&lt;/p></description></item><item><title>HOLY CRAP!!!</title><link>https://praveenlobo.com/blog/holy-crap-missing-in-action/</link><pubDate>Thu, 29 Oct 2015 20:58:12 +0000</pubDate><guid>https://praveenlobo.com/blog/holy-crap-missing-in-action/</guid><description>&lt;p>HOLY MOTHER OF SWEET BABY CORN! It has seriously been a long while! 3 years? 4 years? Surprised the blog still exists! LOL! Actually not that much surprised. I pay every year to renew hosting so I know it exists! &amp;#x1f61b;&lt;/p>
+&lt;p>The TODO list thing I do. Seriously, it has gotten out of hand! I have unfinished drafts from 2011, 2012, 2013 which are still not posted! I feel embarrassed; at the same time I feel overwhelmed thinking how fast the time flies!
+Four fucking years! Seriously?!?!&lt;/p></description></item><item><title>Remove Commas From Values in CSV File</title><link>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</link><pubDate>Mon, 11 Mar 2013 20:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/remove-commas-from-values-in-csv-file/</guid><description>&lt;p>&lt;small>The &lt;a href="https://github.com/lobopraveen/gists/blob/master/unix/remove_comma_from_values_in_csv_file.md">latest version&lt;/a> of this should be available on &lt;a href="https://github.com/lobopraveen/gists">GitHub repo&lt;/a>. Please report any issues there.&lt;/small>&lt;/p>
+&lt;p>CSV files with values that contain commas in them is a pain if the system was built to handle the basic CSV format. This is especially true if the process that has been running for ages fails one day in production and it turns out that the file to process has a value that contains a comma in it.&lt;/p></description></item></channel></rss>

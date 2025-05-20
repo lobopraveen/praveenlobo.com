@@ -1,24 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>transmission on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/transmission/</link>
-    <description>Recent content in transmission on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 27 May 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/transmission/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Automate Torrent Download Using Transmission</title>
-      <link>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</link>
-      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
-After a little search on the net, I found a workaround for this too!</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Transmission on Praveen Lobo</title><link>https://praveenlobo.com/tags/transmission/</link><description>Recent content in Transmission on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 27 May 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/transmission/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate Torrent Download Using Transmission</title><link>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</link><pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid><description>&lt;p>A while ago I wrote about &lt;a href="https://praveenlobo.com/blog/swget-a-simple-wget-wrapper">swget - A Simple wget Wrapper&lt;/a> The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!&lt;/p>
+&lt;p>After a little search on the net, I found a workaround for this too!&lt;/p></description></item></channel></rss>

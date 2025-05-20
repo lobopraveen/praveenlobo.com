@@ -1,26 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>graph on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/graph/</link>
-    <description>Recent content in graph on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Jul 2011 19:10:05 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/graph/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Weather comparison</title>
-      <link>https://praveenlobo.com/blog/weather-comparison-bangalore-vs-milwaukee/</link>
-      <pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/weather-comparison-bangalore-vs-milwaukee/</guid>
-      <description>You know by now, I&amp;rsquo;m a bit concerned about this weather. While checking the weather forecast, I came up with this idea of comparing the weather between Bangalore and Milwaukee. Just for giggles.
- The below graphs are drawn with the data available freely on the net(weather.com, wikipedia and wunderground.com). I believe they should be fairly accurate.
-  Bangalore vs Milwaukee - Weather(°F)
-    Bangalore vs Milwaukee - Weather(°C)</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Graph on Praveen Lobo</title><link>https://praveenlobo.com/tags/graph/</link><description>Recent content in Graph on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 23 Jul 2011 19:10:05 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/graph/index.xml" rel="self" type="application/rss+xml"/><item><title>Weather comparison</title><link>https://praveenlobo.com/blog/weather-comparison-bangalore-vs-milwaukee/</link><pubDate>Sat, 23 Jul 2011 19:10:05 +0000</pubDate><guid>https://praveenlobo.com/blog/weather-comparison-bangalore-vs-milwaukee/</guid><description>&lt;p>You know by now, &lt;a href="https://praveenlobo.com/blog/doesnt-this-weather-remind-you-of-india/">I&amp;rsquo;m a bit concerned about this weather&lt;/a>. While checking the weather forecast, I came up with this idea of comparing the weather between Bangalore and Milwaukee. Just for giggles.&lt;/p>
+&lt;hr>
+&lt;p>The below graphs are drawn with the data available freely on the net(weather.com, wikipedia and wunderground.com). I believe they should be fairly accurate.&lt;/p>
+&lt;div class='align-center'>
+ &lt;figure>&lt;img src="https://praveenlobo.com/media/26-50/34-summer/Bangalore%20vs%20Milwaukee%20-%20Weather%28F%29.png"
+ alt="Bangalore vs Milwaukee - Weather(°F)">&lt;figcaption>
+ &lt;p>Bangalore vs Milwaukee - Weather(°F)&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://praveenlobo.com/media/26-50/34-summer/Bangalore%20vs%20Milwaukee%20-%20Weather%28C%29.png"
+ alt="Bangalore vs Milwaukee - Weather(°C)">&lt;figcaption>
+ &lt;p>Bangalore vs Milwaukee - Weather(°C)&lt;/p></description></item></channel></rss>

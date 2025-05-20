@@ -1,54 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>java on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/java/</link>
-    <description>Recent content in java on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Aug 2018 20:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Get Last Friday Of The Month In Java</title>
-      <link>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</link>
-      <pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid>
-      <description>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.
-If you didn&amp;rsquo;t get the point, please use java.time or joda-time in that order before using mine. Apparently, even calendar has a slick way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original java.</description>
-    </item>
-    
-    <item>
-      <title>Java: Get Sub List of Elements between two elements (instead of indexes) in a List</title>
-      <link>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</link>
-      <pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid>
-      <description>Update: moved the code to github
-Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using List subList(int fromIndex, int toIndex). However, there is no API to get the elements in a List between two list elements List subList(Object fromElement, Object toElement). The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.</description>
-    </item>
-    
-    <item>
-      <title>A couple of ways to tokenize a delimited String in Java</title>
-      <link>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</link>
-      <pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid>
-      <description>StringTokenizer: It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between A and In and the last blank token after Me.
-StringTokenizer st = new StringTokenizer(&amp;#34;I,Have,A,,In,Me,&amp;#34;, &amp;#34;,&amp;#34;); while (st.hasMoreTokens()) { System.out.println(st.nextToken()); } split method: Javadoc suggests split method of String or the java.</description>
-    </item>
-    
-    <item>
-      <title>O_ops: Never Return null For A Collection in Java</title>
-      <link>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</link>
-      <pubDate>Fri, 18 Mar 2011 06:50:13 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</guid>
-      <description>I was enjoying a small break between the meetings when my a co-worker asked me to help her out with some Java error in the code she was working on. She was giving me walk-through of the code and I small piece of code caught my attention. Apparently, the coder knew not to return null when returning a collection.
-/* Check if the list is null \*/ if(matchingCountryList != null) { return matchingCountryList; } else { return null; } Of course, it was not her code.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on Praveen Lobo</title><link>https://praveenlobo.com/tags/java/</link><description>Recent content in Java on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 05 Aug 2018 20:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Get Last Friday Of The Month In Java</title><link>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</link><pubDate>Sun, 05 Aug 2018 20:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/get-last-friday-of-the-month-in-java/</guid><description>&lt;p>Old wine in new bottle. That is what this post is except that in this case you are better off looking for new wine instead. The new bottle here being gradle, junit, GitLab-CI etc.&lt;/p>
+&lt;p>If you didn&amp;rsquo;t get the point, please use &lt;code>java.time&lt;/code> or &lt;code>joda-time&lt;/code> in that order before using mine. Apparently, even &lt;code>calendar&lt;/code> has a &lt;a href="https://stackoverflow.com/a/2545695/319542">slick&lt;/a> way of doing this! Although the algorithm I outline works, the implementation suffers from the same limitations as the original &lt;code>java.util.date or calendar&lt;/code> implementation.&lt;/p></description></item><item><title>Java: Get Sub List of Elements between two elements (instead of indexes) in a List</title><link>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</link><pubDate>Tue, 25 Oct 2011 04:51:59 +0000</pubDate><guid>https://praveenlobo.com/blog/java-get-sub-list-of-elements-between-two-elements-instead-of-indexes-in-a-list/</guid><description>&lt;p>&lt;small>Update: moved the code to &lt;a href="https://github.com/lobopraveen/Java-betterSublist">github&lt;/a>&lt;/small>&lt;/p>
+&lt;p>Java List APIs provides a way to get the elements (sub-list) in a List between two indexes using &lt;code>List subList(int fromIndex, int toIndex)&lt;/code>. However, there is no API to get the elements in a List between two list elements &lt;code>List subList(Object fromElement, Object toElement)&lt;/code>. The following code is an example to get the elements (sub-list) &amp;ldquo;between two list elements&amp;rdquo;. This works even if the given element doesn&amp;rsquo;t exist in the List - imagine a list of items with different prices and a sub-list of items between price X and price Y when, say, there are no items with price X or Y.&lt;/p></description></item><item><title>A couple of ways to tokenize a delimited String in Java</title><link>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</link><pubDate>Fri, 12 Aug 2011 03:54:41 +0000</pubDate><guid>https://praveenlobo.com/blog/a-couple-of-ways-to-tokenize-a-delimited-string-in-java/</guid><description>&lt;h4 id="stringtokenizer">StringTokenizer:&lt;/h4>
+&lt;p>It is a legacy class and its use is discouraged in new code. I don&amp;rsquo;t like to use this class even if it weren&amp;rsquo;t a legacy class because it ignores blank tokens. Below code will not output the blank(&amp;quot;&amp;quot;) between &lt;em>A&lt;/em> and &lt;em>In&lt;/em> and the last blank token after &lt;em>Me&lt;/em>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-Java" data-lang="Java">&lt;span style="display:flex;">&lt;span>StringTokenizer st &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">new&lt;/span> StringTokenizer(&lt;span style="color:#e6db74">&amp;#34;I,Have,A,,In,Me,&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;,&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">while&lt;/span> (st.&lt;span style="color:#a6e22e">hasMoreTokens&lt;/span>()) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	System.&lt;span style="color:#a6e22e">out&lt;/span>.&lt;span style="color:#a6e22e">println&lt;/span>(st.&lt;span style="color:#a6e22e">nextToken&lt;/span>());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h4 id="split-method">split method:&lt;/h4>
+&lt;p>Javadoc suggests &lt;code>split&lt;/code> method of &lt;code>String&lt;/code> or the &lt;code>java.util.regex&lt;/code> package as alternatives. The split method returns the blank tokens in-between two tokens; however, the last blank token(after &lt;em>Me&lt;/em>) will still be missing. We need some extra code to get the last token.&lt;/p></description></item><item><title>O_ops: Never Return null For A Collection in Java</title><link>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</link><pubDate>Fri, 18 Mar 2011 06:50:13 +0000</pubDate><guid>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</guid><description>&lt;p>I was enjoying a small break between the meetings when my a co-worker asked me to help her out with some Java error in the code she was working on. She was giving me walk-through of the code and I small piece of code caught my attention. Apparently, the coder knew not to return null when returning a collection.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">/* Check if the list is null \*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span>(matchingCountryList &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">null&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">return&lt;/span> matchingCountryList;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#66d9ef">null&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>Of course, it was not her code. &amp;#x1f609;&lt;/p></description></item></channel></rss>

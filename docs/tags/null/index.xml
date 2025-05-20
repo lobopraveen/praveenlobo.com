@@ -1,35 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>null on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/null/</link>
-    <description>Recent content in null on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Aug 2011 13:22:37 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/null/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>O_ops: You have no null items</title>
-      <link>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</link>
-      <pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</guid>
-      <description>I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no null items.
-  Google Reader - null items
-   </description>
-    </item>
-    
-    <item>
-      <title>O_ops: Never Return null For A Collection in Java</title>
-      <link>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</link>
-      <pubDate>Fri, 18 Mar 2011 06:50:13 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</guid>
-      <description>I was enjoying a small break between the meetings when my a co-worker asked me to help her out with some Java error in the code she was working on. She was giving me walk-through of the code and I small piece of code caught my attention. Apparently, the coder knew not to return null when returning a collection.
-/* Check if the list is null \*/ if(matchingCountryList != null) { return matchingCountryList; } else { return null; } Of course, it was not her code.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Null on Praveen Lobo</title><link>https://praveenlobo.com/tags/null/</link><description>Recent content in Null on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 03 Aug 2011 13:22:37 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/null/index.xml" rel="self" type="application/rss+xml"/><item><title>O_ops: You have no null items</title><link>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</link><pubDate>Wed, 03 Aug 2011 13:22:37 +0000</pubDate><guid>https://praveenlobo.com/blog/oops-you-have-no-null-items-google-reader/</guid><description>&lt;p>I was browsing through my RSS subscriptions on Google Reader when it confirmed that I have no &lt;code>null&lt;/code> items.&lt;/p>
+&lt;div class='align-center'>
+ &lt;figure>&lt;img src="https://praveenlobo.com/media/26-50/36-oops/Google%20Err%20Msg.jpg"
+ alt="Google Reader - null items">&lt;figcaption>
+ &lt;p>Google Reader - null items&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;/div></description></item><item><title>O_ops: Never Return null For A Collection in Java</title><link>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</link><pubDate>Fri, 18 Mar 2011 06:50:13 +0000</pubDate><guid>https://praveenlobo.com/blog/oops-never-return-null-for-a-collection-in-java/</guid><description>&lt;p>I was enjoying a small break between the meetings when my a co-worker asked me to help her out with some Java error in the code she was working on. She was giving me walk-through of the code and I small piece of code caught my attention. Apparently, the coder knew not to return null when returning a collection.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">/* Check if the list is null \*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span>(matchingCountryList &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">null&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">return&lt;/span> matchingCountryList;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#66d9ef">null&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>Of course, it was not her code. &amp;#x1f609;&lt;/p></description></item></channel></rss>

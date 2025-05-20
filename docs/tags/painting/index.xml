@@ -1,38 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>painting on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/painting/</link>
-    <description>Recent content in painting on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Jun 2011 05:47:26 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/painting/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Abused</title>
-      <link>https://praveenlobo.com/blog/abused/</link>
-      <pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/abused/</guid>
-      <description>Abused
-   From archives. Not my original imagination.</description>
-    </item>
-    
-    <item>
-      <title>First Glass Painting</title>
-      <link>https://praveenlobo.com/blog/first-glass-painting/</link>
-      <pubDate>Wed, 24 Mar 2010 18:15:02 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/first-glass-painting/</guid>
-      <description>This is the glass painting I was talking about here.
-  Lord Ganesha
-   The following two are made(on the window) by my brother.
-  Glass painting on the window
-    Glass painting on the window
-   </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Painting on Praveen Lobo</title><link>https://praveenlobo.com/tags/painting/</link><description>Recent content in Painting on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 29 Jun 2011 05:47:26 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/painting/index.xml" rel="self" type="application/rss+xml"/><item><title>Abused</title><link>https://praveenlobo.com/blog/abused/</link><pubDate>Wed, 29 Jun 2011 05:47:26 +0000</pubDate><guid>https://praveenlobo.com/blog/abused/</guid><description>&lt;div class='align-center'>
+ &lt;figure>&lt;img src="https://praveenlobo.com/media/26-50/31-sketch/Abused.jpg"
+ alt="Abused">&lt;figcaption>
+ &lt;p>Abused&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+
+&lt;p>&lt;em>From archives. Not my original imagination.&lt;/em>&lt;/p></description></item><item><title>First Glass Painting</title><link>https://praveenlobo.com/blog/first-glass-painting/</link><pubDate>Wed, 24 Mar 2010 18:15:02 +0000</pubDate><guid>https://praveenlobo.com/blog/first-glass-painting/</guid><description>&lt;p>This is the glass painting I was talking about &lt;a href="https://praveenlobo.com/blog/a-week-that-was/">here&lt;/a>.&lt;/p>
+&lt;div class='align-center'>
+ &lt;figure>&lt;img src="https://praveenlobo.com/media/00-25/04-glass-painting/GlassPainting_01.jpg"
+ alt="Lord Ganesha">&lt;figcaption>
+ &lt;p>Lord Ganesha&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+
+&lt;p>The following two are made(on the window) by my brother.&lt;/p>
+&lt;div class='align-center'>
+ &lt;figure>&lt;img src="https://praveenlobo.com/media/00-25/04-glass-painting/GlassPainting_Bro_01.jpg"
+ alt="Glass painting on the window">&lt;figcaption>
+ &lt;p>Glass painting on the window&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://praveenlobo.com/media/00-25/04-glass-painting/GlassPainting_Bro_02.jpg"
+ alt="Glass painting on the window">&lt;figcaption>
+ &lt;p>Glass painting on the window&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;/div></description></item></channel></rss>

@@ -1,33 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Autosys on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/autosys/</link>
-    <description>Recent content in Autosys on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 05 Nov 2010 04:10:51 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/autosys/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Autosys and Unix Permission</title>
-      <link>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</link>
-      <pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</guid>
-      <description>Original post with the answer at the end.</description>
-    </item>
-    
-    <item>
-      <title>Autosys and Unix Permission</title>
-      <link>https://praveenlobo.com/blog/autosys-and-unix-permission/</link>
-      <pubDate>Thu, 27 May 2010 17:57:27 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission/</guid>
-      <description>Say Autosys job called jobName executes with xyz id. The profile used is profile; owner of profile is abc and neither group nor others have execute permission on this profile. jobName executes jobScript which is owned by xyz(both jobName and jobScript are owned by xyz). abc and xyz are two users. There is a group abc as well.
-$id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profile -r-xr+++-- 1 abc abc 1000 [.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Autosys on Praveen Lobo</title><link>https://praveenlobo.com/tags/autosys/</link><description>Recent content in Autosys on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 05 Nov 2010 04:10:51 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/autosys/index.xml" rel="self" type="application/rss+xml"/><item><title>Autosys and Unix Permission</title><link>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</link><pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate><guid>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</guid><description>&lt;p>&lt;a href="https://praveenlobo.com/blog/autosys-and-unix-permission/">Original post with the answer at the end.&lt;/a>&lt;/p></description></item><item><title>Autosys and Unix Permission</title><link>https://praveenlobo.com/blog/autosys-and-unix-permission/</link><pubDate>Thu, 27 May 2010 17:57:27 +0000</pubDate><guid>https://praveenlobo.com/blog/autosys-and-unix-permission/</guid><description>&lt;p>Say Autosys job called &lt;code>jobName&lt;/code> executes with &lt;code>xyz&lt;/code> id. The profile used is &lt;code>profile&lt;/code>; owner of profile is &lt;code>abc&lt;/code> and neither group nor others have execute permission on this profile. &lt;code>jobName&lt;/code> executes &lt;code>jobScript&lt;/code> which is owned by &lt;code>xyz&lt;/code>(both &lt;code>jobName&lt;/code> and &lt;code>jobScript&lt;/code> are owned by &lt;code>xyz&lt;/code>). &lt;code>abc&lt;/code> and &lt;code>xyz&lt;/code> are two users. There is a group &lt;code>abc&lt;/code> as well.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$id abc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>uid&lt;span style="color:#f92672">=&lt;/span>1234&lt;span style="color:#f92672">(&lt;/span>abc&lt;span style="color:#f92672">)&lt;/span> gid&lt;span style="color:#f92672">=&lt;/span>10&lt;span style="color:#f92672">(&lt;/span>abc&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$id xyz
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>uid&lt;span style="color:#f92672">=&lt;/span>1234&lt;span style="color:#f92672">(&lt;/span>xyz&lt;span style="color:#f92672">)&lt;/span> gid&lt;span style="color:#f92672">=&lt;/span>10&lt;span style="color:#f92672">(&lt;/span>users&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ll profile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-r-xr+++-- &lt;span style="color:#ae81ff">1&lt;/span> abc abc &lt;span style="color:#ae81ff">1000&lt;/span> &lt;span style="color:#f92672">[&lt;/span>...&lt;span style="color:#f92672">]&lt;/span> profile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$groups xyz | grep abc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ll jobScript
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-r-xr+++-- &lt;span style="color:#ae81ff">1&lt;/span> xyz abc &lt;span style="color:#ae81ff">3000&lt;/span> &lt;span style="color:#f92672">[&lt;/span>...&lt;span style="color:#f92672">]&lt;/span> jobScript
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$autorep -q -J jobName | egrep &lt;span style="color:#e6db74">&amp;#39;command|owner&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command: jobScript
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>owner: xyz
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>When the Autosys job is executed, it fails with return code 1. This is correct since &lt;code>xyz&lt;/code> doesn&amp;rsquo;t have execute permission on profile.&lt;/p></description></item></channel></rss>

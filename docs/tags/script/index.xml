@@ -1,75 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>script on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/script/</link>
-    <description>Recent content in script on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 Oct 2017 20:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/script/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Shell Scripts to Manipulate The File Name Extensions</title>
-      <link>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</link>
-      <pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid>
-      <description>The latest version of this should be available on GitHub repo. Please report any issues there.
-The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like rename and mmv might offer alternatives when they are available on the systems. The scripts below use shell&amp;rsquo;s parameter expansion to operate on multiple files.
- % in below scripts match shortest from the end of the string.</description>
-    </item>
-    
-    <item>
-      <title>O_ops: Better Logging To Solve Problems</title>
-      <link>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</link>
-      <pubDate>Wed, 13 Jul 2011 03:52:23 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</guid>
-      <description>Logging helps in pinpointing the code block that threw an error. Only if they are used correctly. During once such failure, a guy noticed that a script lacked logging and ever promptly promoted the updated script with better logging. A part of the script is shown below.
-Script before: 1&amp;gt;&amp;gt;${LOG} 2&amp;gt;&amp;gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} if [ $? -ne 0 ]; then print &amp;#34;ERROR: Something failed&amp;#34; exit 101 fi
-Script after:
-1&amp;gt;&amp;gt;${LOG} 2&amp;gt;&amp;gt;${ERRLOG} ${BINPATH}/${PROGRAMNAME} echo &amp;#34;Program completed successfully.</description>
-    </item>
-    
-    <item>
-      <title>Autosys and Unix Permission</title>
-      <link>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</link>
-      <pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</guid>
-      <description>Original post with the answer at the end.</description>
-    </item>
-    
-    <item>
-      <title>Autosys and Unix Permission</title>
-      <link>https://praveenlobo.com/blog/autosys-and-unix-permission/</link>
-      <pubDate>Thu, 27 May 2010 17:57:27 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/autosys-and-unix-permission/</guid>
-      <description>Say Autosys job called jobName executes with xyz id. The profile used is profile; owner of profile is abc and neither group nor others have execute permission on this profile. jobName executes jobScript which is owned by xyz(both jobName and jobScript are owned by xyz). abc and xyz are two users. There is a group abc as well.
-$id abc uid=1234(abc) gid=10(abc) $id xyz uid=1234(xyz) gid=10(users) $ll profile -r-xr+++-- 1 abc abc 1000 [.</description>
-    </item>
-    
-    <item>
-      <title>Automate Torrent Download Using Transmission</title>
-      <link>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</link>
-      <pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid>
-      <description>A while ago I wrote about swget - A Simple wget Wrapper The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!
-After a little search on the net, I found a workaround for this too!</description>
-    </item>
-    
-    <item>
-      <title>swget - A Simple wget Wrapper</title>
-      <link>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</link>
-      <pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</guid>
-      <description>THE PROBLEM I have BSNL 500C+ broadband connection which gives me 2.5GB of data transfer per month. This limit is sufficient only for usual surfing. 500C+ plan also gives me night unlimited option i.e. the data transferred between 2AM to 8AM is not counted towards the 2.5GB quota per month. I can download around 4GB in this time frame. I use this time to download contents, but the real problem is starting the download at 2AM.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Script on Praveen Lobo</title><link>https://praveenlobo.com/tags/script/</link><description>Recent content in Script on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 02 Oct 2017 20:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/script/index.xml" rel="self" type="application/rss+xml"/><item><title>Shell Scripts to Manipulate The File Name Extensions</title><link>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</link><pubDate>Mon, 02 Oct 2017 20:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/shell-scripts-to-manipulate-the-file-name-extensions/</guid><description>&lt;p>&lt;small>The &lt;a href="https://github.com/lobopraveen/gists/blob/master/unix/filename_extension_manipulation.md">latest version&lt;/a> of this should be available on &lt;a href="https://github.com/lobopraveen/gists">GitHub repo&lt;/a>. Please report any issues there.&lt;/small>&lt;/p>
+&lt;p>The following snippets show how to change the file name extensions on multiple files on UNIX machines. Other commands like &lt;code>rename&lt;/code> and &lt;code>mmv&lt;/code> might offer alternatives when they are available on the systems. The scripts below use &lt;a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html">shell&amp;rsquo;s parameter expansion&lt;/a> to operate on multiple files.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>%&lt;/code> in below scripts match shortest from the end of the string.&lt;/li>
+&lt;li>&lt;code>%%&lt;/code> matches longest from the end&lt;/li>
+&lt;li>&lt;code>#&lt;/code> shortest from the beginning&lt;/li>
+&lt;li>&lt;code>##&lt;/code> longest from the beginning&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>test&lt;/code> command controls if a rename should occur or not.&lt;/p></description></item><item><title>O_ops: Better Logging To Solve Problems</title><link>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</link><pubDate>Wed, 13 Jul 2011 03:52:23 +0000</pubDate><guid>https://praveenlobo.com/blog/oops-better-logging-to-solve-problems/</guid><description>&lt;p>Logging helps in pinpointing the code block that threw an error. Only if they are used correctly. During once such failure, a guy noticed that a script lacked logging and ever promptly promoted the updated script with better logging. A part of the script is shown below.&lt;/p>
+&lt;p>Script before:
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>1&amp;gt;&amp;gt;&lt;span style="color:#e6db74">${&lt;/span>LOG&lt;span style="color:#e6db74">}&lt;/span> 2&amp;gt;&amp;gt;&lt;span style="color:#e6db74">${&lt;/span>ERRLOG&lt;span style="color:#e6db74">}&lt;/span> &lt;span style="color:#e6db74">${&lt;/span>BINPATH&lt;span style="color:#e6db74">}&lt;/span>/&lt;span style="color:#e6db74">${&lt;/span>PROGRAMNAME&lt;span style="color:#e6db74">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#f92672">[&lt;/span> $? -ne &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#f92672">]&lt;/span>; &lt;span style="color:#66d9ef">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print &lt;span style="color:#e6db74">&amp;#34;ERROR: Something failed&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> exit &lt;span style="color:#ae81ff">101&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fi&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p>
+&lt;p>Script after:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>1&amp;gt;&amp;gt;&lt;span style="color:#e6db74">${&lt;/span>LOG&lt;span style="color:#e6db74">}&lt;/span> 2&amp;gt;&amp;gt;&lt;span style="color:#e6db74">${&lt;/span>ERRLOG&lt;span style="color:#e6db74">}&lt;/span> &lt;span style="color:#e6db74">${&lt;/span>BINPATH&lt;span style="color:#e6db74">}&lt;/span>/&lt;span style="color:#e6db74">${&lt;/span>PROGRAMNAME&lt;span style="color:#e6db74">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#34;Program completed successfully.&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#f92672">[&lt;/span> $? -ne &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#f92672">]&lt;/span>; &lt;span style="color:#66d9ef">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print &lt;span style="color:#e6db74">&amp;#34;ERROR: Something failed&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> exit &lt;span style="color:#ae81ff">101&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fi&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>The change made it a &amp;ldquo;better&amp;rdquo; script for sure - it never failed again!&lt;/p></description></item><item><title>Autosys and Unix Permission</title><link>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</link><pubDate>Fri, 05 Nov 2010 04:10:51 +0000</pubDate><guid>https://praveenlobo.com/blog/autosys-and-unix-permission-solved/</guid><description>&lt;p>&lt;a href="https://praveenlobo.com/blog/autosys-and-unix-permission/">Original post with the answer at the end.&lt;/a>&lt;/p></description></item><item><title>Autosys and Unix Permission</title><link>https://praveenlobo.com/blog/autosys-and-unix-permission/</link><pubDate>Thu, 27 May 2010 17:57:27 +0000</pubDate><guid>https://praveenlobo.com/blog/autosys-and-unix-permission/</guid><description>&lt;p>Say Autosys job called &lt;code>jobName&lt;/code> executes with &lt;code>xyz&lt;/code> id. The profile used is &lt;code>profile&lt;/code>; owner of profile is &lt;code>abc&lt;/code> and neither group nor others have execute permission on this profile. &lt;code>jobName&lt;/code> executes &lt;code>jobScript&lt;/code> which is owned by &lt;code>xyz&lt;/code>(both &lt;code>jobName&lt;/code> and &lt;code>jobScript&lt;/code> are owned by &lt;code>xyz&lt;/code>). &lt;code>abc&lt;/code> and &lt;code>xyz&lt;/code> are two users. There is a group &lt;code>abc&lt;/code> as well.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$id abc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>uid&lt;span style="color:#f92672">=&lt;/span>1234&lt;span style="color:#f92672">(&lt;/span>abc&lt;span style="color:#f92672">)&lt;/span> gid&lt;span style="color:#f92672">=&lt;/span>10&lt;span style="color:#f92672">(&lt;/span>abc&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$id xyz
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>uid&lt;span style="color:#f92672">=&lt;/span>1234&lt;span style="color:#f92672">(&lt;/span>xyz&lt;span style="color:#f92672">)&lt;/span> gid&lt;span style="color:#f92672">=&lt;/span>10&lt;span style="color:#f92672">(&lt;/span>users&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ll profile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-r-xr+++-- &lt;span style="color:#ae81ff">1&lt;/span> abc abc &lt;span style="color:#ae81ff">1000&lt;/span> &lt;span style="color:#f92672">[&lt;/span>...&lt;span style="color:#f92672">]&lt;/span> profile
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$groups xyz | grep abc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ll jobScript
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-r-xr+++-- &lt;span style="color:#ae81ff">1&lt;/span> xyz abc &lt;span style="color:#ae81ff">3000&lt;/span> &lt;span style="color:#f92672">[&lt;/span>...&lt;span style="color:#f92672">]&lt;/span> jobScript
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$autorep -q -J jobName | egrep &lt;span style="color:#e6db74">&amp;#39;command|owner&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command: jobScript
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>owner: xyz
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>When the Autosys job is executed, it fails with return code 1. This is correct since &lt;code>xyz&lt;/code> doesn&amp;rsquo;t have execute permission on profile.&lt;/p></description></item><item><title>Automate Torrent Download Using Transmission</title><link>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</link><pubDate>Thu, 27 May 2010 00:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/automate-torrent-download-using-transmission/</guid><description>&lt;p>A while ago I wrote about &lt;a href="https://praveenlobo.com/blog/swget-a-simple-wget-wrapper">swget - A Simple wget Wrapper&lt;/a> The methods described don&amp;rsquo;t work for torrents. Today I had to download a video which was not available through direct download, but I found a few torrents for the same. After fiddling around with the scheduler available in Transmission I found it to be absolutely useless; it doesn&amp;rsquo;t work!&lt;/p>
+&lt;p>After a little search on the net, I found a workaround for this too!&lt;/p></description></item><item><title>swget - A Simple wget Wrapper</title><link>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</link><pubDate>Wed, 17 Mar 2010 19:24:15 +0000</pubDate><guid>https://praveenlobo.com/blog/swget-a-simple-wget-wrapper/</guid><description>&lt;h3 id="the-problem">THE PROBLEM&lt;/h3>
+&lt;p>I have BSNL 500C+ broadband connection which gives me 2.5GB of data transfer per month. This limit is sufficient only for usual surfing. 500C+ plan also gives me night unlimited option i.e. the data transferred between 2AM to 8AM is not counted towards the 2.5GB quota per month. I can download around 4GB in this time frame. I use this time to download contents, but the real problem is starting the download at 2AM.&lt;/p></description></item></channel></rss>

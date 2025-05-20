@@ -1,35 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Voice mail on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/voice-mail/</link>
-    <description>Recent content in Voice mail on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Dec 2011 17:41:50 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/voice-mail/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Will Google Voice be free in 2012 and beyond?</title>
-      <link>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</link>
-      <pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</guid>
-      <description>From the recent notes I made on the Google Voice and how it uses the carrier minutes and data to operate, it should be free in 2012 and beyond.
-Why? Currently, Google Voice is not a VOIP service and it uses the carrier minutes and data to operate which means to make or receive calls the subscriber has to pay the carrier. See the image in that post. If Google Voice doesn&amp;rsquo;t offer VOIP service and starts charging for the voice calls, the subscriber will be double charged.</description>
-    </item>
-    
-    <item>
-      <title>Does Google Voice Use Minutes or Data?</title>
-      <link>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</link>
-      <pubDate>Thu, 01 Dec 2011 05:55:41 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</guid>
-      <description>Does Google Voice Use Minutes or Data? Does Google Voice cost money? How does Google Voice calling or texting work? The answer is Yes, Yes, and I don&amp;rsquo;t know.
-Update: See this for more info
-Google Voice is an awesome idea and piece of software (if you are willing to give away more self information to Google than you already have). It is not a VOIP service like Google Talk; it is a call management service.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Voice Mail on Praveen Lobo</title><link>https://praveenlobo.com/tags/voice-mail/</link><description>Recent content in Voice Mail on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 09 Dec 2011 17:41:50 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/voice-mail/index.xml" rel="self" type="application/rss+xml"/><item><title>Will Google Voice be free in 2012 and beyond?</title><link>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</link><pubDate>Fri, 09 Dec 2011 17:41:50 +0000</pubDate><guid>https://praveenlobo.com/blog/will-google-voice-be-free-in-2012-and-beyond/</guid><description>&lt;p>From the &lt;a href="https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/">recent notes&lt;/a> I made on the Google Voice and how it uses the carrier minutes and data to operate, it should be free in 2012 and beyond.&lt;/p>
+&lt;p>Why? Currently, Google Voice is not a VOIP service and it uses the carrier minutes and data to operate which means to make or receive calls the subscriber has to pay the carrier. See the image in &lt;a href="https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/">that&lt;/a> post. If Google Voice doesn&amp;rsquo;t offer VOIP service and starts charging for the voice calls, the subscriber will be &lt;em>double charged&lt;/em>. For every call made or received, the subscriber has to pay to use Google Voice and then, since Google Voice uses the carrier minutes, has to pay the carrier for using the minutes. If this is exactly how it works, it will be very difficult to justify Google Voice. I&amp;rsquo;d definitely drop Google Voice and, I think, many other will do too.&lt;/p></description></item><item><title>Does Google Voice Use Minutes or Data?</title><link>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</link><pubDate>Thu, 01 Dec 2011 05:55:41 +0000</pubDate><guid>https://praveenlobo.com/blog/does-google-voice-use-minutes-or-data/</guid><description>&lt;p>Does Google Voice Use Minutes or Data? Does Google Voice cost money? How does Google Voice calling or texting work? The answer is Yes, Yes, and I don&amp;rsquo;t know.&lt;/p>
+&lt;p>&lt;em>Update: See &lt;a href="https://support.google.com/voice/answer/115063?hl=en">this&lt;/a> for more info&lt;/em>&lt;/p>
+&lt;p>Google Voice is an awesome idea and piece of software (if you are willing to give away more self information to Google than you already have). It is not a VOIP service like Google Talk; it is a call management service. It will always cost you money in one way or the other (cellular minutes or data) and you will not be able to make free calls. If you consider cellular data to be free or use wifi, there are workarounds to make it free like using Talkatone or GrooVe IP or other third party apps. These applications use Google Talk free calling feature (VOIP) along with Google Voice, which integrates with Google Talk, to make free calls using only data. Keep in mind that by using more services, you are distributing your own information all over the Internet companies.&lt;/p></description></item></channel></rss>

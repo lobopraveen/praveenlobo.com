@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bookmark on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/bookmark/</link>
-    <description>Recent content in bookmark on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Jun 2018 20:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/bookmark/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Bookmark Tool/Manager Using JavaScript And jQuery Autocomplete</title>
-      <link>https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete/</link>
-      <pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete/</guid>
-      <description>How do you manage your bookmarks?
- This is a regular question usually from new team members for the past ten years or so. My answer has been the same, &amp;ldquo;I use a tool I wrote.&amp;rdquo; followed by, &amp;ldquo;I will send you a link. You can use it from there or just make a copy of your own.&amp;rdquo;
-I remember myself asking that question to others when I first started the job in mid 2000s.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bookmark on Praveen Lobo</title><link>https://praveenlobo.com/tags/bookmark/</link><description>Recent content in Bookmark on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 Jun 2018 20:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/bookmark/index.xml" rel="self" type="application/rss+xml"/><item><title>Bookmark Tool/Manager Using JavaScript And jQuery Autocomplete</title><link>https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete/</link><pubDate>Thu, 14 Jun 2018 20:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/bookmark-tool-using-javascript-and-jquery-autocomplete/</guid><description>&lt;blockquote>
+&lt;p>How do you manage your bookmarks?&lt;/p>&lt;/blockquote>
+&lt;p>This is a regular question usually from new team members for the past ten years or so. My answer has been the same, &amp;ldquo;I use a tool I wrote.&amp;rdquo; followed by, &amp;ldquo;I will send you a link. You can use it from there or just make a copy of your own.&amp;rdquo;&lt;/p>
+&lt;p>I remember myself asking that question to others when I first started the job in mid 2000s. Most of my seniors liked to store the links in excel or a word document as we were not allowed to use any browser other than the Internet Explorer (IE) and the bookmarks in IE weren&amp;rsquo;t searchable. No tools were allowed either. This was, and in some cases still is, a common thing at workplaces in enterprises.&lt;/p></description></item></channel></rss>

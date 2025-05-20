@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Matcher on Praveen Lobo</title>
-    <link>https://praveenlobo.com/tags/matcher/</link>
-    <description>Recent content in Matcher on Praveen Lobo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 19 May 2018 23:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://praveenlobo.com/tags/matcher/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Markit EDM Classic Matcher Hands On Notes</title>
-      <link>https://praveenlobo.com/blog/markitedm-classic-matcher-hands-on-notes/</link>
-      <pubDate>Sat, 19 May 2018 23:00:00 +0000</pubDate>
-      
-      <guid>https://praveenlobo.com/blog/markitedm-classic-matcher-hands-on-notes/</guid>
-      <description>IHS Markit defines Enterprise Data Management (EDM) as
- EDM is a data management platform for acquiring, validating and distributing trade, operational, risk, financial and customer data. It creates a single version of the truth in a consistent, transparent and fully audited environment. Firms benefit from greater control, ongoing compliance and transparency of their data.
- Markit has it&amp;rsquo;s own product for Enterprise Data Management called Markit EDM. I have fairly decent exposure to this tool including passing Markit&amp;rsquo;s core introduction and advanced course.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matcher on Praveen Lobo</title><link>https://praveenlobo.com/tags/matcher/</link><description>Recent content in Matcher on Praveen Lobo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 19 May 2018 23:00:00 +0000</lastBuildDate><atom:link href="https://praveenlobo.com/tags/matcher/index.xml" rel="self" type="application/rss+xml"/><item><title>Markit EDM Classic Matcher Hands On Notes</title><link>https://praveenlobo.com/blog/markitedm-classic-matcher-hands-on-notes/</link><pubDate>Sat, 19 May 2018 23:00:00 +0000</pubDate><guid>https://praveenlobo.com/blog/markitedm-classic-matcher-hands-on-notes/</guid><description>&lt;p>&lt;a href="https://ihsmarkit.com/products/edm.html">IHS Markit&lt;/a> defines Enterprise Data Management (EDM) as&lt;/p>
+&lt;blockquote>
+&lt;p>EDM is a data management platform for acquiring, validating and distributing trade, operational, risk, financial and customer data. It creates a single version of the truth in a consistent, transparent and fully audited environment. Firms benefit from greater control, ongoing compliance and transparency of their data.&lt;/p>&lt;/blockquote>
+&lt;p>Markit has it&amp;rsquo;s own product for Enterprise Data Management called Markit EDM. I have fairly decent exposure to this tool including passing Markit&amp;rsquo;s core introduction and advanced course. Any MEDM person worth their salt would agree that the Data Matcher is the heart of the MEDM. It is also one of the complicated components that is daunting and gets out of hand easily at which point no one wants to touch it! I had limited experience with the matcher as it was already setup by the time I came on board the project and it was being managed by a few other people. This whole post is about my hands-on with the Data Matcher to gain more experience with the component.&lt;/p></description></item></channel></rss>

@@ -11,7 +11,7 @@
 
 {{- if ( or $enableConditionOne $enableConditionTwo ) -}}
 
-{{- $disqusEnabled := .Site.DisqusShortname -}}
+{{- $disqusEnabled := .Site.Config.Services.Disqus.Shortname -}}
 {{- $issoEnabled := $config.isso.enable -}}
 {{- $staticmanEnabled := $config.staticman.enable -}}
 {{- $utterancesEnabled := $config.utterances.enable -}}
